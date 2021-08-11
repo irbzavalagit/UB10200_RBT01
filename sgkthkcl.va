@@ -1,0 +1,84 @@
+[SGKTHKCL]BACKUP_FLG  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[SGKTHKCL]CALCMP0_MEM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SGKTHKCL]CALCMP_MEM  Storage: CMOS  Access: RW  : BOOLEAN = Uninitialized
+
+[SGKTHKCL]CALDFL0_MEM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[SGKTHKCL]CALDFL1_MEM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[SGKTHKCL]CALDFL2_MEM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[SGKTHKCL]CALDFL3_MEM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[SGKTHKCL]CALDFL4_MEM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[SGKTHKCL]CALDFL_MEM  Storage: CMOS  Access: RW  : ARRAY[15] OF REAL
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+
+[SGKTHKCL]CALPTS_MEM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SGKTHKCL]CALSW_MEM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SGKTHKCL]CALTRQ0_MEM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[SGKTHKCL]CALTRQ1_MEM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[SGKTHKCL]CALTRQ2_MEM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[SGKTHKCL]CALTRQ3_MEM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[SGKTHKCL]CALTRQ4_MEM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[SGKTHKCL]CALTRQ_MEM  Storage: CMOS  Access: RW  : ARRAY[15] OF REAL
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+
+[SGKTHKCL]DGIDX  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SGKTHKCL]EQ_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SGKTHKCL]ESTTYP_MEM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SGKTHKCL]GN  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SGKTHKCL]GUN_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SGKTHKCL]ITP_TIME  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGKTHKCL]RETRY  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SGKTHKCL]STATUS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGKTHKCL]THKCL_STAT  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[SGKTHKCL]TIME_LIM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+

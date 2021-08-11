@@ -1,0 +1,24 @@
+[SETSKCKL]II  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SETSKCKL]BOO_VALUE  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SETSKCKL]INT_VALUE  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SETSKCKL]REAL_VALUE  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SETSKCKL]REAL_VAL2  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SETSKCKL]STAT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SETSKCKL]DATA_TYPE  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SETSKCKL]STR_VALUE  Storage: DRAM  Access: RW  : STRING[1] = Uninitialized
+
+[SETSKCKL]ENTRY  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SETSKCKL]SSTRING  Storage: DRAM  Access: RW  : STRING[128] = Uninitialized
+
+[SETSKCKL]JSTRING  Storage: DRAM  Access: RW  : STRING[128] = Uninitialized
+
+[SETSKCKL]GSTRING  Storage: DRAM  Access: RW  : STRING[128] = Uninitialized
+

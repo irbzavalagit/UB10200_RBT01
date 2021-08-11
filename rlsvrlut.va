@@ -1,0 +1,4 @@
+[RLSVRLUT]IRAIL_UNIT  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[RLSVRLUT]GENVI_UNIT  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+

@@ -1,0 +1,451 @@
+</pre><TABLE BORDER=1 width=100%> 
+<tr><th width=28% align=center><font size=+1>Top Level Menus</font></th><th width=28% align=center><font size=+1>Sub Level Menus</font></th><th width=20% align=center><font size=+1>Help Files</font></th><th width=12% align=center><font size=+1>Soft Part ID</font></th><th width=12% align=center><font size=+1>Scrn ID</font></th></tr> 
+<TR>
+<TD align=center>UTILITIES</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1631,1");'>Home</a></TD><TD align=center><a href= /frh/helpeg/h65f01.htm>H65f01.HTM</a></TD>
+<TD align=center>1631</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,153,1");'>Hints</a></TD><TD align=center><a href= /frh/helpeg/h09901.htm>H09901.HTM</a></TD>
+<TD align=center>153</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,957,1");'>Gun Setup</a></TD><TD align=center><a href= /frh/helpeg/S3bd01.htm>S3bd01.HTM</a></TD>
+<TD align=center>957</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,920,1");'>Limit Set</a></TD><TD align=center><a href= /frh/helpeg/h39801.htm>H39801.HTM</a></TD>
+<TD align=center>920</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1463,1");'>iRCalibration</a></TD><TD align=center><a href= /frh/helpeg/h5b701.htm>H5b701.HTM</a></TD>
+<TD align=center>1463</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1196,4");'>Robot Condition</a></TD><TD align=center><a href= /frh/helpeg/h4ac04.htm>H4ac04.HTM</a></TD>
+<TD align=center>1196</TD><TD align=center>4</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,930,1");'>Prog Adjust</a></TD><TD align=center><a href= /frh/helpeg/h3a201.htm>H3a201.HTM</a></TD>
+<TD align=center>930</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,151,1");'>Program Shift</a></TD><TD align=center><a href= /frh/helpeg/h09701.htm>H09701.HTM</a></TD>
+<TD align=center>151</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,150,2");'>Mirror Image Shif</a></TD><TD align=center><a href= /frh/helpeg/h09602.htm>H09602.HTM</a></TD>
+<TD align=center>150</TD><TD align=center>2</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,155,1");'>Tool Offset</a></TD><TD align=center><a href= /frh/helpeg/h09b01.htm>H09b01.HTM</a></TD>
+<TD align=center>155</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,191,1");'>Frame Offset</a></TD><TD align=center><a href= /frh/helpeg/h0bf01.htm>H0bf01.HTM</a></TD>
+<TD align=center>191</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,254,1");'>Angle entry shift</a></TD><TD align=center><a href= /frh/helpeg/h0fe01.htm>H0fe01.HTM</a></TD>
+<TD align=center>254</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1200,1");'>Group Exchg</a></TD><TD align=center><a href= /frh/helpeg/h4b001.htm>H4b001.HTM</a></TD>
+<TD align=center>1200</TD><TD align=center>1</TD>
+
+<TR>
+<TD align=center>TEST CYCLE</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,69,1");'>Setup</a></TD><TD align=center><a href= /frh/helpeg/h04501.htm>H04501.HTM</a></TD>
+<TD align=center>69</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,952,1");'>Spot Weld</a></TD><TD align=center><a href= /frh/helpeg/S3b801.htm>S3b801.HTM</a></TD>
+<TD align=center>952</TD><TD align=center>1</TD>
+
+<TR>
+<TD align=center>MANUAL FCTNS</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,94,11");'>Manual Weld</a></TD><TD align=center>H05e0b.HTM</TD>
+<TD align=center>94</TD><TD align=center>11</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,138,2");'>Macros</a></TD><TD align=center><a href= /frh/helpeg/h08a02.htm>H08a02.HTM</a></TD>
+<TD align=center>138</TD><TD align=center>2</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,370,2");'>Err recovery</a></TD><TD align=center><a href= /frh/helpeg/h17202.htm>H17202.HTM</a></TD>
+<TD align=center>370</TD><TD align=center>2</TD>
+
+<TR>
+<TD align=center>ALARM</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,18,1");'>Alarm Log</a></TD><TD align=center><a href= /frh/helpeg/h01201.htm>H01201.HTM</a></TD>
+<TD align=center>18</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,18,2");'>Motion Log</a></TD><TD align=center><a href= /frh/helpeg/h01202.htm>H01202.HTM</a></TD>
+<TD align=center>18</TD><TD align=center>2</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,18,3");'>System Log</a></TD><TD align=center><a href= /frh/helpeg/h01203.htm>H01203.HTM</a></TD>
+<TD align=center>18</TD><TD align=center>3</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,18,4");'>Appl Log</a></TD><TD align=center><a href= /frh/helpeg/h01204.htm>H01204.HTM</a></TD>
+<TD align=center>18</TD><TD align=center>4</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,934,1");'>Recovery</a></TD><TD align=center><a href= /frh/helpeg/h3a601.htm>H3a601.HTM</a></TD>
+<TD align=center>934</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,18,5");'>Password Log</a></TD><TD align=center><a href= /frh/helpeg/h01205.htm>H01205.HTM</a></TD>
+<TD align=center>18</TD><TD align=center>5</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,18,6");'>Comm Log</a></TD><TD align=center><a href= /frh/helpeg/h01206.htm>H01206.HTM</a></TD>
+<TD align=center>18</TD><TD align=center>6</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1106,1");'>Log Book</a></TD><TD align=center><a href= /frh/helpeg/h45201.htm>H45201.HTM</a></TD>
+<TD align=center>1106</TD><TD align=center>1</TD>
+
+<TR>
+<TD align=center>I/O</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,955,1");'>Cell Intface</a></TD><TD align=center><a href= /frh/helpeg/h3bb01.htm>H3bb01.HTM</a></TD>
+<TD align=center>955</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,960,1");'>Weld Intface</a></TD><TD align=center><a href= /frh/helpeg/h3c001.htm>H3c001.HTM</a></TD>
+<TD align=center>960</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,954,1");'>Spot Equip</a></TD><TD align=center><a href= /frh/helpeg/S3ba01.htm>S3ba01.HTM</a></TD>
+<TD align=center>954</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,992,1");'>Custom</a></TD><TD align=center><a href= /frh/helpeg/h3e001.htm>H3e001.HTM</a></TD>
+<TD align=center>992</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,98,1");'>Digital</a></TD><TD align=center><a href= /frh/helpeg/h06201.htm>H06201.HTM</a></TD>
+<TD align=center>98</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,97,1");'>Analog</a></TD><TD align=center><a href= /frh/helpeg/h06101.htm>H06101.HTM</a></TD>
+<TD align=center>97</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,99,1");'>Group</a></TD><TD align=center><a href= /frh/helpeg/h06301.htm>H06301.HTM</a></TD>
+<TD align=center>99</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,107,1");'>Robot</a></TD><TD align=center><a href= /frh/helpeg/h06b01.htm>H06b01.HTM</a></TD>
+<TD align=center>107</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,108,1");'>UOP</a></TD><TD align=center><a href= /frh/helpeg/h06c01.htm>H06c01.HTM</a></TD>
+<TD align=center>108</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,109,1");'>SOP</a></TD><TD align=center><a href= /frh/helpeg/h06d01.htm>H06d01.HTM</a></TD>
+<TD align=center>109</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,157,1");'>Interconnect</a></TD><TD align=center><a href= /frh/helpeg/h09d01.htm>H09d01.HTM</a></TD>
+<TD align=center>157</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,299,1");'>Link Device</a></TD><TD align=center><a href= /frh/helpeg/h12b01.htm>H12b01.HTM</a></TD>
+<TD align=center>299</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1107,1");'>TCP Speed</a></TD><TD align=center><a href= /frh/helpeg/h45301.htm>H45301.HTM</a></TD>
+<TD align=center>1107</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1111,1");'>Flag</a></TD><TD align=center><a href= /frh/helpeg/h45701.htm>H45701.HTM</a></TD>
+<TD align=center>1111</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1062,1");'>EtherNet/IP</a></TD><TD align=center><a href= /frh/helpeg/h42601.htm>H42601.HTM</a></TD>
+<TD align=center>1062</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,473,1");'>PMC</a></TD><TD align=center><a href= /frh/helpeg/h1d901.htm>H1d901.HTM</a></TD>
+<TD align=center>473</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,473,2");'>PMC Display</a></TD><TD align=center><a href= /frh/helpeg/h1d902.htm>H1d902.HTM</a></TD>
+<TD align=center>473</TD><TD align=center>2</TD>
+
+<TR>
+<TD align=center>SETUP</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,943,1");'>Cell</a></TD><TD align=center><a href= /frh/helpeg/S3af01.htm>S3af01.HTM</a></TD>
+<TD align=center>943</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,166,1");'>Prog Select</a></TD><TD align=center><a href= /frh/helpeg/h0a601.htm>H0a601.HTM</a></TD>
+<TD align=center>166</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,946,1");'>Spot Equip</a></TD><TD align=center><a href= /frh/helpeg/S3b201.htm>S3b201.HTM</a></TD>
+<TD align=center>946</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,945,1");'>Spot Adv Fctns</a></TD><TD align=center><a href= /frh/helpeg/S3b101.htm>S3b101.HTM</a></TD>
+<TD align=center>945</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,962,1");'>Spot Config</a></TD><TD align=center><a href= /frh/helpeg/S3c201.htm>S3c201.HTM</a></TD>
+<TD align=center>962</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,953,1");'>TP Hardkeys</a></TD><TD align=center><a href= /frh/helpeg/S3b901.htm>S3b901.HTM</a></TD>
+<TD align=center>953</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1383,4");'>Process Monitor</a></TD><TD align=center><a href= /frh/helpeg/h56704.htm>H56704.HTM</a></TD>
+<TD align=center>1383</TD><TD align=center>4</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,378,3");'>Servo Gun</a></TD><TD align=center><a href= /frh/helpeg/h17a03.htm>H17a03.HTM</a></TD>
+<TD align=center>378</TD><TD align=center>3</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1630,1");'>Auto Bwd Exit</a></TD><TD align=center><a href= /frh/helpeg/h65e01.htm>H65e01.HTM</a></TD>
+<TD align=center>1630</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1985,1");'>ZDT Client</a></TD><TD align=center><a href= /frh/helpeg/h7c101.htm>H7c101.HTM</a></TD>
+<TD align=center>1985</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,987,1");'>Menu Utility</a></TD><TD align=center><a href= /frh/helpeg/h3db01.htm>H3db01.HTM</a></TD>
+<TD align=center>987</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,68,1");'>General</a></TD><TD align=center><a href= /frh/helpeg/h04401.htm>H04401.HTM</a></TD>
+<TD align=center>68</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1087,1");'>Coll Guard</a></TD><TD align=center><a href= /frh/helpeg/h43f01.htm>H43f01.HTM</a></TD>
+<TD align=center>1087</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,979,1");'>Tip Dress</a></TD><TD align=center><a href= /frh/helpeg/S3d301.htm>S3d301.HTM</a></TD>
+<TD align=center>979</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,154,1");'>Frames</a></TD><TD align=center><a href= /frh/helpeg/h09a01.htm>H09a01.HTM</a></TD>
+<TD align=center>154</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,452,15");'>Gun Change</a></TD><TD align=center><a href= /frh/helpeg/h1c40f.htm>H1c40f.HTM</a></TD>
+<TD align=center>452</TD><TD align=center>15</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,140,1");'>Macro</a></TD><TD align=center><a href= /frh/helpeg/h08c01.htm>H08c01.HTM</a></TD>
+<TD align=center>140</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,147,1");'>Ref Position</a></TD><TD align=center><a href= /frh/helpeg/h09301.htm>H09301.HTM</a></TD>
+<TD align=center>147</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,163,1");'>Port Init</a></TD><TD align=center><a href= /frh/helpeg/h0a301.htm>H0a301.HTM</a></TD>
+<TD align=center>163</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,181,1");'>Ovrd Select</a></TD><TD align=center><a href= /frh/helpeg/h0b501.htm>H0b501.HTM</a></TD>
+<TD align=center>181</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,31,1");'>User Alarm</a></TD><TD align=center><a href= /frh/helpeg/h01f01.htm>H01f01.HTM</a></TD>
+<TD align=center>31</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,456,1");'>Error Table</a></TD><TD align=center><a href= /frh/helpeg/h1c801.htm>H1c801.HTM</a></TD>
+<TD align=center>456</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1304,1");'>iPendant Setup</a></TD><TD align=center><a href= /frh/helpeg/h51801.htm>H51801.HTM</a></TD>
+<TD align=center>1304</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1031,1");'>Interference</a></TD><TD align=center><a href= /frh/helpeg/h40701.htm>H40701.HTM</a></TD>
+<TD align=center>1031</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1111,6");'>BG Logic</a></TD><TD align=center><a href= /frh/helpeg/h45706.htm>H45706.HTM</a></TD>
+<TD align=center>1111</TD><TD align=center>6</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1337,1");'>Resume Offset</a></TD><TD align=center><a href= /frh/helpeg/h53901.htm>H53901.HTM</a></TD>
+<TD align=center>1337</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,420,1");'>Resume Tol. </a></TD><TD align=center><a href= /frh/helpeg/h1a401.htm>H1a401.HTM</a></TD>
+<TD align=center>420</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,225,1");'>Softfloat</a></TD><TD align=center><a href= /frh/helpeg/h0e101.htm>H0e101.HTM</a></TD>
+<TD align=center>225</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,197,1");'>Stroke limit</a></TD><TD align=center><a href= /frh/helpeg/h0c501.htm>H0c501.HTM</a></TD>
+<TD align=center>197</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,200,1");'>Space fnct. </a></TD><TD align=center><a href= /frh/helpeg/h0c801.htm>H0c801.HTM</a></TD>
+<TD align=center>200</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,249,1");'>Motion DO</a></TD><TD align=center><a href= /frh/helpeg/h0f901.htm>H0f901.HTM</a></TD>
+<TD align=center>249</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,195,1");'>Host Comm</a></TD><TD align=center><a href= /frh/helpeg/h0c301.htm>H0c301.HTM</a></TD>
+<TD align=center>195</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1216,1");'>ZDT EOAT Setup</a></TD><TD align=center>H4c001.HTM</TD>
+<TD align=center>1216</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,935,1");'>Passwords</a></TD><TD align=center><a href= /frh/helpeg/h3a701.htm>H3a701.HTM</a></TD>
+<TD align=center>935</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,370,1");'>Err recovery</a></TD><TD align=center><a href= /frh/helpeg/h17201.htm>H17201.HTM</a></TD>
+<TD align=center>370</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1207,1");'>Touch Skip</a></TD><TD align=center>H4b701.HTM</TD>
+<TD align=center>1207</TD><TD align=center>1</TD>
+
+<TR>
+<TD align=center>FILE</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,74,1");'>File</a></TD><TD align=center><a href= /frh/helpeg/h04a01.htm>H04a01.HTM</a></TD>
+<TD align=center>74</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,253,1");'>File Memory</a></TD><TD align=center><a href= /frh/helpeg/h0fd01.htm>H0fd01.HTM</a></TD>
+<TD align=center>253</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,936,1");'>S/W Install</a></TD><TD align=center><a href= /frh/helpeg/h3a801.htm>H3a801.HTM</a></TD>
+<TD align=center>936</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1008,1");'>Auto Backup</a></TD><TD align=center><a href= /frh/helpeg/h3f001.htm>H3f001.HTM</a></TD>
+<TD align=center>1008</TD><TD align=center>1</TD>
+
+<TR>
+
+<TR>
+<TD align=center>USER</TD><TD>&nbsp;</TD><TD align=center><a href=/frh/helpeg/h02501.htm>H02501.HTM</a></TD>
+<TD align=center>37</TD><TD align=center>1</TD>
+
+<TR>
+<TD align=center>SELECT </TD><TD>&nbsp;</TD><TD align=center><a href=/frh/helpeg/h04701.htm>H04701.HTM</a></TD>
+<TD align=center>71</TD><TD align=center>1</TD>
+
+<TR>
+<TD align=center>EDIT</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD>
+<TR>
+<TD align=center>DATA</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,23,1");'>Registers</a></TD><TD align=center><a href= /frh/helpeg/h01701.htm>H01701.HTM</a></TD>
+<TD align=center>23</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,148,2");'>Position Reg     </a></TD><TD align=center><a href= /frh/helpeg/h09402.htm>H09402.HTM</a></TD>
+<TD align=center>148</TD><TD align=center>2</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1471,3");'>String Reg</a></TD><TD align=center><a href= /frh/helpeg/h5bf03.htm>H5bf03.HTM</a></TD>
+<TD align=center>1471</TD><TD align=center>3</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,34,2");'>KAREL Vars</a></TD><TD align=center><a href= /frh/helpeg/h02202.htm>H02202.HTM</a></TD>
+<TD align=center>34</TD><TD align=center>2</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,34,3");'>KAREL Posns</a></TD><TD align=center><a href= /frh/helpeg/h02203.htm>H02203.HTM</a></TD>
+<TD align=center>34</TD><TD align=center>3</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,378,11");'>Pressure</a></TD><TD align=center><a href= /frh/helpeg/h17a0b.htm>H17a0b.HTM</a></TD>
+<TD align=center>378</TD><TD align=center>11</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,378,18");'>Distance</a></TD><TD align=center><a href= /frh/helpeg/h17a12.htm>H17a12.HTM</a></TD>
+<TD align=center>378</TD><TD align=center>18</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,378,12");'>Manual Bkup</a></TD><TD align=center><a href= /frh/helpeg/h17a0c.htm>H17a0c.HTM</a></TD>
+<TD align=center>378</TD><TD align=center>12</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,378,22");'>Manual Thickness</a></TD><TD align=center><a href= /frh/helpeg/h17a16.htm>H17a16.HTM</a></TD>
+<TD align=center>378</TD><TD align=center>22</TD>
+
+<TR>
+<TD align=center>STATUS</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,94,2");'>Production</a></TD><TD align=center><a href= /frh/helpeg/h05e02.htm>H05e02.HTM</a></TD>
+<TD align=center>94</TD><TD align=center>2</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,988,1");'>Prod. Status</a></TD><TD align=center><a href= /frh/helpeg/h3dc01.htm>H3dc01.HTM</a></TD>
+<TD align=center>988</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,378,4");'>Servo Gun</a></TD><TD align=center><a href= /frh/helpeg/h17a04.htm>H17a04.HTM</a></TD>
+<TD align=center>378</TD><TD align=center>4</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1383,1");'>Process Report</a></TD><TD align=center><a href= /frh/helpeg/h56701.htm>H56701.HTM</a></TD>
+<TD align=center>1383</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1383,2");'>Process Data</a></TD><TD align=center><a href= /frh/helpeg/h56702.htm>H56702.HTM</a></TD>
+<TD align=center>1383</TD><TD align=center>2</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,933,1");'>DisableFault</a></TD><TD align=center><a href= /frh/helpeg/h3a501.htm>H3a501.HTM</a></TD>
+<TD align=center>933</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,32,2");'>Axis</a></TD><TD align=center><a href= /frh/helpeg/h02002.htm>H02002.HTM</a></TD>
+<TD align=center>32</TD><TD align=center>2</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,70,1");'>Version ID</a></TD><TD align=center><a href= /frh/helpeg/h04601.htm>H04601.HTM</a></TD>
+<TD align=center>70</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,452,16");'>Gun Change</a></TD><TD align=center><a href= /frh/helpeg/h1c410.htm>H1c410.HTM</a></TD>
+<TD align=center>452</TD><TD align=center>16</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,173,1");'>Stop Signal</a></TD><TD align=center><a href= /frh/helpeg/h0ad01.htm>H0ad01.HTM</a></TD>
+<TD align=center>173</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,226,1");'>Exec-hist</a></TD><TD align=center><a href= /frh/helpeg/h0e201.htm>H0e201.HTM</a></TD>
+<TD align=center>226</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,174,1");'>Memory</a></TD><TD align=center><a href= /frh/helpeg/h0ae01.htm>H0ae01.HTM</a></TD>
+<TD align=center>174</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1031,2");'>Interference</a></TD><TD align=center><a href= /frh/helpeg/h40702.htm>H40702.HTM</a></TD>
+<TD align=center>1031</TD><TD align=center>2</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1196,2");'>Motion Profiler</a></TD><TD align=center><a href= /frh/helpeg/h4ac02.htm>H4ac02.HTM</a></TD>
+<TD align=center>1196</TD><TD align=center>2</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1196,3");'>Robot Condition</a></TD><TD align=center><a href= /frh/helpeg/h4ac03.htm>H4ac03.HTM</a></TD>
+<TD align=center>1196</TD><TD align=center>3</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1196,5");'>Servo-off History</a></TD><TD align=center><a href= /frh/helpeg/h4ac05.htm>H4ac05.HTM</a></TD>
+<TD align=center>1196</TD><TD align=center>5</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,152,1");'>Prg Timer</a></TD><TD align=center><a href= /frh/helpeg/h09801.htm>H09801.HTM</a></TD>
+<TD align=center>152</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,152,2");'>Sys Timer</a></TD><TD align=center><a href= /frh/helpeg/h09802.htm>H09802.HTM</a></TD>
+<TD align=center>152</TD><TD align=center>2</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,296,1");'>Condition</a></TD><TD align=center><a href= /frh/helpeg/h12801.htm>H12801.HTM</a></TD>
+<TD align=center>296</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,932,1");'>Program</a></TD><TD align=center><a href= /frh/helpeg/h3a401.htm>H3a401.HTM</a></TD>
+<TD align=center>932</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,260,3");'>Appl-status</a></TD><TD align=center><a href= /frh/helpeg/h10403.htm>H10403.HTM</a></TD>
+<TD align=center>260</TD><TD align=center>3</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1827,1");'>Reminder</a></TD><TD align=center><a href= /frh/helpeg/h72301.htm>H72301.HTM</a></TD>
+<TD align=center>1827</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1711,1");'>Power Consumption</a></TD><TD align=center><a href= /frh/helpeg/h6af01.htm>H6af01.HTM</a></TD>
+<TD align=center>1711</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1621,1");'>Notifications</a></TD><TD align=center><a href= /frh/helpeg/h65501.htm>H65501.HTM</a></TD>
+<TD align=center>1621</TD><TD align=center>1</TD>
+
+<TR>
+<TD align=center>4D GRAPHICS</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1388,1");'>4D Display</a></TD><TD align=center><a href= /frh/helpeg/h56c01.htm>H56c01.HTM</a></TD>
+<TD align=center>1388</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,33,1");'>Position Display</a></TD><TD align=center><a href= /frh/helpeg/h02101.htm>H02101.HTM</a></TD>
+<TD align=center>33</TD><TD align=center>1</TD>
+
+<TR>
+<TD align=center>SYSTEM</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,34,4");'>Clock</a></TD><TD align=center><a href= /frh/helpeg/h02204.htm>H02204.HTM</a></TD>
+<TD align=center>34</TD><TD align=center>4</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,34,1");'>Variables</a></TD><TD align=center><a href= /frh/helpeg/h02201.htm>H02201.HTM</a></TD>
+<TD align=center>34</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,378,17");'>Gun Master</a></TD><TD align=center><a href= /frh/helpeg/h17a11.htm>H17a11.HTM</a></TD>
+<TD align=center>378</TD><TD align=center>17</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,35,1");'>Master/Cal</a></TD><TD align=center><a href= /frh/helpeg/h02301.htm>H02301.HTM</a></TD>
+<TD align=center>35</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,66,1");'>OT Release</a></TD><TD align=center><a href= /frh/helpeg/h04201.htm>H04201.HTM</a></TD>
+<TD align=center>66</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,162,1");'>Axis Limits</a></TD><TD align=center><a href= /frh/helpeg/h0a201.htm>H0a201.HTM</a></TD>
+<TD align=center>162</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,34,6");'>Config</a></TD><TD align=center><a href= /frh/helpeg/h02206.htm>H02206.HTM</a></TD>
+<TD align=center>34</TD><TD align=center>6</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,290,1");'>Motion</a></TD><TD align=center><a href= /frh/helpeg/h12201.htm>H12201.HTM</a></TD>
+<TD align=center>290</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1203,1");'>PayLoadCheck</a></TD><TD align=center><a href= /frh/helpeg/h4b301.htm>H4b301.HTM</a></TD>
+<TD align=center>1203</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,1133,1");'>DCS</a></TD><TD align=center><a href= /frh/helpeg/h46d01.htm>H46d01.HTM</a></TD>
+<TD align=center>1133</TD><TD align=center>1</TD>
+
+<TR>
+<TD align=center>USER2</TD><TD>&nbsp;</TD><TD align=center><a href=/frh/helpeg/h0be01.htm>H0be01.HTM</a></TD>
+<TD align=center>190</TD><TD align=center>1</TD>
+
+<TR>
+<TD align=center>BROWSER</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,381,1");'>Browser</a></TD><TD align=center><a href= /frh/helpeg/h17d01.htm>H17d01.HTM</a></TD>
+<TD align=center>381</TD><TD align=center>1</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,381,10");'>WS#1</a></TD><TD align=center>H17d0a.HTM</TD>
+<TD align=center>381</TD><TD align=center>10</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,381,11");'>WTC#1</a></TD><TD align=center>H17d0b.HTM</TD>
+<TD align=center>381</TD><TD align=center>11</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,381,12");'>WTC#1 FLT</a></TD><TD align=center>H17d0c.HTM</TD>
+<TD align=center>381</TD><TD align=center>12</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,381,21");'>Panel Wizard</a></TD><TD align=center><a href= /frh/helpeg/h17d15.htm>H17d15.HTM</a></TD>
+<TD align=center>381</TD><TD align=center>21</TD>
+
+<TR>
+
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,381,22");'>HMI Menu</a></TD><TD align=center><a href=/frh/helpeg/h17d16.htm>H17d16.HTM</a></TD>
+<TD align=center>381</TD><TD align=center>22</TD>
+<TR>
+<TD>&nbsp;</TD><TD align=center><a href='javascript:genlink_url("current=menupage,381,23");'>Top Menu</a></TD><TD align=center><a href=/frh/helpeg/h17d17.htm>H17d17.HTM</a></TD>
+<TD align=center>381</TD><TD align=center>23</TD>
+</TR></TABLE> 
+</font></body></html><pre>

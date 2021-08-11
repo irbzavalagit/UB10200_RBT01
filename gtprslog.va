@@ -1,0 +1,35 @@
+[GTPRSLOG]DATA_TYPE  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[GTPRSLOG]DIMS  Storage: DRAM  Access: RW  : ARRAY[3] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+
+[GTPRSLOG]ENTRY  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[GTPRSLOG]GUN_NUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[GTPRSLOG]GUN_NUM_MAX  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[GTPRSLOG]INT_VAL  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[GTPRSLOG]LOG_TYP  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[GTPRSLOG]LOG_TYP_MAX  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[GTPRSLOG]MSG  Storage: DRAM  Access: RW  : STRING[40] = Uninitialized
+
+[GTPRSLOG]REL_VAL  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[GTPRSLOG]SGLOGPXRQST  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[GTPRSLOG]STATUS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[GTPRSLOG]STR_VAL  Storage: DRAM  Access: RW  : STRING[40] = Uninitialized
+
+[GTPRSLOG]TASK_NAM  Storage: DRAM  Access: RW  : STRING[40] = Uninitialized
+
+[GTPRSLOG]TASK_NUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[GTPRSLOG]VNM  Storage: DRAM  Access: RW  : STRING[50] = Uninitialized
+

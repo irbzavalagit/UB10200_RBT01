@@ -1,0 +1,142 @@
+Func       Date      Time    Tick       NavID              Text
+KEY   72 07-JUL-21 00:36:06  da1d /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:08  dc99 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:08  ddc5 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:10  df2d /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:32   b1b /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:32   c45 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:32   d59 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:34   e25 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:34   f21 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:36  14f1 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:38  167d /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:38  17c1 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:38  18bd /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:40  19c5 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:40  1a9d /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:40  1c1d /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:42  1d6f /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:42  1e8d /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:42  1fdd /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:50  2fa9 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:52  311f /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:52  32fd /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:52  3375 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:54  3825 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:56  3969 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:56  3a41 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:56  3b61 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:56  3c75 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:36:58  3d7d /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:40:50   575 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:46:50  c506 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:52:52  8498 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 00:58:52  442c /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 01:04:52   3c0 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 01:10:52  c354 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 01:14:30  6cb1 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 01:16:52  82e4 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 01:17:36  d689 /nav/core/home HOME
+EXIT  72 07-JUL-21 01:17:36  d68b 71 1 
+POWR  72 07-JUL-21 01:24:00  981e Power Cycle 
+POWR  72 07-JUL-21 01:29:30  bc87 Power Cycle 
+KEY   72 07-JUL-21 01:29:38  c043 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 01:29:42  c600 /wizard/guided/steps Initial Setup
+POWR  72 07-JUL-21 01:31:42  a1fd Power Cycle 
+POWR  72 07-JUL-21 01:45:28  62bc Power Cycle 
+KEY   72 07-JUL-21 01:45:32  696e /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 01:45:36  6fe8 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 01:47:18  3642 /nav/core/home HOME
+EXIT  72 07-JUL-21 01:47:18  3643 71 1 
+POWR  72 07-JUL-21 01:48:52  4ea6 Power Cycle 
+POWR  72 07-JUL-21 04:01:12  4cba Power Cycle 
+POWR  72 07-JUL-21 04:15:08  4c51 Power Cycle 
+POWR  72 07-JUL-21 04:45:32  a296 Power Cycle 
+POWR  72 07-JUL-21 04:50:16  598e Power Cycle 
+KEY   72 07-JUL-21 04:50:18  6106 /wizard/guided/steps Initial Setup
+KEY   72 07-JUL-21 04:50:18  6106 /wizard/guided/steps Initial Setup
+EXIT  72 07-JUL-21 04:50:18  6108 1133 1 
+POWR  72 08-JUL-21 06:24:18  6f7f Power Cycle 
+POWR  72 08-JUL-21 06:56:38  4c4f Power Cycle 
+KEY   72 08-JUL-21 06:56:40  4e67 /nav/core/tohome HOME
+KEY   72 08-JUL-21 06:56:40  4e67 /nav/core/tohome HOME
+EXIT  72 08-JUL-21 06:56:40  4e68 1133 1 
+POWR  72 08-JUL-21 07:01:40  4c9c Power Cycle 
+KEY   72 08-JUL-21 07:01:42  4eb4 /nav/core/tohome HOME
+KEY   72 08-JUL-21 07:01:42  4eb4 /nav/core/tohome HOME
+EXIT  72 08-JUL-21 07:01:42  4eb5 1133 1 
+POWR  72 09-JUL-21 07:30:24  a2c1 Power Cycle 
+POWR  72 09-JUL-21 07:34:38  4eb2 Power Cycle 
+KEY   72 09-JUL-21 07:34:42  5505 /wizard/guided/steps Initial Setup
+KEY   72 09-JUL-21 07:34:42  5505 /wizard/guided/steps Initial Setup
+EXIT  72 09-JUL-21 07:34:42  5506 1133 1 
+POWR  72 09-JUL-21 07:37:44  4ffd Power Cycle 
+POWR  72 09-JUL-21 21:37:02  4d4a Power Cycle 
+HOME 102 11-JUL-21 21:39:20  ae7a flexuif_home_c Hardkey 
+KEY   72 11-JUL-21 21:39:20  af39 /wizard/guided/steps Initial Setup
+KEY   72 11-JUL-21 21:39:20  b029 /wizard/guided/steps Initial Setup
+KEY   72 11-JUL-21 21:39:44  de88 /nav/core/home HOME
+EXIT  72 11-JUL-21 21:39:44  de89 71 1 
+POWR  72 12-JUL-21 01:02:32  764e Power Cycle 
+POWR  72 12-JUL-21 01:08:48  4ca7 Power Cycle 
+KEY   72 12-JUL-21 01:08:50  4ec3 /nav/core/tohome HOME
+KEY   72 12-JUL-21 01:08:50  4ec5 /nav/core/tohome HOME
+EXIT  72 12-JUL-21 01:08:50  4ec5 1133 1 
+POWR  72 12-JUL-21 01:10:08  4d41 Power Cycle 
+POWR  72 13-JUL-21 06:01:02  4dc8 Power Cycle 
+POWR  72 13-JUL-21 07:32:24  a2cc Power Cycle 
+POWR  72 13-JUL-21 07:35:28  59ac Power Cycle 
+KEY   72 13-JUL-21 07:35:30  603c /wizard/guided/steps Initial Setup
+KEY   72 13-JUL-21 07:35:36  66a6 /wizard/guided/steps Initial Setup
+KEY   72 13-JUL-21 07:35:46  7988 /wizard/guided/steps Initial Setup
+EXIT  72 13-JUL-21 07:35:46  798a 66 1 
+HOME  72 13-JUL-21 07:40:02  7093 flexuif_home_c Hardkey 
+KEY   72 13-JUL-21 07:40:02  70c4 /wizard/guided/steps Initial Setup
+KEY   72 13-JUL-21 07:40:04  7122 /wizard/guided/steps Initial Setup
+KEY   72 13-JUL-21 07:40:04  71af /wizard/guided/steps Initial Setup
+KEY   72 13-JUL-21 07:40:12  8361 /wizard/guided/steps Initial Setup
+EXIT  72 13-JUL-21 07:40:12  8362 381 12 
+POWR  72 14-JUL-21 07:13:30  4de1 Power Cycle 
+KEY  104 15-JUL-21 03:50:22  7cb1 /wizard/guided/steps Initial Setup
+KEY  104 15-JUL-21 03:50:26  830e /wizard/guided/steps Initial Setup
+EXIT 104 15-JUL-21 03:50:26  830f 64 1 
+POWR  72 15-JUL-21 05:17:54  4e0d Power Cycle 
+POWR  72 16-JUL-21 03:16:08  4e1a Power Cycle 
+POWR  72 16-JUL-21 04:52:58  4e75 Power Cycle 
+POWR  72 16-JUL-21 04:55:54  4e93 Power Cycle 
+POWR  72 16-JUL-21 06:07:50  4e79 Power Cycle 
+POWR  72 16-JUL-21 06:10:16  4ecc Power Cycle 
+HOME 102 17-JUL-21 07:54:38  3b79 flexuif_home_c Hardkey 
+KEY   72 17-JUL-21 07:54:38  3c69 /wizard/guided/steps Initial Setup
+KEY   72 17-JUL-21 07:54:38  3d11 /wizard/guided/steps Initial Setup
+KEY   72 17-JUL-21 07:54:44  4862 /wizard/guided/steps Initial Setup
+NAV  150 17-JUL-21 07:54:54  5ad9 /nav/core/home/util/move 
+KEY   72 17-JUL-21 07:54:54  5ae0 /nav/core/home HOME
+KEY   72 17-JUL-21 07:54:54  5ae2 /nav/core/jogassist JOG ASSIST
+EXIT  72 17-JUL-21 07:54:54  5ae4 1631 100 
+KEY   72 17-JUL-21 07:55:10  7a7d /wizard/guided/steps Initial Setup
+KEY   72 17-JUL-21 07:55:10  7d25 /nav/core/home HOME
+KEY   72 17-JUL-21 07:55:12  7e5d /nav/core/home HOME
+EXIT  72 17-JUL-21 07:55:12  7e5e 71 1 
+POWR  72 18-JUL-21 21:48:56  4e00 Power Cycle 
+POWR  72 21-JUL-21 09:19:52  4df1 Power Cycle 
+POWR  72 24-JUL-21 06:20:58  4e0a Power Cycle 
+POWR  72 24-JUL-21 06:55:56  4e46 Power Cycle 
+POWR  72 25-JUL-21 23:33:52  4e62 Power Cycle 
+HOME  72 26-JUL-21 03:45:22  6a84 flexuif_home_c Hardkey 
+KEY   72 26-JUL-21 03:45:22  6b5c /wizard/guided/steps Initial Setup
+KEY   72 26-JUL-21 03:45:22  6c30 /wizard/guided/steps Initial Setup
+KEY   72 26-JUL-21 03:45:22  6c90 /wizard/guided/steps Initial Setup
+EXIT  72 26-JUL-21 03:45:22  6c92 64 1 
+POWR  72 27-JUL-21 19:51:28  4d68 Power Cycle 
+HOME  72 27-JUL-21 23:16:26  1cb9 flexuif_home_c Hardkey 
+KEY   72 27-JUL-21 23:16:26  1dc1 /wizard/guided/steps Initial Setup
+KEY   72 27-JUL-21 23:16:34  2d4a /wizard/guided/steps Initial Setup
+EXIT  72 27-JUL-21 23:16:34  2d4b 381 12 
+POWR  72 03-AUG-21 08:20:40  4db0 Power Cycle 
+POWR  72 04-AUG-21 11:08:26  5014 Power Cycle 
+POWR  72 04-AUG-21 11:53:28  5045 Power Cycle 
+KEY   72 04-AUG-21 11:53:30  532d /nav/core/tohome HOME
+KEY   72 04-AUG-21 11:53:32  5588 /nav/core/tohome HOME
+KEY   72 04-AUG-21 11:53:46  7276 /nav/core/tohome HOME
+EXIT  72 04-AUG-21 11:53:46  7277 34 4 

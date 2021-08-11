@@ -1,0 +1,55 @@
+[PLCFMOV]CALSTP_DONE  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[PLCFMOV]LOCAL_TIMER  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[PLCFMOV]INT_T0  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[PLCFMOV]INT_T6  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[PLCFMOV]INT_T5  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[PLCFMOV]MINVLIM5  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[PLCFMOV]MINVLIM6  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[PLCFMOV]INT_TCAL5  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[PLCFMOV]INT_TCAL6  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[PLCFMOV]II  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[PLCFMOV]ENTRY  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[PLCFMOV]STAT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[PLCFMOV]AXS_LIM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[PLCFMOV]OVR_TRV  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[PLCFMOV]CNV_TRQ5  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[PLCFMOV]CNV_TRQ6  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[PLCFMOV]TEMP_RM1  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[PLCFMOV]TEMP_RM2  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[PLCFMOV]JPOSR  Storage: DRAM  Access: RW  : ARRAY[9] OF REAL
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+
+[PLCFMOV]JPOS0  Storage: DRAM  Access: RW  : JOINTPOS9 = Uninitialized
+
+[PLCFMOV]JPOS1  Storage: DRAM  Access: RW  : JOINTPOS9 = Uninitialized
+
+[PLCFMOV]JPOS2  Storage: DRAM  Access: RW  : JOINTPOS9 = Uninitialized
+
+[PLCFMOV]ALL_STAT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+

@@ -1,0 +1,24 @@
+[SWCUSTO]STATSCRN_VER  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SWCUSTO]CUSTO_NAME  Storage: SHADOW  Access: RW  : STRING[18] = 'STANDARD'
+
+[SWCUSTO]SW_VERSION  Storage: SHADOW  Access: RW  : STRING[18] = 'V9.30P/15 '
+
+[SWCUSTO]SW_REV_NUM  Storage: SHADOW  Access: RW  : STRING[18] = ''
+
+[SWCUSTO]COMMENT1  Storage: SHADOW  Access: RW  : STRING[18] = ''
+
+[SWCUSTO]COMMENT2  Storage: SHADOW  Access: RW  : STRING[18] = ''
+
+[SWCUSTO]COMMENT3  Storage: SHADOW  Access: RW  : STRING[18] = ''
+
+[SWCUSTO]RUN_FLAG  Storage: SHADOW  Access: RW  : BOOLEAN = TRUE
+
+[SWCUSTO]STATUS  Storage: SHADOW  Access: RW  : INTEGER = 0
+
+[SWCUSTO]EQSU_SC_UPDT  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SWCUSTO]HEAD_RET_DEL  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SWCUSTO]HD_RETDELENB  Storage: CMOS  Access: RW  : BOOLEAN = Uninitialized
+

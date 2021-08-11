@@ -1,0 +1,14 @@
+setup_type 2 -- Generated Automatically
+motor 0 -- Generated Automatically
+sel_type 3 -- Generated Automatically
+direct 42935 -- Generated Automatically
+amp_num 3 -- Generated Automatically
+gear_data  5.00000E+00 -- Generated Automatically
+sign 2 -- Generated Automatically
+gn_cl_dir 1 -- Generated Automatically
+open  1.36000E+02 -- Generated Automatically
+close  2.00000E+01 -- Generated Automatically
+pmax_lbf  1.40000E+03 -- Generated Automatically
+brk 0 -- Generated Automatically
+speed  2.50000E+02 -- Generated Automatically
+ENDOFL -- End of file

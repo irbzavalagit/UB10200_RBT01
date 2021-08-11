@@ -1,0 +1,40 @@
+[SGSCLINI]SYS_NAME  Storage: SHADOW  Access: RW  : STRING[50] = '$SGTCHEXE.$TQLMCALRQST'
+
+[SGSCLINI]ENTRY  Storage: SHADOW  Access: RW  : INTEGER = 2147419020
+
+[SGSCLINI]STATUS  Storage: SHADOW  Access: RW  : INTEGER = 0
+
+[SGSCLINI]GUN_NUM  Storage: SHADOW  Access: RW  : INTEGER = 0
+
+[SGSCLINI]GUN_NUM0  Storage: SHADOW  Access: RW  : INTEGER = 1
+
+[SGSCLINI]DATA_TYPE  Storage: SHADOW  Access: RW  : INTEGER = 1
+
+[SGSCLINI]REAL_VALUE  Storage: SHADOW  Access: RW  : REAL = 0.000000e+00
+
+[SGSCLINI]STR_VALUE  Storage: SHADOW  Access: RW  : STRING[10] = ''
+
+[SGSCLINI]FILLMDETCAL  Storage: SHADOW  Access: RW  : INTEGER = 0
+
+[SGSCLINI]LNLM_DETCAL  Storage: SHADOW  Access: RW  : INTEGER = 0
+
+[SGSCLINI]F_NM  Storage: DRAM  Access: RW  : STRING[20] = Uninitialized
+
+[SGSCLINI]PRG_NM  Storage: DRAM  Access: RW  : STRING[20] = Uninitialized
+
+[SGSCLINI]VR_NM  Storage: DRAM  Access: RW  : STRING[20] = Uninitialized
+
+[SGSCLINI]SKT_ID  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGSCLINI]SSC_ID  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGSCLINI]STR  Storage: DRAM  Access: RW  : STRING[10] = Uninitialized
+
+[SGSCLINI]INT  Storage: DRAM  Access: RW  : INTEGER = 4
+
+[SGSCLINI]TSK_NM  Storage: DRAM  Access: RW  : STRING[24] = 'SGKSRCCL'
+
+[SGSCLINI]TSK_NUM  Storage: DRAM  Access: RW  : INTEGER = 5
+
+[SGSCLINI]FILLPNLDET  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+

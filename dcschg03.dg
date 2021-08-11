@@ -1,0 +1,28 @@
+F Number: F270477
+VERSION : SpotTool+            
+$VERSION: V9.30126      2/12/2021
+DATE:     27-JUL-21 19:49 
+DCS Version: V4.2.14
+
+
+--- CIP safety -------------------------
+    Status:                       CHGD   
+  1 Enable/Bypass:              BYPASS  
+  2 CIP Safety input size(byte):   8  
+  2 CIP Safety input size(byte):   8  
+  4 Config Signature Date/Time: ACTUAL  
+
+--- Signature number (Dec) -------------
+                Current        Latch
+1 Total:       -2048669345   -570597257
+  Time:27-JUL-21 19:49  15-JUL-21 21:30 
+2 Base:        -1833052075  -1149932377
+  Time:27-JUL-21 19:49  15-JUL-21 21:30 
+   Mastering:   -983540984
+   Robot:        720649922
+   Other:        157184652
+3 Pos./Speed:   1945160182   1945160182
+  Time:12-JUL-21 01:09  15-JUL-21 21:30 
+4 I/O connect:  -923424405   -923424405
+  Time:12-JUL-21 01:09  15-JUL-21 21:30 
+

@@ -1,0 +1,19 @@
+! This file specifies Servo Gun GROUP settings (h869).
+! This file is copied to the controller as svgG.dt, where:
+!   G = group number
+!
+! Note: 
+!   1. Value lines must follow the format: "name value -- comment"
+!   2. Comment lines must start with !.
+!   3. "!MME>" is a preprocess directive: !MME> is removed for
+!      media that is targeted for offline use. 
+!
+! Modification history
+! 18-DEC-2006 garzafj      Revise description.
+!
+hw_strt 8        -- Hardware start axis
+!MME>a1_exist 1  -- Add axis 1 for FRVRC only
+!MME>fssb_line 1 -- Automatically select FSSB1 for FRVRC only
+fssb_line 1 -- Generated Automatically
+a1_exist 1 -- Generated Automatically
+ENDOFL           -- End of file

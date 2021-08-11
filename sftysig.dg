@@ -1,0 +1,19 @@
+F Number: F270477
+VERSION : SpotTool+            
+$VERSION: V9.30126      2/12/2021
+DATE:     11-AUG-21 11:01 
+
+STOP SIGNALS::
+
+External ESTOP   FALSE
+SOP Estop        FALSE
+TP ESTOP         FALSE
+Hand Broken      FALSE
+OverTravel       FALSE
+Low Air Alarm    FALSE
+Fence Open       FALSE
+Belt Broken      FALSE
+TP Enable        TRUE 
+TP Deadman       TRUE 
+SVOFF Detect     FALSE
+Non Teacher Enb  FALSE

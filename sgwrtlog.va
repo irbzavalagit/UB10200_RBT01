@@ -1,0 +1,331 @@
+[SGWRTLOG]ACC1  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]ACC1_FLOOR  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]ACC_OVR  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]ACTVRQSTCOD  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]ARR_IDX  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]AVG_SPD  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]AVG_TCMD  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]CLK  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]CLK1  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]CLK2  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]CMDTRQ  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]CONT_SPD  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]CUR_DTRQ  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]DG  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SGWRTLOG]DGIDX  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]DIMS  Storage: DRAM  Access: RW  : ARRAY[3] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+
+[SGWRTLOG]DIR_NM  Storage: DRAM  Access: RW  : STRING[25] = Uninitialized
+
+[SGWRTLOG]DI_STR  Storage: DRAM  Access: RW  : STRING[127] = Uninitialized
+
+[SGWRTLOG]DO_STR  Storage: DRAM  Access: RW  : STRING[127] = Uninitialized
+
+[SGWRTLOG]DTRQ  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]ENCSCALES  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]ENTRY  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]EQ_NUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]FCMD_TRQ  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]FCSTAT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]FCTLMGR_ENB  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SGWRTLOG]FILNM  Storage: DRAM  Access: RW  : STRING[25] = Uninitialized
+
+[SGWRTLOG]FILNM_BASE  Storage: DRAM  Access: RW  : STRING[10] = Uninitialized
+
+[SGWRTLOG]FILNUM_CUR  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]FILNUM_MAX  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]FILSAVENAME  Storage: DRAM  Access: RW  : STRING[12] = Uninitialized
+
+[SGWRTLOG]FILSAVEPATH  Storage: DRAM  Access: RW  : STRING[40] = Uninitialized
+
+[SGWRTLOG]FIL_FORMAT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]FNM  Storage: DRAM  Access: RW  : STRING[40] = Uninitialized
+
+[SGWRTLOG]FNM_DEST  Storage: DRAM  Access: RW  : STRING[24] = Uninitialized
+
+[SGWRTLOG]FNM_SOURCE  Storage: DRAM  Access: RW  : STRING[24] = Uninitialized
+
+[SGWRTLOG]FNM_WITHPATH  Storage: DRAM  Access: RW  : STRING[40] = Uninitialized
+
+[SGWRTLOG]FNUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]FNUM_MAX  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]FREQ  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]FSETPT  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]GA  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]GCFG_GUN  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]GEAR_RATIO  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]GIDX  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]GN  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]GUN_NUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]HJ  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]HPD  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]HW_STRT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]II  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]INIT_PGAIN  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]INT_VAL  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]ITP_TM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]JJ  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]JNTVELLIM  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]KGF_STR  Storage: DRAM  Access: RW  : STRING[127] = Uninitialized
+
+[SGWRTLOG]LIN_NUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]LOADRATIO  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]LOGWRT_MSG  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]LOG_TYP  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]MAX_AMP  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]MAX_GUNS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]MAX_SPD  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]MAX_TCMD  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]MIN_SPD  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]MIN_TCMD  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]MOTN_OPTN  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SGWRTLOG]MS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]NOMOTN_FCSW  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SGWRTLOG]NUM_EQ  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]NUM_INT_VARS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]OVR_CHK_DLY  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]P112  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]P113  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]P152  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]P17  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]P18  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]P181  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]P182  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]P183  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]P184  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]P193  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]P195  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]P196  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]P25  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]P47  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]PGAIN0_VAL  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]PPD_ENB  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SGWRTLOG]PPD_ENB_STR  Storage: DRAM  Access: RW  : STRING[6] = Uninitialized
+
+[SGWRTLOG]PRESS_LIM  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]PRG_NM  Storage: DRAM  Access: RW  : STRING[40] = Uninitialized
+
+[SGWRTLOG]PRM_A1  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]PRS_CHK_DN  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SGWRTLOG]PRS_STAT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]PSCH_NUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]PTLIM_MGN  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]PTLIM_STD  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]PXIDX  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]S  Storage: DRAM  Access: RW  : STRING[254] = Uninitialized
+
+[SGWRTLOG]S2  Storage: DRAM  Access: RW  : STRING[254] = Uninitialized
+
+[SGWRTLOG]SGLOGARR  Storage: DRAM  Access: RW  : SG_LOGARR_T = 
+   Field: SGLOGARR.$CLK Access: RW: INTEGER = Uninitialized
+   Field: SGLOGARR.$MCHPOS Access: RW: REAL = Uninitialized
+   Field: SGLOGARR.$CMDPOS Access: RW: REAL = Uninitialized
+   Field: SGLOGARR.$CMDTRQ Access: RW: SHORT = Uninitialized
+   Field: SGLOGARR.$HPD Access: RW: SHORT = Uninitialized
+   Field: SGLOGARR.$DTMAX Access: RW: SHORT = Uninitialized
+   Field: SGLOGARR.$DTMIN Access: RW: SHORT = Uninitialized
+   Field: SGLOGARR.$FCSTAT Access: RW: SHORT = Uninitialized
+   Field: SGLOGARR.$FCMD Access: RW: SHORT = Uninitialized
+   Field: SGLOGARR.$ERROR_CNT3 Access: RW: INTEGER = Uninitialized
+   Field: SGLOGARR.$XTRA_SHORT1 Access: RW: SHORT = Uninitialized
+   Field: SGLOGARR.$XTRA_SHORT2 Access: RW: SHORT = Uninitialized
+   Field: SGLOGARR.$XTRA_SHORT3 Access: RW: SHORT = Uninitialized
+   Field: SGLOGARR.$XTRA_SHORT4 Access: RW: SHORT = Uninitialized
+
+[SGWRTLOG]SGLOGIN3  Storage: DRAM  Access: RW  : SG_LOGINF_T = 
+   Field: SGLOGIN3.$LOG_TYP Access: RW: INTEGER = Uninitialized
+   Field: SGLOGIN3.$GUN_NUM Access: RW: INTEGER = Uninitialized
+   Field: SGLOGIN3.$SGLOG_STAT Access: RW: INTEGER = Uninitialized
+   Field: SGLOGIN3.$ACTVRQSTCOD Access: RW: INTEGER = Uninitialized
+   Field: SGLOGIN3.$ARR_IDX Access: RW: SHORT = Uninitialized
+   Field: SGLOGIN3.$TRKID_INARR Access: RW: SHORT = Uninitialized
+   Field: SGLOGIN3.$DATSTAMPARR Access: RW: STRING[13] = Uninitialized
+   Field: SGLOGIN3.$TMSTAMPARR Access: RW: STRING[13] = Uninitialized
+   Field: SGLOGIN3.$TOTLTMACCUM Access: RW: SHORT = Uninitialized
+   Field: SGLOGIN3.$XTNDTMACCUM Access: RW: SHORT = Uninitialized
+   Field: SGLOGIN3.$TASK_NUM Access: RW: SHORT = Uninitialized
+   Field: SGLOGIN3.$STARTREQSTR Access: RW: SHORT = Uninitialized
+   Field: SGLOGIN3.$DOSTIME Access: RW: INTEGER = Uninitialized
+   Field: SGLOGIN3.$ROUT_NM Access: RW: STRING[17] = Uninitialized
+   Field: SGLOGIN3.$TASK_NM Access: RW: STRING[17] = Uninitialized
+   Field: SGLOGIN3.$COMMENT Access: RW: STRING[37] = Uninitialized
+   Field: SGLOGIN3.$LOGFILABORT Access: RW: SHORT = Uninitialized
+   Field: SGLOGIN3.$RESERVED1 Access: RW: SHORT = Uninitialized
+   Field: SGLOGIN3.$LOGXTND_TM Access: RW: SHORT = Uninitialized
+   Field: SGLOGIN3.$PRS_LOGMSK Access: RW: SHORT = Uninitialized
+   Field: SGLOGIN3.$MAX_LOG_DUR Access: RW: SHORT = Uninitialized
+   Field: SGLOGIN3.$XTRA_SHORT1 Access: RW: SHORT = Uninitialized
+   Field: SGLOGIN3.$XTRA_LONG1 Access: RW: INTEGER = Uninitialized
+   Field: SGLOGIN3.$XTRA_LONG2 Access: RW: INTEGER = Uninitialized
+   Field: SGLOGIN3.$XTRA_LONG3 Access: RW: INTEGER = Uninitialized
+   Field: SGLOGIN3.$XTRA_LONG4 Access: RW: INTEGER = Uninitialized
+   Field: SGLOGIN3.$XTRA_LONG5 Access: RW: INTEGER = Uninitialized
+   Field: SGLOGIN3.$XTRA_LONG6 Access: RW: INTEGER = Uninitialized
+   Field: SGLOGIN3.$XTRA_LONG7 Access: RW: INTEGER = Uninitialized
+   Field: SGLOGIN3.$XTRA_LONG8 Access: RW: INTEGER = Uninitialized
+   Field: SGLOGIN3.$XTRA_REAL1 Access: RW: REAL = Uninitialized
+   Field: SGLOGIN3.$XTRA_REAL2 Access: RW: REAL = Uninitialized
+   Field: SGLOGIN3.$XTRA_REAL3 Access: RW: REAL = Uninitialized
+   Field: SGLOGIN3.$XTRA_REAL4 Access: RW: REAL = Uninitialized
+   Field: SGLOGIN3.$XTRA_REAL5 Access: RW: REAL = Uninitialized
+   Field: SGLOGIN3.$XTRA_REAL6 Access: RW: REAL = Uninitialized
+   Field: SGLOGIN3.$XTRA_REAL7 Access: RW: REAL = Uninitialized
+   Field: SGLOGIN3.$XTRA_REAL8 Access: RW: REAL = Uninitialized
+
+[SGWRTLOG]SGLOG_DN  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SGWRTLOG]SG_POS_STAT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]SIM_WDUR  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]SLEN  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]SPD  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]SPD_MGN  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]SPD_MGN_PCT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]SPRING  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]SPTRSH4UPDT  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]STATUS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]STD_SPDTHRSH  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]STOPTOL  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]STOPTOL_MM  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]SUBDIR_NM  Storage: DRAM  Access: RW  : STRING[10] = Uninitialized
+
+[SGWRTLOG]SVS_NUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]SVS_SEQ_ID  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]THICKNESS  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLOG]TIME_STR  Storage: DRAM  Access: RW  : STRING[127] = Uninitialized
+
+[SGWRTLOG]TIME_STR2  Storage: DRAM  Access: RW  : STRING[127] = Uninitialized
+
+[SGWRTLOG]TIME_VAL  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]TM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]TQ_FMAX  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]TRKID  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]TRK_FILWRT  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SGWRTLOG]TYP_NM  Storage: DRAM  Access: RW  : STRING[12] = Uninitialized
+
+[SGWRTLOG]TYP_VAL  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]UNINIT_B  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SGWRTLOG]USEPROF4PMO  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SGWRTLOG]UTL_TYP  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]VNM  Storage: DRAM  Access: RW  : STRING[50] = Uninitialized
+
+[SGWRTLOG]WIP  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]WLDPRS_TRQ  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SGWRTLOG]WRT_LOG_FIL  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]WT_TMR  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLOG]XTRA_INT2  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+

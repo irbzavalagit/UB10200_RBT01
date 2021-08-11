@@ -1,0 +1,28 @@
+[DOBWDEXITG2]OPEN_ID  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[DOBWDEXITG2]COUNTR  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[DOBWDEXITG2]EXT_ANG  Storage: DRAM  Access: RW  : ARRAY[3] OF REAL
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+
+[DOBWDEXITG2]LAST_POS  Storage: DRAM  Access: RW  : POSITION = Uninitialized
+
+[DOBWDEXITG2]LAST_JPOS  Storage: DRAM  Access: RW  : JOINTPOS9 = Uninitialized
+
+[DOBWDEXITG2]CUR_POS  Storage: DRAM  Access: RW  : POSITION = Uninitialized
+
+[DOBWDEXITG2]CUR_JPOS  Storage: DRAM  Access: RW  : JOINTPOS9 = Uninitialized
+
+[DOBWDEXITG2]DIST_S  Storage: DRAM  Access: RW  : STRING[10] = Uninitialized
+
+[DOBWDEXITG2]DIST_AS  Storage: DRAM  Access: RW  : ARRAY[1] OF STRING[10]
+  [1] = Uninitialized
+
+[DOBWDEXITG2]TITLE  Storage: DRAM  Access: RW  : ARRAY[1] OF STRING[30]
+  [1] = Uninitialized
+
+[DOBWDEXITG2]PROMPT  Storage: DRAM  Access: RW  : ARRAY[1] OF STRING[120]
+  [1] = Uninitialized
+

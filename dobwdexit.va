@@ -1,0 +1,36 @@
+[DOBWDEXIT]GRP_NUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[DOBWDEXIT]GRP_MASK  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[DOBWDEXIT]JNTPOS  Storage: DRAM  Access: RW  : JOINTPOS9 = Uninitialized
+
+[DOBWDEXIT]ATTR_VAL  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[DOBWDEXIT]TMP_STRING  Storage: DRAM  Access: RW  : STRING[10] = Uninitialized
+
+[DOBWDEXIT]STATUS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[DOBWDEXIT]LIN_DATA  Storage: DRAM  Access: RW  : ARRAY[20] OF BYTE
+  [1] = 255
+  [2] = 255
+  [3] = 255
+  [4] = 255
+  [5] = 255
+  [6] = 255
+  [7] = 255
+  [8] = 255
+  [9] = 255
+  [10] = 255
+  [11] = 255
+  [12] = 255
+  [13] = 255
+  [14] = 255
+  [15] = 255
+  [16] = 255
+  [17] = 255
+  [18] = 255
+  [19] = 255
+  [20] = 255
+
+[DOBWDEXIT]LIN_LEN  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+

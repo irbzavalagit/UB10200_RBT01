@@ -1,0 +1,642 @@
+
+    Controller file backup content.  NOTE: Only MDB: is backed from Teach Pendant
+
+    Filename        Ext   md:mdb:fmd:bck sys app ap2 err  dg mdi   Func       Program            Comment
+-BCKED2-                            . LS  y                                     1064    0 1064    0 -BCKED2-                                                                     
+-BCKED2-                            . TP  y   y                                    1    0    1    0 -BCKED2-                                                                     
+-BCKED3-                            . LS  y                                     1064    0 1064    0 -BCKED3-                                                                     
+-BCKED3-                            . TP  y   y                                    1    0    1    0 -BCKED3-                                                                     
+-BCKED8-                            . LS  y                                     1064    0 1064    0 -BCKED8-                                                                     
+-BCKED8-                            . TP  y   y                                    1    0    1    0 -BCKED8-                                                                     
+-BCKED9-                            . LS  y                                     1064    0 1064    0 -BCKED9-                                                                     
+-BCKED9-                            . TP  y   y                                    1    0    1    0 -BCKED9-                                                                     
+-BCKEDT-                            . LS  y                                     1064    0 1064    0 -BCKEDT-                                                                     
+-BCKEDT-                            . TP  y   y                                    1    0    1    0 -BCKEDT-                                                                     
+AAVMMAIN                            . VA  y       y                             1067    0 1063    0 AAVMMAIN                                                                     
+AAVMMAIN                            . VR  y   y       y       y                 1066    0    0    0 AAVMMAIN                                                                     
+ABORTIT                             . LS  y       y                             1064    0 1064    0 ABORTIT                                                                      
+ABORTIT                             . TP  y   y                                    1    0    1    0 ABORTIT                             ABORT PRODUCTION                         
+ACCNTG                              . DG  y                                   y 1067    0 1020    0 ACCNTG                              System Accounting status                 
+ALTMASTER                           . LS  y       y                             1064    0 1064    0 ALTMASTER                                                                    
+ALTMASTER                           . TP  y   y                                    1    0    1    0 ALTMASTER                                                                    
+ATPOUNCE                            . LS  y       y                             1064    0 1064    0 ATPOUNCE                                                                     
+ATPOUNCE                            . TP  y   y                                    1    0    1    0 ATPOUNCE                            At Pounce V2.2                           
+AT_KL00                             . VA  y       y                             1067    0 1063    0 AT_KL00                             BU: sg atun util                         
+AT_KL00                             . VR  y   y       y       y                 1066    0    3    0 AT_KL00                             BU: sg atun util                         
+AUTOBACK                            . VA  y       y                             1067    0 1063    0 AUTOBACK                                                                     
+AUTOBACK                            . VR  y   y       y       y                 1066    0    0    0 AUTOBACK                                                                     
+AXIS                                . DG  y                                   y 1067    0 1027    0 AXIS                                Axis and Servo Status                    
+BACKCONT                            . DG  y                                   y 1067    0 1069    0 BACKCONT                            Backup content data                      
+BACKDATE                            . DT  y   y       y               y       y 1067    0 1060    0 BACKDATE                                                                     
+BGAPP1                              . LS  y       y                             1064    0 1064    0 BGAPP1                                                                       
+BGAPP1                              . TP  y   y                                    1    0    1    0 BGAPP1                              App1 Fdback V1.2                         
+BGAPP2                              . LS  y       y                             1064    0 1064    0 BGAPP2                                                                       
+BGAPP2                              . TP  y   y                                    1    0    1    0 BGAPP2                              App2 Fdback V1.0                         
+BGAPP3                              . LS  y       y                             1064    0 1064    0 BGAPP3                                                                       
+BGAPP3                              . TP  y   y                                    1    0    1    0 BGAPP3                              App3 Fdback V1.0                         
+BGAPP4                              . LS  y       y                             1064    0 1064    0 BGAPP4                                                                       
+BGAPP4                              . TP  y   y                                    1    0    1    0 BGAPP4                              App4 Fdback V1.0                         
+BGAPP5                              . LS  y       y                             1064    0 1064    0 BGAPP5                                                                       
+BGAPP5                              . TP  y   y                                    1    0    1    0 BGAPP5                              App5 Fdback V1.0                         
+BGAPP6                              . LS  y       y                             1064    0 1064    0 BGAPP6                                                                       
+BGAPP6                              . TP  y   y                                    1    0    1    0 BGAPP6                              App6 Fdback V1.0                         
+BGFAULT                             . LS  y       y                             1064    0 1064    0 BGFAULT                                                                      
+BGFAULT                             . TP  y   y                                    1    0    1    0 BGFAULT                             BG Fault V2.0                            
+BGMAIN                              . LS  y       y                             1064    0 1064    0 BGMAIN                                                                       
+BGMAIN                              . TP  y   y                                    1    0    1    0 BGMAIN                              Main BG V2.1                             
+BLOWOFF                             . LS  y       y                             1064    0 1064    0 BLOWOFF                                                                      
+BLOWOFF                             . TP  y   y                                    1    0    1    0 BLOWOFF                             Blowoff OFF V1.0                         
+CAP_CHANGE_S233                     . LS  y       y                             1064    0 1064    0 CAP_CHANGE_S233                                                              
+CAP_CHANGE_S233                     . TP  y   y                                    1    0    1    0 CAP_CHANGE_S233                     Cap Change V1.1                          
+CBPARAM                             . VA  y       y                             1067    0 1063    0 CBPARAM                                                                      
+CBPARAM                             . VR  y   y       y       y                 1066    0    0    0 CBPARAM                                                                      
+CC_AUT01                            . LS  y       y                             1064    0 1064    0 CC_AUT01                                                                     
+CC_AUT01                            . TP  y   y                                    1    0    1    0 CC_AUT01                            CpChng Auto v1.1                         
+CC_AUT01_OLD                        . LS  y       y                             1064    0 1064    0 CC_AUT01_OLD                                                                 
+CC_AUT01_OLD                        . TP  y   y                                    1    0    1    0 CC_AUT01_OLD                        CpChng Auto v1.1                         
+CC_CLOSEREM                         . LS  y       y                             1064    0 1064    0 CC_CLOSEREM                                                                  
+CC_CLOSEREM                         . TP  y   y                                    1    0    1    0 CC_CLOSEREM                         CloseRemoverV1.2                         
+CC_INITSETP                         . LS  y       y                             1064    0 1064    0 CC_INITSETP                                                                  
+CC_INITSETP                         . TP  y   y                                    1    0    1    0 CC_INITSETP                         CCInitSetup V1.0                         
+CC_MAGCHK                           . LS  y       y                             1064    0 1064    0 CC_MAGCHK                                                                    
+CC_MAGCHK                           . TP  y   y                                    1    0    1    0 CC_MAGCHK                           CC Mag Chk V1.0                          
+CC_MAN01                            . LS  y       y                             1064    0 1064    0 CC_MAN01                                                                     
+CC_MAN01                            . TP  y   y                                    1    0    1    0 CC_MAN01                            CpChng Man V1.0                          
+CC_MANSELCT                         . LS  y       y                             1064    0 1064    0 CC_MANSELCT                                                                  
+CC_MANSELCT                         . TP  y   y                                    1    0    1    0 CC_MANSELCT                         CC Man Slct V1.0                         
+CC_OPENREM                          . LS  y       y                             1064    0 1064    0 CC_OPENREM                                                                   
+CC_OPENREM                          . TP  y   y                                    1    0    1    0 CC_OPENREM                          OpenRemover V1.0                         
+CC_POUNC                            . LS  y       y                             1064    0 1064    0 CC_POUNC                                                                     
+CC_POUNC                            . TP  y   y                                    1    0    1    0 CC_POUNC                            TD Pounce V1.0                           
+CC_POUNC_OLD                        . LS  y       y                             1064    0 1064    0 CC_POUNC_OLD                                                                 
+CC_POUNC_OLD                        . TP  y   y                                    1    0    1    0 CC_POUNC_OLD                        TD Pounce V1.0                           
+CC_RSTSTEPG1                        . LS  y       y                             1064    0 1064    0 CC_RSTSTEPG1                                                                 
+CC_RSTSTEPG1                        . TP  y   y                                    1    0    1    0 CC_RSTSTEPG1                        Rst Step G1 V1.1                         
+CC_SELCT                            . LS  y       y                             1064    0 1064    0 CC_SELCT                                                                     
+CC_SELCT                            . TP  y   y                                    1    0    1    0 CC_SELCT                            TpChng Slct V1.0                         
+CELLIO                              . SV  y   y                                 1066    0    3   27 *SYSTEM*                            BU: cell io data                         
+CELLIO                              . VA  y       y                             1067    0 1063   27 *SYSTEM*                            BU: cell io data                         
+CHKDSKFR                            . DG                                      y 1084    0 1084    0 CHKDSK                              CHKDSK FR:                               
+CHKDSKMC                            . DG                                      y 1085    0 1085    0 CHKDSK                              SCHKDSK MC:                              
+CHKDSKUD                            . DG                                      y 1086    0 1086    0 CHKDSK                              CHKDSK UD1:                              
+CHKNOPRT                            . LS  y       y                             1064    0 1064    0 CHKNOPRT                                                                     
+CHKNOPRT                            . TP  y   y                                    1    0    1    0 CHKNOPRT                            ChkForNoPartV1.0                         
+CHKPART                             . LS  y       y                             1064    0 1064    0 CHKPART                                                                      
+CHKPART                             . TP  y   y                                    1    0    1    0 CHKPART                             ChkForParts V1.0                         
+CLSKP                               . LS  y       y                             1064    0 1064    0 CLSKP                                                                        
+CLSKP                               . TP  y   y                                    1    0    1    0 CLSKP                                                                        
+CLSKP_EX                            . LS  y       y                             1064    0 1064    0 CLSKP_EX                                                                     
+CLSKP_EX                            . TP  y   y                                    1    0    1    0 CLSKP_EX                                                                     
+CLSKP_G1                            . LS  y       y                             1064    0 1064    0 CLSKP_G1                                                                     
+CLSKP_G1                            . TP  y   y                                    1    0    1    0 CLSKP_G1                            set skip cond g1                         
+CLSKP_G2                            . LS  y       y                             1064    0 1064    0 CLSKP_G2                                                                     
+CLSKP_G2                            . TP  y   y                                    1    0    1    0 CLSKP_G2                            set skip cond g2                         
+CLSKP_G3                            . LS  y       y                             1064    0 1064    0 CLSKP_G3                                                                     
+CLSKP_G3                            . TP  y   y                                    1    0    1    0 CLSKP_G3                            set skip cond g3                         
+CLSKP_G4                            . LS  y       y                             1064    0 1064    0 CLSKP_G4                                                                     
+CLSKP_G4                            . TP  y   y                                    1    0    1    0 CLSKP_G4                            set skip cond g4                         
+CLSKP_G5                            . LS  y       y                             1064    0 1064    0 CLSKP_G5                                                                     
+CLSKP_G5                            . TP  y   y                                    1    0    1    0 CLSKP_G5                            set skip cond g5                         
+CLSKP_G6                            . LS  y       y                             1064    0 1064    0 CLSKP_G6                                                                     
+CLSKP_G6                            . TP  y   y                                    1    0    1    0 CLSKP_G6                            set skip cond g6                         
+CLSKP_G7                            . LS  y       y                             1064    0 1064    0 CLSKP_G7                                                                     
+CLSKP_G7                            . TP  y   y                                    1    0    1    0 CLSKP_G7                            set skip cond g7                         
+CLSKP_G8                            . LS  y       y                             1064    0 1064    0 CLSKP_G8                                                                     
+CLSKP_G8                            . TP  y   y                                    1    0    1    0 CLSKP_G8                            set skip cond g8                         
+COMSET                              . VA  y       y                             1067    0 1063    0 COMSET                                                                       
+COMSET                              . VR  y   y       y       y                 1066    0    0    0 COMSET                                                                       
+CONSLOG                             . DG  y   y       y                   y   y 1066    0 1006    0 CONS:CONSLOG.LS                     System Console LOG                  CONS:
+CONSTAIL                            . DG  y                                   y 1067    0 1007    0 CONS:CONSTAIL.LS                    Last page of Console Log            CONS:
+CTMENU                              . DG  y                                   y 1067    0 1032    0 CTMENU                              CRT Menus                                
+CTQMENU                             . DG  y                                   y 1067    0 1034    0 CTQMENU                             CRT Quick Menus                          
+CURPOS                              . DG  y                                   y 1067    0 1012    0 CURPOS                              Current Robot position                   
+CW_CHECK                            . LS  y       y                             1064    0 1064    0 CW_CHECK                                                                     
+CW_CHECK                            . TP  y   y                                    1    0    1    0 CW_CHECK                            CapWearCheckV1.0                         
+CW_UPDAT                            . LS  y       y                             1064    0 1064    0 CW_UPDAT                                                                     
+CW_UPDAT                            . TP  y   y                                    1    0    1    0 CW_UPDAT                            CapWearUpdatV1.0                         
+CW_VALID                            . LS  y       y                             1064    0 1064    0 CW_VALID                                                                     
+CW_VALID                            . TP  y   y                                    1    0    1    0 CW_VALID                            CapWearValidV1.0                         
+DCSCHG01                            . DG  y   y       y                   y     1066    0   12    1 MD:SUMMARY.DG                       DCS verify diff                     MD:  
+DCSCHG02                            . DG  y   y       y                   y     1066    0   12    2 MD:SUMMARY.DG                       DCS verify diff                     MD:  
+DCSCHG03                            . DG  y   y       y                   y     1066    0   12    3 MD:SUMMARY.DG                       DCS verify diff                     MD:  
+DCSDIFF                             . DG  y   y       y                   y     1066    0   12    2 MD:SUMMARY.DG                       DCS verify diff                     MD:  
+DCSIOC                              . SV  y   y                                 1066    0    3   80 *SYSTEM*                            DCS I/O Connect                          
+DCSIOC                              . VA  y       y                             1067    0 1063   80 *SYSTEM*                            DCS I/O Connect                          
+DCSPOS                              . SV  y   y                                 1066    0    3   81 *SYSTEM*                            DCS Pos./Speed check                     
+DCSPOS                              . VA  y       y                             1067    0 1063   81 *SYSTEM*                            DCS Pos./Speed check                     
+DCSVRFY                             . DG  y   y       y                   y     1066    0   12    1 MD:SUMMARY.DG                       DCS verify all                      MD:  
+DCS_BUY_OFF                         . PC  y   y       y       y                 1066    0   14    0 FR6:*.PC                                                                FR6:\
+DCS_BUY_OFF                         . VA  y       y                             1067    0 1063    0 DCS_BUY_OFF                                                                  
+DCS_BUY_OFF                         . VR  y   y       y       y                 1066    0    0    0 DCS_BUY_OFF                                                                  
+DCS_BUY_OFF_AFLOCK                  . PC  y   y       y       y                 1066    0   14    0 FR6:*.PC                                                                FR6:\
+DCS_BUY_OFF_AFLOCK                  . VA  y       y                             1067    0 1063    0 DCS_BUY_OFF_AFLOCK                                                           
+DCS_BUY_OFF_AFLOCK                  . VR  y   y       y       y                 1066    0    0    0 DCS_BUY_OFF_AFLOCK                                                           
+DCS_CONS_NAM                        . PC  y   y       y       y                 1066    0   14    0 FR6:*.PC                                                                FR6:\
+DCS_CONS_NAM                        . VA  y       y                             1067    0 1063    0 DCS_CONS_NAM                                                                 
+DCS_CONS_NAM                        . VR  y   y       y       y                 1066    0    0    0 DCS_CONS_NAM                                                                 
+DCS_CONS_TYP                        . PC  y   y       y       y                 1066    0   14    0 FR6:*.PC                                                                FR6:\
+DCS_CONS_TYP                        . VA  y       y                             1067    0 1063    0 DCS_CONS_TYP                                                                 
+DCS_CONS_TYP                        . VR  y   y       y       y                 1066    0    0    0 DCS_CONS_TYP                                                                 
+DCS_CONS_VAL                        . PC  y   y       y       y                 1066    0   14    0 FR6:*.PC                                                                FR6:\
+DCS_CONS_VAL                        . VA  y       y                             1067    0 1063    0 DCS_CONS_VAL                                                                 
+DCS_CONS_VAL                        . VR  y   y       y       y                 1066    0    0    0 DCS_CONS_VAL                                                                 
+DF_LOGI1                            . DF  y   y                                    1    1    1    0 DF_LOGI1                            Default data                             
+DF_LOGI2                            . DF  y   y                                    1    1    1    0 DF_LOGI2                            Default data                             
+DF_LOGI3                            . DF  y   y                                    1    1    1    0 DF_LOGI3                            Default data                             
+DF_LOGI4                            . DF  y   y                                    1    1    1    0 DF_LOGI4                            Default data                             
+DF_LOGI5                            . DF  y   y                                    1    1    1    0 DF_LOGI5                            Default data                             
+DF_LOGI6                            . DF  y   y                                    1    1    1    0 DF_LOGI6                            Default data                             
+DF_MOTN0                            . DF  y   y                                    1    1    1    0 DF_MOTN0                            Default data                             
+DF_SJ1SE                            . DF  y   y                                    1    1    1    0 DF_SJ1SE                            Default data                             
+DF_SJ1SS                            . DF  y   y                                    1    1    1    0 DF_SJ1SS                            Default data                             
+DIOCFGSV                            . IO  y   y                                 1066    0    2    0 DIO_____MAIN                        IO Configuration                         
+DIOCFGSV                            . VA  y                                   y 1067    0 1003    0 DIOCFGSV                                                                     
+DOBWDEXIT                           . VA  y       y                             1067    0 1063    0 DOBWDEXIT                                                                    
+DOBWDEXIT                           . VR  y   y       y       y                 1066    0    0    0 DOBWDEXIT                                                                    
+DOBWDEXITG1                         . VA  y       y                             1067    0 1063    0 DOBWDEXITG1                                                                  
+DOBWDEXITG1                         . VR  y   y       y       y                 1066    0    0    0 DOBWDEXITG1                                                                  
+DOBWDEXITG2                         . VA  y       y                             1067    0 1063    0 DOBWDEXITG2                                                                  
+DOBWDEXITG2                         . VR  y   y       y       y                 1066    0    0    0 DOBWDEXITG2                                                                  
+DROPPART                            . LS  y       y                             1064    0 1064    0 DROPPART                                                                     
+DROPPART                            . TP  y   y                                    1    0    1    0 DROPPART                            ReleasePartsV1.0                         
+DSP_WEBP                            . LS  y       y                             1064    0 1064    0 DSP_WEBP                                                                     
+DSP_WEBP                            . TP  y   y                                    1    0    1    0 DSP_WEBP                            Display web page                         
+ECHOOPTN                            . LS  y       y                             1064    0 1064    0 ECHOOPTN                                                                     
+ECHOOPTN                            . TP  y   y                                    1    0    1    0 ECHOOPTN                            Echo Option V2.0                         
+ECHOSTYL                            . LS  y       y                             1064    0 1064    0 ECHOSTYL                                                                     
+ECHOSTYL                            . TP  y   y                                    1    0    1    0 ECHOSTYL                            Echo Style V2.0                          
+EIPCFG                              .XML  y   y                                 1066    0   11    0 FRS:\EIPCFG.XML                     EIP UDT Export                      FRS:\
+EIPLOG                              . DG  y   y       y                   y     1066    0   12    0 MD:SUMMARY.DG                       EtherNet/IP diag                    MD:  
+EMAIL                               . DG  y   y                                 1066    0   12    0 *SYSTEM*                            Email Templates                          
+ENTRFIXT                            . LS  y       y                             1064    0 1064    0 ENTRFIXT                                                                     
+ENTRFIXT                            . TP  y   y                                    1    0    1    0 ENTRFIXT                            Enter Fixt V2.2                          
+ENTRZONE                            . LS  y       y                             1064    0 1064    0 ENTRZONE                                                                     
+ENTRZONE                            . TP  y   y                                    1    0    1    0 ENTRZONE                            Enter Zone V2.2                          
+EQUIP1                              .TXT  y   y       y                   y     1066    0   12    0 MD:SUMMARY.DG                       equip data files                    TD:  
+ERRACT                              . LS  y   y       y               y         1067    0 1068    0 *SYSTEM*                            Active ERRORS                            
+ERRALL                              . LS  y   y       y               y         1067    0 1068    0 *SYSTEM*                            All Errors                               
+ERRAPP                              . LS  y   y       y               y         1067    0 1068    0 *SYSTEM*                            Appl Errors                              
+ERRCOMM                             . LS  y   y       y               y         1067    0 1068    0 *SYSTEM*                            Comm Errors                              
+ERRCURR                             . LS  y   y       y               y         1067    0 1068    0 *SYSTEM*                            Active F&I Data                          
+ERREXT                              . LS  y   y       y               y         1067    0 1068    0 *SYSTEM*                            Ext Error Log                            
+ERRHIST                             . LS  y   y       y               y         1067    0 1068    0 *SYSTEM*                            Total F&I Data                           
+ERRMOT                              . LS  y   y       y               y         1067    0 1068    0 *SYSTEM*                            Motion Errors                            
+ERRPWD                              . LS  y   y       y               y         1067    0 1068    0 *SYSTEM*                            Password Errors                          
+ERRSYS                              . LS  y   y       y               y         1067    0 1068    0 *SYSTEM*                            System Errors                            
+ESTP_ADJ                            . VA  y       y                             1067    0 1063    0 ESTP_ADJ                                                                     
+ESTP_ADJ                            . VR  y   y       y       y                 1066    0    0    0 ESTP_ADJ                                                                     
+ETHERNET                            . DG  y   y       y                   y   y 1066    0 1015    0 ETHERNET                            Ethernet Configuration                   
+EXITFIXT                            . LS  y       y                             1064    0 1064    0 EXITFIXT                                                                     
+EXITFIXT                            . TP  y   y                                    1    0    1    0 EXITFIXT                            Exit Fixt V2.1                           
+EXITZONE                            . LS  y       y                             1064    0 1064    0 EXITZONE                                                                     
+EXITZONE                            . TP  y   y                                    1    0    1    0 EXITZONE                            Exit Zone V2.2                           
+EXT1                                . DT  y   y                                 1066    0   11 32767 FRS:EXT*.DT                                                             FRS:\
+FLEXEVENT                           . DG  y   y       y                   y     1066    0   12    1 MD:SUMMARY.DG                       FLEX UIF Event Log                  MD:  
+FLEXUIF                             .XML  y   y                                 1066    0   12    0 *SYSTEM*                            FlexUI Data Base                    MD:  
+FRAME                               . DG  y                                   y 1067    0 1026    0 FRAME                               FRAME/TOOL Information                   
+FRAMEVAR                            . VA                                      y 1067    0 1063    0 TPFDEF                              Tool setup data                          
+FRAMEVAR                            . VR  y   y                                 1066    0    0    0 TPFDEF                              FRAME Vars                               
+FTPLOG                              . DG  y   y       y                   y     1066    0   12   22 MD:SUMMARY.DG                       Comment TBD                              
+G4G                                 . VA                                      y 1067    0 1076    0 G4G                                 Genkotsu Learn Ctrl                      
+GEMDATA                             . VA  y       y                             1067    0 1063    0 GEMDATA                                                                      
+GEMDATA                             . VR  y   y       y       y                 1066    0    0    0 GEMDATA                                                                      
+GETDATA                             . LS  y       y                             1064    0 1064    0 GETDATA                                                                      
+GETDATA                             . TP  y   y                                    1    0    1    0 GETDATA                             Get PC Data                              
+GIGELOG                             . DG  y   y       y                   y     1066    0   12    0 MD:SUMMARY.DG                       GigE Diagnostic Log                 MD:  
+GRAPHICS4D                          . DG  y   y       y                   y     1066    0   12    5 MD:SUMMARY.DG                       4D Graphics Files                   MD:  
+GRIPPART                            . LS  y       y                             1064    0 1064    0 GRIPPART                                                                     
+GRIPPART                            . TP  y   y                                    1    0    1    0 GRIPPART                            Pick Up Parts                            
+GTPRSLOG                            . VA  y       y                             1067    0 1063    0 GTPRSLOG                                                                     
+GTPRSLOG                            . VR  y   y       y       y                 1066    0    0    0 GTPRSLOG                                                                     
+GUN1                                .ZIP  y   y       y                   y     1066    0   12    0 MD:SUMMARY.DG                       Gun data files                      TD:  
+GUN2                                .ZIP  y   y       y                   y     1066    0   12    0 MD:SUMMARY.DG                       Gun data files                      TD:  
+GUN3                                .ZIP  y   y       y                   y     1066    0   12    0 MD:SUMMARY.DG                       Gun data files                      TD:  
+HIST                                . LS  y   y       y               y       y 1067    0 1058    0 HIST                                                                         
+HISTRST                             . LS                                      y 1067    0 1059    0 HISTRST                                                                      
+HMIOAPP1                            . LS  y       y                             1064    0 1064    0 HMIOAPP1                                                                     
+HMIOAPP1                            . TP  y   y                                    1    0    1    0 HMIOAPP1                            Hm I-O App1 V1.0                         
+HMIOAPP2                            . LS  y       y                             1064    0 1064    0 HMIOAPP2                                                                     
+HMIOAPP2                            . TP  y   y                                    1    0    1    0 HMIOAPP2                            Hm I-O App2 V1.0                         
+HMIOAPP3                            . LS  y       y                             1064    0 1064    0 HMIOAPP3                                                                     
+HMIOAPP3                            . TP  y   y                                    1    0    1    0 HMIOAPP3                            Hm I-O App3 V1.0                         
+HMIOAPP4                            . LS  y       y                             1064    0 1064    0 HMIOAPP4                                                                     
+HMIOAPP4                            . TP  y   y                                    1    0    1    0 HMIOAPP4                            Hm I-O App4 V1.0                         
+HMIOAPP5                            . LS  y       y                             1064    0 1064    0 HMIOAPP5                                                                     
+HMIOAPP5                            . TP  y   y                                    1    0    1    0 HMIOAPP5                            Hm I-O App5 V1.0                         
+HMIOAPP6                            . LS  y       y                             1064    0 1064    0 HMIOAPP6                                                                     
+HMIOAPP6                            . TP  y   y                                    1    0    1    0 HMIOAPP6                            Hm I-O App6 V1.0                         
+HMIOCSTM                            . LS  y       y                             1064    0 1064    0 HMIOCSTM                                                                     
+HMIOCSTM                            . TP  y   y                                    1    0    1    0 HMIOCSTM                            Cstm Hm I-O V2.0                         
+HOMEUB10200RBT01                    . LS  y       y                             1064    0 1064    0 HOMEUB10200RBT01                                                             
+HOMEUB10200RBT01                    . TP  y   y                                    1    0    1    0 HOMEUB10200RBT01                                                             
+HOME_IO                             . LS  y       y                             1064    0 1064    0 HOME_IO                                                                      
+HOME_IO                             . TP  y   y                                    1    0    1    0 HOME_IO                             Home I-O V2.5                            
+HTTPKCL                             . VA  y       y                             1067    0 1063    0 HTTPKCL                                                                      
+HTTPKCL                             . VR  y   y       y       y                 1066    0    0    0 HTTPKCL                                                                      
+IAHAND                              . SV  y   y                                 1066    0    3   34 *SYSTEM*                            IA Vars                                  
+IAHAND                              . VA  y       y                             1067    0 1063   34 *SYSTEM*                            IA Vars                                  
+IOCONFIG                            . DG  y                                   y 1067    0 1011    0 IOCONFIG                            IO configuration                         
+IOCONFIG                            . DT          y                           y 1067    0 1071    0 IOCONFIG                            IO configuration                         
+IOSTATE                             . DG  y                                   y 1067    0 1009    0 IOSTATE                             Current IO values                        
+IOSTATUS                            . CM  y   y       y               y       y 1067    0 1061    0 IOSTATUS                                                                     
+IPKDMP                              .ZIP  y   y       y                   y     1066    0    6    0 IPKDMP.ZIP                          TP Exception                        FR6: 
+IPRNGSET                            . VA  y       y                             1067    0 1063    0 IPRNGSET                                                                     
+IPRNGSET                            . VR  y   y       y       y                 1066    0    0    0 IPRNGSET                                                                     
+IPRNGSHO                            . VA  y       y                             1067    0 1063    0 IPRNGSHO                                                                     
+IPRNGSHO                            . VR  y   y       y       y                 1066    0    0    0 IPRNGSHO                                                                     
+IRC_COUNTER                         . VA  y       y                             1067    0 1063    0 IRC_COUNTER                                                                  
+IRC_COUNTER                         . VR  y   y       y       y                 1066    0    0    0 IRC_COUNTER                                                                  
+IRC_MSG                             . VA  y       y                             1067    0 1063    0 IRC_MSG                                                                      
+IRC_MSG                             . VR  y   y       y       y                 1066    0    0    0 IRC_MSG                                                                      
+IRC_STATUS                          . VA  y       y                             1067    0 1063    0 IRC_STATUS                                                                   
+IRC_STATUS                          . VR  y   y       y       y                 1066    0    0    0 IRC_STATUS                                                                   
+IRC_STLABEL                         . VA  y       y                             1067    0 1063    0 IRC_STLABEL                                                                  
+IRC_STLABEL                         . VR  y   y       y       y                 1066    0    0    0 IRC_STLABEL                                                                  
+IRDG_REPORT                         . DG  y   y       y                   y     1066    0   12    1 MD:SUMMARY.DG                       iRDiagnostics Report                MD:  
+KLACTION                            . VA  y       y                             1067    0 1063    0 KLACTION                                                                     
+KLACTION                            . VR  y   y       y       y                 1066    0    0    0 KLACTION                                                                     
+LISTMENU                            . LS  y       y                             1064    0 1064    0 LISTMENU                                                                     
+LISTMENU                            . TP  y   y                                    1    0    1    0 LISTMENU                            LIST MENU MACRO                          
+LOGBOOK                             . LS  y   y       y               y         1067    0 1068    0 LOGBOOK                             Operation logbook                        
+M9B7                                . DT  y   y                                 1066    0    6 32767 FRS:M9B7.DT                                                             FRS:\
+MACRO                               . DG  y                                   y 1067    0 1024    0 MACRO                               MACRO Definition                         
+MAINT_S230                          . LS  y       y                             1064    0 1064    0 MAINT_S230                                                                   
+MAINT_S230                          . TP  y   y                                    1    0    1    0 MAINT_S230                          Move2 Maint V2.2                         
+MAINT_S230_SPOT                     . LS  y       y                             1064    0 1064    0 MAINT_S230_SPOT                                                              
+MAINT_S230_SPOT                     . TP  y   y                                    1    0    1    0 MAINT_S230_SPOT                     Move2 Maint V2.3                         
+MASKROUTFIX                         . PC  y   y       y       y                 1066    0   14    0 FR6:*.PC                                                                FR6:\
+MASKROUTFIX                         . VA  y       y                             1067    0 1063    0 MASKROUTFIX                                                                  
+MASKROUTFIX                         . VR  y   y       y       y                 1066    0    0    0 MASKROUTFIX                                                                  
+MEMCHECK                            . DG  y   y       y                   y     1066    0   12    0 MD:SUMMARY.DG                       Memory Data                         MD:  
+MEMORY                              . DG  y                                   y 1067    0 1013    0 MEMORY                              Current Memory usage                     
+MENU101                             . VA  y       y                             1067    0 1063    0 MENU101                                                                      
+MENU101                             . VR  y   y       y       y                 1066    0    0    0 MENU101                                                                      
+MENU201                             . VA  y       y                             1067    0 1063    0 MENU201                                                                      
+MENU201                             . VR  y   y       y       y                 1066    0    0    0 MENU201                                                                      
+MENU210                             . VA  y       y                             1067    0 1063    0 MENU210                                                                      
+MENU210                             . VR  y   y       y       y                 1066    0    0    0 MENU210                                                                      
+MENU301                             . VA  y       y                             1067    0 1063    0 MENU301                                                                      
+MENU301                             . VR  y   y       y       y                 1066    0    0    0 MENU301                                                                      
+MENU310                             . VA  y       y                             1067    0 1063    0 MENU310                                                                      
+MENU310                             . VR  y   y       y       y                 1066    0    0    0 MENU310                                                                      
+MENU311                             . VA  y       y                             1067    0 1063    0 MENU311                                                                      
+MENU311                             . VR  y   y       y       y                 1066    0    0    0 MENU311                                                                      
+MENU312                             . VA  y       y                             1067    0 1063    0 MENU312                                                                      
+MENU312                             . VR  y   y       y       y                 1066    0    0    0 MENU312                                                                      
+MENU313                             . VA  y       y                             1067    0 1063    0 MENU313                                                                      
+MENU313                             . VR  y   y       y       y                 1066    0    0    0 MENU313                                                                      
+MENU314                             . VA  y       y                             1067    0 1063    0 MENU314                                                                      
+MENU314                             . VR  y   y       y       y                 1066    0    0    0 MENU314                                                                      
+MENU315                             . VA  y       y                             1067    0 1063    0 MENU315                                                                      
+MENU315                             . VR  y   y       y       y                 1066    0    0    0 MENU315                                                                      
+MENU316                             . VA  y       y                             1067    0 1063    0 MENU316                                                                      
+MENU316                             . VR  y   y       y       y                 1066    0    0    0 MENU316                                                                      
+MENU401                             . VA  y       y                             1067    0 1063    0 MENU401                                                                      
+MENU401                             . VR  y   y       y       y                 1066    0    0    0 MENU401                                                                      
+MENU501                             . VA  y       y                             1067    0 1063    0 MENU501                                                                      
+MENU501                             . VR  y   y       y       y                 1066    0    0    0 MENU501                                                                      
+MENU510                             . VA  y       y                             1067    0 1063    0 MENU510                                                                      
+MENU510                             . VR  y   y       y       y                 1066    0    0    0 MENU510                                                                      
+MENU511                             . VA  y       y                             1067    0 1063    0 MENU511                                                                      
+MENU511                             . VR  y   y       y       y                 1066    0    0    0 MENU511                                                                      
+MENU512                             . VA  y       y                             1067    0 1063    0 MENU512                                                                      
+MENU512                             . VR  y   y       y       y                 1066    0    0    0 MENU512                                                                      
+MENUTEST                            . LS  y       y                             1064    0 1064    0 MENUTEST                                                                     
+MENUTEST                            . TP  y   y                                    1    0    1    0 MENUTEST                            Example menus                            
+MHGRIPDT                            . VA  y       y                             1067    0 1063    0 MHGRIPDT                                                                     
+MHGRIPDT                            . VR  y   y       y       y                 1066    0    0    0 MHGRIPDT                                                                     
+MHMENU                              . VA  y       y                             1067    0 1063    0 MHMENU                                                                       
+MHMENU                              . VR  y   y       y       y                 1066    0    0    0 MHMENU                                                                       
+MIXLOGIC                            . SV  y   y                                 1066    0    3   53 *SYSTEM*                            MIXED LOGIC                              
+MIXLOGIC                            . VA  y       y                             1067    0 1063   53 *SYSTEM*                            MIXED LOGIC                              
+MOV_HOME                            . LS  y       y                             1064    0 1064    0 MOV_HOME                                                                     
+MOV_HOME                            . TP  y   y                                    1    0    1    0 MOV_HOME                            Move 2 Home V2.1                         
+NOTIFY                              . DG  y   y       y                   y     1066    0   12    0 MD:SUMMARY.DG                       Notifications                       MD:  
+NUMREG                              . VA  y       y                             1067    0 1063    0 *NUMREG*                            Numeric REGS                             
+NUMREG                              . VR  y   y                                 1066    0    0    0 *NUMREG*                            Numeric REGS                             
+OKTOPICK                            . LS  y       y                             1064    0 1064    0 OKTOPICK                                                                     
+OKTOPICK                            . TP  y   y                                    1    0    1    0 OKTOPICK                            ChkOKtoPick V1.0                         
+OPENSGG2                            . LS  y       y                             1064    0 1064    0 OPENSGG2                                                                     
+OPENSGG2                            . TP  y   y                                    1    0    1    0 OPENSGG2                            Open SG G2 V1.1                          
+OPERMENU                            . LS  y       y                             1064    0 1064    0 OPERMENU                                                                     
+OPERMENU                            . TP  y   y                                    1    0    1    0 OPERMENU                            Entry Menu Macro                         
+ORDERFIL                            .DAT  y   y                               y 1067    0    6    0 FRS:ORDERFIL.DAT                                                        FRS: 
+OSSTAT                              . DG  y                                   y 1067    0 1097    0 OSSTAT                              OS Packet Stats                          
+PASSCFG                             . DG  y                                   y 1067    0 1051    0 PASSCFG                             Password Configuration                   
+PLCFCAL                             . VA  y       y                             1067    0 1063    0 PLCFCAL                                                                      
+PLCFCAL                             . VR  y   y       y       y                 1066    0    0    0 PLCFCAL                                                                      
+PLCFMOV                             . VA  y       y                             1067    0 1063    0 PLCFMOV                                                                      
+PLCFMOV                             . VR  y   y       y       y                 1066    0    0    0 PLCFMOV                                                                      
+PMCCFG                              . SV  y   y                                 1066    0    3   12 *SYSTEM*                            PMC Sysvar                               
+PMCCFG                              . VA  y       y                             1067    0 1063   12 *SYSTEM*                            PMC Sysvar                               
+PORT                                . DG  y                                   y 1067    0 1014    0 PORT                                Serial Port Config                       
+POSREG                              . VA  y       y                             1067    0 1063    0 *POSREG*                            Pos Registers                            
+POSREG                              . VR  y   y                                 1066    0    0    0 *POSREG*                            Pos Registers                            
+PRCSWSUM                            .CSV  y   y       y                   y     1066    0   12  101 MD:SUMMARY.DG                       Spot App process log CSV            MD:  
+PRCSWSUM                            . DG  y   y       y                   y     1066    0   12    1 MD:SUMMARY.DG                       Spot App process log                MD:  
+PRGSTATE                            . DG  y                                   y 1067    0 1010    0 PRGSTATE                            Current Program States                   
+PRLOGMONOVER                        . LS  y       y                             1064    0 1064    0 PRLOGMONOVER                                                                 
+PRLOGMONOVER                        . TP  y   y                                    1    0    1    0 PRLOGMONOVER                                                                 
+PROMPTOK                            . LS  y       y                             1064    0 1064    0 PROMPTOK                                                                     
+PROMPTOK                            . TP  y   y                                    1    0    1    0 PROMPTOK                            Prompt box OK                            
+PROMPTYN                            . LS  y       y                             1064    0 1064    0 PROMPTYN                                                                     
+PROMPTYN                            . TP  y   y                                    1    0    1    0 PROMPTYN                            Prompt Box Y N                           
+PSRBWLD                             . CM  y   y       y                   y     1066    0   11    0 FRS:\PSRBWLD.CM                     PS_ROBOWELD                         FRS:\
+RCMCFG                              .XML  y   y                                 1066    0   12    0 *SYSTEM*                            iRConnect Config                         
+RCMERR                              . DG  y   y       y                   y     1066    0   12    0 MD:SUMMARY.DG                       RCMCFG Error Details                MD:  
+RCMSGLIB                            . DG  y   y       y                   y     1066    0   12    0 MD:SUMMARY.DG                       RCMSGLIB Statistics                 MD:  
+REPTCD                              . DG  y                                   y 1067    0 1029    0 REPTCD                              Report TCD information                   
+REQMENU                             . LS  y       y                             1064    0 1064    0 REQMENU                                                                      
+REQMENU                             . TP  y   y                                    1    0    1    0 REQMENU                             Request PC Menu                          
+RET_HOME                            . LS  y       y                             1064    0 1064    0 RET_HOME                                                                     
+RET_HOME                            . TP  y   y                                    1    0    1    0 RET_HOME                            Rtrn Pnce 2 Home                         
+RET_PICK                            . LS  y       y                             1064    0 1064    0 RET_PICK                                                                     
+RET_PICK                            . TP  y   y                                    1    0    1    0 RET_PICK                            Rtrn Pick 2 Home                         
+RIPELOG                             . DG  y   y       y                   y     1066    0   12    2 MD:SUMMARY.DG                       RIPE Packet Log                     MD:  
+RIPESTAT                            . DG  y   y       y                   y     1066    0   12    1 MD:SUMMARY.DG                       RIPE Status                         MD:  
+RIV_BACK                            . PC  y   y       y       y                 1066    0   14    0 FR6:*.PC                                                                FR6:\
+RIV_BACK                            . VA  y       y                             1067    0 1063    0 RIV_BACK                                                                     
+RIV_BACK                            . VR  y   y       y       y                 1066    0    0    0 RIV_BACK                                                                     
+RLSETMTR                            . VA  y       y                             1067    0 1063    0 RLSETMTR                                                                     
+RLSETMTR                            . VR  y   y       y       y                 1066    0    0    0 RLSETMTR                                                                     
+RLSVEXGEN6                          . VA  y       y                             1067    0 1063    0 RLSVEXGEN6                                                                   
+RLSVEXGEN6                          . VR  y   y       y       y                 1066    0    0    0 RLSVEXGEN6                                                                   
+RLSVRLUT                            . VA  y       y                             1067    0 1063    0 RLSVRLUT                                                                     
+RLSVRLUT                            . VR  y   y       y       y                 1066    0    0    0 RLSVRLUT                                                                     
+S012POUNC                           . LS  y       y                             1064    0 1064    0 S012POUNC                                                                    
+S012POUNC                           . TP  y   y                                    1    0    1    0 S012POUNC                                                                    
+S012SSW01                           . LS  y       y                             1064    0 1064    0 S012SSW01                                                                    
+S012SSW01                           . TP  y   y                                    1    0    1    0 S012SSW01                                                                    
+S230POUNC                           . LS  y       y                             1064    0 1064    0 S230POUNC                                                                    
+S230POUNC                           . TP  y   y                                    1    0    1    0 S230POUNC                           Maint Pounce                             
+SECLOG                              . DG  y   y                                 1066    0   12    0 *SYSTEM*                            Security Log                             
+SENDDATA                            . LS  y       y                             1064    0 1064    0 SENDDATA                                                                     
+SENDDATA                            . TP  y   y                                    1    0    1    0 SENDDATA                            Send PC Data                             
+SENDEVNT                            . LS  y       y                             1064    0 1064    0 SENDEVNT                                                                     
+SENDEVNT                            . TP  y   y                                    1    0    1    0 SENDEVNT                            Send PC Event                            
+SENDSYSV                            . LS  y       y                             1064    0 1064    0 SENDSYSV                                                                     
+SENDSYSV                            . TP  y   y                                    1    0    1    0 SENDSYSV                            Send PC SysVar                           
+SETSKCKL                            . VA  y       y                             1067    0 1063    0 SETSKCKL                                                                     
+SETSKCKL                            . VR  y   y       y       y                 1066    0    0    0 SETSKCKL                                                                     
+SETSKCOL                            . LS  y       y                             1064    0 1064    0 SETSKCOL                                                                     
+SETSKCOL                            . TP  y   y                                    1    0    1    0 SETSKCOL                            setskipcondition                         
+SET_PATH                            . LS  y       y                             1064    0 1064    0 SET_PATH                                                                     
+SET_PATH                            . TP  y   y                                    1    0    1    0 SET_PATH                            Set Path V2.2                            
+SFIGET                              . VA  y       y                             1067    0 1063    0 SFIGET                                                                       
+SFIGET                              . VR  y   y       y       y                 1066    0    0    0 SFIGET                                                                       
+SFTYSIG                             . DG  y                                   y 1067    0 1008    0 SFTYSIG                             Current Stop Signals                     
+SGATUNCS                            . VA  y       y                             1067    0 1063    0 SGATUNCS                                                                     
+SGATUNCS                            . VR  y   y       y       y                 1066    0    0    0 SGATUNCS                                                                     
+SGATUNCT                            . VA  y       y                             1067    0 1063    0 SGATUNCT                                                                     
+SGATUNCT                            . VR  y   y       y       y                 1066    0    0    0 SGATUNCT                                                                     
+SGKTHKCL                            . VA  y       y                             1067    0 1063    0 SGKTHKCL                                                                     
+SGKTHKCL                            . VR  y   y       y       y                 1066    0    0    0 SGKTHKCL                                                                     
+SGLOGVAR                            . SV  y   y       y       y                 1066    0    3  111 *SYSTEM*                            BU: SGLOG data                           
+SGLOGVAR                            . VA  y       y                             1067    0 1063  111 *SYSTEM*                            BU: SGLOG data                           
+SGSCLINI                            . VA  y       y                             1067    0 1063    0 SGSCLINI                                                                     
+SGSCLINI                            . VR  y   y       y       y                 1066    0    0    0 SGSCLINI                                                                     
+SGWRTLO2                            . VA  y       y                             1067    0 1063    0 SGWRTLO2                                                                     
+SGWRTLO2                            . VR  y   y       y       y                 1066    0    0    0 SGWRTLO2                                                                     
+SGWRTLOG                            . VA  y       y                             1067    0 1063    0 SGWRTLOG                                                                     
+SGWRTLOG                            . VR  y   y       y       y                 1066    0    0    0 SGWRTLOG                                                                     
+SHADOW                              . DG  y   y       y                   y     1066    0   12    0 MD:SUMMARY.DG                       Shadow Changes                      MD:  
+SMTPLOG                             . DG  y   y       y                   y     1066    0   12    0 MD:SUMMARY.DG                       SMTP/Email diag                     MD:  
+STARTLOG                            . VA  y       y                             1067    0 1063    0 STARTLOG                                                                     
+STARTLOG                            . VR  y   y       y       y                 1066    0    0    0 STARTLOG                                                                     
+STATPAGE                            . LS  y       y                             1064    0 1064    0 STATPAGE                                                                     
+STATPAGE                            . TP  y   y                                    1    0    1    0 STATPAGE                            StatusMenu Macro                         
+STOPLOG                             . VA  y       y                             1067    0 1063    0 STOPLOG                                                                      
+STOPLOG                             . VR  y   y       y       y                 1066    0    0    0 STOPLOG                                                                      
+STRREG                              . VA  y       y                             1067    0 1063    0 *STRREG*                            String REGS                              
+STRREG                              . VR  y   y                                 1066    0    0    0 *STRREG*                            String REGS                              
+STYLE012                            . LS  y       y                             1064    0 1064    0 STYLE012                                                                     
+STYLE012                            . TP  y   y                                    1    0    1    0 STYLE012                            RPV Main Style                           
+SUMMARY                             . DG  y   y       y                   y   y 1066    0 1045    0 SUMMARY                             Diagnostic summary                       
+SVG2                                . DT  y   y                                 1066    0    6 32767 FRS:SVG2.DT                                                             FRS:\
+SVG2A1                              . DT  y   y                                 1066    0    6 32767 FRS:SVG2A1.DT                                                           FRS:\
+SV_ADJST                            . LS  y       y                             1064    0 1064    0 SV_ADJST                                                                     
+SV_ADJST                            . TP  y   y                                    1    0    1    0 SV_ADJST                            Adjst srvo param                         
+SWCUSTO                             . VA  y       y                             1067    0 1063    0 SWCUSTO                                                                      
+SWCUSTO                             . VR  y   y       y       y                 1066    0    0    0 SWCUSTO                                                                      
+SWCUSTOM                            . VA  y       y                             1067    0 1063    0 SWCUSTOM                                                                     
+SWCUSTOM                            . VR  y   y       y       y                 1066    0    0    0 SWCUSTOM                                                                     
+SWIUPDT                             . VA  y       y                             1067    0 1063    0 SWIUPDT                                                                      
+SWIUPDT                             . VR  y   y       y       y                 1066    0    0    0 SWIUPDT                                                                      
+SWNOCLON                            . VA  y       y                             1067    0 1063    0 SWNOCLON                                                                     
+SWNOCLON                            . VR  y   y       y       y                 1066    0    0    0 SWNOCLON                                                                     
+SWPATDAT                            . VA  y       y                             1067    0 1063    0 SWPATDAT                            BU:Spot App Proc data                    
+SWPATDAT                            . VR  y   y       y       y                 1066    0    3    0 SWPATDAT                            BU:Spot App Proc data                    
+SWREG                               . DG                                      y 1080    0 1080    0 SWREG                                                                        
+SWTRCSET                            . VA  y       y                             1067    0 1063    0 SWTRCSET                                                                     
+SWTRCSET                            . VR  y   y       y       y                 1066    0    0    0 SWTRCSET                                                                     
+SYCLDINT                            . VA  y       y                           y 1067    0 1063    4 *SYSTEM*                            Not Saved Variables                      
+SYMOTN                              . VA  y       y                           y 1066    0 1005    0 *SYSTEM*                            Motion System Variables                  
+SYNOSAVE                            . VA  y                                   y 1067    0 1063  255 *SYSTEM*                            Not  Saved Variables                     
+SYSALL                              . VA                                      y 1067    0 1077    0 *SYSTEM*                            All System Variables                     
+SYSCIPS                             . SV  y   y                                 1066    0    3   79 *SYSTEM*                            CIP Safety                               
+SYSCIPS                             . VA  y       y                             1067    0 1063   79 *SYSTEM*                            CIP Safety                               
+SYSDIST                             . SV  y   y       y       y                 1066    0    3   67 *SYSTEM*                            BU: sg dist data                         
+SYSDIST                             . VA  y       y                             1067    0 1063   67 *SYSTEM*                            BU: sg dist data                         
+SYSEIP                              . SV  y   y                                 1066    0    3   46 *SYSTEM*                            EtherNet/IP                              
+SYSEIP                              . VA  y       y                             1067    0 1063   46 *SYSTEM*                            EtherNet/IP                              
+SYSFRAME                            . SV  y   y                                 1066    0    3   68 *SYSTEM*                            User Frames                              
+SYSFRAME                            . VA  y       y                             1067    0 1063   68 *SYSTEM*                            User Frames                              
+SYSFSAC                             . SV  y   y                                 1066    0    3   11 *SYSTEM*                            SRVR Acc Ctrl                            
+SYSFSAC                             . VA  y       y                             1067    0 1063   11 *SYSTEM*                            SRVR Acc Ctrl                            
+SYSHOST                             . SV  y   y                                 1066    0    3   10 *SYSTEM*                            Network Vars                             
+SYSHOST                             . VA  y       y                             1067    0 1063   10 *SYSTEM*                            Network Vars                             
+SYSMACRO                            . SV  y   y                                 1066    0    3    5 *SYSTEM*                            Macro Definition                         
+SYSMACRO                            . VA  y       y                             1067    0 1063    5 *SYSTEM*                            Macro Definition                         
+SYSMAST                             . SV  y   y                                 1066    0    3    2 *SYSTEM*                            Robot Mastering                          
+SYSMAST                             . VA  y       y                             1067    0 1063    2 *SYSTEM*                            Robot Mastering                          
+SYSPASS                             . SV  y   y                                 1066    0    3    9 *SYSTEM*                            Passwords                                
+SYSPASS                             . VA  y       y                             1067    0 1063    9 *SYSTEM*                            Passwords                                
+SYSPRESS                            . SV  y   y       y       y                 1066    0    3   29 *SYSTEM*                            BU: sg press data                        
+SYSPRESS                            . VA  y       y                             1067    0 1063   29 *SYSTEM*                            BU: sg press data                        
+SYSSEAL                             . SV  y   y       y       y                 1066    0    3   26 *SYSTEM*                                                                     
+SYSSEAL                             . VA  y       y                             1067    0 1063   26 *SYSTEM*                                                                     
+SYSSERVO                            . SV  y   y                                 1066    0    3    3 *SYSTEM*                            Servo Variables                          
+SYSSERVO                            . VA  y       y                             1067    0 1063    3 *SYSTEM*                            Servo Variables                          
+SYSSLIO                             . SV  y   y       y       y                 1066    0    3   33 *SYSTEM*                                                                     
+SYSSLIO                             . VA  y       y                             1067    0 1063   33 *SYSTEM*                                                                     
+SYSSLSCH                            . SV  y   y       y       y                 1066    0    3   32 *SYSTEM*                                                                     
+SYSSLSCH                            . VA  y       y                             1067    0 1063   32 *SYSTEM*                                                                     
+SYSSPOT                             . SV  y   y       y       y                 1066    0    3    6 *SYSTEM*                                                                     
+SYSSPOT                             . VA  y       y                             1067    0 1063    6 *SYSTEM*                                                                     
+SYSSTROK                            . SV  y   y       y       y                 1066    0    3   30 *SYSTEM*                            BU: sg bckup data                        
+SYSSTROK                            . VA  y       y                             1067    0 1063   30 *SYSTEM*                            BU: sg bckup data                        
+SYSSVGN                             . SV  y   y       y       y                 1066    0    3   93 *SYSTEM*                            BU: servo gun                            
+SYSSVGN                             . VA  y       y                             1067    0 1063   93 *SYSTEM*                            BU: servo gun                            
+SYSTEM                              . VA  y       y                           y 1067    0 1004    0 *SYSTEM*                            Non-motion System Variables              
+SYSUIF                              . SV  y   y                                 1066    0    3   82 *SYSTEM*                            User Interface                           
+SYSUIF                              . VA  y       y                             1067    0 1063   82 *SYSTEM*                            User Interface                           
+SYSVARS                             . SV  y   y                                 1066    0    3    1 *SYSTEM*                            System Variables                         
+SYSVARS                             . VA                                      y 1067    0 1076    0 *SYSTEM*                            All System Variables                     
+TASKLIST                            . DG  y                                   y 1067    0 1022    0 TASKLIST                            System Task status                       
+TCHK_RQD                            . LS  y       y                             1064    0 1064    0 TCHK_RQD                                                                     
+TCHK_RQD                            . TP  y   y                                    1    0    1    0 TCHK_RQD                            Thknss chk reqrd                         
+TCHK_SKP                            . LS  y       y                             1064    0 1064    0 TCHK_SKP                                                                     
+TCHK_SKP                            . TP  y   y                                    1    0    1    0 TCHK_SKP                            Skip thknss chk                          
+TDPDRESSCAP                         . LS  y       y                             1064    0 1064    0 TDPDRESSCAP                                                                  
+TDPDRESSCAP                         . TP  y   y                                    1    0    1    0 TDPDRESSCAP                         Dress Cap V1.1                           
+TDPGUN1                             . LS  y       y                             1064    0 1064    0 TDPGUN1                                                                      
+TDPGUN1                             . TP  y   y                                    1    0    1    0 TDPGUN1                             TD Ped Gun1 V1.0                         
+TDRETHOM                            . LS  y       y                             1064    0 1064    0 TDRETHOM                                                                     
+TDRETHOM                            . TP  y   y                                    1    0    1    0 TDRETHOM                            TD Ret Home V2.2                         
+TD_DRESSCAP                         . LS  y       y                             1064    0 1064    0 TD_DRESSCAP                                                                  
+TD_DRESSCAP                         . TP  y   y                                    1    0    1    0 TD_DRESSCAP                         Dress Cap V1.4                           
+TD_DUMP_ADV                         . LS  y       y                             1064    0 1064    0 TD_DUMP_ADV                                                                  
+TD_DUMP_ADV                         . TP  y   y                                    1    0    1    0 TD_DUMP_ADV                         Adv TD Dump V1.1                         
+TD_DUMP_CHECK                       . LS  y       y                             1064    0 1064    0 TD_DUMP_CHECK                                                                
+TD_DUMP_CHECK                       . TP  y   y                                    1    0    1    0 TD_DUMP_CHECK                       TD Dump Chk V1.0                         
+TD_DUMP_RET                         . LS  y       y                             1064    0 1064    0 TD_DUMP_RET                                                                  
+TD_DUMP_RET                         . TP  y   y                                    1    0    1    0 TD_DUMP_RET                         Ret TD Dump V1.1                         
+TD_GUN1                             . LS  y       y                             1064    0 1064    0 TD_GUN1                                                                      
+TD_GUN1                             . TP  y   y                                    1    0    1    0 TD_GUN1                             TD CarGun1 V2.5                          
+TD_MOTOR_OFF                        . LS  y       y                             1064    0 1064    0 TD_MOTOR_OFF                                                                 
+TD_MOTOR_OFF                        . TP  y   y                                    1    0    1    0 TD_MOTOR_OFF                        TDMotor OFF V1.1                         
+TD_MOTOR_ON                         . LS  y       y                             1064    0 1064    0 TD_MOTOR_ON                                                                  
+TD_MOTOR_ON                         . TP  y   y                                    1    0    1    0 TD_MOTOR_ON                         TD Motor ON V1.1                         
+TD_POUNC                            . LS  y       y                             1064    0 1064    0 TD_POUNC                                                                     
+TD_POUNC                            . TP  y   y                                    1    0    1    0 TD_POUNC                            TD Pounce V1.0                           
+TD_RESET_REQ_G1                     . LS  y       y                             1064    0 1064    0 TD_RESET_REQ_G1                                                              
+TD_RESET_REQ_G1                     . TP  y   y                                    1    0    1    0 TD_RESET_REQ_G1                     Reset TD Req G1                          
+TD_WRCHKG1                          . LS  y       y                             1064    0 1064    0 TD_WRCHKG1                                                                   
+TD_WRCHKG1                          . TP  y   y                                    1    0    1    0 TD_WRCHKG1                          TD WrChk G1 V1.1                         
+TESTRUN                             . DG  y                                   y 1067    0 1019    0 TESTRUN                             Tes trun status                          
+THK_SEV                             . LS  y       y                             1064    0 1064    0 THK_SEV                                                                      
+THK_SEV                             . TP  y   y                                    1    0    1    0 THK_SEV                             SET THKNSS SEVER                         
+THK_TOL                             . LS  y       y                             1064    0 1064    0 THK_TOL                                                                      
+THK_TOL                             . TP  y   y                                    1    0    1    0 THK_TOL                             SET THKNSS TOLER                         
+TIMERS                              . DG  y                                   y 1067    0 1028    0 TIMERS                              Timer Information                        
+TIPDRESS_PED_S231                   . LS  y       y                             1064    0 1064    0 TIPDRESS_PED_S231                                                            
+TIPDRESS_PED_S231                   . TP  y   y                                    1    0    1    0 TIPDRESS_PED_S231                   TD Ped Gun1 V1.1                         
+TIPDRESS_S231                       . LS  y       y                             1064    0 1064    0 TIPDRESS_S231                                                                
+TIPDRESS_S231                       . TP  y   y                                    1    0    1    0 TIPDRESS_S231                       TD CarGun1 V2.3                          
+TIPRESET_S232                       . LS  y       y                             1064    0 1064    0 TIPRESET_S232                                                                
+TIPRESET_S232                       . TP  y   y                                    1    0    1    0 TIPRESET_S232                       Rest Stp St V2.4                         
+TIPRESET_S232_1                     . LS  y       y                             1064    0 1064    0 TIPRESET_S232_1                                                              
+TIPRESET_S232_1                     . TP  y   y                                    1    0    1    0 TIPRESET_S232_1                     Rest Stp Al V1.0                         
+TOOLDATAUB10200RBT01                . LS  y       y                             1064    0 1064    0 TOOLDATAUB10200RBT01                                                         
+TOOLDATAUB10200RBT01                . TP  y   y                                    1    0    1    0 TOOLDATAUB10200RBT01                                                         
+TOOLING4D                           .XML  y   y                                 1066    0   12    3 *SYSTEM*                            4D Tooling Backup                   FR:  
+TP2MENU                             . DG  y                                   y 1067    0 1053    0 TP2MENU                             TP Menus w/Dictionaries                  
+TPACCN                              . DG  y   y       y                   y   y 1066    0 1030    0 TPACCN                              TP Accounting Status                     
+TPEINS                              .XML  y   y       y       y                 1066    0   11    0 FR:\TPEINS.XML                      Custom Toolbar                      FR:\ 
+TPFUNC                              . DG                                      y 1067    0 1035    0 TPFUNC                              Teach Pendant Functions                  
+TPGLCFG                             .XML  y   y                                 1066    0   12    4 *SYSTEM*                            4D Graphics Files                   FR:  
+TPLEDS                              .STM                                      y 1067    0 1091    0 TPLEDs                              Teach Pendant LEDS                       
+TPMENPWD                            . DG  y                                   y 1067    0 1093    0 TPMENPWD                            TP Menus w/Password Levels               
+TPMENU                              . DG  y                                   y 1067    0 1031    0 TPMENU                              Teach Pendant Menus                      
+TPQMENU                             . DG  y                                   y 1067    0 1033    0 TPQMENU                             TP Quick Menus                           
+TPSCREEN                            . DG                                      y 1067    0 1036    0 TPSCREEN                            Current TP screen                        
+TPSNAP                              . VA  y       y                             1067    0 1063    0 TPSNAP                                                                       
+TPSNAP                              . VR  y   y       y       y                 1066    0    0    0 TPSNAP                                                                       
+TWFXTCH1                            . LS                                      y 1064    0 1064    0 TWFXTCH1                            Tip Wear Hidden                          
+TWFXTCH2                            . LS                                      y 1064    0 1064    0 TWFXTCH2                            Tip Wear Hidden                          
+TWFXTCH3                            . LS                                      y 1064    0 1064    0 TWFXTCH3                            Tip Wear Hidden                          
+TWFXTCH4                            . LS                                      y 1064    0 1064    0 TWFXTCH4                            Tip Wear Hidden                          
+TWFXTCH5                            . LS                                      y 1064    0 1064    0 TWFXTCH5                            Tip Wear Hidden                          
+TWKINIT                             . VA  y       y                             1067    0 1063    0 TWKINIT                                                                      
+TWKINIT                             . VR  y   y       y       y                 1066    0    0    0 TWKINIT                                                                      
+TWLOGVAR                            . SV  y   y       y       y                 1066    0    3   96 *SYSTEM*                            BU: twlog data                           
+TWLOGVAR                            . VA  y       y                             1067    0 1063   96 *SYSTEM*                            BU: twlog data                           
+TWTHOLD2                            . LS                                      y 1064    0 1064    0 TWTHOLD2                            Tip Wear Hidden                          
+TWZRCLB1                            . LS                                      y 1064    0 1064    0 TWZRCLB1                            Tip Wear Hidden                          
+TWZRCLB2                            . LS                                      y 1064    0 1064    0 TWZRCLB2                            Tip Wear Hidden                          
+TWZRCLB3                            . LS                                      y 1064    0 1064    0 TWZRCLB3                            Tip Wear Hidden                          
+TWZRCLB4                            . LS                                      y 1064    0 1064    0 TWZRCLB4                            Tip Wear Hidden                          
+TWZRCLB5                            . LS                                      y 1064    0 1064    0 TWZRCLB5                            Tip Wear Hidden                          
+TW_MV2PT                            . LS  y       y                             1064    0 1064    0 TW_MV2PT                                                                     
+TW_MV2PT                            . TP  y   y                                    1    0    1    0 TW_MV2PT                            Move 2 measmt pt                         
+TW_MVGUN                            . LS  y       y                             1064    0 1064    0 TW_MVGUN                                                                     
+TW_MVGUN                            . TP  y   y                                    1    0    1    0 TW_MVGUN                            Move gun only                            
+TW_PRS01                            . LS  y       y                             1064    0 1064    0 TW_PRS01                                                                     
+TW_PRS01                            . TP  y   y                                    1    0    1    0 TW_PRS01                            Press caps                               
+TW_PRSRT                            . LS  y       y                             1064    0 1064    0 TW_PRSRT                                                                     
+TW_PRSRT                            . TP  y   y                                    1    0    1    0 TW_PRSRT                            Press caps rt                            
+TW_SET01                            . LS  y       y                             1064    0 1064    0 TW_SET01                                                                     
+TW_SET01                            . TP  y   y                                    1    0    1    0 TW_SET01                            Setup tw on gun1                         
+TW_SETUP                            . LS  y       y                             1064    0 1064    0 TW_SETUP                                                                     
+TW_SETUP                            . TP  y   y                                    1    0    1    0 TW_SETUP                            Setup tipwear                            
+TW_UPD01                            . LS  y       y                             1064    0 1064    0 TW_UPD01                                                                     
+TW_UPD01                            . TP  y   y                                    1    0    1    0 TW_UPD01                            Updat tw on gun1                         
+TW_UPDAT                            . LS  y       y                             1064    0 1064    0 TW_UPDAT                                                                     
+TW_UPDAT                            . TP  y   y                                    1    0    1    0 TW_UPDAT                            Update wear vals                         
+UPDATES                             .DAT  y   y       y                   y     1066    0   11    0 FRS:\UPDATES.DAT                    Updates List                        FRS:\
+UPDTLOG                             . LS  y   y       y               y       y 1067    0 1062    0 UPDTLOG                                                                      
+USERCLR                             . LS  y       y                             1064    0 1064    0 USERCLR                                                                      
+USERCLR                             . TP  y   y                                    1    0    1    0 USERCLR                             Clear User Page                          
+USERPAGE                            . LS  y       y                             1064    0 1064    0 USERPAGE                                                                     
+USERPAGE                            . TP  y   y                                    1    0    1    0 USERPAGE                            Show User Page                           
+VACUUMOF                            . LS  y       y                             1064    0 1064    0 VACUUMOF                                                                     
+VACUUMOF                            . TP  y   y                                    1    0    1    0 VACUUMOF                            Vacuum OFF V1.0                          
+VACUUMON                            . LS  y       y                             1064    0 1064    0 VACUUMON                                                                     
+VACUUMON                            . TP  y   y                                    1    0    1    0 VACUUMON                            Vacuum ON V1.0                           
+VARCHG                              .XML  y   y                                 1066    0   12    0 *SYSTEM*                            Var Change Config                        
+VCMRINIT                            . VA  y       y                             1067    0 1063    0 VCMRINIT                                                                     
+VCMRINIT                            . VR  y   y       y       y                 1066    0    0    0 VCMRINIT                                                                     
+VDEVDIAG                            .DAT  y   y       y                   y     1066    0   12    1 MD:SUMMARY.DG                       Vision Device Diagnostic                 
+VERSION                             . DG  y                                   y 1067    0 1025    0 VERSION                             Version Definition                       
+VIMGDIAG                            .ZIP  y   y       y                   y     1066    0   12    2 MD:SUMMARY.DG                       Vision Image Diagnostic                  
+VTRNDIAG                            . LS  y   y       y                   y     1066    0   12    0 MD:SUMMARY.DG                       VTRN Operation Log Diagnostic            
+WAITPATH                            . LS  y       y                             1064    0 1064    0 WAITPATH                                                                     
+WAITPATH                            . TP  y   y                                    1    0    1    0 WAITPATH                            Wait Path V2.0                           
+WATER_OFF                           . LS  y       y                             1064    0 1064    0 WATER_OFF                                                                    
+WATER_OFF                           . TP  y   y                                    1    0    1    0 WATER_OFF                           Water Off V1.0                           
+WATER_ON                            . LS  y       y                             1064    0 1064    0 WATER_ON                                                                     
+WATER_ON                            . TP  y   y                                    1    0    1    0 WATER_ON                            Water On V1.0                            
+WORKCELL4D                          .XML  y   y                                 1066    0   12    2 *SYSTEM*                            4D Workcell Backup                  FR:  
+WR_SET01                            . LS  y       y                             1064    0 1064    0 WR_SET01                                                                     
+WR_SET01                            . TP  y   y                                    1    0    1    0 WR_SET01                            Setup tw on gun1                         
+WR_SETUP                            . LS  y       y                             1064    0 1064    0 WR_SETUP                                                                     
+WR_SETUP                            . TP  y   y                                    1    0    1    0 WR_SETUP                            Setup tipwear                            
+WR_UPD01                            . LS  y       y                             1064    0 1064    0 WR_UPD01                                                                     
+WR_UPD01                            . TP  y   y                                    1    0    1    0 WR_UPD01                            Updat tw on gun1                         
+WR_UPDAT                            . LS  y       y                             1064    0 1064    0 WR_UPDAT                                                                     
+WR_UPDAT                            . TP  y   y                                    1    0    1    0 WR_UPDAT                            Update wear vals                         
+ZDLOG                               . DG  y   y       y                   y     1066    0   12    0 MD:SUMMARY.DG                       ZD Load Statistics                  MD:  
+_ALTMASTER                          . LS  y       y                             1064    0 1064    0 _ALTMASTER                                                                   
+_ALTMASTER                          . TP  y   y                                    1    0    1    0 _ALTMASTER                          Move2 Alt Master                         
+_MASTERPOS                          . LS  y       y                             1064    0 1064    0 _MASTERPOS                                                                   
+_MASTERPOS                          . TP  y   y                                    1    0    1    0 _MASTERPOS                          Move2 Master Pos                         
+_MDINDER                            . LS                                      y 1067    0 1056    3 _MDINDER                                                                     
+_MDINDEX                            . LS                                      y 1067    0 1056    0 _MDINDEX                                                                     
+_MDINDOT                            . LS                                      y 1067    0 1056    4 _MDINDOT                                                                     
+_MDINDTA                            . LS                                      y 1067    0 1056    6 _MDINDTA                                                                     
+_MDINDTP                            . LS                                      y 1067    0 1056    2 _MDINDTP                                                                     
+_MDINDVD                            . LS                                      y 1067    0 1056    5 _MDINDVD                                                                     
+_MDINDVR                            . LS                                      y 1067    0 1056    1 _MDINDVR                                                                     
+_VDAEXTP                            .ZZZ                                        1066    0   12 1078                                     NO Back file ZZZ                    MD:  
+
+
+  Controller restore by extension
+ Ext    Func 
+ DF 1057 13 1057 13
+ DT 1057 10 1057 10
+FLS 1057 20 1057 20
+FLX 1057 20 1057 20
+IBG 1057 12 1057 12
+ IO 1057  9 1057  9
+LD1 1057 11 1057 11
+LD2 1057 11 1057 11
+LD3 1057 11 1057 11
+LD4 1057 11 1057 11
+ LS 1057  6 1057  6
+LV1 1057 11 1057 11
+LV2 1057 11 1057 11
+LV3 1057 11 1057 11
+LV4 1057 11 1057 11
+MNA 1057  3 1057  3
+MNU 1057  2 1057  2
+ SV 1057  8 1057  8
+ TA 1057 17 1057 17
+ TP 1057  5 1057  5
+TPX 1057 18 1057 18
+ VA 1057 14 1057 14
+VDA 1057 15 1057 15
+ VR 1057  7 1057  7
+WND 1057  0 1057  0
+XMA 1057  4 1057  4
+XML 1057  1 1057  1
+ZIP 1057 16 1057 16

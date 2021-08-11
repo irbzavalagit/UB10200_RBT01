@@ -1,0 +1,1079 @@
+F Number: F270477
+VERSION : SpotTool+            
+$VERSION: V9.30126      2/12/2021
+DATE:     11-AUG-21 11:00 
+
+IO CONFIGURATION::
+
+DIN[   1]  NoStop
+DIN[   2]  NoHold
+DIN[   3]  SafeSpeed
+DIN[   4]  CyclStop[Abort]
+DIN[   5]  FaultReset
+DIN[   6]  Start
+DIN[   7]  Home
+DIN[   8]  MotionEnable
+DIN[   9]  StyleBit0
+DIN[  10]  StyleBit1
+DIN[  11]  StyleBit2
+DIN[  12]  StyleBit3
+DIN[  13]  StyleBit4
+DIN[  14]  StyleBit5
+DIN[  15]  StyleBit6
+DIN[  16]  StyleBit7
+DIN[  17]  InitiateStyle
+DIN[  18]  ProductionStart
+DIN[  23]  ReqEnterCell
+DIN[  32]  WaterOK
+DIN[  33]  AirOK
+DIN[  34]  DryCycle Mode
+DIN[  36]  Confirmation4Auto
+DIN[  42]  BgHeartbeat
+DIN[  44]  RetrieveNextError
+DIN[  46]  NewSpeedRequest
+DIN[  49]  Weld/NO WELD
+DIN[  50]  Stroke/NO STROKE
+DIN[  72]  ProceedPath
+DIN[  73]  PathRequestBit0
+DIN[  74]  PathRequestBit1
+DIN[  75]  PathRequestBit2
+DIN[  76]  PathRequestBit3
+DIN[  77]  PathRequestBit4
+DIN[  78]  PathRequestBit5
+DIN[  79]  PathRequestBit6
+DIN[  80]  PathRequestBit7
+DIN[  81]  OptionA
+DIN[  82]  OptionB
+DIN[  83]  OptionC
+DIN[  84]  OptionD
+DIN[  85]  OptionE
+DIN[  86]  OptionF
+DIN[  87]  OptionG
+DIN[  88]  OptionH
+DIN[ 105]  Clr2EntrCol01
+DIN[ 106]  Clr2EntrCol02
+DIN[ 107]  Clr2EntrCol03
+DIN[ 108]  Clr2EntrCol04
+DIN[ 109]  Clr2EntrCol05
+DIN[ 110]  Clr2EntrCol06
+DIN[ 111]  Clr2EntrCol07
+DIN[ 112]  Clr2EntrCol08
+DIN[ 113]  Clr2EntrCol09
+DIN[ 114]  Clr2EntrCol10
+DIN[ 115]  Clr2EntrCol11
+DIN[ 116]  Clr2EntrCol12
+DIN[ 117]  Clr2EntrCol13
+DIN[ 118]  Clr2EntrCol14
+DIN[ 119]  Clr2EntrCol15
+DIN[ 120]  Clr2EntrCol16
+DIN[ 121]  ClrFixture01
+DIN[ 122]  ClrFixture02
+DIN[ 123]  ClrFixture03
+DIN[ 124]  ClrFixture04
+DIN[ 125]  ClrFixture05
+DIN[ 126]  ClrFixture06
+DIN[ 127]  ClrFixture07
+DIN[ 128]  ClrFixture08
+DIN[ 129]  ClrFixture09
+DIN[ 130]  ClrFixture10
+DIN[ 131]  ClrFixture11
+DIN[ 132]  ClrFixture12
+DIN[ 133]  ClrFixture13
+DIN[ 134]  ClrFixture14
+DIN[ 135]  ClrFixture15
+DIN[ 136]  ClrFixture16
+DIN[ 144]  TurnTablMovToPos
+DIN[ 145]  Pos1
+DIN[ 146]  Pos2
+DIN[ 147]  Pos3
+DIN[ 148]  Pos4
+DIN[ 149]  Pos5
+DIN[ 150]  Pos6
+DIN[ 151]  Pos7
+DIN[ 152]  Pos8
+DIN[ 153]  Reserved
+DIN[ 154]  Reserved
+DIN[ 155]  Reserved
+DIN[ 156]  Reserved
+DIN[ 169]  ReservedForInterconnecti
+DIN[ 170]  ReservedForInterconnecti
+DIN[ 171]  ReservedForInterconnecti
+DIN[ 172]  ReservedForInterconnecti
+DIN[ 173]  ReservedForInterconnecti
+DIN[ 174]  ReservedForInterconnecti
+DIN[ 175]  ReservedForInterconnecti
+DIN[ 176]  ReservedForInterconnecti
+DIN[ 177]  Rmt wtr svr rese
+DIN[ 241]  RoboApp2 GI[88] Fback01
+DIN[ 242]  RoboApp2 GI[88] Fback02
+DIN[ 243]  RoboApp2 GI[88] Fback03
+DIN[ 244]  RoboApp2 GI[88] Fback04
+DIN[ 245]  RoboApp2 GI[88] Fback05
+DIN[ 246]  RoboApp2 GI[88] Fback06
+DIN[ 247]  RoboApp2 GI[88] Fback07
+DIN[ 248]  RoboApp2 GI[88] Fback08
+DIN[ 249]  RoboApp2 GI[88] Fback09
+DIN[ 250]  RoboApp2 GI[88] Fback10
+DIN[ 251]  RoboApp2 GI[88] Fback11
+DIN[ 252]  RoboApp2 GI[88] Fback12
+DIN[ 253]  RoboApp2 GI[88] Fback13
+DIN[ 254]  RoboApp2 GI[88] Fback14
+DIN[ 255]  RoboApp2 GI[88] Fback15
+DIN[ 256]  RoboApp2 GI[88] Fback16
+DIN[ 257]  RoboApp2 GI[89] Fback01
+DIN[ 258]  RoboApp2 GI[89] Fback02
+DIN[ 259]  RoboApp2 GI[89] Fback03
+DIN[ 260]  RoboApp2 GI[89] Fback04
+DIN[ 261]  RoboApp2 GI[89] Fback05
+DIN[ 262]  RoboApp2 GI[89] Fback06
+DIN[ 263]  RoboApp2 GI[89] Fback07
+DIN[ 264]  RoboApp2 GI[89] Fback08
+DIN[ 265]  RoboApp2 GI[89] Fback09
+DIN[ 266]  RoboApp2 GI[89] Fback10
+DIN[ 267]  RoboApp2 GI[89] Fback11
+DIN[ 268]  RoboApp2 GI[89] Fback12
+DIN[ 269]  RoboApp2 GI[89] Fback13
+DIN[ 270]  RoboApp2 GI[89] Fback14
+DIN[ 271]  RoboApp2 GI[89] Fback15
+DIN[ 272]  RoboApp2 GI[89] Fback16
+DIN[ 273]  RoboApp2 GI[90] Fback01
+DIN[ 274]  RoboApp2 GI[90] Fback02
+DIN[ 275]  RoboApp2 GI[90] Fback03
+DIN[ 276]  RoboApp2 GI[90] Fback04
+DIN[ 277]  RoboApp2 GI[90] Fback05
+DIN[ 278]  RoboApp2 GI[90] Fback06
+DIN[ 279]  RoboApp2 GI[90] Fback07
+DIN[ 280]  RoboApp2 GI[90] Fback08
+DIN[ 281]  RoboApp2 GI[90] Fback09
+DIN[ 282]  RoboApp2 GI[90] Fback10
+DIN[ 283]  RoboApp2 GI[90] Fback11
+DIN[ 284]  RoboApp2 GI[90] Fback12
+DIN[ 285]  RoboApp2 GI[90] Fback13
+DIN[ 286]  RoboApp2 GI[90] Fback14
+DIN[ 287]  RoboApp2 GI[90] Fback15
+DIN[ 288]  RoboApp2 GI[90] Fback16
+DIN[ 289]  RoboApp2 GI[91] Fback01
+DIN[ 290]  RoboApp2 GI[91] Fback02
+DIN[ 291]  RoboApp2 GI[91] Fback03
+DIN[ 292]  RoboApp2 GI[91] Fback04
+DIN[ 293]  RoboApp2 GI[91] Fback05
+DIN[ 294]  RoboApp2 GI[91] Fback06
+DIN[ 295]  RoboApp2 GI[91] Fback07
+DIN[ 296]  RoboApp2 GI[91] Fback08
+DIN[ 297]  RoboApp2 GI[91] Fback09
+DIN[ 298]  RoboApp2 GI[91] Fback10
+DIN[ 299]  RoboApp2 GI[91] Fback11
+DIN[ 300]  RoboApp2 GI[91] Fback12
+DIN[ 301]  RoboApp2 GI[91] Fback13
+DIN[ 302]  RoboApp2 GI[91] Fback14
+DIN[ 303]  RoboApp2 GI[91] Fback15
+DIN[ 304]  RoboApp2 GI[91] Fback16
+DIN[ 305]  RoboApp3 GI[92] Fback01
+DIN[ 306]  RoboApp3 GI[92] Fback02
+DIN[ 307]  RoboApp3 GI[92] Fback03
+DIN[ 308]  RoboApp3 GI[92] Fback04
+DIN[ 309]  RoboApp3 GI[92] Fback05
+DIN[ 310]  RoboApp3 GI[92] Fback06
+DIN[ 311]  RoboApp3 GI[92] Fback07
+DIN[ 312]  RoboApp3 GI[92] Fback08
+DIN[ 313]  RoboApp3 GI[92] Fback09
+DIN[ 314]  RoboApp3 GI[92] Fback10
+DIN[ 315]  RoboApp3 GI[92] Fback11
+DIN[ 316]  RoboApp3 GI[92] Fback12
+DIN[ 317]  RoboApp3 GI[92] Fback13
+DIN[ 318]  RoboApp3 GI[92] Fback14
+DIN[ 319]  RoboApp3 GI[92] Fback15
+DIN[ 320]  RoboApp3 GI[92] Fback16
+DIN[ 321]  RoboApp3 GI[93] Fback01
+DIN[ 322]  RoboApp3 GI[93] Fback02
+DIN[ 323]  RoboApp3 GI[93] Fback03
+DIN[ 324]  RoboApp3 GI[93] Fback04
+DIN[ 325]  RoboApp3 GI[93] Fback05
+DIN[ 326]  RoboApp3 GI[93] Fback06
+DIN[ 327]  RoboApp3 GI[93] Fback07
+DIN[ 328]  RoboApp3 GI[93] Fback08
+DIN[ 329]  RoboApp3 GI[93] Fback09
+DIN[ 330]  RoboApp3 GI[93] Fback10
+DIN[ 331]  RoboApp3 GI[93] Fback11
+DIN[ 332]  RoboApp3 GI[93] Fback12
+DIN[ 333]  RoboApp3 GI[93] Fback13
+DIN[ 334]  RoboApp3 GI[93] Fback14
+DIN[ 335]  RoboApp3 GI[93] Fback15
+DIN[ 336]  RoboApp3 GI[93] Fback16
+DIN[ 337]  RoboApp3 GI[94] Fback01
+DIN[ 338]  RoboApp3 GI[94] Fback02
+DIN[ 339]  RoboApp3 GI[94] Fback03
+DIN[ 340]  RoboApp3 GI[94] Fback04
+DIN[ 341]  RoboApp3 GI[94] Fback05
+DIN[ 342]  RoboApp3 GI[94] Fback06
+DIN[ 343]  RoboApp3 GI[94] Fback07
+DIN[ 344]  RoboApp3 GI[94] Fback08
+DIN[ 345]  RoboApp3 GI[94] Fback09
+DIN[ 346]  RoboApp3 GI[94] Fback10
+DIN[ 347]  RoboApp3 GI[94] Fback11
+DIN[ 348]  RoboApp3 GI[94] Fback12
+DIN[ 349]  RoboApp3 GI[94] Fback13
+DIN[ 350]  RoboApp3 GI[94] Fback14
+DIN[ 351]  RoboApp3 GI[94] Fback15
+DIN[ 352]  RoboApp3 GI[94] Fback16
+DIN[ 353]  RoboApp3 GI[95] Fback01
+DIN[ 354]  RoboApp3 GI[95] Fback02
+DIN[ 355]  RoboApp3 GI[95] Fback03
+DIN[ 356]  RoboApp3 GI[95] Fback04
+DIN[ 357]  RoboApp3 GI[95] Fback05
+DIN[ 358]  RoboApp3 GI[95] Fback06
+DIN[ 359]  RoboApp3 GI[95] Fback07
+DIN[ 360]  RoboApp3 GI[95] Fback08
+DIN[ 361]  RoboApp3 GI[95] Fback09
+DIN[ 362]  RoboApp3 GI[95] Fback10
+DIN[ 363]  RoboApp3 GI[95] Fback11
+DIN[ 364]  RoboApp3 GI[95] Fback12
+DIN[ 365]  RoboApp3 GI[95] Fback13
+DIN[ 366]  RoboApp3 GI[95] Fback14
+DIN[ 367]  RoboApp3 GI[95] Fback15
+DIN[ 368]  RoboApp3 GI[95] Fback16
+DIN[ 369]  RoboApp4 GI[96] Fback01
+DIN[ 370]  RoboApp4 GI[96] Fback02
+DIN[ 371]  RoboApp4 GI[96] Fback03
+DIN[ 372]  RoboApp4 GI[96] Fback04
+DIN[ 373]  RoboApp4 GI[96] Fback05
+DIN[ 374]  RoboApp4 GI[96] Fback06
+DIN[ 375]  RoboApp4 GI[96] Fback07
+DIN[ 376]  RoboApp4 GI[96] Fback08
+DIN[ 377]  RoboApp4 GI[96] Fback09
+DIN[ 378]  RoboApp4 GI[96] Fback10
+DIN[ 379]  RoboApp4 GI[96] Fback11
+DIN[ 380]  RoboApp4 GI[96] Fback12
+DIN[ 381]  RoboApp4 GI[96] Fback13
+DIN[ 382]  RoboApp4 GI[96] Fback14
+DIN[ 383]  RoboApp4 GI[96] Fback15
+DIN[ 384]  RoboApp4 GI[96] Fback16
+DIN[ 385]  RoboApp4 GI[97] Fback01
+DIN[ 386]  RoboApp4 GI[97] Fback02
+DIN[ 387]  RoboApp4 GI[97] Fback03
+DIN[ 388]  RoboApp4 GI[97] Fback04
+DIN[ 389]  RoboApp4 GI[97] Fback05
+DIN[ 390]  RoboApp4 GI[97] Fback06
+DIN[ 391]  RoboApp4 GI[97] Fback07
+DIN[ 392]  RoboApp4 GI[97] Fback08
+DIN[ 393]  RoboApp4 GI[97] Fback09
+DIN[ 394]  RoboApp4 GI[97] Fback10
+DIN[ 395]  RoboApp4 GI[97] Fback11
+DIN[ 396]  RoboApp4 GI[97] Fback12
+DIN[ 397]  RoboApp4 GI[97] Fback13
+DIN[ 398]  RoboApp4 GI[97] Fback14
+DIN[ 399]  RoboApp4 GI[97] Fback15
+DIN[ 400]  RoboApp4 GI[97] Fback16
+DIN[ 401]  RoboApp4 GI[98] Fback01
+DIN[ 402]  RoboApp4 GI[98] Fback02
+DIN[ 403]  RoboApp4 GI[98] Fback03
+DIN[ 404]  RoboApp4 GI[98] Fback04
+DIN[ 405]  RoboApp4 GI[98] Fback05
+DIN[ 406]  RoboApp4 GI[98] Fback06
+DIN[ 407]  RoboApp4 GI[98] Fback07
+DIN[ 408]  RoboApp4 GI[98] Fback08
+DIN[ 409]  RoboApp4 GI[98] Fback09
+DIN[ 410]  RoboApp4 GI[98] Fback10
+DIN[ 411]  RoboApp4 GI[98] Fback11
+DIN[ 412]  RoboApp4 GI[98] Fback12
+DIN[ 413]  RoboApp4 GI[98] Fback13
+DIN[ 414]  RoboApp4 GI[98] Fback14
+DIN[ 415]  RoboApp4 GI[98] Fback15
+DIN[ 416]  RoboApp4 GI[98] Fback16
+DIN[ 417]  RoboApp4 GI[99] Fback01
+DIN[ 418]  RoboApp4 GI[99] Fback02
+DIN[ 419]  RoboApp4 GI[99] Fback03
+DIN[ 420]  RoboApp4 GI[99] Fback04
+DIN[ 421]  RoboApp4 GI[99] Fback05
+DIN[ 422]  RoboApp4 GI[99] Fback06
+DIN[ 423]  RoboApp4 GI[99] Fback07
+DIN[ 424]  RoboApp4 GI[99] Fback08
+DIN[ 425]  RoboApp4 GI[99] Fback09
+DIN[ 426]  RoboApp4 GI[99] Fback10
+DIN[ 427]  RoboApp4 GI[99] Fback11
+DIN[ 428]  RoboApp4 GI[99] Fback12
+DIN[ 429]  RoboApp4 GI[99] Fback13
+DIN[ 430]  RoboApp4 GI[99] Fback14
+DIN[ 431]  RoboApp4 GI[99] Fback15
+DIN[ 432]  RoboApp4 GI[99] Fback16
+DIN[ 433]  DebuggingBit01
+DIN[ 434]  DebuggingBit02
+DIN[ 435]  DebuggingBit03
+DIN[ 436]  DebuggingBit04
+DIN[ 437]  DebuggingBit05
+DIN[ 438]  DebuggingBit06
+DIN[ 439]  DebuggingBit07
+DIN[ 440]  DebuggingBit08
+DIN[ 441]  DebuggingBit09
+DIN[ 442]  DebuggingBit10
+DIN[ 443]  DebuggingBit11
+DIN[ 444]  DebuggingBit12
+DIN[ 445]  DebuggingBit13
+DIN[ 446]  DebuggingBit14
+DIN[ 447]  DebuggingBit15
+DIN[ 448]  DebuggingBit16
+DIN[ 457]  NewSpdBit1
+DIN[ 458]  NewSpdBit2
+DIN[ 459]  NewSpdBit3
+DIN[ 460]  NewSpdBit4
+DIN[ 461]  NewSpdBit5
+DIN[ 462]  NewSpdBit6
+DIN[ 463]  NewSpdBit7
+DIN[ 464]  NewSpdBit8
+DIN[ 468]  ApprovalDI
+DIN[ 469]  ResetDI
+DIN    1  - 512   RACK:  89   SLOT:   1   PORT:   1
+DIN[ 700]  Major alarm     
+DIN[ 701]  Minor alarm     
+DIN[ 702]  Fault
+DIN[ 703]  WELD/NOWELD     
+DIN[ 704]  No Weld
+DIN[ 705]  Weld in process 
+DIN[ 706]  Weld complete   
+DIN[ 707]  Ready To Weld
+DIN[ 708]  StepResetG1
+DIN[ 709]  StepResetG2
+DIN[ 710]  Reserved
+DIN[ 711]  Reserved
+DIN[ 712]  EndofStepG1
+DIN[ 713]  EndofStepG2
+DIN[ 714]  Reserved
+DIN[ 715]  Reserved
+DIN[ 716]  Approach cap chg
+DIN[ 717]  Approach CC G2
+DIN[ 718]  Reserved
+DIN[ 719]  Reserved
+DIN[ 720]  Cap change req  
+DIN[ 721]  Cap chang req G2
+DIN[ 722]  Reserved
+DIN[ 723]  Reserved
+DIN[ 724]  Tip dress req   
+DIN[ 725]  Tip dress req G2
+DIN[ 726]  Reserved
+DIN[ 727]  Reserved
+DIN[ 728]  StepAuXCntrAtMax
+DIN[ 729]  App Error Av
+DIN[ 730]  App Error Bit 1
+DIN[ 731]  App Error Bit 2
+DIN[ 732]  App Error Bit 4
+DIN[ 733]  App Error Bit 8
+DIN[ 734]  App Error Bit 16
+DIN[ 735]  Forcemeasout
+DIN[ 736]  Force1
+DIN[ 737]  Force2
+DIN[ 738]  Force4
+DIN[ 739]  Force8
+DIN[ 740]  Force16
+DIN[ 741]  Force32
+DIN[ 742]  Force64
+DIN[ 743]  Force128
+DIN[ 744]  Force256
+DIN[ 745]  Force512
+DIN[ 746]  Force1024
+DIN[ 747]  Force2048
+DIN[ 748]  Force4096
+DIN[ 749]  Force8192
+DIN[ 750]  Forge
+DIN[ 751]  User Output 1
+DIN[ 752]  User Output 2
+DIN[ 753]  User Output 3
+DIN[ 754]  User Output 4
+DIN[ 755]  User Output 5
+DIN[ 756]  User Output 6
+DIN[ 757]  Water Saver Valv
+DIN[ 758]  TD Motor Running
+DIN[ 759]  Adaptq Mismatch
+DIN[ 760]  Softq Mismatch
+DIN[ 761]  Raft Capable
+DIN[ 762]  Adaptq Enanled
+DIN[ 763]  Softq Enabled
+DIN  700  - 763   RACK:  89   SLOT:   2   PORT:   1
+DIN[ 772]  Wtr saver OK
+DIN[ 773]  Ws1ValveClsd
+DIN[ 774]  Ws1Bypassed
+DIN[ 775]  Wtr flow OK 
+DIN[ 776]  Ws1CapLoss
+DIN[ 777]  Ws1ValveFault
+DIN[ 778]  Ws1FlowSenFault
+DIN[ 779]  Ws1PowerOk
+DIN[ 780]  Ws1MetricUnits
+DIN[ 781]  Ws1OutletTempFlt
+DIN[ 782]  Ws1OutletTempWrn
+DIN[ 783]  Ws1DifrntlTmpFlt
+DIN[ 784]  Ws1DifrntlTmpWrn
+DIN[ 785]  Ws1TempSensorFlt
+DIN[ 786]  Ws1ThermlLoadFlt
+DIN[ 787]  Ws1ThermlLoadWrn
+DIN  772  - 787   RACK:  89   SLOT:   3   PORT:   1
+DIN[ 820]  TC1 Cylinder Adv
+DIN[ 821]  TC1 Cylinder Ret
+DIN[ 822]  TC1 UpCap Empty
+DIN[ 823]  TC1 UpCap Attached
+DIN[ 824]  TC1 LowCap Empty
+DIN[ 825]  TC1 LowCap Attached
+DIN[ 826]  TC1 Lim Cap CHK
+DIN  820  - 827   RACK:  89   SLOT:   5   PORT:   1
+DOUT[   1]  CommandEnable
+DOUT[   2]  SystemReady
+DOUT[   3]  ProgramRunning
+DOUT[   4]  ProgramPaused
+DOUT[   5]  MotionHeld
+DOUT[   6]  Fault
+DOUT[   7]  AtHome
+DOUT[   8]  TPEnabled
+DOUT[   9]  BatteryAlarm
+DOUT[  10]  ProcessorBusy
+DOUT[  11]  StyleEcho0
+DOUT[  12]  StyleEcho1
+DOUT[  13]  StyleEcho2
+DOUT[  14]  StyleEcho3
+DOUT[  15]  StyleEcho4
+DOUT[  16]  StyleEcho5
+DOUT[  17]  StyleEcho6
+DOUT[  18]  StyleEcho7
+DOUT[  19]  StyleAck
+DOUT[  20]  BgPrg1Running
+DOUT[  21]  BgPrg2Running
+DOUT[  22]  BgPrg3Running
+DOUT[  23]  BgPrg4Running
+DOUT[  24]  BgPrg5Running
+DOUT[  25]  AtPounce (PR2)
+DOUT[  26]  AtPR3
+DOUT[  27]  AtPR4
+DOUT[  28]  AtPR5
+DOUT[  29]  AtPurge
+DOUT[  30]  AtTipDress
+DOUT[  31]  AtAutoTipChange
+DOUT[  32]  AtMaintPsn
+DOUT[  33]  ColGuardEnabled
+DOUT[  34]  InDryCycle
+DOUT[  35]  InCycle
+DOUT[  36]  InAuto
+DOUT[  37]  StepMode
+DOUT[  38]  T2Mode
+DOUT[  39]  InputSimulated
+DOUT[  40]  OutputSimulated
+DOUT[  41]  WaitOnInput
+DOUT[  42]  Heartbeat
+DOUT[  43]  UsrPrmtActive
+DOUT[  44]  ErrorOutStrbe
+DOUT[  45]  Override100%
+DOUT[  46]  SpeedReductionRequest
+DOUT[  47]  SafeZoneIntersection
+DOUT[  48]  ProgAborted
+DOUT[  49]  Weld enabled
+DOUT[  50]  Stroke enabled
+DOUT[  51]  ProcessFault
+DOUT[  52]  ProcessAlert
+DOUT[  53]  AppInProcess
+DOUT[  71]  Sign Chng Annunc
+DOUT[  72]  PathComplete
+DOUT[  73]  PathEchoBit0
+DOUT[  74]  PathEchoBit1
+DOUT[  75]  PathEchoBit2
+DOUT[  76]  PathEchoBit3
+DOUT[  77]  PathEchoBit4
+DOUT[  78]  PathEchoBit5
+DOUT[  79]  PathEchoBit6
+DOUT[  80]  PathEchoBit7
+DOUT[  81]  OptionAEcho
+DOUT[  82]  OptionBEcho
+DOUT[  83]  OptionCEcho
+DOUT[  84]  OptionDEcho
+DOUT[  85]  OptionEEcho
+DOUT[  86]  OptionFEcho
+DOUT[  87]  OptionGEcho
+DOUT[  88]  OptionHEcho
+DOUT[  89]  Req2EntrZne01
+DOUT[  90]  Req2EntrZne02
+DOUT[  91]  Req2EntrZne03
+DOUT[  92]  Req2EntrZne04
+DOUT[  93]  Req2EntrZne05
+DOUT[  94]  Req2EntrZne06
+DOUT[  95]  Req2EntrZne07
+DOUT[  96]  Req2EntrZne08
+DOUT[  97]  Req2EntrZne09
+DOUT[  98]  Req2EntrZne10
+DOUT[  99]  Req2EntrZne11
+DOUT[ 100]  Req2EntrZne12
+DOUT[ 101]  Req2EntrZne13
+DOUT[ 102]  Req2EntrZne14
+DOUT[ 103]  Req2EntrZne15
+DOUT[ 104]  Req2EntrZne16
+DOUT[ 105]  ClrCollZne01
+DOUT[ 106]  ClrCollZne02
+DOUT[ 107]  ClrCollZne03
+DOUT[ 108]  ClrCollZne04
+DOUT[ 109]  ClrCollZne05
+DOUT[ 110]  ClrCollZne06
+DOUT[ 111]  ClrCollZne07
+DOUT[ 112]  ClrCollZne08
+DOUT[ 113]  ClrCollZne09
+DOUT[ 114]  ClrCollZne10
+DOUT[ 115]  ClrCollZne11
+DOUT[ 116]  ClrCollZne12
+DOUT[ 117]  ClrCollZne13
+DOUT[ 118]  ClrCollZne14
+DOUT[ 119]  ClrCollZne15
+DOUT[ 120]  ClrCollZne16
+DOUT[ 121]  ClrFixture01
+DOUT[ 122]  ClrFixture02
+DOUT[ 123]  ClrFixture03
+DOUT[ 124]  ClrFixture04
+DOUT[ 125]  ClrFixture05
+DOUT[ 126]  ClrFixture06
+DOUT[ 127]  ClrFixture07
+DOUT[ 128]  ClrFixture08
+DOUT[ 129]  ClrFixture09
+DOUT[ 130]  ClrFixture10
+DOUT[ 131]  ClrFixture11
+DOUT[ 132]  ClrFixture12
+DOUT[ 133]  ClrFixture13
+DOUT[ 134]  ClrFixture14
+DOUT[ 135]  ClrFixture15
+DOUT[ 136]  ClrFixture16
+DOUT[ 137]  AEG1PathRecord
+DOUT[ 138]  AEG1Executing
+DOUT[ 139]  AEG2PathRecord
+DOUT[ 140]  AEG2Executing
+DOUT[ 141]  AEG3PathRecord
+DOUT[ 142]  AEG3Executing
+DOUT[ 143]  AEG4PathRecord
+DOUT[ 144]  AEG4Executing
+DOUT[ 145]  AtPos1
+DOUT[ 146]  AtPos2
+DOUT[ 147]  AtPos3
+DOUT[ 148]  AtPos4
+DOUT[ 149]  AtPos5
+DOUT[ 150]  AtPos6
+DOUT[ 151]  AtPos7
+DOUT[ 152]  AtPos8
+DOUT[ 153]  Reserved
+DOUT[ 154]  Reserved
+DOUT[ 155]  Reserved
+DOUT[ 156]  Reserved
+DOUT[ 164]  AtPurge2
+DOUT[ 165]  AtManualTipChange
+DOUT[ 166]  AtAutoTipChange2
+DOUT[ 167]  AtTipDress2
+DOUT[ 168]  AtTip Change2
+DOUT[ 169]  Reserved For Interconnec
+DOUT[ 170]  Reserved For Interconnec
+DOUT[ 171]  Reserved For Interconnec
+DOUT[ 172]  Reserved For Interconnec
+DOUT[ 173]  Reserved For Interconnec
+DOUT[ 174]  Reserved For Interconnec
+DOUT[ 175]  Reserved For Interconnec
+DOUT[ 176]  Reserved For Interconnec
+DOUT[ 177]  Cap chang req G1
+DOUT[ 178]  Cap chang req G2
+DOUT[ 179]  Reserved
+DOUT[ 180]  Reserved
+DOUT[ 181]  Approach CC G1
+DOUT[ 182]  Approach CC G2
+DOUT[ 183]  Reserved
+DOUT[ 184]  Reserved
+DOUT[ 185]  Tip dress req G1
+DOUT[ 186]  Tip dress req G2
+DOUT[ 187]  Reserved
+DOUT[ 188]  Reserved
+DOUT[ 189]  One Spot Welded G1
+DOUT[ 190]  One Spot Welded G2
+DOUT[ 191]  Reserved
+DOUT[ 192]  Reserved
+DOUT[ 241]  RoboApp2 GO[88] Fback01
+DOUT[ 242]  RoboApp2 GO[88] Fback02
+DOUT[ 243]  RoboApp2 GO[88] Fback03
+DOUT[ 244]  RoboApp2 GO[88] Fback04
+DOUT[ 245]  RoboApp2 GO[88] Fback05
+DOUT[ 246]  RoboApp2 GO[88] Fback06
+DOUT[ 247]  RoboApp2 GO[88] Fback07
+DOUT[ 248]  RoboApp2 GO[88] Fback08
+DOUT[ 249]  RoboApp2 GO[88] Fback09
+DOUT[ 250]  RoboApp2 GO[88] Fback10
+DOUT[ 251]  RoboApp2 GO[88] Fback11
+DOUT[ 252]  RoboApp2 GO[88] Fback12
+DOUT[ 253]  RoboApp2 GO[88] Fback13
+DOUT[ 254]  RoboApp2 GO[88] Fback14
+DOUT[ 255]  RoboApp2 GO[88] Fback15
+DOUT[ 256]  RoboApp2 GO[88] Fback16
+DOUT[ 257]  RoboApp2 GO[89] Fback01
+DOUT[ 258]  RoboApp2 GO[89] Fback02
+DOUT[ 259]  RoboApp2 GO[89] Fback03
+DOUT[ 260]  RoboApp2 GO[89] Fback04
+DOUT[ 261]  RoboApp2 GO[89] Fback05
+DOUT[ 262]  RoboApp2 GO[89] Fback06
+DOUT[ 263]  RoboApp2 GO[89] Fback07
+DOUT[ 264]  RoboApp2 GO[89] Fback08
+DOUT[ 265]  RoboApp2 GO[89] Fback09
+DOUT[ 266]  RoboApp2 GO[89] Fback10
+DOUT[ 267]  RoboApp2 GO[89] Fback11
+DOUT[ 268]  RoboApp2 GO[89] Fback12
+DOUT[ 269]  RoboApp2 GO[89] Fback13
+DOUT[ 270]  RoboApp2 GO[89] Fback14
+DOUT[ 271]  RoboApp2 GO[89] Fback15
+DOUT[ 272]  RoboApp2 GO[89] Fback16
+DOUT[ 273]  RoboApp2 GO[90] Fback01
+DOUT[ 274]  RoboApp2 GO[90] Fback02
+DOUT[ 275]  RoboApp2 GO[90] Fback03
+DOUT[ 276]  RoboApp2 GO[90] Fback04
+DOUT[ 277]  RoboApp2 GO[90] Fback05
+DOUT[ 278]  RoboApp2 GO[90] Fback06
+DOUT[ 279]  RoboApp2 GO[90] Fback07
+DOUT[ 280]  RoboApp2 GO[90] Fback08
+DOUT[ 281]  RoboApp2 GO[90] Fback09
+DOUT[ 282]  RoboApp2 GO[90] Fback10
+DOUT[ 283]  RoboApp2 GO[90] Fback11
+DOUT[ 284]  RoboApp2 GO[90] Fback12
+DOUT[ 285]  RoboApp2 GO[90] Fback13
+DOUT[ 286]  RoboApp2 GO[90] Fback14
+DOUT[ 287]  RoboApp2 GO[90] Fback15
+DOUT[ 288]  RoboApp2 GO[90] Fback16
+DOUT[ 289]  RoboApp2 GO[91] Fback01
+DOUT[ 290]  RoboApp2 GO[91] Fback02
+DOUT[ 291]  RoboApp2 GO[91] Fback03
+DOUT[ 292]  RoboApp2 GO[91] Fback04
+DOUT[ 293]  RoboApp2 GO[91] Fback05
+DOUT[ 294]  RoboApp2 GO[91] Fback06
+DOUT[ 295]  RoboApp2 GO[91] Fback07
+DOUT[ 296]  RoboApp2 GO[91] Fback08
+DOUT[ 297]  RoboApp2 GO[91] Fback09
+DOUT[ 298]  RoboApp2 GO[91] Fback10
+DOUT[ 299]  RoboApp2 GO[91] Fback11
+DOUT[ 300]  RoboApp2 GO[91] Fback12
+DOUT[ 301]  RoboApp2 GO[91] Fback13
+DOUT[ 302]  RoboApp2 GO[91] Fback14
+DOUT[ 303]  RoboApp2 GO[91] Fback15
+DOUT[ 304]  RoboApp2 GO[91] Fback16
+DOUT[ 305]  RoboApp3 GO[92] Fback01
+DOUT[ 306]  RoboApp3 GO[92] Fback02
+DOUT[ 307]  RoboApp3 GO[92] Fback03
+DOUT[ 308]  RoboApp3 GO[92] Fback04
+DOUT[ 309]  RoboApp3 GO[92] Fback05
+DOUT[ 310]  RoboApp3 GO[92] Fback06
+DOUT[ 311]  RoboApp3 GO[92] Fback07
+DOUT[ 312]  RoboApp3 GO[92] Fback08
+DOUT[ 313]  RoboApp3 GO[92] Fback09
+DOUT[ 314]  RoboApp3 GO[92] Fback10
+DOUT[ 315]  RoboApp3 GO[92] Fback11
+DOUT[ 316]  RoboApp3 GO[92] Fback12
+DOUT[ 317]  RoboApp3 GO[92] Fback13
+DOUT[ 318]  RoboApp3 GO[92] Fback14
+DOUT[ 319]  RoboApp3 GO[92] Fback15
+DOUT[ 320]  RoboApp3 GO[92] Fback16
+DOUT[ 321]  RoboApp3 GO[93] Fback01
+DOUT[ 322]  RoboApp3 GO[93] Fback02
+DOUT[ 323]  RoboApp3 GO[93] Fback03
+DOUT[ 324]  RoboApp3 GO[93] Fback04
+DOUT[ 325]  RoboApp3 GO[93] Fback05
+DOUT[ 326]  RoboApp3 GO[93] Fback06
+DOUT[ 327]  RoboApp3 GO[93] Fback07
+DOUT[ 328]  RoboApp3 GO[93] Fback08
+DOUT[ 329]  RoboApp3 GO[93] Fback09
+DOUT[ 330]  RoboApp3 GO[93] Fback10
+DOUT[ 331]  RoboApp3 GO[93] Fback11
+DOUT[ 332]  RoboApp3 GO[93] Fback12
+DOUT[ 333]  RoboApp3 GO[93] Fback13
+DOUT[ 334]  RoboApp3 GO[93] Fback14
+DOUT[ 335]  RoboApp3 GO[93] Fback15
+DOUT[ 336]  RoboApp3 GO[93] Fback16
+DOUT[ 337]  RoboApp3 GO[94] Fback01
+DOUT[ 338]  RoboApp3 GO[94] Fback02
+DOUT[ 339]  RoboApp3 GO[94] Fback03
+DOUT[ 340]  RoboApp3 GO[94] Fback04
+DOUT[ 341]  RoboApp3 GO[94] Fback05
+DOUT[ 342]  RoboApp3 GO[94] Fback06
+DOUT[ 343]  RoboApp3 GO[94] Fback07
+DOUT[ 344]  RoboApp3 GO[94] Fback08
+DOUT[ 345]  RoboApp3 GO[94] Fback09
+DOUT[ 346]  RoboApp3 GO[94] Fback10
+DOUT[ 347]  RoboApp3 GO[94] Fback11
+DOUT[ 348]  RoboApp3 GO[94] Fback12
+DOUT[ 349]  RoboApp3 GO[94] Fback13
+DOUT[ 350]  RoboApp3 GO[94] Fback14
+DOUT[ 351]  RoboApp3 GO[94] Fback15
+DOUT[ 352]  RoboApp3 GO[94] Fback16
+DOUT[ 353]  RoboApp3 GO[95] Fback01
+DOUT[ 354]  RoboApp3 GO[95] Fback02
+DOUT[ 355]  RoboApp3 GO[95] Fback03
+DOUT[ 356]  RoboApp3 GO[95] Fback04
+DOUT[ 357]  RoboApp3 GO[95] Fback05
+DOUT[ 358]  RoboApp3 GO[95] Fback06
+DOUT[ 359]  RoboApp3 GO[95] Fback07
+DOUT[ 360]  RoboApp3 GO[95] Fback08
+DOUT[ 361]  RoboApp3 GO[95] Fback09
+DOUT[ 362]  RoboApp3 GO[95] Fback10
+DOUT[ 363]  RoboApp3 GO[95] Fback11
+DOUT[ 364]  RoboApp3 GO[95] Fback12
+DOUT[ 365]  RoboApp3 GO[95] Fback13
+DOUT[ 366]  RoboApp3 GO[95] Fback14
+DOUT[ 367]  RoboApp3 GO[95] Fback15
+DOUT[ 368]  RoboApp3 GO[95] Fback16
+DOUT[ 369]  RoboApp4 GO[96] Fback01
+DOUT[ 370]  RoboApp4 GO[96] Fback02
+DOUT[ 371]  RoboApp4 GO[96] Fback03
+DOUT[ 372]  RoboApp4 GO[96] Fback04
+DOUT[ 373]  RoboApp4 GO[96] Fback05
+DOUT[ 374]  RoboApp4 GO[96] Fback06
+DOUT[ 375]  RoboApp4 GO[96] Fback07
+DOUT[ 376]  RoboApp4 GO[96] Fback08
+DOUT[ 377]  RoboApp4 GO[96] Fback09
+DOUT[ 378]  RoboApp4 GO[96] Fback10
+DOUT[ 379]  RoboApp4 GO[96] Fback11
+DOUT[ 380]  RoboApp4 GO[96] Fback12
+DOUT[ 381]  RoboApp4 GO[96] Fback13
+DOUT[ 382]  RoboApp4 GO[96] Fback14
+DOUT[ 383]  RoboApp4 GO[96] Fback15
+DOUT[ 384]  RoboApp4 GO[96] Fback16
+DOUT[ 385]  RoboApp4 GO[97] Fback01
+DOUT[ 386]  RoboApp4 GO[97] Fback02
+DOUT[ 387]  RoboApp4 GO[97] Fback03
+DOUT[ 388]  RoboApp4 GO[97] Fback04
+DOUT[ 389]  RoboApp4 GO[97] Fback05
+DOUT[ 390]  RoboApp4 GO[97] Fback06
+DOUT[ 391]  RoboApp4 GO[97] Fback07
+DOUT[ 392]  RoboApp4 GO[97] Fback08
+DOUT[ 393]  RoboApp4 GO[97] Fback09
+DOUT[ 394]  RoboApp4 GO[97] Fback10
+DOUT[ 395]  RoboApp4 GO[97] Fback11
+DOUT[ 396]  RoboApp4 GO[97] Fback12
+DOUT[ 397]  RoboApp4 GO[97] Fback13
+DOUT[ 398]  RoboApp4 GO[97] Fback14
+DOUT[ 399]  RoboApp4 GO[97] Fback15
+DOUT[ 400]  RoboApp4 GO[97] Fback16
+DOUT[ 401]  RoboApp4 GO[98] Fback01
+DOUT[ 402]  RoboApp4 GO[98] Fback02
+DOUT[ 403]  RoboApp4 GO[98] Fback03
+DOUT[ 404]  RoboApp4 GO[98] Fback04
+DOUT[ 405]  RoboApp4 GO[98] Fback05
+DOUT[ 406]  RoboApp4 GO[98] Fback06
+DOUT[ 407]  RoboApp4 GO[98] Fback07
+DOUT[ 408]  RoboApp4 GO[98] Fback08
+DOUT[ 409]  RoboApp4 GO[98] Fback09
+DOUT[ 410]  RoboApp4 GO[98] Fback10
+DOUT[ 411]  RoboApp4 GO[98] Fback11
+DOUT[ 412]  RoboApp4 GO[98] Fback12
+DOUT[ 413]  RoboApp4 GO[98] Fback13
+DOUT[ 414]  RoboApp4 GO[98] Fback14
+DOUT[ 415]  RoboApp4 GO[98] Fback15
+DOUT[ 416]  RoboApp4 GO[98] Fback16
+DOUT[ 417]  RoboApp4 GO[99] Fback01
+DOUT[ 418]  RoboApp4 GO[99] Fback02
+DOUT[ 419]  RoboApp4 GO[99] Fback03
+DOUT[ 420]  RoboApp4 GO[99] Fback04
+DOUT[ 421]  RoboApp4 GO[99] Fback05
+DOUT[ 422]  RoboApp4 GO[99] Fback06
+DOUT[ 423]  RoboApp4 GO[99] Fback07
+DOUT[ 424]  RoboApp4 GO[99] Fback08
+DOUT[ 425]  RoboApp4 GO[99] Fback09
+DOUT[ 426]  RoboApp4 GO[99] Fback10
+DOUT[ 427]  RoboApp4 GO[99] Fback11
+DOUT[ 428]  RoboApp4 GO[99] Fback12
+DOUT[ 429]  RoboApp4 GO[99] Fback13
+DOUT[ 430]  RoboApp4 GO[99] Fback14
+DOUT[ 431]  RoboApp4 GO[99] Fback15
+DOUT[ 432]  RoboApp4 GO[99] Fback16
+DOUT[ 433]  DebuggingBit01
+DOUT[ 434]  DebuggingBit02
+DOUT[ 435]  DebuggingBit03
+DOUT[ 436]  DebuggingBit04
+DOUT[ 437]  DebuggingBit05
+DOUT[ 438]  DebuggingBit06
+DOUT[ 439]  DebuggingBit07
+DOUT[ 440]  DebuggingBit08
+DOUT[ 441]  DebuggingBit09
+DOUT[ 442]  DebuggingBit10
+DOUT[ 443]  DebuggingBit11
+DOUT[ 444]  DebuggingBit12
+DOUT[ 445]  DebuggingBit13
+DOUT[ 446]  DebuggingBit14
+DOUT[ 447]  DebuggingBit15
+DOUT[ 448]  DebuggingBit16
+DOUT[ 449]  ErrSeverity01
+DOUT[ 450]  ErrSeverity02
+DOUT[ 451]  ErrSeverity03
+DOUT[ 452]  ErrSeverity04
+DOUT[ 453]  ErrSeverity05
+DOUT[ 454]  ErrSeverity06
+DOUT[ 455]  ErrSeverity07
+DOUT[ 456]  ErrSeverity08
+DOUT[ 457]  SpdOutBit1
+DOUT[ 458]  SpdOutBit2
+DOUT[ 459]  SpdOutBit3
+DOUT[ 460]  SpdOutBit4
+DOUT[ 461]  SpdOutBit5
+DOUT[ 462]  SpdOutBit6
+DOUT[ 463]  SpdOutBit7
+DOUT[ 464]  SpdOutBit8
+DOUT[ 465]  Reserved
+DOUT[ 466]  Reserved
+DOUT[ 467]  Reserved
+DOUT[ 468]  IncompleteEnd
+DOUT[ 469]  StatusOK
+DOUT[ 470]  FFRActive
+DOUT[ 471]  ColGuardError
+DOUT[ 472]  WrongPathAlrm
+DOUT[ 473]  AlmFacCode01
+DOUT[ 474]  AlmFacCode02
+DOUT[ 475]  AlmFacCode03
+DOUT[ 476]  AlmFacCode04
+DOUT[ 477]  AlmFacCode05
+DOUT[ 478]  AlmFacCode06
+DOUT[ 479]  AlmFacCode07
+DOUT[ 480]  AlmFacCode08
+DOUT[ 481]  ErrCode01
+DOUT[ 482]  ErrCode02
+DOUT[ 483]  ErrCode03
+DOUT[ 484]  ErrCode04
+DOUT[ 485]  ErrCode05
+DOUT[ 486]  ErrCode06
+DOUT[ 487]  ErrCode07
+DOUT[ 488]  ErrCode08
+DOUT[ 489]  ErrCode09
+DOUT[ 490]  ErrCode10
+DOUT[ 491]  ErrCode11
+DOUT[ 492]  ErrCode12
+DOUT[ 493]  ErrCode13
+DOUT[ 494]  ErrCode14
+DOUT[ 495]  ErrCode15
+DOUT[ 496]  ErrCode16
+DOUT[ 497]  UsrFltCode01
+DOUT[ 498]  UsrFltCode02
+DOUT[ 499]  UsrFltCode03
+DOUT[ 500]  UsrFltCode04
+DOUT[ 501]  UsrFltCode05
+DOUT[ 502]  UsrFltCode06
+DOUT[ 503]  UsrFltCode07
+DOUT[ 504]  UsrFltCode08
+DOUT[ 505]  UsrFltCode09
+DOUT[ 506]  UsrFltCode10
+DOUT[ 507]  UsrFltCode11
+DOUT[ 508]  UsrFltCode12
+DOUT[ 509]  UsrFltCode13
+DOUT[ 510]  UsrFltCode14
+DOUT[ 511]  UsrFltCode15
+DOUT[ 512]  UsrFltCode16
+DOUT    1  - 512   RACK:  89   SLOT:   1   PORT:   1
+DOUT[ 700]  BinarySelect1
+DOUT[ 701]  BinarySelect2
+DOUT[ 702]  BinarySelect4
+DOUT[ 703]  BinarySelect8
+DOUT[ 704]  BinarySelect16
+DOUT[ 705]  BinarySelect32
+DOUT[ 706]  BinarySelect64
+DOUT[ 707]  BinarySelect128
+DOUT[ 708]  Weld initiate   
+DOUT[ 709]  Enable weld     
+DOUT[ 710]  Enbl Cont Saver 
+DOUT[ 711]  Reset welder    
+DOUT[ 712]  Weld Proceed
+DOUT[ 713]  Reset stepper   
+DOUT[ 714]  Reset Stepper G2
+DOUT[ 715]  Reserved
+DOUT[ 716]  Reserved
+DOUT[ 717]  TD Group 1
+DOUT[ 718]  TD Group 2
+DOUT[ 719]  Reserved
+DOUT[ 720]  Reserved
+DOUT[ 721]  StrpAuxCntrRst
+DOUT[ 722]  AppErrAck
+DOUT[ 723]  Control Stop
+DOUT[ 724]  System Cooling
+DOUT[ 725]  Reserved
+DOUT[ 726]  User Input 1
+DOUT[ 727]  User Input 2
+DOUT[ 728]  User Input 3
+DOUT[ 729]  User Input 4
+DOUT[ 730]  User Input 5
+DOUT[ 731]  User Input 6
+DOUT[ 732]  Reserved
+DOUT[ 733]  Reserved
+DOUT[ 734]  Spt9(256)
+DOUT[ 735]  Spt10(512)
+DOUT[ 736]  Spt11(1024)
+DOUT[ 737]  Spt12(2048)
+DOUT[ 738]  Spt13(4096)
+DOUT[ 739]  Spt14(8192)
+DOUT[ 740]  Spt15(16384)
+DOUT[ 741]  Spt16(32768)
+DOUT[ 742]  Spt17(65536)
+DOUT[ 743]  Spt18(131072)
+DOUT[ 744]  Spt19(262144)
+DOUT[ 745]  Spt20(524288)
+DOUT[ 746]  Spt21(1048576)
+DOUT[ 747]  Spt22(2097152)
+DOUT[ 748]  Spt23(4194304)
+DOUT[ 749]  Spt24(8388608)
+DOUT[ 750]  Spt25(16777216)
+DOUT[ 751]  Spt26(33554432)
+DOUT[ 752]  Spt27(67108864)
+DOUT[ 753]  Spt28(134217728)
+DOUT[ 754]  Spt29(268435456)
+DOUT[ 755]  Spt30(536870912)
+DOUT[ 756]  Reserved
+DOUT[ 757]  Reserved
+DOUT[ 758]  Reserved
+DOUT[ 759]  Reserved
+DOUT[ 760]  Reserved
+DOUT[ 761]  Reserved
+DOUT[ 762]  Force Measure In
+DOUT[ 763]  TD Motor ON
+DOUT  700  - 763   RACK:  89   SLOT:   2   PORT:   1
+DOUT[ 772]  Rst wtr savr
+DOUT[ 773]  Wateroff1
+DOUT[ 774]  WSBypass1
+DOUT[ 775]  Reserved
+DOUT[ 776]  Reserved
+DOUT[ 777]  Reserved
+DOUT[ 778]  Reserved
+DOUT[ 779]  Reserved
+DOUT[ 780]  Reserved
+DOUT[ 781]  Reserved
+DOUT[ 782]  Reserved
+DOUT[ 783]  Reserved
+DOUT[ 784]  Reserved
+DOUT[ 785]  Reserved
+DOUT[ 786]  Reserved
+DOUT[ 787]  Reserved
+DOUT  772  - 787   RACK:  89   SLOT:   3   PORT:   1
+DOUT[ 820]  TC1 Valve OP/CL
+DOUT  820  - 827   RACK:  89   SLOT:   5   PORT:   9
+GIN[   1] NextPath
+GIN    1   RACK:  89   SLOT:   1   PORT:  73   #NUM:   8
+GIN[   2] NewSpeed
+GIN    2   RACK:  89   SLOT:   1   PORT: 457   #NUM:   8
+GIN[   3] Style Program Select
+GIN    3   RACK:  89   SLOT:   1   PORT:   9   #NUM:   8
+GIN[   4] Option Code
+GIN    4   RACK:  89   SLOT:   1   PORT:  81   #NUM:   8
+GIN[   5] Spare Inputs
+GIN    5   RACK:  89   SLOT:   1   PORT: 465   #NUM:  16
+GIN[   6] Spare Inputs
+GIN    6   RACK:  89   SLOT:   1   PORT: 481   #NUM:  16
+GIN[   7] Spare Inputs
+GIN    7   RACK:  89   SLOT:   1   PORT: 497   #NUM:  16
+GIN[   8] TurnTablePosReq
+GIN    8   RACK:  89   SLOT:   1   PORT: 145   #NUM:   8
+GIN[  65] WTC1 Weld Error
+GIN   65   RACK:  89   SLOT:   2   PORT:  31   #NUM:   5
+GIN[  66] WTC1 Forge Force
+GIN   66   RACK:  89   SLOT:   2   PORT:  37   #NUM:  14
+GIN[  84] RoboApp#1Prt#1
+GIN   84   RACK:  89   SLOT:   1   PORT: 177   #NUM:  16
+GIN[  85] RoboApp#1Prt#2
+GIN   85   RACK:  89   SLOT:   1   PORT: 193   #NUM:  16
+GIN[  86] RoboApp#1Prt#3
+GIN   86   RACK:  89   SLOT:   1   PORT: 209   #NUM:  16
+GIN[  87] RoboApp#1Prt#4
+GIN   87   RACK:  89   SLOT:   1   PORT: 225   #NUM:  16
+GIN[  88] RoboApp#2Prt#1
+GIN   88   RACK:  89   SLOT:   1   PORT: 241   #NUM:  16
+GIN[  89] RoboApp#2Prt#2
+GIN   89   RACK:  89   SLOT:   1   PORT: 257   #NUM:  16
+GIN[  90] RoboApp#2Prt#3
+GIN   90   RACK:  89   SLOT:   1   PORT: 273   #NUM:  16
+GIN[  91] RoboApp#2Prt#4
+GIN   91   RACK:  89   SLOT:   1   PORT: 289   #NUM:  16
+GIN[  92] RoboApp#3Prt#1
+GIN   92   RACK:  89   SLOT:   1   PORT: 305   #NUM:  16
+GIN[  93] RoboApp#3Prt#2
+GIN   93   RACK:  89   SLOT:   1   PORT: 321   #NUM:  16
+GIN[  94] RoboApp#3Prt#3
+GIN   94   RACK:  89   SLOT:   1   PORT: 337   #NUM:  16
+GIN[  95] RoboApp#3Prt#4
+GIN   95   RACK:  89   SLOT:   1   PORT: 353   #NUM:  16
+GIN[  96] RoboApp#4Prt#1
+GIN   96   RACK:  89   SLOT:   1   PORT: 369   #NUM:  16
+GIN[  97] RoboApp#4Prt#2
+GIN   97   RACK:  89   SLOT:   1   PORT: 285   #NUM:  16
+GIN[  98] RoboApp#4Prt#3
+GIN   98   RACK:  89   SLOT:   1   PORT: 401   #NUM:  16
+GIN[  99] RoboApp#4Prt#4
+GIN   99   RACK:  89   SLOT:   1   PORT: 417   #NUM:  16
+GOUT[   1] ActivePath
+GOUT    1   RACK:  89   SLOT:   1   PORT:  73   #NUM:   8
+GOUT[   2] Robot Speed
+GOUT    2   RACK:  89   SLOT:   1   PORT: 457   #NUM:   8
+GOUT[   3] Style Echo
+GOUT    3   RACK:  89   SLOT:   1   PORT:  11   #NUM:   8
+GOUT[   4] Option Code Echo
+GOUT    4   RACK:  89   SLOT:   1   PORT:  81   #NUM:   8
+GOUT[   5] Alarm Codes
+GOUT    5   RACK:  89   SLOT:   1   PORT: 473   #NUM:   8
+GOUT[   6] Error Codes
+GOUT    6   RACK:  89   SLOT:   1   PORT: 481   #NUM:  16
+GOUT[   7] User Fault
+GOUT    7   RACK:  89   SLOT:   1   PORT: 497   #NUM:  16
+GOUT[   8] Error Severity
+GOUT    8   RACK:  89   SLOT:   1   PORT: 449   #NUM:   8
+GOUT[  65] Weld schedule   
+GOUT   65   RACK:  89   SLOT:   2   PORT:   1   #NUM:   8
+GOUT[  66] WTC1 Eqlztn Pres
+GOUT   66   RACK:  89   SLOT:   2   PORT:  63   #NUM:   1
+GOUT[  84] RoboApp#1Prt#1
+GOUT   84   RACK:  89   SLOT:   1   PORT: 177   #NUM:  16
+GOUT[  85] RoboApp#1Prt#2
+GOUT   85   RACK:  89   SLOT:   1   PORT: 193   #NUM:  16
+GOUT[  86] RoboApp#1Prt#3
+GOUT   86   RACK:  89   SLOT:   1   PORT: 209   #NUM:  16
+GOUT[  87] RoboApp#1Prt#4
+GOUT   87   RACK:  89   SLOT:   1   PORT: 225   #NUM:  16
+GOUT[  88] RoboApp#2Prt#1
+GOUT   88   RACK:  89   SLOT:   1   PORT: 241   #NUM:  16
+GOUT[  89] RoboApp#2Prt#2
+GOUT   89   RACK:  89   SLOT:   1   PORT: 257   #NUM:  16
+GOUT[  90] RoboApp#2Prt#3
+GOUT   90   RACK:  89   SLOT:   1   PORT: 273   #NUM:  16
+GOUT[  91] RoboApp#2Prt#4
+GOUT   91   RACK:  89   SLOT:   1   PORT: 289   #NUM:  16
+GOUT[  92] RoboApp#3Prt#1
+GOUT   92   RACK:  89   SLOT:   1   PORT: 305   #NUM:  16
+GOUT[  93] RoboApp#3Prt#2
+GOUT   93   RACK:  89   SLOT:   1   PORT: 321   #NUM:  16
+GOUT[  94] RoboApp#3Prt#3
+GOUT   94   RACK:  89   SLOT:   1   PORT: 337   #NUM:  16
+GOUT[  95] RoboApp#3Prt#4
+GOUT   95   RACK:  89   SLOT:   1   PORT: 353   #NUM:  16
+GOUT[  96] RoboApp#4Prt#1
+GOUT   96   RACK:  89   SLOT:   1   PORT: 369   #NUM:  16
+GOUT[  97] RoboApp#4Prt#2
+GOUT   97   RACK:  89   SLOT:   1   PORT: 385   #NUM:  16
+GOUT[  98] RoboApp#4Prt#3
+GOUT   98   RACK:  89   SLOT:   1   PORT: 401   #NUM:  16
+GOUT[  99] RoboApp#4Prt#4
+GOUT   99   RACK:  89   SLOT:   1   PORT: 417   #NUM:  16
+GOUT[ 109] SafSignTotal_B
+GOUT  109   RACK:  33   SLOT:   8   PORT:   1   #NUM: 128
+UI[   1] *IMSTP
+UI[   2] *Hold
+UI[   3] *SFSPD
+UI[   4] Cycle stop
+UI[   5] Fault reset
+UI[   6] Start
+UI[   7] Home
+UI[   8] Enable
+UI[   9] RSR1/PNS1/STYLE1
+UI[  10] RSR2/PNS2/STYLE2
+UI[  11] RSR3/PNS3/STYLE3
+UI[  12] RSR4/PNS4/STYLE4
+UI[  13] RSR5/PNS5/STYLE5
+UI[  14] RSR6/PNS6/STYLE6
+UI[  15] RSR7/PNS7/STYLE7
+UI[  16] RSR8/PNS8/STYLE8
+UI[  17] PNS strobe
+UI[  18] Prod start
+UI    1  -  18   RACK:  89   SLOT:   1   PORT:   1
+UO[   1] Cmd enabled
+UO[   2] System ready
+UO[   3] Prg running
+UO[   4] Prg paused
+UO[   5] Motion held
+UO[   6] Fault
+UO[   7] At home
+UO[   8] TP enabled
+UO[   9] Batt alarm
+UO[  10] Busy
+UO    1  -  10   RACK:  89   SLOT:   1   PORT:   1
+UO[  19] SNACK
+UO[  20] Reserved
+UO   19  -  20   RACK:  89   SLOT:   1   PORT:  19

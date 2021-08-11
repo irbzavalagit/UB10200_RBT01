@@ -1,0 +1,10 @@
+tb_cart 1           -- cartesian 1. cycle priority 2. path priority
+tb_jnt 1            -- joint 1. cycle priority 2. path priority
+!MME>flange_type 1  -- Generated Automatically
+payload 700         -- max payload
+!MME>ext_card 0     -- 0.ext servo card not exist 1. exists
+!MME>last_amp 0     -- 0.SVM1-80i 1.SVM2-40/80i 2.SVM2-80/80i
+flange_type 2 -- Generated Automatically
+ext_card 0 -- Generated Automatically
+last_amp 2 -- Generated Automatically
+ENDOFL              -- end of the file

@@ -1,0 +1,22 @@
+[SGWRTLO2]DI_IDX  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLO2]DO_IDX  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLO2]ENTRY  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLO2]GUN_TYP  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLO2]PPD_INSTALD  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SGWRTLO2]PRS  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SGWRTLO2]S  Storage: DRAM  Access: RW  : STRING[254] = Uninitialized
+
+[SGWRTLO2]S2  Storage: DRAM  Access: RW  : STRING[40] = Uninitialized
+
+[SGWRTLO2]STATUS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLO2]TM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SGWRTLO2]VNM  Storage: DRAM  Access: RW  : STRING[100] = Uninitialized
+

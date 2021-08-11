@@ -1,0 +1,12 @@
+[AUTOBACK]ENTRY  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[AUTOBACK]ERROR_TRACK  Storage: DRAM  Access: RW  : STRING[2] = Uninitialized
+
+[AUTOBACK]FNUM  Storage: DRAM  Access: RW  : STRING[21] = Uninitialized
+
+[AUTOBACK]FNUM_LEN  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[AUTOBACK]FNUM_NUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[AUTOBACK]STATUS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+

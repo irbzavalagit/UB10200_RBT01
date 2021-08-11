@@ -1,0 +1,1850 @@
+F Number: F270477
+VERSION : SpotTool+            
+$VERSION: V9.30126      2/12/2021
+DATE:     11-AUG-21 11:00 
+
+IO STATUS::
+
+DIN[   1]  ON  NoStop
+DIN[   2]  ON  NoHold
+DIN[   3]  ON  SafeSpeed
+DIN[   4] OFF  CyclStop[Abort]
+DIN[   5] OFF  FaultReset
+DIN[   6] OFF  Start
+DIN[   7] OFF  Home
+DIN[   8]  ON  MotionEnable
+DIN[   9] OFF  StyleBit0
+DIN[  10] OFF  StyleBit1
+DIN[  11] OFF  StyleBit2
+DIN[  12] OFF  StyleBit3
+DIN[  13] OFF  StyleBit4
+DIN[  14] OFF  StyleBit5
+DIN[  15] OFF  StyleBit6
+DIN[  16] OFF  StyleBit7
+DIN[  17] OFF  InitiateStyle
+DIN[  18] OFF  ProductionStart
+DIN[  19] OFF  
+DIN[  20] OFF  
+DIN[  21] OFF  
+DIN[  22] OFF  
+DIN[  23] OFF  ReqEnterCell
+DIN[  24] OFF  
+DIN[  25] OFF  
+DIN[  26] OFF  
+DIN[  27] OFF  
+DIN[  28] OFF  
+DIN[  29] OFF  
+DIN[  30] OFF  
+DIN[  31] OFF  
+DIN[  32] OFF  WaterOK
+DIN[  33] OFF  AirOK
+DIN[  34] OFF  DryCycle Mode
+DIN[  35] OFF  
+DIN[  36] OFF  Confirmation4Auto
+DIN[  37] OFF  
+DIN[  38] OFF  
+DIN[  39] OFF  
+DIN[  40] OFF  
+DIN[  41] OFF  
+DIN[  42] OFF  BgHeartbeat
+DIN[  43] OFF  
+DIN[  44] OFF  RetrieveNextError
+DIN[  45] OFF  
+DIN[  46] OFF  NewSpeedRequest
+DIN[  47] OFF  
+DIN[  48] OFF  
+DIN[  49] OFF  Weld/NO WELD
+DIN[  50] OFF  Stroke/NO STROKE
+DIN[  51] OFF  
+DIN[  52] OFF  
+DIN[  53] OFF  
+DIN[  54] OFF  
+DIN[  55] OFF  
+DIN[  56] OFF  
+DIN[  57] OFF  
+DIN[  58] OFF  
+DIN[  59] OFF  
+DIN[  60] OFF  
+DIN[  61] OFF  
+DIN[  62] OFF  
+DIN[  63] OFF  
+DIN[  64] OFF  
+DIN[  65] OFF  
+DIN[  66] OFF  
+DIN[  67] OFF  
+DIN[  68] OFF  
+DIN[  69] OFF  
+DIN[  70] OFF  
+DIN[  71] OFF  
+DIN[  72] OFF  ProceedPath
+DIN[  73] OFF  PathRequestBit0
+DIN[  74]  ON  PathRequestBit1
+DIN[  75] OFF  PathRequestBit2
+DIN[  76]  ON  PathRequestBit3
+DIN[  77]  ON  PathRequestBit4
+DIN[  78]  ON  PathRequestBit5
+DIN[  79]  ON  PathRequestBit6
+DIN[  80]  ON  PathRequestBit7
+DIN[  81] OFF  OptionA
+DIN[  82] OFF  OptionB
+DIN[  83] OFF  OptionC
+DIN[  84] OFF  OptionD
+DIN[  85] OFF  OptionE
+DIN[  86] OFF  OptionF
+DIN[  87] OFF  OptionG
+DIN[  88] OFF  OptionH
+DIN[  89] OFF  
+DIN[  90] OFF  
+DIN[  91] OFF  
+DIN[  92] OFF  
+DIN[  93] OFF  
+DIN[  94] OFF  
+DIN[  95] OFF  
+DIN[  96] OFF  
+DIN[  97] OFF  
+DIN[  98] OFF  
+DIN[  99] OFF  
+DIN[ 100] OFF  
+DIN[ 101] OFF  
+DIN[ 102] OFF  
+DIN[ 103] OFF  
+DIN[ 104] OFF  
+DIN[ 105] OFF  Clr2EntrCol01
+DIN[ 106] OFF  Clr2EntrCol02
+DIN[ 107] OFF  Clr2EntrCol03
+DIN[ 108] OFF  Clr2EntrCol04
+DIN[ 109] OFF  Clr2EntrCol05
+DIN[ 110] OFF  Clr2EntrCol06
+DIN[ 111] OFF  Clr2EntrCol07
+DIN[ 112] OFF  Clr2EntrCol08
+DIN[ 113] OFF  Clr2EntrCol09
+DIN[ 114] OFF  Clr2EntrCol10
+DIN[ 115] OFF  Clr2EntrCol11
+DIN[ 116] OFF  Clr2EntrCol12
+DIN[ 117] OFF  Clr2EntrCol13
+DIN[ 118] OFF  Clr2EntrCol14
+DIN[ 119] OFF  Clr2EntrCol15
+DIN[ 120] OFF  Clr2EntrCol16
+DIN[ 121] OFF  ClrFixture01
+DIN[ 122] OFF  ClrFixture02
+DIN[ 123] OFF  ClrFixture03
+DIN[ 124] OFF  ClrFixture04
+DIN[ 125] OFF  ClrFixture05
+DIN[ 126] OFF  ClrFixture06
+DIN[ 127] OFF  ClrFixture07
+DIN[ 128] OFF  ClrFixture08
+DIN[ 129] OFF  ClrFixture09
+DIN[ 130] OFF  ClrFixture10
+DIN[ 131] OFF  ClrFixture11
+DIN[ 132] OFF  ClrFixture12
+DIN[ 133] OFF  ClrFixture13
+DIN[ 134] OFF  ClrFixture14
+DIN[ 135] OFF  ClrFixture15
+DIN[ 136] OFF  ClrFixture16
+DIN[ 137] OFF  
+DIN[ 138] OFF  
+DIN[ 139] OFF  
+DIN[ 140] OFF  
+DIN[ 141] OFF  
+DIN[ 142] OFF  
+DIN[ 143] OFF  
+DIN[ 144] OFF  TurnTablMovToPos
+DIN[ 145] OFF  Pos1
+DIN[ 146] OFF  Pos2
+DIN[ 147] OFF  Pos3
+DIN[ 148] OFF  Pos4
+DIN[ 149] OFF  Pos5
+DIN[ 150] OFF  Pos6
+DIN[ 151] OFF  Pos7
+DIN[ 152] OFF  Pos8
+DIN[ 153] OFF  Reserved
+DIN[ 154] OFF  Reserved
+DIN[ 155] OFF  Reserved
+DIN[ 156] OFF  Reserved
+DIN[ 157] OFF  
+DIN[ 158] OFF  
+DIN[ 159] OFF  
+DIN[ 160] OFF  
+DIN[ 161] OFF  
+DIN[ 162] OFF  
+DIN[ 163] OFF  
+DIN[ 164] OFF  
+DIN[ 165] OFF  
+DIN[ 166] OFF  
+DIN[ 167] OFF  
+DIN[ 168] OFF  
+DIN[ 169] OFF  ReservedForInterconnecti
+DIN[ 170] OFF  ReservedForInterconnecti
+DIN[ 171] OFF  ReservedForInterconnecti
+DIN[ 172] OFF  ReservedForInterconnecti
+DIN[ 173] OFF  ReservedForInterconnecti
+DIN[ 174] OFF  ReservedForInterconnecti
+DIN[ 175] OFF  ReservedForInterconnecti
+DIN[ 176] OFF  ReservedForInterconnecti
+DIN[ 177] OFF  Rmt wtr svr rese
+DIN[ 178] OFF  
+DIN[ 179] OFF  
+DIN[ 180] OFF  
+DIN[ 181] OFF  
+DIN[ 182] OFF  
+DIN[ 183] OFF  
+DIN[ 184] OFF  
+DIN[ 185] OFF  
+DIN[ 186] OFF  
+DIN[ 187] OFF  
+DIN[ 188] OFF  
+DIN[ 189] OFF  
+DIN[ 190] OFF  
+DIN[ 191] OFF  
+DIN[ 192] OFF  
+DIN[ 193] OFF  
+DIN[ 194] OFF  
+DIN[ 195] OFF  
+DIN[ 196] OFF  
+DIN[ 197] OFF  
+DIN[ 198] OFF  
+DIN[ 199] OFF  
+DIN[ 200] OFF  
+DIN[ 201] OFF  
+DIN[ 202] OFF  
+DIN[ 203] OFF  
+DIN[ 204] OFF  
+DIN[ 205] OFF  
+DIN[ 206] OFF  
+DIN[ 207] OFF  
+DIN[ 208] OFF  
+DIN[ 209] OFF  
+DIN[ 210] OFF  
+DIN[ 211] OFF  
+DIN[ 212] OFF  
+DIN[ 213] OFF  
+DIN[ 214] OFF  
+DIN[ 215] OFF  
+DIN[ 216] OFF  
+DIN[ 217] OFF  
+DIN[ 218] OFF  
+DIN[ 219] OFF  
+DIN[ 220] OFF  
+DIN[ 221] OFF  
+DIN[ 222] OFF  
+DIN[ 223] OFF  
+DIN[ 224] OFF  
+DIN[ 225] OFF  
+DIN[ 226] OFF  
+DIN[ 227] OFF  
+DIN[ 228] OFF  
+DIN[ 229] OFF  
+DIN[ 230] OFF  
+DIN[ 231] OFF  
+DIN[ 232] OFF  
+DIN[ 233] OFF  
+DIN[ 234] OFF  
+DIN[ 235] OFF  
+DIN[ 236] OFF  
+DIN[ 237] OFF  
+DIN[ 238] OFF  
+DIN[ 239] OFF  
+DIN[ 240] OFF  
+DIN[ 241] OFF  RoboApp2 GI[88] Fback01
+DIN[ 242] OFF  RoboApp2 GI[88] Fback02
+DIN[ 243] OFF  RoboApp2 GI[88] Fback03
+DIN[ 244] OFF  RoboApp2 GI[88] Fback04
+DIN[ 245] OFF  RoboApp2 GI[88] Fback05
+DIN[ 246] OFF  RoboApp2 GI[88] Fback06
+DIN[ 247] OFF  RoboApp2 GI[88] Fback07
+DIN[ 248] OFF  RoboApp2 GI[88] Fback08
+DIN[ 249] OFF  RoboApp2 GI[88] Fback09
+DIN[ 250] OFF  RoboApp2 GI[88] Fback10
+DIN[ 251] OFF  RoboApp2 GI[88] Fback11
+DIN[ 252] OFF  RoboApp2 GI[88] Fback12
+DIN[ 253] OFF  RoboApp2 GI[88] Fback13
+DIN[ 254] OFF  RoboApp2 GI[88] Fback14
+DIN[ 255] OFF  RoboApp2 GI[88] Fback15
+DIN[ 256] OFF  RoboApp2 GI[88] Fback16
+DIN[ 257] OFF  RoboApp2 GI[89] Fback01
+DIN[ 258] OFF  RoboApp2 GI[89] Fback02
+DIN[ 259] OFF  RoboApp2 GI[89] Fback03
+DIN[ 260] OFF  RoboApp2 GI[89] Fback04
+DIN[ 261] OFF  RoboApp2 GI[89] Fback05
+DIN[ 262] OFF  RoboApp2 GI[89] Fback06
+DIN[ 263] OFF  RoboApp2 GI[89] Fback07
+DIN[ 264] OFF  RoboApp2 GI[89] Fback08
+DIN[ 265] OFF  RoboApp2 GI[89] Fback09
+DIN[ 266] OFF  RoboApp2 GI[89] Fback10
+DIN[ 267] OFF  RoboApp2 GI[89] Fback11
+DIN[ 268] OFF  RoboApp2 GI[89] Fback12
+DIN[ 269] OFF  RoboApp2 GI[89] Fback13
+DIN[ 270] OFF  RoboApp2 GI[89] Fback14
+DIN[ 271] OFF  RoboApp2 GI[89] Fback15
+DIN[ 272] OFF  RoboApp2 GI[89] Fback16
+DIN[ 273] OFF  RoboApp2 GI[90] Fback01
+DIN[ 274] OFF  RoboApp2 GI[90] Fback02
+DIN[ 275] OFF  RoboApp2 GI[90] Fback03
+DIN[ 276] OFF  RoboApp2 GI[90] Fback04
+DIN[ 277] OFF  RoboApp2 GI[90] Fback05
+DIN[ 278] OFF  RoboApp2 GI[90] Fback06
+DIN[ 279] OFF  RoboApp2 GI[90] Fback07
+DIN[ 280] OFF  RoboApp2 GI[90] Fback08
+DIN[ 281] OFF  RoboApp2 GI[90] Fback09
+DIN[ 282] OFF  RoboApp2 GI[90] Fback10
+DIN[ 283] OFF  RoboApp2 GI[90] Fback11
+DIN[ 284] OFF  RoboApp2 GI[90] Fback12
+DIN[ 285] OFF  RoboApp2 GI[90] Fback13
+DIN[ 286] OFF  RoboApp2 GI[90] Fback14
+DIN[ 287] OFF  RoboApp2 GI[90] Fback15
+DIN[ 288] OFF  RoboApp2 GI[90] Fback16
+DIN[ 289] OFF  RoboApp2 GI[91] Fback01
+DIN[ 290] OFF  RoboApp2 GI[91] Fback02
+DIN[ 291] OFF  RoboApp2 GI[91] Fback03
+DIN[ 292] OFF  RoboApp2 GI[91] Fback04
+DIN[ 293] OFF  RoboApp2 GI[91] Fback05
+DIN[ 294] OFF  RoboApp2 GI[91] Fback06
+DIN[ 295] OFF  RoboApp2 GI[91] Fback07
+DIN[ 296] OFF  RoboApp2 GI[91] Fback08
+DIN[ 297] OFF  RoboApp2 GI[91] Fback09
+DIN[ 298] OFF  RoboApp2 GI[91] Fback10
+DIN[ 299] OFF  RoboApp2 GI[91] Fback11
+DIN[ 300] OFF  RoboApp2 GI[91] Fback12
+DIN[ 301] OFF  RoboApp2 GI[91] Fback13
+DIN[ 302] OFF  RoboApp2 GI[91] Fback14
+DIN[ 303] OFF  RoboApp2 GI[91] Fback15
+DIN[ 304] OFF  RoboApp2 GI[91] Fback16
+DIN[ 305] OFF  RoboApp3 GI[92] Fback01
+DIN[ 306] OFF  RoboApp3 GI[92] Fback02
+DIN[ 307] OFF  RoboApp3 GI[92] Fback03
+DIN[ 308] OFF  RoboApp3 GI[92] Fback04
+DIN[ 309] OFF  RoboApp3 GI[92] Fback05
+DIN[ 310] OFF  RoboApp3 GI[92] Fback06
+DIN[ 311] OFF  RoboApp3 GI[92] Fback07
+DIN[ 312] OFF  RoboApp3 GI[92] Fback08
+DIN[ 313] OFF  RoboApp3 GI[92] Fback09
+DIN[ 314] OFF  RoboApp3 GI[92] Fback10
+DIN[ 315] OFF  RoboApp3 GI[92] Fback11
+DIN[ 316] OFF  RoboApp3 GI[92] Fback12
+DIN[ 317] OFF  RoboApp3 GI[92] Fback13
+DIN[ 318] OFF  RoboApp3 GI[92] Fback14
+DIN[ 319] OFF  RoboApp3 GI[92] Fback15
+DIN[ 320] OFF  RoboApp3 GI[92] Fback16
+DIN[ 321] OFF  RoboApp3 GI[93] Fback01
+DIN[ 322] OFF  RoboApp3 GI[93] Fback02
+DIN[ 323] OFF  RoboApp3 GI[93] Fback03
+DIN[ 324] OFF  RoboApp3 GI[93] Fback04
+DIN[ 325] OFF  RoboApp3 GI[93] Fback05
+DIN[ 326] OFF  RoboApp3 GI[93] Fback06
+DIN[ 327] OFF  RoboApp3 GI[93] Fback07
+DIN[ 328] OFF  RoboApp3 GI[93] Fback08
+DIN[ 329] OFF  RoboApp3 GI[93] Fback09
+DIN[ 330] OFF  RoboApp3 GI[93] Fback10
+DIN[ 331] OFF  RoboApp3 GI[93] Fback11
+DIN[ 332] OFF  RoboApp3 GI[93] Fback12
+DIN[ 333] OFF  RoboApp3 GI[93] Fback13
+DIN[ 334] OFF  RoboApp3 GI[93] Fback14
+DIN[ 335] OFF  RoboApp3 GI[93] Fback15
+DIN[ 336] OFF  RoboApp3 GI[93] Fback16
+DIN[ 337] OFF  RoboApp3 GI[94] Fback01
+DIN[ 338] OFF  RoboApp3 GI[94] Fback02
+DIN[ 339] OFF  RoboApp3 GI[94] Fback03
+DIN[ 340] OFF  RoboApp3 GI[94] Fback04
+DIN[ 341] OFF  RoboApp3 GI[94] Fback05
+DIN[ 342] OFF  RoboApp3 GI[94] Fback06
+DIN[ 343] OFF  RoboApp3 GI[94] Fback07
+DIN[ 344] OFF  RoboApp3 GI[94] Fback08
+DIN[ 345] OFF  RoboApp3 GI[94] Fback09
+DIN[ 346] OFF  RoboApp3 GI[94] Fback10
+DIN[ 347] OFF  RoboApp3 GI[94] Fback11
+DIN[ 348] OFF  RoboApp3 GI[94] Fback12
+DIN[ 349] OFF  RoboApp3 GI[94] Fback13
+DIN[ 350] OFF  RoboApp3 GI[94] Fback14
+DIN[ 351] OFF  RoboApp3 GI[94] Fback15
+DIN[ 352] OFF  RoboApp3 GI[94] Fback16
+DIN[ 353] OFF  RoboApp3 GI[95] Fback01
+DIN[ 354] OFF  RoboApp3 GI[95] Fback02
+DIN[ 355] OFF  RoboApp3 GI[95] Fback03
+DIN[ 356] OFF  RoboApp3 GI[95] Fback04
+DIN[ 357] OFF  RoboApp3 GI[95] Fback05
+DIN[ 358] OFF  RoboApp3 GI[95] Fback06
+DIN[ 359] OFF  RoboApp3 GI[95] Fback07
+DIN[ 360] OFF  RoboApp3 GI[95] Fback08
+DIN[ 361] OFF  RoboApp3 GI[95] Fback09
+DIN[ 362] OFF  RoboApp3 GI[95] Fback10
+DIN[ 363] OFF  RoboApp3 GI[95] Fback11
+DIN[ 364] OFF  RoboApp3 GI[95] Fback12
+DIN[ 365] OFF  RoboApp3 GI[95] Fback13
+DIN[ 366] OFF  RoboApp3 GI[95] Fback14
+DIN[ 367] OFF  RoboApp3 GI[95] Fback15
+DIN[ 368] OFF  RoboApp3 GI[95] Fback16
+DIN[ 369] OFF  RoboApp4 GI[96] Fback01
+DIN[ 370] OFF  RoboApp4 GI[96] Fback02
+DIN[ 371] OFF  RoboApp4 GI[96] Fback03
+DIN[ 372] OFF  RoboApp4 GI[96] Fback04
+DIN[ 373] OFF  RoboApp4 GI[96] Fback05
+DIN[ 374] OFF  RoboApp4 GI[96] Fback06
+DIN[ 375] OFF  RoboApp4 GI[96] Fback07
+DIN[ 376] OFF  RoboApp4 GI[96] Fback08
+DIN[ 377] OFF  RoboApp4 GI[96] Fback09
+DIN[ 378] OFF  RoboApp4 GI[96] Fback10
+DIN[ 379] OFF  RoboApp4 GI[96] Fback11
+DIN[ 380] OFF  RoboApp4 GI[96] Fback12
+DIN[ 381] OFF  RoboApp4 GI[96] Fback13
+DIN[ 382] OFF  RoboApp4 GI[96] Fback14
+DIN[ 383] OFF  RoboApp4 GI[96] Fback15
+DIN[ 384] OFF  RoboApp4 GI[96] Fback16
+DIN[ 385] OFF  RoboApp4 GI[97] Fback01
+DIN[ 386] OFF  RoboApp4 GI[97] Fback02
+DIN[ 387] OFF  RoboApp4 GI[97] Fback03
+DIN[ 388] OFF  RoboApp4 GI[97] Fback04
+DIN[ 389] OFF  RoboApp4 GI[97] Fback05
+DIN[ 390] OFF  RoboApp4 GI[97] Fback06
+DIN[ 391] OFF  RoboApp4 GI[97] Fback07
+DIN[ 392] OFF  RoboApp4 GI[97] Fback08
+DIN[ 393] OFF  RoboApp4 GI[97] Fback09
+DIN[ 394] OFF  RoboApp4 GI[97] Fback10
+DIN[ 395] OFF  RoboApp4 GI[97] Fback11
+DIN[ 396] OFF  RoboApp4 GI[97] Fback12
+DIN[ 397] OFF  RoboApp4 GI[97] Fback13
+DIN[ 398] OFF  RoboApp4 GI[97] Fback14
+DIN[ 399] OFF  RoboApp4 GI[97] Fback15
+DIN[ 400] OFF  RoboApp4 GI[97] Fback16
+DIN[ 401] OFF  RoboApp4 GI[98] Fback01
+DIN[ 402] OFF  RoboApp4 GI[98] Fback02
+DIN[ 403] OFF  RoboApp4 GI[98] Fback03
+DIN[ 404] OFF  RoboApp4 GI[98] Fback04
+DIN[ 405] OFF  RoboApp4 GI[98] Fback05
+DIN[ 406] OFF  RoboApp4 GI[98] Fback06
+DIN[ 407] OFF  RoboApp4 GI[98] Fback07
+DIN[ 408] OFF  RoboApp4 GI[98] Fback08
+DIN[ 409] OFF  RoboApp4 GI[98] Fback09
+DIN[ 410] OFF  RoboApp4 GI[98] Fback10
+DIN[ 411] OFF  RoboApp4 GI[98] Fback11
+DIN[ 412] OFF  RoboApp4 GI[98] Fback12
+DIN[ 413] OFF  RoboApp4 GI[98] Fback13
+DIN[ 414] OFF  RoboApp4 GI[98] Fback14
+DIN[ 415] OFF  RoboApp4 GI[98] Fback15
+DIN[ 416] OFF  RoboApp4 GI[98] Fback16
+DIN[ 417] OFF  RoboApp4 GI[99] Fback01
+DIN[ 418] OFF  RoboApp4 GI[99] Fback02
+DIN[ 419] OFF  RoboApp4 GI[99] Fback03
+DIN[ 420] OFF  RoboApp4 GI[99] Fback04
+DIN[ 421] OFF  RoboApp4 GI[99] Fback05
+DIN[ 422] OFF  RoboApp4 GI[99] Fback06
+DIN[ 423] OFF  RoboApp4 GI[99] Fback07
+DIN[ 424] OFF  RoboApp4 GI[99] Fback08
+DIN[ 425] OFF  RoboApp4 GI[99] Fback09
+DIN[ 426] OFF  RoboApp4 GI[99] Fback10
+DIN[ 427] OFF  RoboApp4 GI[99] Fback11
+DIN[ 428] OFF  RoboApp4 GI[99] Fback12
+DIN[ 429] OFF  RoboApp4 GI[99] Fback13
+DIN[ 430] OFF  RoboApp4 GI[99] Fback14
+DIN[ 431] OFF  RoboApp4 GI[99] Fback15
+DIN[ 432] OFF  RoboApp4 GI[99] Fback16
+DIN[ 433] OFF  DebuggingBit01
+DIN[ 434] OFF  DebuggingBit02
+DIN[ 435] OFF  DebuggingBit03
+DIN[ 436] OFF  DebuggingBit04
+DIN[ 437] OFF  DebuggingBit05
+DIN[ 438] OFF  DebuggingBit06
+DIN[ 439] OFF  DebuggingBit07
+DIN[ 440] OFF  DebuggingBit08
+DIN[ 441] OFF  DebuggingBit09
+DIN[ 442] OFF  DebuggingBit10
+DIN[ 443] OFF  DebuggingBit11
+DIN[ 444] OFF  DebuggingBit12
+DIN[ 445] OFF  DebuggingBit13
+DIN[ 446] OFF  DebuggingBit14
+DIN[ 447] OFF  DebuggingBit15
+DIN[ 448] OFF  DebuggingBit16
+DIN[ 449] OFF  
+DIN[ 450] OFF  
+DIN[ 451] OFF  
+DIN[ 452] OFF  
+DIN[ 453] OFF  
+DIN[ 454] OFF  
+DIN[ 455] OFF  
+DIN[ 456] OFF  
+DIN[ 457] OFF  NewSpdBit1
+DIN[ 458] OFF  NewSpdBit2
+DIN[ 459] OFF  NewSpdBit3
+DIN[ 460] OFF  NewSpdBit4
+DIN[ 461] OFF  NewSpdBit5
+DIN[ 462] OFF  NewSpdBit6
+DIN[ 463] OFF  NewSpdBit7
+DIN[ 464] OFF  NewSpdBit8
+DIN[ 465] OFF  
+DIN[ 466] OFF  
+DIN[ 467] OFF  
+DIN[ 468] OFF  ApprovalDI
+DIN[ 469] OFF  ResetDI
+DIN[ 470] OFF  
+DIN[ 471] OFF  
+DIN[ 472] OFF  
+DIN[ 473] OFF  
+DIN[ 474] OFF  
+DIN[ 475] OFF  
+DIN[ 476] OFF  
+DIN[ 477] OFF  
+DIN[ 478] OFF  
+DIN[ 479] OFF  
+DIN[ 480] OFF  
+DIN[ 481] OFF  
+DIN[ 482] OFF  
+DIN[ 483] OFF  
+DIN[ 484] OFF  
+DIN[ 485] OFF  
+DIN[ 486] OFF  
+DIN[ 487] OFF  
+DIN[ 488] OFF  
+DIN[ 489] OFF  
+DIN[ 490] OFF  
+DIN[ 491] OFF  
+DIN[ 492] OFF  
+DIN[ 493] OFF  
+DIN[ 494] OFF  
+DIN[ 495] OFF  
+DIN[ 496] OFF  
+DIN[ 497] OFF  
+DIN[ 498] OFF  
+DIN[ 499] OFF  
+DIN[ 500] OFF  
+DIN[ 501] OFF  
+DIN[ 502] OFF  
+DIN[ 503] OFF  
+DIN[ 504] OFF  
+DIN[ 505] OFF  
+DIN[ 506] OFF  
+DIN[ 507] OFF  
+DIN[ 508] OFF  
+DIN[ 509] OFF  
+DIN[ 510] OFF  
+DIN[ 511] OFF  
+DIN[ 512] OFF  
+DIN[ 700]  ON  Major alarm     
+DIN[ 701]  ON  Minor alarm     
+DIN[ 702] OFF  Fault
+DIN[ 703]  ON  WELD/NOWELD     
+DIN[ 704] OFF  No Weld
+DIN[ 705] OFF  Weld in process 
+DIN[ 706] OFF  Weld complete   
+DIN[ 707] OFF  Ready To Weld
+DIN[ 708] OFF  StepResetG1
+DIN[ 709]  ON  StepResetG2
+DIN[ 710] OFF  Reserved
+DIN[ 711] OFF  Reserved
+DIN[ 712] OFF  EndofStepG1
+DIN[ 713] OFF  EndofStepG2
+DIN[ 714] OFF  Reserved
+DIN[ 715] OFF  Reserved
+DIN[ 716] OFF  Approach cap chg
+DIN[ 717] OFF  Approach CC G2
+DIN[ 718] OFF  Reserved
+DIN[ 719] OFF  Reserved
+DIN[ 720] OFF  Cap change req  
+DIN[ 721] OFF  Cap chang req G2
+DIN[ 722] OFF  Reserved
+DIN[ 723] OFF  Reserved
+DIN[ 724] OFF  Tip dress req   
+DIN[ 725] OFF  Tip dress req G2
+DIN[ 726] OFF  Reserved
+DIN[ 727] OFF  Reserved
+DIN[ 728] OFF  StepAuXCntrAtMax
+DIN[ 729] OFF  App Error Av
+DIN[ 730] OFF  App Error Bit 1
+DIN[ 731] OFF  App Error Bit 2
+DIN[ 732] OFF  App Error Bit 4
+DIN[ 733] OFF  App Error Bit 8
+DIN[ 734] OFF  App Error Bit 16
+DIN[ 735] OFF  Forcemeasout
+DIN[ 736] OFF  Force1
+DIN[ 737] OFF  Force2
+DIN[ 738] OFF  Force4
+DIN[ 739] OFF  Force8
+DIN[ 740] OFF  Force16
+DIN[ 741] OFF  Force32
+DIN[ 742] OFF  Force64
+DIN[ 743] OFF  Force128
+DIN[ 744] OFF  Force256
+DIN[ 745] OFF  Force512
+DIN[ 746] OFF  Force1024
+DIN[ 747] OFF  Force2048
+DIN[ 748] OFF  Force4096
+DIN[ 749] OFF  Force8192
+DIN[ 750] OFF  Forge
+DIN[ 751] OFF  User Output 1
+DIN[ 752] OFF  User Output 2
+DIN[ 753] OFF  User Output 3
+DIN[ 754] OFF  User Output 4
+DIN[ 755] OFF  User Output 5
+DIN[ 756] OFF  User Output 6
+DIN[ 757] OFF  Water Saver Valv
+DIN[ 758] OFF  TD Motor Running
+DIN[ 759] OFF  Adaptq Mismatch
+DIN[ 760] OFF  Softq Mismatch
+DIN[ 761]  ON  Raft Capable
+DIN[ 762] OFF  Adaptq Enanled
+DIN[ 763] OFF  Softq Enabled
+DIN[ 772]  ON  Wtr saver OK
+DIN[ 773] OFF  Ws1ValveClsd
+DIN[ 774] OFF  Ws1Bypassed
+DIN[ 775]  ON  Wtr flow OK 
+DIN[ 776] OFF  Ws1CapLoss
+DIN[ 777] OFF  Ws1ValveFault
+DIN[ 778] OFF  Ws1FlowSenFault
+DIN[ 779]  ON  Ws1PowerOk
+DIN[ 780] OFF  Ws1MetricUnits
+DIN[ 781] OFF  Ws1OutletTempFlt
+DIN[ 782] OFF  Ws1OutletTempWrn
+DIN[ 783] OFF  Ws1DifrntlTmpFlt
+DIN[ 784] OFF  Ws1DifrntlTmpWrn
+DIN[ 785] OFF  Ws1TempSensorFlt
+DIN[ 786] OFF  Ws1ThermlLoadFlt
+DIN[ 787] OFF  Ws1ThermlLoadWrn
+DIN[ 820] OFF  TC1 Cylinder Adv
+DIN[ 821]  ON  TC1 Cylinder Ret
+DIN[ 822] OFF  TC1 UpCap Empty
+DIN[ 823] OFF  TC1 UpCap Attached
+DIN[ 824] OFF  TC1 LowCap Empty
+DIN[ 825]  ON  TC1 LowCap Attached
+DIN[ 826] OFF  TC1 Lim Cap CHK
+DIN[ 827]  ON  
+DOUT[   1] OFF  CommandEnable
+DOUT[   2] OFF  SystemReady
+DOUT[   3] OFF  ProgramRunning
+DOUT[   4]  ON  ProgramPaused
+DOUT[   5] OFF  MotionHeld
+DOUT[   6]  ON  Fault
+DOUT[   7] OFF  AtHome
+DOUT[   8]  ON  TPEnabled
+DOUT[   9] OFF  BatteryAlarm
+DOUT[  10] OFF  ProcessorBusy
+DOUT[  11] OFF  StyleEcho0
+DOUT[  12] OFF  StyleEcho1
+DOUT[  13] OFF  StyleEcho2
+DOUT[  14] OFF  StyleEcho3
+DOUT[  15] OFF  StyleEcho4
+DOUT[  16] OFF  StyleEcho5
+DOUT[  17] OFF  StyleEcho6
+DOUT[  18] OFF  StyleEcho7
+DOUT[  19] OFF  StyleAck
+DOUT[  20] OFF  BgPrg1Running
+DOUT[  21] OFF  BgPrg2Running
+DOUT[  22] OFF  BgPrg3Running
+DOUT[  23] OFF  BgPrg4Running
+DOUT[  24] OFF  BgPrg5Running
+DOUT[  25] OFF  AtPounce (PR2)
+DOUT[  26] OFF  AtPR3
+DOUT[  27] OFF  AtPR4
+DOUT[  28] OFF  AtPR5
+DOUT[  29] OFF  AtPurge
+DOUT[  30] OFF  AtTipDress
+DOUT[  31] OFF  AtAutoTipChange
+DOUT[  32] OFF  AtMaintPsn
+DOUT[  33]  ON  ColGuardEnabled
+DOUT[  34]  ON  InDryCycle
+DOUT[  35] OFF  InCycle
+DOUT[  36] OFF  InAuto
+DOUT[  37] OFF  StepMode
+DOUT[  38] OFF  T2Mode
+DOUT[  39]  ON  InputSimulated
+DOUT[  40] OFF  OutputSimulated
+DOUT[  41] OFF  WaitOnInput
+DOUT[  42]  ON  Heartbeat
+DOUT[  43] OFF  UsrPrmtActive
+DOUT[  44]  ON  ErrorOutStrbe
+DOUT[  45] OFF  Override100%
+DOUT[  46] OFF  SpeedReductionRequest
+DOUT[  47] OFF  SafeZoneIntersection
+DOUT[  48] OFF  ProgAborted
+DOUT[  49]  ON  Weld enabled
+DOUT[  50]  ON  Stroke enabled
+DOUT[  51] OFF  ProcessFault
+DOUT[  52] OFF  ProcessAlert
+DOUT[  53] OFF  AppInProcess
+DOUT[  54] OFF  
+DOUT[  55] OFF  
+DOUT[  56] OFF  
+DOUT[  57] OFF  
+DOUT[  58] OFF  
+DOUT[  59] OFF  
+DOUT[  60] OFF  
+DOUT[  61] OFF  
+DOUT[  62] OFF  
+DOUT[  63] OFF  
+DOUT[  64] OFF  
+DOUT[  65] OFF  
+DOUT[  66] OFF  
+DOUT[  67] OFF  
+DOUT[  68] OFF  
+DOUT[  69] OFF  
+DOUT[  70] OFF  
+DOUT[  71]  ON  Sign Chng Annunc
+DOUT[  72]  ON  PathComplete
+DOUT[  73] OFF  PathEchoBit0
+DOUT[  74]  ON  PathEchoBit1
+DOUT[  75] OFF  PathEchoBit2
+DOUT[  76]  ON  PathEchoBit3
+DOUT[  77]  ON  PathEchoBit4
+DOUT[  78]  ON  PathEchoBit5
+DOUT[  79]  ON  PathEchoBit6
+DOUT[  80]  ON  PathEchoBit7
+DOUT[  81] OFF  OptionAEcho
+DOUT[  82] OFF  OptionBEcho
+DOUT[  83] OFF  OptionCEcho
+DOUT[  84] OFF  OptionDEcho
+DOUT[  85] OFF  OptionEEcho
+DOUT[  86] OFF  OptionFEcho
+DOUT[  87] OFF  OptionGEcho
+DOUT[  88] OFF  OptionHEcho
+DOUT[  89] OFF  Req2EntrZne01
+DOUT[  90] OFF  Req2EntrZne02
+DOUT[  91] OFF  Req2EntrZne03
+DOUT[  92] OFF  Req2EntrZne04
+DOUT[  93] OFF  Req2EntrZne05
+DOUT[  94] OFF  Req2EntrZne06
+DOUT[  95] OFF  Req2EntrZne07
+DOUT[  96] OFF  Req2EntrZne08
+DOUT[  97] OFF  Req2EntrZne09
+DOUT[  98] OFF  Req2EntrZne10
+DOUT[  99] OFF  Req2EntrZne11
+DOUT[ 100] OFF  Req2EntrZne12
+DOUT[ 101] OFF  Req2EntrZne13
+DOUT[ 102] OFF  Req2EntrZne14
+DOUT[ 103] OFF  Req2EntrZne15
+DOUT[ 104] OFF  Req2EntrZne16
+DOUT[ 105]  ON  ClrCollZne01
+DOUT[ 106]  ON  ClrCollZne02
+DOUT[ 107]  ON  ClrCollZne03
+DOUT[ 108]  ON  ClrCollZne04
+DOUT[ 109]  ON  ClrCollZne05
+DOUT[ 110]  ON  ClrCollZne06
+DOUT[ 111]  ON  ClrCollZne07
+DOUT[ 112]  ON  ClrCollZne08
+DOUT[ 113]  ON  ClrCollZne09
+DOUT[ 114]  ON  ClrCollZne10
+DOUT[ 115]  ON  ClrCollZne11
+DOUT[ 116]  ON  ClrCollZne12
+DOUT[ 117]  ON  ClrCollZne13
+DOUT[ 118]  ON  ClrCollZne14
+DOUT[ 119]  ON  ClrCollZne15
+DOUT[ 120]  ON  ClrCollZne16
+DOUT[ 121]  ON  ClrFixture01
+DOUT[ 122]  ON  ClrFixture02
+DOUT[ 123]  ON  ClrFixture03
+DOUT[ 124]  ON  ClrFixture04
+DOUT[ 125]  ON  ClrFixture05
+DOUT[ 126]  ON  ClrFixture06
+DOUT[ 127]  ON  ClrFixture07
+DOUT[ 128]  ON  ClrFixture08
+DOUT[ 129]  ON  ClrFixture09
+DOUT[ 130]  ON  ClrFixture10
+DOUT[ 131]  ON  ClrFixture11
+DOUT[ 132]  ON  ClrFixture12
+DOUT[ 133]  ON  ClrFixture13
+DOUT[ 134]  ON  ClrFixture14
+DOUT[ 135]  ON  ClrFixture15
+DOUT[ 136]  ON  ClrFixture16
+DOUT[ 137]  ON  AEG1PathRecord
+DOUT[ 138] OFF  AEG1Executing
+DOUT[ 139] OFF  AEG2PathRecord
+DOUT[ 140] OFF  AEG2Executing
+DOUT[ 141] OFF  AEG3PathRecord
+DOUT[ 142] OFF  AEG3Executing
+DOUT[ 143] OFF  AEG4PathRecord
+DOUT[ 144] OFF  AEG4Executing
+DOUT[ 145] OFF  AtPos1
+DOUT[ 146] OFF  AtPos2
+DOUT[ 147] OFF  AtPos3
+DOUT[ 148] OFF  AtPos4
+DOUT[ 149] OFF  AtPos5
+DOUT[ 150] OFF  AtPos6
+DOUT[ 151] OFF  AtPos7
+DOUT[ 152] OFF  AtPos8
+DOUT[ 153] OFF  Reserved
+DOUT[ 154] OFF  Reserved
+DOUT[ 155] OFF  Reserved
+DOUT[ 156] OFF  Reserved
+DOUT[ 157] OFF  
+DOUT[ 158] OFF  
+DOUT[ 159] OFF  
+DOUT[ 160] OFF  
+DOUT[ 161] OFF  
+DOUT[ 162] OFF  
+DOUT[ 163] OFF  
+DOUT[ 164] OFF  AtPurge2
+DOUT[ 165] OFF  AtManualTipChange
+DOUT[ 166] OFF  AtAutoTipChange2
+DOUT[ 167] OFF  AtTipDress2
+DOUT[ 168] OFF  AtTip Change2
+DOUT[ 169] OFF  Reserved For Interconnec
+DOUT[ 170] OFF  Reserved For Interconnec
+DOUT[ 171] OFF  Reserved For Interconnec
+DOUT[ 172] OFF  Reserved For Interconnec
+DOUT[ 173] OFF  Reserved For Interconnec
+DOUT[ 174] OFF  Reserved For Interconnec
+DOUT[ 175] OFF  Reserved For Interconnec
+DOUT[ 176] OFF  Reserved For Interconnec
+DOUT[ 177] OFF  Cap chang req G1
+DOUT[ 178] OFF  Cap chang req G2
+DOUT[ 179] OFF  Reserved
+DOUT[ 180] OFF  Reserved
+DOUT[ 181] OFF  Approach CC G1
+DOUT[ 182] OFF  Approach CC G2
+DOUT[ 183] OFF  Reserved
+DOUT[ 184] OFF  Reserved
+DOUT[ 185] OFF  Tip dress req G1
+DOUT[ 186] OFF  Tip dress req G2
+DOUT[ 187] OFF  Reserved
+DOUT[ 188] OFF  Reserved
+DOUT[ 189]  ON  One Spot Welded G1
+DOUT[ 190] OFF  One Spot Welded G2
+DOUT[ 191] OFF  Reserved
+DOUT[ 192] OFF  Reserved
+DOUT[ 193] OFF  
+DOUT[ 194] OFF  
+DOUT[ 195] OFF  
+DOUT[ 196] OFF  
+DOUT[ 197] OFF  
+DOUT[ 198] OFF  
+DOUT[ 199] OFF  
+DOUT[ 200] OFF  
+DOUT[ 201] OFF  
+DOUT[ 202] OFF  
+DOUT[ 203] OFF  
+DOUT[ 204] OFF  
+DOUT[ 205] OFF  
+DOUT[ 206] OFF  
+DOUT[ 207] OFF  
+DOUT[ 208] OFF  
+DOUT[ 209] OFF  
+DOUT[ 210] OFF  
+DOUT[ 211] OFF  
+DOUT[ 212] OFF  
+DOUT[ 213] OFF  
+DOUT[ 214] OFF  
+DOUT[ 215] OFF  
+DOUT[ 216] OFF  
+DOUT[ 217] OFF  
+DOUT[ 218] OFF  
+DOUT[ 219] OFF  
+DOUT[ 220] OFF  
+DOUT[ 221] OFF  
+DOUT[ 222] OFF  
+DOUT[ 223] OFF  
+DOUT[ 224] OFF  
+DOUT[ 225] OFF  
+DOUT[ 226] OFF  
+DOUT[ 227] OFF  
+DOUT[ 228] OFF  
+DOUT[ 229] OFF  
+DOUT[ 230] OFF  
+DOUT[ 231] OFF  
+DOUT[ 232] OFF  
+DOUT[ 233] OFF  
+DOUT[ 234] OFF  
+DOUT[ 235] OFF  
+DOUT[ 236] OFF  
+DOUT[ 237] OFF  
+DOUT[ 238] OFF  
+DOUT[ 239] OFF  
+DOUT[ 240] OFF  
+DOUT[ 241] OFF  RoboApp2 GO[88] Fback01
+DOUT[ 242] OFF  RoboApp2 GO[88] Fback02
+DOUT[ 243] OFF  RoboApp2 GO[88] Fback03
+DOUT[ 244] OFF  RoboApp2 GO[88] Fback04
+DOUT[ 245] OFF  RoboApp2 GO[88] Fback05
+DOUT[ 246] OFF  RoboApp2 GO[88] Fback06
+DOUT[ 247] OFF  RoboApp2 GO[88] Fback07
+DOUT[ 248] OFF  RoboApp2 GO[88] Fback08
+DOUT[ 249] OFF  RoboApp2 GO[88] Fback09
+DOUT[ 250] OFF  RoboApp2 GO[88] Fback10
+DOUT[ 251] OFF  RoboApp2 GO[88] Fback11
+DOUT[ 252] OFF  RoboApp2 GO[88] Fback12
+DOUT[ 253] OFF  RoboApp2 GO[88] Fback13
+DOUT[ 254] OFF  RoboApp2 GO[88] Fback14
+DOUT[ 255] OFF  RoboApp2 GO[88] Fback15
+DOUT[ 256] OFF  RoboApp2 GO[88] Fback16
+DOUT[ 257] OFF  RoboApp2 GO[89] Fback01
+DOUT[ 258] OFF  RoboApp2 GO[89] Fback02
+DOUT[ 259] OFF  RoboApp2 GO[89] Fback03
+DOUT[ 260] OFF  RoboApp2 GO[89] Fback04
+DOUT[ 261] OFF  RoboApp2 GO[89] Fback05
+DOUT[ 262] OFF  RoboApp2 GO[89] Fback06
+DOUT[ 263] OFF  RoboApp2 GO[89] Fback07
+DOUT[ 264] OFF  RoboApp2 GO[89] Fback08
+DOUT[ 265] OFF  RoboApp2 GO[89] Fback09
+DOUT[ 266] OFF  RoboApp2 GO[89] Fback10
+DOUT[ 267] OFF  RoboApp2 GO[89] Fback11
+DOUT[ 268] OFF  RoboApp2 GO[89] Fback12
+DOUT[ 269] OFF  RoboApp2 GO[89] Fback13
+DOUT[ 270] OFF  RoboApp2 GO[89] Fback14
+DOUT[ 271] OFF  RoboApp2 GO[89] Fback15
+DOUT[ 272] OFF  RoboApp2 GO[89] Fback16
+DOUT[ 273] OFF  RoboApp2 GO[90] Fback01
+DOUT[ 274] OFF  RoboApp2 GO[90] Fback02
+DOUT[ 275] OFF  RoboApp2 GO[90] Fback03
+DOUT[ 276] OFF  RoboApp2 GO[90] Fback04
+DOUT[ 277] OFF  RoboApp2 GO[90] Fback05
+DOUT[ 278] OFF  RoboApp2 GO[90] Fback06
+DOUT[ 279] OFF  RoboApp2 GO[90] Fback07
+DOUT[ 280] OFF  RoboApp2 GO[90] Fback08
+DOUT[ 281] OFF  RoboApp2 GO[90] Fback09
+DOUT[ 282] OFF  RoboApp2 GO[90] Fback10
+DOUT[ 283] OFF  RoboApp2 GO[90] Fback11
+DOUT[ 284] OFF  RoboApp2 GO[90] Fback12
+DOUT[ 285] OFF  RoboApp2 GO[90] Fback13
+DOUT[ 286] OFF  RoboApp2 GO[90] Fback14
+DOUT[ 287] OFF  RoboApp2 GO[90] Fback15
+DOUT[ 288] OFF  RoboApp2 GO[90] Fback16
+DOUT[ 289] OFF  RoboApp2 GO[91] Fback01
+DOUT[ 290] OFF  RoboApp2 GO[91] Fback02
+DOUT[ 291] OFF  RoboApp2 GO[91] Fback03
+DOUT[ 292] OFF  RoboApp2 GO[91] Fback04
+DOUT[ 293] OFF  RoboApp2 GO[91] Fback05
+DOUT[ 294] OFF  RoboApp2 GO[91] Fback06
+DOUT[ 295] OFF  RoboApp2 GO[91] Fback07
+DOUT[ 296] OFF  RoboApp2 GO[91] Fback08
+DOUT[ 297] OFF  RoboApp2 GO[91] Fback09
+DOUT[ 298] OFF  RoboApp2 GO[91] Fback10
+DOUT[ 299] OFF  RoboApp2 GO[91] Fback11
+DOUT[ 300] OFF  RoboApp2 GO[91] Fback12
+DOUT[ 301] OFF  RoboApp2 GO[91] Fback13
+DOUT[ 302] OFF  RoboApp2 GO[91] Fback14
+DOUT[ 303] OFF  RoboApp2 GO[91] Fback15
+DOUT[ 304] OFF  RoboApp2 GO[91] Fback16
+DOUT[ 305] OFF  RoboApp3 GO[92] Fback01
+DOUT[ 306] OFF  RoboApp3 GO[92] Fback02
+DOUT[ 307] OFF  RoboApp3 GO[92] Fback03
+DOUT[ 308] OFF  RoboApp3 GO[92] Fback04
+DOUT[ 309] OFF  RoboApp3 GO[92] Fback05
+DOUT[ 310] OFF  RoboApp3 GO[92] Fback06
+DOUT[ 311] OFF  RoboApp3 GO[92] Fback07
+DOUT[ 312] OFF  RoboApp3 GO[92] Fback08
+DOUT[ 313] OFF  RoboApp3 GO[92] Fback09
+DOUT[ 314] OFF  RoboApp3 GO[92] Fback10
+DOUT[ 315] OFF  RoboApp3 GO[92] Fback11
+DOUT[ 316] OFF  RoboApp3 GO[92] Fback12
+DOUT[ 317] OFF  RoboApp3 GO[92] Fback13
+DOUT[ 318] OFF  RoboApp3 GO[92] Fback14
+DOUT[ 319] OFF  RoboApp3 GO[92] Fback15
+DOUT[ 320] OFF  RoboApp3 GO[92] Fback16
+DOUT[ 321] OFF  RoboApp3 GO[93] Fback01
+DOUT[ 322] OFF  RoboApp3 GO[93] Fback02
+DOUT[ 323] OFF  RoboApp3 GO[93] Fback03
+DOUT[ 324] OFF  RoboApp3 GO[93] Fback04
+DOUT[ 325] OFF  RoboApp3 GO[93] Fback05
+DOUT[ 326] OFF  RoboApp3 GO[93] Fback06
+DOUT[ 327] OFF  RoboApp3 GO[93] Fback07
+DOUT[ 328] OFF  RoboApp3 GO[93] Fback08
+DOUT[ 329] OFF  RoboApp3 GO[93] Fback09
+DOUT[ 330] OFF  RoboApp3 GO[93] Fback10
+DOUT[ 331] OFF  RoboApp3 GO[93] Fback11
+DOUT[ 332] OFF  RoboApp3 GO[93] Fback12
+DOUT[ 333] OFF  RoboApp3 GO[93] Fback13
+DOUT[ 334] OFF  RoboApp3 GO[93] Fback14
+DOUT[ 335] OFF  RoboApp3 GO[93] Fback15
+DOUT[ 336] OFF  RoboApp3 GO[93] Fback16
+DOUT[ 337] OFF  RoboApp3 GO[94] Fback01
+DOUT[ 338] OFF  RoboApp3 GO[94] Fback02
+DOUT[ 339] OFF  RoboApp3 GO[94] Fback03
+DOUT[ 340] OFF  RoboApp3 GO[94] Fback04
+DOUT[ 341] OFF  RoboApp3 GO[94] Fback05
+DOUT[ 342] OFF  RoboApp3 GO[94] Fback06
+DOUT[ 343] OFF  RoboApp3 GO[94] Fback07
+DOUT[ 344] OFF  RoboApp3 GO[94] Fback08
+DOUT[ 345] OFF  RoboApp3 GO[94] Fback09
+DOUT[ 346] OFF  RoboApp3 GO[94] Fback10
+DOUT[ 347] OFF  RoboApp3 GO[94] Fback11
+DOUT[ 348] OFF  RoboApp3 GO[94] Fback12
+DOUT[ 349] OFF  RoboApp3 GO[94] Fback13
+DOUT[ 350] OFF  RoboApp3 GO[94] Fback14
+DOUT[ 351] OFF  RoboApp3 GO[94] Fback15
+DOUT[ 352] OFF  RoboApp3 GO[94] Fback16
+DOUT[ 353] OFF  RoboApp3 GO[95] Fback01
+DOUT[ 354] OFF  RoboApp3 GO[95] Fback02
+DOUT[ 355] OFF  RoboApp3 GO[95] Fback03
+DOUT[ 356] OFF  RoboApp3 GO[95] Fback04
+DOUT[ 357] OFF  RoboApp3 GO[95] Fback05
+DOUT[ 358] OFF  RoboApp3 GO[95] Fback06
+DOUT[ 359] OFF  RoboApp3 GO[95] Fback07
+DOUT[ 360] OFF  RoboApp3 GO[95] Fback08
+DOUT[ 361] OFF  RoboApp3 GO[95] Fback09
+DOUT[ 362] OFF  RoboApp3 GO[95] Fback10
+DOUT[ 363] OFF  RoboApp3 GO[95] Fback11
+DOUT[ 364] OFF  RoboApp3 GO[95] Fback12
+DOUT[ 365] OFF  RoboApp3 GO[95] Fback13
+DOUT[ 366] OFF  RoboApp3 GO[95] Fback14
+DOUT[ 367] OFF  RoboApp3 GO[95] Fback15
+DOUT[ 368] OFF  RoboApp3 GO[95] Fback16
+DOUT[ 369] OFF  RoboApp4 GO[96] Fback01
+DOUT[ 370] OFF  RoboApp4 GO[96] Fback02
+DOUT[ 371] OFF  RoboApp4 GO[96] Fback03
+DOUT[ 372] OFF  RoboApp4 GO[96] Fback04
+DOUT[ 373] OFF  RoboApp4 GO[96] Fback05
+DOUT[ 374] OFF  RoboApp4 GO[96] Fback06
+DOUT[ 375] OFF  RoboApp4 GO[96] Fback07
+DOUT[ 376] OFF  RoboApp4 GO[96] Fback08
+DOUT[ 377] OFF  RoboApp4 GO[96] Fback09
+DOUT[ 378] OFF  RoboApp4 GO[96] Fback10
+DOUT[ 379] OFF  RoboApp4 GO[96] Fback11
+DOUT[ 380] OFF  RoboApp4 GO[96] Fback12
+DOUT[ 381] OFF  RoboApp4 GO[96] Fback13
+DOUT[ 382] OFF  RoboApp4 GO[96] Fback14
+DOUT[ 383] OFF  RoboApp4 GO[96] Fback15
+DOUT[ 384] OFF  RoboApp4 GO[96] Fback16
+DOUT[ 385] OFF  RoboApp4 GO[97] Fback01
+DOUT[ 386] OFF  RoboApp4 GO[97] Fback02
+DOUT[ 387] OFF  RoboApp4 GO[97] Fback03
+DOUT[ 388] OFF  RoboApp4 GO[97] Fback04
+DOUT[ 389] OFF  RoboApp4 GO[97] Fback05
+DOUT[ 390] OFF  RoboApp4 GO[97] Fback06
+DOUT[ 391] OFF  RoboApp4 GO[97] Fback07
+DOUT[ 392] OFF  RoboApp4 GO[97] Fback08
+DOUT[ 393] OFF  RoboApp4 GO[97] Fback09
+DOUT[ 394] OFF  RoboApp4 GO[97] Fback10
+DOUT[ 395] OFF  RoboApp4 GO[97] Fback11
+DOUT[ 396] OFF  RoboApp4 GO[97] Fback12
+DOUT[ 397] OFF  RoboApp4 GO[97] Fback13
+DOUT[ 398] OFF  RoboApp4 GO[97] Fback14
+DOUT[ 399] OFF  RoboApp4 GO[97] Fback15
+DOUT[ 400] OFF  RoboApp4 GO[97] Fback16
+DOUT[ 401] OFF  RoboApp4 GO[98] Fback01
+DOUT[ 402] OFF  RoboApp4 GO[98] Fback02
+DOUT[ 403] OFF  RoboApp4 GO[98] Fback03
+DOUT[ 404] OFF  RoboApp4 GO[98] Fback04
+DOUT[ 405] OFF  RoboApp4 GO[98] Fback05
+DOUT[ 406] OFF  RoboApp4 GO[98] Fback06
+DOUT[ 407] OFF  RoboApp4 GO[98] Fback07
+DOUT[ 408] OFF  RoboApp4 GO[98] Fback08
+DOUT[ 409] OFF  RoboApp4 GO[98] Fback09
+DOUT[ 410] OFF  RoboApp4 GO[98] Fback10
+DOUT[ 411] OFF  RoboApp4 GO[98] Fback11
+DOUT[ 412] OFF  RoboApp4 GO[98] Fback12
+DOUT[ 413] OFF  RoboApp4 GO[98] Fback13
+DOUT[ 414] OFF  RoboApp4 GO[98] Fback14
+DOUT[ 415] OFF  RoboApp4 GO[98] Fback15
+DOUT[ 416] OFF  RoboApp4 GO[98] Fback16
+DOUT[ 417] OFF  RoboApp4 GO[99] Fback01
+DOUT[ 418] OFF  RoboApp4 GO[99] Fback02
+DOUT[ 419] OFF  RoboApp4 GO[99] Fback03
+DOUT[ 420] OFF  RoboApp4 GO[99] Fback04
+DOUT[ 421] OFF  RoboApp4 GO[99] Fback05
+DOUT[ 422] OFF  RoboApp4 GO[99] Fback06
+DOUT[ 423] OFF  RoboApp4 GO[99] Fback07
+DOUT[ 424] OFF  RoboApp4 GO[99] Fback08
+DOUT[ 425] OFF  RoboApp4 GO[99] Fback09
+DOUT[ 426] OFF  RoboApp4 GO[99] Fback10
+DOUT[ 427] OFF  RoboApp4 GO[99] Fback11
+DOUT[ 428] OFF  RoboApp4 GO[99] Fback12
+DOUT[ 429] OFF  RoboApp4 GO[99] Fback13
+DOUT[ 430] OFF  RoboApp4 GO[99] Fback14
+DOUT[ 431] OFF  RoboApp4 GO[99] Fback15
+DOUT[ 432] OFF  RoboApp4 GO[99] Fback16
+DOUT[ 433] OFF  DebuggingBit01
+DOUT[ 434] OFF  DebuggingBit02
+DOUT[ 435] OFF  DebuggingBit03
+DOUT[ 436] OFF  DebuggingBit04
+DOUT[ 437] OFF  DebuggingBit05
+DOUT[ 438] OFF  DebuggingBit06
+DOUT[ 439] OFF  DebuggingBit07
+DOUT[ 440] OFF  DebuggingBit08
+DOUT[ 441] OFF  DebuggingBit09
+DOUT[ 442] OFF  DebuggingBit10
+DOUT[ 443] OFF  DebuggingBit11
+DOUT[ 444] OFF  DebuggingBit12
+DOUT[ 445] OFF  DebuggingBit13
+DOUT[ 446] OFF  DebuggingBit14
+DOUT[ 447] OFF  DebuggingBit15
+DOUT[ 448] OFF  DebuggingBit16
+DOUT[ 449] OFF  ErrSeverity01
+DOUT[ 450]  ON  ErrSeverity02
+DOUT[ 451]  ON  ErrSeverity03
+DOUT[ 452] OFF  ErrSeverity04
+DOUT[ 453]  ON  ErrSeverity05
+DOUT[ 454]  ON  ErrSeverity06
+DOUT[ 455] OFF  ErrSeverity07
+DOUT[ 456] OFF  ErrSeverity08
+DOUT[ 457] OFF  SpdOutBit1
+DOUT[ 458]  ON  SpdOutBit2
+DOUT[ 459] OFF  SpdOutBit3
+DOUT[ 460] OFF  SpdOutBit4
+DOUT[ 461]  ON  SpdOutBit5
+DOUT[ 462]  ON  SpdOutBit6
+DOUT[ 463] OFF  SpdOutBit7
+DOUT[ 464] OFF  SpdOutBit8
+DOUT[ 465] OFF  Reserved
+DOUT[ 466] OFF  Reserved
+DOUT[ 467] OFF  Reserved
+DOUT[ 468] OFF  IncompleteEnd
+DOUT[ 469] OFF  StatusOK
+DOUT[ 470] OFF  FFRActive
+DOUT[ 471] OFF  ColGuardError
+DOUT[ 472] OFF  WrongPathAlrm
+DOUT[ 473] OFF  AlmFacCode01
+DOUT[ 474] OFF  AlmFacCode02
+DOUT[ 475] OFF  AlmFacCode03
+DOUT[ 476] OFF  AlmFacCode04
+DOUT[ 477] OFF  AlmFacCode05
+DOUT[ 478] OFF  AlmFacCode06
+DOUT[ 479] OFF  AlmFacCode07
+DOUT[ 480] OFF  AlmFacCode08
+DOUT[ 481] OFF  ErrCode01
+DOUT[ 482] OFF  ErrCode02
+DOUT[ 483] OFF  ErrCode03
+DOUT[ 484] OFF  ErrCode04
+DOUT[ 485] OFF  ErrCode05
+DOUT[ 486] OFF  ErrCode06
+DOUT[ 487] OFF  ErrCode07
+DOUT[ 488] OFF  ErrCode08
+DOUT[ 489] OFF  ErrCode09
+DOUT[ 490] OFF  ErrCode10
+DOUT[ 491] OFF  ErrCode11
+DOUT[ 492] OFF  ErrCode12
+DOUT[ 493] OFF  ErrCode13
+DOUT[ 494] OFF  ErrCode14
+DOUT[ 495] OFF  ErrCode15
+DOUT[ 496] OFF  ErrCode16
+DOUT[ 497] OFF  UsrFltCode01
+DOUT[ 498] OFF  UsrFltCode02
+DOUT[ 499] OFF  UsrFltCode03
+DOUT[ 500] OFF  UsrFltCode04
+DOUT[ 501] OFF  UsrFltCode05
+DOUT[ 502] OFF  UsrFltCode06
+DOUT[ 503] OFF  UsrFltCode07
+DOUT[ 504] OFF  UsrFltCode08
+DOUT[ 505] OFF  UsrFltCode09
+DOUT[ 506] OFF  UsrFltCode10
+DOUT[ 507] OFF  UsrFltCode11
+DOUT[ 508] OFF  UsrFltCode12
+DOUT[ 509] OFF  UsrFltCode13
+DOUT[ 510] OFF  UsrFltCode14
+DOUT[ 511] OFF  UsrFltCode15
+DOUT[ 512] OFF  UsrFltCode16
+DOUT[ 700] OFF  BinarySelect1
+DOUT[ 701] OFF  BinarySelect2
+DOUT[ 702] OFF  BinarySelect4
+DOUT[ 703] OFF  BinarySelect8
+DOUT[ 704] OFF  BinarySelect16
+DOUT[ 705] OFF  BinarySelect32
+DOUT[ 706] OFF  BinarySelect64
+DOUT[ 707] OFF  BinarySelect128
+DOUT[ 708] OFF  Weld initiate   
+DOUT[ 709]  ON  Enable weld     
+DOUT[ 710]  ON  Enbl Cont Saver 
+DOUT[ 711] OFF  Reset welder    
+DOUT[ 712] OFF  Weld Proceed
+DOUT[ 713] OFF  Reset stepper   
+DOUT[ 714] OFF  Reset Stepper G2
+DOUT[ 715] OFF  Reserved
+DOUT[ 716] OFF  Reserved
+DOUT[ 717] OFF  TD Group 1
+DOUT[ 718] OFF  TD Group 2
+DOUT[ 719] OFF  Reserved
+DOUT[ 720] OFF  Reserved
+DOUT[ 721] OFF  StrpAuxCntrRst
+DOUT[ 722] OFF  AppErrAck
+DOUT[ 723]  ON  Control Stop
+DOUT[ 724]  ON  System Cooling
+DOUT[ 725] OFF  Reserved
+DOUT[ 726] OFF  User Input 1
+DOUT[ 727] OFF  User Input 2
+DOUT[ 728] OFF  User Input 3
+DOUT[ 729] OFF  User Input 4
+DOUT[ 730] OFF  User Input 5
+DOUT[ 731] OFF  User Input 6
+DOUT[ 732] OFF  Reserved
+DOUT[ 733] OFF  Reserved
+DOUT[ 734] OFF  Spt9(256)
+DOUT[ 735] OFF  Spt10(512)
+DOUT[ 736] OFF  Spt11(1024)
+DOUT[ 737] OFF  Spt12(2048)
+DOUT[ 738] OFF  Spt13(4096)
+DOUT[ 739] OFF  Spt14(8192)
+DOUT[ 740] OFF  Spt15(16384)
+DOUT[ 741] OFF  Spt16(32768)
+DOUT[ 742] OFF  Spt17(65536)
+DOUT[ 743] OFF  Spt18(131072)
+DOUT[ 744] OFF  Spt19(262144)
+DOUT[ 745] OFF  Spt20(524288)
+DOUT[ 746] OFF  Spt21(1048576)
+DOUT[ 747] OFF  Spt22(2097152)
+DOUT[ 748] OFF  Spt23(4194304)
+DOUT[ 749] OFF  Spt24(8388608)
+DOUT[ 750] OFF  Spt25(16777216)
+DOUT[ 751] OFF  Spt26(33554432)
+DOUT[ 752] OFF  Spt27(67108864)
+DOUT[ 753] OFF  Spt28(134217728)
+DOUT[ 754] OFF  Spt29(268435456)
+DOUT[ 755] OFF  Spt30(536870912)
+DOUT[ 756] OFF  Reserved
+DOUT[ 757] OFF  Reserved
+DOUT[ 758] OFF  Reserved
+DOUT[ 759] OFF  Reserved
+DOUT[ 760] OFF  Reserved
+DOUT[ 761] OFF  Reserved
+DOUT[ 762] OFF  Force Measure In
+DOUT[ 763] OFF  TD Motor ON
+DOUT[ 772] OFF  Rst wtr savr
+DOUT[ 773] OFF  Wateroff1
+DOUT[ 774] OFF  WSBypass1
+DOUT[ 775] OFF  Reserved
+DOUT[ 776] OFF  Reserved
+DOUT[ 777] OFF  Reserved
+DOUT[ 778] OFF  Reserved
+DOUT[ 779] OFF  Reserved
+DOUT[ 780] OFF  Reserved
+DOUT[ 781] OFF  Reserved
+DOUT[ 782] OFF  Reserved
+DOUT[ 783] OFF  Reserved
+DOUT[ 784] OFF  Reserved
+DOUT[ 785] OFF  Reserved
+DOUT[ 786] OFF  Reserved
+DOUT[ 787] OFF  Reserved
+DOUT[ 820] OFF  TC1 Valve OP/CL
+DOUT[ 821] OFF  
+DOUT[ 822] OFF  
+DOUT[ 823] OFF  
+DOUT[ 824] OFF  
+DOUT[ 825] OFF  
+DOUT[ 826] OFF  
+DOUT[ 827] OFF  
+GIN[   1]  250  NextPath
+GIN[   2]    0  NewSpeed
+GIN[   3]    0  Style Program Select
+GIN[   4]    0  Option Code
+GIN[   5]    0  Spare Inputs
+GIN[   6]    0  Spare Inputs
+GIN[   7]    0  Spare Inputs
+GIN[   8]    0  TurnTablePosReq
+GIN[  65]    0  WTC1 Weld Error
+GIN[  66]    0  WTC1 Forge Force
+GIN[  84]    0  RoboApp#1Prt#1
+GIN[  85]    0  RoboApp#1Prt#2
+GIN[  86]    0  RoboApp#1Prt#3
+GIN[  87]    0  RoboApp#1Prt#4
+GIN[  88]    0  RoboApp#2Prt#1
+GIN[  89]    0  RoboApp#2Prt#2
+GIN[  90]    0  RoboApp#2Prt#3
+GIN[  91]    0  RoboApp#2Prt#4
+GIN[  92]    0  RoboApp#3Prt#1
+GIN[  93]    0  RoboApp#3Prt#2
+GIN[  94]    0  RoboApp#3Prt#3
+GIN[  95]    0  RoboApp#3Prt#4
+GIN[  96]    0  RoboApp#4Prt#1
+GIN[  97]    0  RoboApp#4Prt#2
+GIN[  98]    0  RoboApp#4Prt#3
+GIN[  99]    0  RoboApp#4Prt#4
+GOUT[   1]  250  ActivePath
+GOUT[   2]   50  Robot Speed
+GOUT[   3]    0  Style Echo
+GOUT[   4]    0  Option Code Echo
+GOUT[   5]    0  Alarm Codes
+GOUT[   6]    0  Error Codes
+GOUT[   7]    0  User Fault
+GOUT[   8]    0  Error Severity
+GOUT[  65]    0  Weld schedule   
+GOUT[  66]    0  WTC1 Eqlztn Pres
+GOUT[  84] 4096  RoboApp#1Prt#1
+GOUT[  85]    0  RoboApp#1Prt#2
+GOUT[  86]    0  RoboApp#1Prt#3
+GOUT[  87]    0  RoboApp#1Prt#4
+GOUT[  88]    0  RoboApp#2Prt#1
+GOUT[  89]    0  RoboApp#2Prt#2
+GOUT[  90]    0  RoboApp#2Prt#3
+GOUT[  91]    0  RoboApp#2Prt#4
+GOUT[  92]    0  RoboApp#3Prt#1
+GOUT[  93]    0  RoboApp#3Prt#2
+GOUT[  94]    0  RoboApp#3Prt#3
+GOUT[  95]    0  RoboApp#3Prt#4
+GOUT[  96]    0  RoboApp#4Prt#1
+GOUT[  97]    0  RoboApp#4Prt#2
+GOUT[  98]    0  RoboApp#4Prt#3
+GOUT[  99]    0  RoboApp#4Prt#4
+GOUT[ 109]24695  SafSignTotal_B
+UI[   1]  ON  *IMSTP
+UI[   2]  ON  *Hold
+UI[   3]  ON  *SFSPD
+UI[   4] OFF  Cycle stop
+UI[   5] OFF  Fault reset
+UI[   6] OFF  Start
+UI[   7] OFF  Home
+UI[   8]  ON  Enable
+UI[   9] OFF  RSR1/PNS1/STYLE1
+UI[  10] OFF  RSR2/PNS2/STYLE2
+UI[  11] OFF  RSR3/PNS3/STYLE3
+UI[  12] OFF  RSR4/PNS4/STYLE4
+UI[  13] OFF  RSR5/PNS5/STYLE5
+UI[  14] OFF  RSR6/PNS6/STYLE6
+UI[  15] OFF  RSR7/PNS7/STYLE7
+UI[  16] OFF  RSR8/PNS8/STYLE8
+UI[  17] OFF  PNS strobe
+UI[  18] OFF  Prod start
+UO[   1] OFF  Cmd enabled
+UO[   2] OFF  System ready
+UO[   3] OFF  Prg running
+UO[   4]  ON  Prg paused
+UO[   5] OFF  Motion held
+UO[   6]  ON  Fault
+UO[   7] OFF  At home
+UO[   8]  ON  TP enabled
+UO[   9] OFF  Batt alarm
+UO[  10] OFF  Busy
+UO[  19] OFF  SNACK
+UO[  20] OFF  Reserved
+SI[   1] OFF  Fault reset
+SI[   2]  ON  Remote
+SI[   3]  ON  Hold
+SI[   4] OFF  
+SI[   5] OFF  
+SI[   6] OFF  Cycle start
+SI[   7] OFF  
+SI[   8]  ON  CE/CR Select b0
+SI[   9] OFF  CE/CR Select b1
+SI[  10] OFF  
+SI[  11] OFF  
+SI[  12] OFF  
+SI[  13] OFF  
+SI[  14] OFF  
+SI[  15] OFF  
+SI[  16]  ON  
+SO[   1] OFF  Cycle start
+SO[   2] OFF  Hold
+SO[   3]  ON  Fault LED
+SO[   4] OFF  Batt alarm
+SO[   5] OFF  Proc cmplete
+SO[   6] OFF  At home
+SO[   7]  ON  TP enabled
+SO[   8] OFF  
+SO[   9] OFF  
+SO[  10] OFF  
+SO[  11] OFF  
+SO[  12] OFF  
+SO[  13] OFF  
+SO[  14] OFF  
+SO[  15] OFF  
+SO[  16] OFF  
+RI[   1] OFF  
+RI[   2] OFF  
+RI[   3] OFF  
+RI[   4] OFF  
+RI[   5] OFF  
+RI[   6] OFF  
+RI[   7] OFF  
+RI[   8] OFF  
+RO[   1] OFF  
+RO[   2] OFF  
+RO[   3] OFF  
+RO[   4] OFF  
+RO[   5] OFF  
+RO[   6] OFF  
+RO[   7] OFF  
+RO[   8] OFF  
+FLG[   1] OFF  BG Main Running           FLG[ 513] OFF                          
+FLG[   2] OFF  BG2 Running               FLG[ 514] OFF                          
+FLG[   3] OFF  BG3 Running               FLG[ 515] OFF                          
+FLG[   4] OFF  BG4 Running               FLG[ 516] OFF                          
+FLG[   5] OFF  BG5 Running               FLG[ 517] OFF                          
+FLG[   6] OFF                            FLG[ 518] OFF                          
+FLG[   7] OFF                            FLG[ 519] OFF                          
+FLG[   8] OFF                            FLG[ 520] OFF                          
+FLG[   9] OFF                            FLG[ 521] OFF                          
+FLG[  10] OFF  WaitPathFlag              FLG[ 522] OFF                          
+FLG[  11] OFF  Enable TeachEcho          FLG[ 523] OFF                          
+FLG[  12] OFF                            FLG[ 524] OFF                          
+FLG[  13] OFF                            FLG[ 525] OFF                          
+FLG[  14] OFF                            FLG[ 526] OFF                          
+FLG[  15] OFF  Vision Result             FLG[ 527] OFF                          
+FLG[  16] OFF                            FLG[ 528] OFF                          
+FLG[  17] OFF                            FLG[ 529] OFF                          
+FLG[  18] OFF                            FLG[ 530] OFF                          
+FLG[  19] OFF                            FLG[ 531] OFF                          
+FLG[  20] OFF  FFRProcAcepted            FLG[ 532] OFF                          
+FLG[  21] OFF  Reaply Seal 1             FLG[ 533] OFF                          
+FLG[  22] OFF  Reaply Seal 2             FLG[ 534] OFF                          
+FLG[  23] OFF  PurgeG1Req                FLG[ 535] OFF                          
+FLG[  24] OFF                            FLG[ 536] OFF                          
+FLG[  25] OFF                            FLG[ 537] OFF                          
+FLG[  26] OFF                            FLG[ 538] OFF                          
+FLG[  27] OFF                            FLG[ 539] OFF                          
+FLG[  28] OFF                            FLG[ 540] OFF                          
+FLG[  29] OFF                            FLG[ 541] OFF                          
+FLG[  30]  ON  Capwear Complete          FLG[ 542] OFF                          
+FLG[  31] OFF  TD Retry                  FLG[ 543] OFF                          
+FLG[  32] OFF  Dress Inspection          FLG[ 544] OFF                          
+FLG[  33] OFF  Run TD Motor              FLG[ 545] OFF                          
+FLG[  34] OFF  TD1 Running               FLG[ 546] OFF                          
+FLG[  35] OFF  TD1 Vac Dly Tmr           FLG[ 547] OFF                          
+FLG[  36] OFF  WS1 Dly Timeout           FLG[ 548] OFF                          
+FLG[  37] OFF  WS1 Wtr Flow OK           FLG[ 549] OFF                          
+FLG[  38] OFF  WS1 Wtr Flow NG           FLG[ 550] OFF                          
+FLG[  39] OFF  WS1 Dly Executed          FLG[ 551] OFF                          
+FLG[  40] OFF  WS1 Reset                 FLG[ 552] OFF                          
+FLG[  41] OFF  WS1 Water OFF             FLG[ 553] OFF                          
+FLG[  42] OFF  WS1 Bypass Mode           FLG[ 554] OFF                          
+FLG[  43] OFF  Water Saver1 OK           FLG[ 555] OFF                          
+FLG[  44] OFF                            FLG[ 556] OFF                          
+FLG[  45] OFF                            FLG[ 557] OFF                          
+FLG[  46] OFF                            FLG[ 558] OFF                          
+FLG[  47] OFF                            FLG[ 559] OFF                          
+FLG[  48] OFF  Tip Dressed               FLG[ 560] OFF                          
+FLG[  49] OFF  Caps Are Changed          FLG[ 561] OFF                          
+FLG[  50] OFF  TD Fault                  FLG[ 562] OFF                          
+FLG[  51] OFF  CC Request                FLG[ 563] OFF                          
+FLG[  52] OFF  TD Request                FLG[ 564] OFF                          
+FLG[  53] OFF  TD New Cutter             FLG[ 565] OFF                          
+FLG[  54] OFF                            FLG[ 566] OFF                          
+FLG[  55] OFF                            FLG[ 567] OFF                          
+FLG[  56] OFF                            FLG[ 568] OFF                          
+FLG[  57] OFF                            FLG[ 569] OFF                          
+FLG[  58] OFF                            FLG[ 570] OFF                          
+FLG[  59] OFF                            FLG[ 571] OFF                          
+FLG[  60] OFF  App1_In_Process           FLG[ 572] OFF                          
+FLG[  61] OFF  App2_In_Process           FLG[ 573] OFF                          
+FLG[  62] OFF  App3_In_Process           FLG[ 574] OFF                          
+FLG[  63] OFF  App4_In_Process           FLG[ 575] OFF                          
+FLG[  64] OFF  App5_In_Process           FLG[ 576] OFF                          
+FLG[  65] OFF  App6_In_Process           FLG[ 577] OFF                          
+FLG[  66] OFF                            FLG[ 578] OFF                          
+FLG[  67] OFF                            FLG[ 579] OFF                          
+FLG[  68] OFF                            FLG[ 580] OFF                          
+FLG[  69] OFF                            FLG[ 581] OFF                          
+FLG[  70] OFF                            FLG[ 582] OFF                          
+FLG[  71] OFF                            FLG[ 583] OFF                          
+FLG[  72] OFF                            FLG[ 584] OFF                          
+FLG[  73] OFF                            FLG[ 585] OFF                          
+FLG[  74] OFF                            FLG[ 586] OFF                          
+FLG[  75] OFF                            FLG[ 587] OFF                          
+FLG[  76] OFF                            FLG[ 588] OFF                          
+FLG[  77] OFF                            FLG[ 589] OFF                          
+FLG[  78] OFF                            FLG[ 590] OFF                          
+FLG[  79] OFF                            FLG[ 591] OFF                          
+FLG[  80] OFF  Rivet Cut Tape            FLG[ 592] OFF                          
+FLG[  81] OFF  No Retry                  FLG[ 593] OFF                          
+FLG[  82] OFF                            FLG[ 594] OFF                          
+FLG[  83] OFF                            FLG[ 595] OFF                          
+FLG[  84] OFF                            FLG[ 596] OFF                          
+FLG[  85] OFF                            FLG[ 597] OFF                          
+FLG[  86] OFF                            FLG[ 598] OFF                          
+FLG[  87] OFF                            FLG[ 599] OFF                          
+FLG[  88] OFF                            FLG[ 600] OFF                          
+FLG[  89] OFF                            FLG[ 601] OFF                          
+FLG[  90] OFF                            FLG[ 602] OFF                          
+FLG[  91] OFF                            FLG[ 603] OFF                          
+FLG[  92] OFF                            FLG[ 604] OFF                          
+FLG[  93] OFF                            FLG[ 605] OFF                          
+FLG[  94] OFF                            FLG[ 606] OFF                          
+FLG[  95] OFF                            FLG[ 607] OFF                          
+FLG[  96] OFF                            FLG[ 608] OFF                          
+FLG[  97] OFF                            FLG[ 609] OFF                          
+FLG[  98] OFF                            FLG[ 610] OFF                          
+FLG[  99] OFF                            FLG[ 611] OFF                          
+FLG[ 100] OFF                            FLG[ 612] OFF                          
+FLG[ 101] OFF                            FLG[ 613] OFF                          
+FLG[ 102] OFF                            FLG[ 614] OFF                          
+FLG[ 103] OFF                            FLG[ 615] OFF                          
+FLG[ 104] OFF                            FLG[ 616] OFF                          
+FLG[ 105] OFF                            FLG[ 617] OFF                          
+FLG[ 106] OFF                            FLG[ 618] OFF                          
+FLG[ 107] OFF                            FLG[ 619] OFF                          
+FLG[ 108] OFF                            FLG[ 620] OFF                          
+FLG[ 109] OFF                            FLG[ 621] OFF                          
+FLG[ 110] OFF                            FLG[ 622] OFF                          
+FLG[ 111] OFF                            FLG[ 623] OFF                          
+FLG[ 112] OFF                            FLG[ 624] OFF                          
+FLG[ 113] OFF                            FLG[ 625] OFF                          
+FLG[ 114] OFF                            FLG[ 626] OFF                          
+FLG[ 115] OFF                            FLG[ 627] OFF                          
+FLG[ 116] OFF                            FLG[ 628] OFF                          
+FLG[ 117] OFF                            FLG[ 629] OFF                          
+FLG[ 118] OFF                            FLG[ 630] OFF                          
+FLG[ 119] OFF                            FLG[ 631] OFF                          
+FLG[ 120] OFF                            FLG[ 632] OFF                          
+FLG[ 121] OFF                            FLG[ 633] OFF                          
+FLG[ 122] OFF                            FLG[ 634] OFF                          
+FLG[ 123] OFF                            FLG[ 635] OFF                          
+FLG[ 124] OFF                            FLG[ 636] OFF                          
+FLG[ 125] OFF                            FLG[ 637] OFF                          
+FLG[ 126] OFF                            FLG[ 638] OFF                          
+FLG[ 127] OFF                            FLG[ 639] OFF                          
+FLG[ 128] OFF                            FLG[ 640] OFF                          
+FLG[ 129] OFF                            FLG[ 641] OFF                          
+FLG[ 130] OFF                            FLG[ 642] OFF                          
+FLG[ 131] OFF                            FLG[ 643] OFF                          
+FLG[ 132] OFF                            FLG[ 644] OFF                          
+FLG[ 133] OFF                            FLG[ 645] OFF                          
+FLG[ 134] OFF                            FLG[ 646] OFF                          
+FLG[ 135] OFF                            FLG[ 647] OFF                          
+FLG[ 136] OFF                            FLG[ 648] OFF                          
+FLG[ 137] OFF                            FLG[ 649] OFF                          
+FLG[ 138] OFF                            FLG[ 650] OFF                          
+FLG[ 139] OFF                            FLG[ 651] OFF                          
+FLG[ 140] OFF                            FLG[ 652] OFF                          
+FLG[ 141] OFF                            FLG[ 653] OFF                          
+FLG[ 142] OFF                            FLG[ 654] OFF                          
+FLG[ 143] OFF                            FLG[ 655] OFF                          
+FLG[ 144] OFF                            FLG[ 656] OFF                          
+FLG[ 145] OFF                            FLG[ 657] OFF                          
+FLG[ 146] OFF                            FLG[ 658] OFF                          
+FLG[ 147] OFF                            FLG[ 659] OFF                          
+FLG[ 148] OFF                            FLG[ 660] OFF                          
+FLG[ 149] OFF                            FLG[ 661] OFF                          
+FLG[ 150] OFF                            FLG[ 662] OFF                          
+FLG[ 151] OFF                            FLG[ 663] OFF                          
+FLG[ 152] OFF                            FLG[ 664] OFF                          
+FLG[ 153] OFF                            FLG[ 665] OFF                          
+FLG[ 154] OFF                            FLG[ 666] OFF                          
+FLG[ 155] OFF                            FLG[ 667] OFF                          
+FLG[ 156] OFF                            FLG[ 668] OFF                          
+FLG[ 157] OFF                            FLG[ 669] OFF                          
+FLG[ 158] OFF                            FLG[ 670] OFF                          
+FLG[ 159] OFF                            FLG[ 671] OFF                          
+FLG[ 160] OFF                            FLG[ 672] OFF                          
+FLG[ 161] OFF                            FLG[ 673] OFF                          
+FLG[ 162] OFF                            FLG[ 674] OFF                          
+FLG[ 163] OFF                            FLG[ 675] OFF                          
+FLG[ 164] OFF                            FLG[ 676] OFF                          
+FLG[ 165] OFF                            FLG[ 677] OFF                          
+FLG[ 166] OFF                            FLG[ 678] OFF                          
+FLG[ 167] OFF                            FLG[ 679] OFF                          
+FLG[ 168] OFF                            FLG[ 680] OFF                          
+FLG[ 169] OFF                            FLG[ 681] OFF                          
+FLG[ 170] OFF                            FLG[ 682] OFF                          
+FLG[ 171] OFF                            FLG[ 683] OFF                          
+FLG[ 172] OFF                            FLG[ 684] OFF                          
+FLG[ 173] OFF                            FLG[ 685] OFF                          
+FLG[ 174] OFF                            FLG[ 686] OFF                          
+FLG[ 175] OFF                            FLG[ 687] OFF                          
+FLG[ 176] OFF                            FLG[ 688] OFF                          
+FLG[ 177] OFF                            FLG[ 689] OFF                          
+FLG[ 178] OFF                            FLG[ 690] OFF                          
+FLG[ 179] OFF                            FLG[ 691] OFF                          
+FLG[ 180] OFF                            FLG[ 692] OFF                          
+FLG[ 181] OFF                            FLG[ 693] OFF                          
+FLG[ 182] OFF                            FLG[ 694] OFF                          
+FLG[ 183] OFF                            FLG[ 695] OFF                          
+FLG[ 184] OFF                            FLG[ 696] OFF                          
+FLG[ 185] OFF                            FLG[ 697] OFF                          
+FLG[ 186] OFF                            FLG[ 698] OFF                          
+FLG[ 187] OFF                            FLG[ 699] OFF                          
+FLG[ 188] OFF                            FLG[ 700] OFF                          
+FLG[ 189] OFF                            FLG[ 701] OFF                          
+FLG[ 190] OFF                            FLG[ 702] OFF                          
+FLG[ 191] OFF                            FLG[ 703] OFF                          
+FLG[ 192] OFF                            FLG[ 704] OFF                          
+FLG[ 193] OFF                            FLG[ 705] OFF                          
+FLG[ 194] OFF                            FLG[ 706] OFF                          
+FLG[ 195] OFF                            FLG[ 707] OFF                          
+FLG[ 196] OFF                            FLG[ 708] OFF                          
+FLG[ 197] OFF                            FLG[ 709] OFF                          
+FLG[ 198] OFF                            FLG[ 710] OFF                          
+FLG[ 199] OFF                            FLG[ 711] OFF                          
+FLG[ 200] OFF                            FLG[ 712] OFF                          
+FLG[ 201] OFF                            FLG[ 713] OFF                          
+FLG[ 202] OFF                            FLG[ 714] OFF                          
+FLG[ 203] OFF                            FLG[ 715] OFF                          
+FLG[ 204] OFF                            FLG[ 716] OFF                          
+FLG[ 205] OFF                            FLG[ 717] OFF                          
+FLG[ 206] OFF                            FLG[ 718] OFF                          
+FLG[ 207] OFF                            FLG[ 719] OFF                          
+FLG[ 208] OFF                            FLG[ 720] OFF                          
+FLG[ 209] OFF                            FLG[ 721] OFF                          
+FLG[ 210] OFF  R2_WaitPathFlag           FLG[ 722] OFF                          
+FLG[ 211] OFF  R2_Enable TeachEcho       FLG[ 723] OFF                          
+FLG[ 212] OFF                            FLG[ 724] OFF                          
+FLG[ 213] OFF                            FLG[ 725] OFF                          
+FLG[ 214] OFF                            FLG[ 726] OFF                          
+FLG[ 215] OFF                            FLG[ 727] OFF                          
+FLG[ 216] OFF                            FLG[ 728] OFF                          
+FLG[ 217] OFF                            FLG[ 729] OFF                          
+FLG[ 218] OFF                            FLG[ 730] OFF                          
+FLG[ 219] OFF                            FLG[ 731] OFF                          
+FLG[ 220] OFF                            FLG[ 732] OFF                          
+FLG[ 221] OFF                            FLG[ 733] OFF                          
+FLG[ 222] OFF                            FLG[ 734] OFF                          
+FLG[ 223] OFF                            FLG[ 735] OFF                          
+FLG[ 224] OFF                            FLG[ 736] OFF                          
+FLG[ 225] OFF                            FLG[ 737] OFF                          
+FLG[ 226] OFF                            FLG[ 738] OFF                          
+FLG[ 227] OFF                            FLG[ 739] OFF                          
+FLG[ 228] OFF                            FLG[ 740] OFF                          
+FLG[ 229] OFF                            FLG[ 741] OFF                          
+FLG[ 230] OFF                            FLG[ 742] OFF                          
+FLG[ 231] OFF                            FLG[ 743] OFF                          
+FLG[ 232] OFF                            FLG[ 744] OFF                          
+FLG[ 233] OFF                            FLG[ 745] OFF                          
+FLG[ 234] OFF                            FLG[ 746] OFF                          
+FLG[ 235] OFF                            FLG[ 747] OFF                          
+FLG[ 236] OFF                            FLG[ 748] OFF                          
+FLG[ 237] OFF                            FLG[ 749] OFF                          
+FLG[ 238] OFF                            FLG[ 750] OFF                          
+FLG[ 239] OFF                            FLG[ 751] OFF                          
+FLG[ 240] OFF                            FLG[ 752] OFF                          
+FLG[ 241] OFF                            FLG[ 753] OFF                          
+FLG[ 242] OFF                            FLG[ 754] OFF                          
+FLG[ 243] OFF                            FLG[ 755] OFF                          
+FLG[ 244] OFF                            FLG[ 756] OFF                          
+FLG[ 245] OFF                            FLG[ 757] OFF                          
+FLG[ 246] OFF                            FLG[ 758] OFF                          
+FLG[ 247] OFF                            FLG[ 759] OFF                          
+FLG[ 248] OFF                            FLG[ 760] OFF                          
+FLG[ 249] OFF                            FLG[ 761] OFF                          
+FLG[ 250] OFF                            FLG[ 762] OFF                          
+FLG[ 251] OFF                            FLG[ 763] OFF                          
+FLG[ 252] OFF                            FLG[ 764] OFF                          
+FLG[ 253] OFF                            FLG[ 765] OFF                          
+FLG[ 254] OFF                            FLG[ 766] OFF                          
+FLG[ 255] OFF                            FLG[ 767] OFF                          
+FLG[ 256] OFF                            FLG[ 768] OFF                          
+FLG[ 257] OFF                            FLG[ 769] OFF                          
+FLG[ 258] OFF                            FLG[ 770] OFF                          
+FLG[ 259] OFF                            FLG[ 771] OFF                          
+FLG[ 260] OFF                            FLG[ 772] OFF                          
+FLG[ 261] OFF                            FLG[ 773] OFF                          
+FLG[ 262] OFF                            FLG[ 774] OFF                          
+FLG[ 263] OFF                            FLG[ 775] OFF                          
+FLG[ 264] OFF                            FLG[ 776] OFF                          
+FLG[ 265] OFF                            FLG[ 777] OFF                          
+FLG[ 266] OFF                            FLG[ 778] OFF                          
+FLG[ 267] OFF                            FLG[ 779] OFF                          
+FLG[ 268] OFF                            FLG[ 780] OFF                          
+FLG[ 269] OFF                            FLG[ 781] OFF                          
+FLG[ 270] OFF                            FLG[ 782] OFF                          
+FLG[ 271] OFF                            FLG[ 783] OFF                          
+FLG[ 272] OFF                            FLG[ 784] OFF                          
+FLG[ 273] OFF                            FLG[ 785] OFF                          
+FLG[ 274] OFF                            FLG[ 786] OFF                          
+FLG[ 275] OFF                            FLG[ 787] OFF                          
+FLG[ 276] OFF                            FLG[ 788] OFF                          
+FLG[ 277] OFF                            FLG[ 789] OFF                          
+FLG[ 278] OFF                            FLG[ 790] OFF                          
+FLG[ 279] OFF                            FLG[ 791] OFF                          
+FLG[ 280] OFF                            FLG[ 792] OFF                          
+FLG[ 281] OFF                            FLG[ 793] OFF                          
+FLG[ 282] OFF                            FLG[ 794] OFF                          
+FLG[ 283] OFF                            FLG[ 795] OFF                          
+FLG[ 284] OFF                            FLG[ 796] OFF                          
+FLG[ 285] OFF                            FLG[ 797] OFF                          
+FLG[ 286] OFF                            FLG[ 798] OFF                          
+FLG[ 287] OFF                            FLG[ 799] OFF                          
+FLG[ 288] OFF                            FLG[ 800] OFF                          
+FLG[ 289] OFF                            FLG[ 801] OFF                          
+FLG[ 290] OFF                            FLG[ 802] OFF                          
+FLG[ 291] OFF                            FLG[ 803] OFF                          
+FLG[ 292] OFF                            FLG[ 804] OFF                          
+FLG[ 293] OFF                            FLG[ 805] OFF                          
+FLG[ 294] OFF                            FLG[ 806] OFF                          
+FLG[ 295] OFF                            FLG[ 807] OFF                          
+FLG[ 296] OFF                            FLG[ 808] OFF                          
+FLG[ 297] OFF                            FLG[ 809] OFF                          
+FLG[ 298] OFF                            FLG[ 810] OFF                          
+FLG[ 299] OFF                            FLG[ 811] OFF                          
+FLG[ 300] OFF                            FLG[ 812] OFF                          
+FLG[ 301] OFF                            FLG[ 813] OFF                          
+FLG[ 302] OFF                            FLG[ 814] OFF                          
+FLG[ 303] OFF                            FLG[ 815] OFF                          
+FLG[ 304] OFF                            FLG[ 816] OFF                          
+FLG[ 305] OFF                            FLG[ 817] OFF                          
+FLG[ 306] OFF                            FLG[ 818] OFF                          
+FLG[ 307] OFF                            FLG[ 819] OFF                          
+FLG[ 308] OFF                            FLG[ 820] OFF                          
+FLG[ 309] OFF                            FLG[ 821] OFF                          
+FLG[ 310] OFF                            FLG[ 822] OFF                          
+FLG[ 311] OFF                            FLG[ 823] OFF                          
+FLG[ 312] OFF                            FLG[ 824] OFF                          
+FLG[ 313] OFF                            FLG[ 825] OFF                          
+FLG[ 314] OFF                            FLG[ 826] OFF                          
+FLG[ 315] OFF                            FLG[ 827] OFF                          
+FLG[ 316] OFF                            FLG[ 828] OFF                          
+FLG[ 317] OFF                            FLG[ 829] OFF                          
+FLG[ 318] OFF                            FLG[ 830] OFF                          
+FLG[ 319] OFF                            FLG[ 831] OFF                          
+FLG[ 320] OFF                            FLG[ 832] OFF                          
+FLG[ 321] OFF                            FLG[ 833] OFF                          
+FLG[ 322] OFF                            FLG[ 834] OFF                          
+FLG[ 323] OFF                            FLG[ 835] OFF                          
+FLG[ 324] OFF                            FLG[ 836] OFF                          
+FLG[ 325] OFF                            FLG[ 837] OFF                          
+FLG[ 326] OFF                            FLG[ 838] OFF                          
+FLG[ 327] OFF                            FLG[ 839] OFF                          
+FLG[ 328] OFF                            FLG[ 840] OFF                          
+FLG[ 329] OFF                            FLG[ 841] OFF                          
+FLG[ 330] OFF                            FLG[ 842] OFF                          
+FLG[ 331] OFF                            FLG[ 843] OFF                          
+FLG[ 332] OFF                            FLG[ 844] OFF                          
+FLG[ 333] OFF                            FLG[ 845] OFF                          
+FLG[ 334] OFF                            FLG[ 846] OFF                          
+FLG[ 335] OFF                            FLG[ 847] OFF                          
+FLG[ 336] OFF                            FLG[ 848] OFF                          
+FLG[ 337] OFF                            FLG[ 849] OFF                          
+FLG[ 338] OFF                            FLG[ 850] OFF                          
+FLG[ 339] OFF                            FLG[ 851] OFF                          
+FLG[ 340] OFF                            FLG[ 852] OFF                          
+FLG[ 341] OFF                            FLG[ 853] OFF                          
+FLG[ 342] OFF                            FLG[ 854] OFF                          
+FLG[ 343] OFF                            FLG[ 855] OFF                          
+FLG[ 344] OFF                            FLG[ 856] OFF                          
+FLG[ 345] OFF                            FLG[ 857] OFF                          
+FLG[ 346] OFF                            FLG[ 858] OFF                          
+FLG[ 347] OFF                            FLG[ 859] OFF                          
+FLG[ 348] OFF                            FLG[ 860] OFF                          
+FLG[ 349] OFF                            FLG[ 861] OFF                          
+FLG[ 350] OFF                            FLG[ 862] OFF                          
+FLG[ 351] OFF                            FLG[ 863] OFF                          
+FLG[ 352] OFF                            FLG[ 864] OFF                          
+FLG[ 353] OFF                            FLG[ 865] OFF                          
+FLG[ 354] OFF                            FLG[ 866] OFF                          
+FLG[ 355] OFF                            FLG[ 867] OFF                          
+FLG[ 356] OFF                            FLG[ 868] OFF                          
+FLG[ 357] OFF                            FLG[ 869] OFF                          
+FLG[ 358] OFF                            FLG[ 870] OFF                          
+FLG[ 359] OFF                            FLG[ 871] OFF                          
+FLG[ 360] OFF                            FLG[ 872] OFF                          
+FLG[ 361] OFF                            FLG[ 873] OFF                          
+FLG[ 362] OFF                            FLG[ 874] OFF                          
+FLG[ 363] OFF                            FLG[ 875] OFF                          
+FLG[ 364] OFF                            FLG[ 876] OFF                          
+FLG[ 365] OFF                            FLG[ 877] OFF                          
+FLG[ 366] OFF                            FLG[ 878] OFF                          
+FLG[ 367] OFF                            FLG[ 879] OFF                          
+FLG[ 368] OFF                            FLG[ 880] OFF                          
+FLG[ 369] OFF                            FLG[ 881] OFF                          
+FLG[ 370] OFF                            FLG[ 882] OFF                          
+FLG[ 371] OFF                            FLG[ 883] OFF                          
+FLG[ 372] OFF                            FLG[ 884] OFF                          
+FLG[ 373] OFF                            FLG[ 885] OFF                          
+FLG[ 374] OFF                            FLG[ 886] OFF                          
+FLG[ 375] OFF                            FLG[ 887] OFF                          
+FLG[ 376] OFF                            FLG[ 888] OFF                          
+FLG[ 377] OFF                            FLG[ 889] OFF                          
+FLG[ 378] OFF                            FLG[ 890] OFF                          
+FLG[ 379] OFF                            FLG[ 891] OFF                          
+FLG[ 380] OFF                            FLG[ 892] OFF                          
+FLG[ 381] OFF                            FLG[ 893] OFF                          
+FLG[ 382] OFF                            FLG[ 894] OFF                          
+FLG[ 383] OFF                            FLG[ 895] OFF                          
+FLG[ 384] OFF                            FLG[ 896] OFF                          
+FLG[ 385] OFF                            FLG[ 897] OFF                          
+FLG[ 386] OFF                            FLG[ 898] OFF                          
+FLG[ 387] OFF                            FLG[ 899] OFF                          
+FLG[ 388] OFF                            FLG[ 900] OFF                          
+FLG[ 389] OFF                            FLG[ 901] OFF                          
+FLG[ 390] OFF                            FLG[ 902] OFF                          
+FLG[ 391] OFF                            FLG[ 903] OFF                          
+FLG[ 392] OFF                            FLG[ 904] OFF                          
+FLG[ 393] OFF                            FLG[ 905] OFF                          
+FLG[ 394] OFF                            FLG[ 906] OFF                          
+FLG[ 395] OFF                            FLG[ 907] OFF                          
+FLG[ 396] OFF                            FLG[ 908] OFF                          
+FLG[ 397] OFF                            FLG[ 909] OFF                          
+FLG[ 398] OFF                            FLG[ 910] OFF                          
+FLG[ 399] OFF                            FLG[ 911] OFF                          
+FLG[ 400] OFF                            FLG[ 912] OFF                          
+FLG[ 401] OFF                            FLG[ 913] OFF                          
+FLG[ 402] OFF                            FLG[ 914] OFF                          
+FLG[ 403] OFF                            FLG[ 915] OFF                          
+FLG[ 404] OFF                            FLG[ 916] OFF                          
+FLG[ 405] OFF                            FLG[ 917] OFF                          
+FLG[ 406] OFF                            FLG[ 918] OFF                          
+FLG[ 407] OFF                            FLG[ 919] OFF                          
+FLG[ 408] OFF                            FLG[ 920] OFF                          
+FLG[ 409] OFF                            FLG[ 921] OFF                          
+FLG[ 410] OFF                            FLG[ 922] OFF                          
+FLG[ 411] OFF                            FLG[ 923] OFF                          
+FLG[ 412] OFF                            FLG[ 924] OFF                          
+FLG[ 413] OFF                            FLG[ 925] OFF                          
+FLG[ 414] OFF                            FLG[ 926] OFF                          
+FLG[ 415] OFF                            FLG[ 927] OFF                          
+FLG[ 416] OFF                            FLG[ 928] OFF                          
+FLG[ 417] OFF                            FLG[ 929] OFF                          
+FLG[ 418] OFF                            FLG[ 930] OFF                          
+FLG[ 419] OFF                            FLG[ 931] OFF                          
+FLG[ 420] OFF                            FLG[ 932] OFF                          
+FLG[ 421] OFF                            FLG[ 933] OFF                          
+FLG[ 422] OFF                            FLG[ 934] OFF                          
+FLG[ 423] OFF                            FLG[ 935] OFF                          
+FLG[ 424] OFF                            FLG[ 936] OFF                          
+FLG[ 425] OFF                            FLG[ 937] OFF                          
+FLG[ 426] OFF                            FLG[ 938] OFF                          
+FLG[ 427] OFF                            FLG[ 939] OFF                          
+FLG[ 428] OFF                            FLG[ 940] OFF                          
+FLG[ 429] OFF                            FLG[ 941] OFF                          
+FLG[ 430] OFF                            FLG[ 942] OFF                          
+FLG[ 431] OFF                            FLG[ 943] OFF                          
+FLG[ 432] OFF                            FLG[ 944] OFF                          
+FLG[ 433] OFF                            FLG[ 945] OFF                          
+FLG[ 434] OFF                            FLG[ 946] OFF                          
+FLG[ 435] OFF                            FLG[ 947] OFF                          
+FLG[ 436] OFF                            FLG[ 948] OFF                          
+FLG[ 437] OFF                            FLG[ 949] OFF                          
+FLG[ 438] OFF                            FLG[ 950] OFF                          
+FLG[ 439] OFF                            FLG[ 951] OFF                          
+FLG[ 440] OFF                            FLG[ 952] OFF                          
+FLG[ 441] OFF                            FLG[ 953] OFF                          
+FLG[ 442] OFF                            FLG[ 954] OFF                          
+FLG[ 443] OFF                            FLG[ 955] OFF                          
+FLG[ 444] OFF                            FLG[ 956] OFF                          
+FLG[ 445] OFF                            FLG[ 957] OFF                          
+FLG[ 446] OFF                            FLG[ 958] OFF                          
+FLG[ 447] OFF                            FLG[ 959] OFF                          
+FLG[ 448] OFF                            FLG[ 960] OFF                          
+FLG[ 449] OFF                            FLG[ 961] OFF                          
+FLG[ 450] OFF                            FLG[ 962] OFF                          
+FLG[ 451] OFF                            FLG[ 963] OFF                          
+FLG[ 452] OFF                            FLG[ 964] OFF                          
+FLG[ 453] OFF                            FLG[ 965] OFF                          
+FLG[ 454] OFF                            FLG[ 966] OFF                          
+FLG[ 455] OFF                            FLG[ 967] OFF                          
+FLG[ 456] OFF                            FLG[ 968] OFF                          
+FLG[ 457] OFF                            FLG[ 969] OFF                          
+FLG[ 458] OFF                            FLG[ 970] OFF                          
+FLG[ 459] OFF                            FLG[ 971] OFF                          
+FLG[ 460] OFF                            FLG[ 972] OFF                          
+FLG[ 461] OFF                            FLG[ 973] OFF                          
+FLG[ 462] OFF                            FLG[ 974] OFF                          
+FLG[ 463] OFF                            FLG[ 975] OFF                          
+FLG[ 464] OFF                            FLG[ 976] OFF                          
+FLG[ 465] OFF                            FLG[ 977] OFF                          
+FLG[ 466] OFF                            FLG[ 978] OFF                          
+FLG[ 467] OFF                            FLG[ 979] OFF                          
+FLG[ 468] OFF                            FLG[ 980] OFF                          
+FLG[ 469] OFF                            FLG[ 981] OFF                          
+FLG[ 470] OFF                            FLG[ 982] OFF                          
+FLG[ 471] OFF                            FLG[ 983] OFF                          
+FLG[ 472] OFF                            FLG[ 984] OFF                          
+FLG[ 473] OFF                            FLG[ 985] OFF                          
+FLG[ 474] OFF                            FLG[ 986] OFF                          
+FLG[ 475] OFF                            FLG[ 987] OFF                          
+FLG[ 476] OFF                            FLG[ 988] OFF                          
+FLG[ 477] OFF                            FLG[ 989] OFF                          
+FLG[ 478] OFF                            FLG[ 990] OFF                          
+FLG[ 479] OFF                            FLG[ 991] OFF                          
+FLG[ 480] OFF                            FLG[ 992] OFF                          
+FLG[ 481] OFF                            FLG[ 993] OFF                          
+FLG[ 482] OFF                            FLG[ 994] OFF                          
+FLG[ 483] OFF                            FLG[ 995] OFF                          
+FLG[ 484] OFF                            FLG[ 996] OFF                          
+FLG[ 485] OFF                            FLG[ 997] OFF                          
+FLG[ 486] OFF                            FLG[ 998] OFF                          
+FLG[ 487] OFF                            FLG[ 999] OFF                          
+FLG[ 488] OFF                            FLG[1000] OFF                          
+FLG[ 489] OFF                            FLG[1001] OFF                          
+FLG[ 490] OFF                            FLG[1002] OFF                          
+FLG[ 491] OFF                            FLG[1003] OFF                          
+FLG[ 492] OFF                            FLG[1004] OFF                          
+FLG[ 493] OFF                            FLG[1005] OFF                          
+FLG[ 494] OFF                            FLG[1006] OFF                          
+FLG[ 495] OFF                            FLG[1007] OFF                          
+FLG[ 496] OFF                            FLG[1008] OFF                          
+FLG[ 497] OFF                            FLG[1009] OFF                          
+FLG[ 498] OFF                            FLG[1010] OFF                          
+FLG[ 499] OFF                            FLG[1011] OFF                          
+FLG[ 500] OFF                            FLG[1012] OFF                          
+FLG[ 501] OFF                            FLG[1013] OFF                          
+FLG[ 502] OFF                            FLG[1014] OFF                          
+FLG[ 503] OFF                            FLG[1015] OFF                          
+FLG[ 504] OFF                            FLG[1016] OFF                          
+FLG[ 505] OFF                            FLG[1017] OFF                          
+FLG[ 506] OFF                            FLG[1018] OFF                          
+FLG[ 507] OFF                            FLG[1019] OFF                          
+FLG[ 508] OFF                            FLG[1020] OFF                          
+FLG[ 509] OFF                            FLG[1021] OFF                          
+FLG[ 510] OFF                            FLG[1022] OFF                          
+FLG[ 511] OFF                            FLG[1023] OFF                          
+FLG[ 512] OFF                            FLG[1024] OFF                          

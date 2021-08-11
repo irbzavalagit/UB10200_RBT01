@@ -1,0 +1,32 @@
+[MENU316]MENU_TITLE  Storage: CMOS  Access: RW  : STRING[40] = 'Tip Change Sel'
+
+[MENU316]MENU_VAR  Storage: CMOS  Access: RW  : ARRAY[10] OF STRING[30]
+  [1] = ''
+  [2] = ''
+  [3] = ''
+  [4] = ''
+  [5] = ''
+  [6] = ''
+  [7] = ''
+  [8] = ''
+  [9] = ''
+  [10] = ''
+
+[MENU316]MENU_TEXT  Storage: CMOS  Access: RW  : ARRAY[10] OF STRING[40]
+  [1] = 'Manual Tip Change'
+  [2] = 'Auto Tip Change'
+  [3] = ''
+  [4] = ''
+  [5] = ''
+  [6] = ''
+  [7] = ''
+  [8] = ''
+  [9] = 'Select An Option'
+  [10] = ''
+
+[MENU316]MENU_NO  Storage: CMOS  Access: RW  : INTEGER = 16
+
+[MENU316]MENU_TYPE  Storage: CMOS  Access: RW  : INTEGER = 3
+
+[MENU316]MENU_NAME  Storage: CMOS  Access: RW  : STRING[16] = 'Tip Change Sel'
+

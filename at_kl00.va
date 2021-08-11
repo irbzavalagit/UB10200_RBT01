@@ -1,0 +1,974 @@
+[AT_KL00]ACC1  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]ACC1_DET  Storage: CMOS  Access: RW  : ARRAY[8] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+
+[AT_KL00]ACC1_FLR  Storage: CMOS  Access: RW  : INTEGER = 48
+
+[AT_KL00]ACC1_MEM  Storage: CMOS  Access: RW  : INTEGER = 200
+
+[AT_KL00]ACC2_DET  Storage: CMOS  Access: RW  : ARRAY[8] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+
+[AT_KL00]ACC2_MEM  Storage: CMOS  Access: RW  : INTEGER = 100
+
+[AT_KL00]ACCPAUMA_MEM  Storage: CMOS  Access: RW  : REAL = 0.000000e+00
+
+[AT_KL00]ACCPCUMA_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+00
+
+[AT_KL00]ACC_CHK_ID  Storage: CMOS  Access: RW  : INTEGER = 2
+
+[AT_KL00]ACC_MEM  Storage: CMOS  Access: RW  : INTEGER = 100
+
+[AT_KL00]ACC_METHOD  Storage: CMOS  Access: RW  : INTEGER = 4
+
+[AT_KL00]ACC_MIN  Storage: CMOS  Access: RW  : INTEGER = 16
+
+[AT_KL00]ACC_VAL_MEM  Storage: CMOS  Access: RW  : INTEGER = 100
+
+[AT_KL00]ALM4_TUNINFO  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]AP_SCKT  Storage: CMOS  Access: RW  : INTEGER = 2
+
+[AT_KL00]ARG  Storage: DRAM  Access: RW  : ARRAY[8] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+
+[AT_KL00]ATSTAT_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]AWY_ACC_MEM  Storage: CMOS  Access: RW  : INTEGER = 100
+
+[AT_KL00]AWY_TERM_MEM  Storage: CMOS  Access: RW  : INTEGER = 100
+
+[AT_KL00]BS_THRSH_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]BUF_SZ  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]CAL_DN_MEM  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]CAM_P18_MEM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]CD_PRM_ENB  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]CHK_OVRD  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]CLSTH_MEM  Storage: CMOS  Access: RW  : INTEGER = 42
+
+[AT_KL00]CLS_SGN  Storage: CMOS  Access: RW  : INTEGER = -1
+
+[AT_KL00]CNTSPDUP_MEM  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]COMGAIN_MEM  Storage: CMOS  Access: RW  : INTEGER = 5243
+
+[AT_KL00]CRPDST_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+00
+
+[AT_KL00]CRTMOMGN_MEM  Storage: CMOS  Access: RW  : REAL = 2.000000e-01
+
+[AT_KL00]DATA_TYPE  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]DBG  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]DECEL_RT_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]DG  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]DGIDX  Storage: CMOS  Access: RW  : INTEGER = 1
+
+[AT_KL00]DO_PAUSE  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]DO_PAUSE_REG  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]DST_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+01
+
+[AT_KL00]DYN_DN  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[AT_KL00]DYN_UPDATE  Storage: CMOS  Access: RW  : BOOLEAN = Uninitialized
+
+[AT_KL00]EQ_NUM  Storage: CMOS  Access: RW  : INTEGER = 1
+
+[AT_KL00]EQ_NUM_MEM  Storage: CMOS  Access: RW  : INTEGER = 1
+
+[AT_KL00]FC2ENB_MEM  Storage: CMOS  Access: RW  : BOOLEAN = TRUE
+
+[AT_KL00]FRC_CT  Storage: CMOS  Access: RW  : INTEGER = 34
+
+[AT_KL00]FRVRC  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]GAINCHK_ID  Storage: CMOS  Access: RW  : INTEGER = 34
+
+[AT_KL00]GEAR_RATIO  Storage: CMOS  Access: RW  : REAL = 5.000000e+00
+
+[AT_KL00]GENOVER_MEM  Storage: CMOS  Access: RW  : INTEGER = 5
+
+[AT_KL00]GJ  Storage: CMOS  Access: RW  : INTEGER = 1
+
+[AT_KL00]GJ_DET  Storage: CMOS  Access: RW  : ARRAY[8] OF INTEGER
+  [1] = 0
+  [2] = 0
+  [3] = 0
+  [4] = 0
+  [5] = 0
+  [6] = 0
+  [7] = 0
+  [8] = 0
+
+[AT_KL00]GJ_DET_MEM  Storage: CMOS  Access: RW  : ARRAY[8] OF INTEGER
+  [1] = 0
+  [2] = 0
+  [3] = 0
+  [4] = 0
+  [5] = 0
+  [6] = 0
+  [7] = 0
+  [8] = 0
+
+[AT_KL00]GJ_MEM  Storage: CMOS  Access: RW  : INTEGER = 1
+
+[AT_KL00]GN  Storage: CMOS  Access: RW  : INTEGER = 2
+
+[AT_KL00]GN_MEM  Storage: CMOS  Access: RW  : INTEGER = 2
+
+[AT_KL00]GUN_NUM  Storage: CMOS  Access: RW  : INTEGER = 1
+
+[AT_KL00]GUN_NUM_MEM  Storage: CMOS  Access: RW  : INTEGER = 1
+
+[AT_KL00]GUN_OPEN_MEM  Storage: CMOS  Access: RW  : BOOLEAN = TRUE
+
+[AT_KL00]G_ACC  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]HJ  Storage: CMOS  Access: RW  : INTEGER = 8
+
+[AT_KL00]HJ_DET  Storage: CMOS  Access: RW  : ARRAY[8] OF INTEGER
+  [1] = 0
+  [2] = 0
+  [3] = 0
+  [4] = 0
+  [5] = 0
+  [6] = 0
+  [7] = 0
+  [8] = 0
+
+[AT_KL00]HJ_MEM  Storage: CMOS  Access: RW  : INTEGER = 8
+
+[AT_KL00]HWC1TIM1_MEM  Storage: CMOS  Access: RW  : INTEGER = 1200
+
+[AT_KL00]HWC1TIM2_MEM  Storage: CMOS  Access: RW  : INTEGER = 500
+
+[AT_KL00]I  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]INDEX1  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]INDEX2  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]INIT_FILTER  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]INT_VAL  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]JNT_ACC_MEM  Storage: CMOS  Access: RW  : REAL = 3.000000e+04
+
+[AT_KL00]JNT_JRK_MEM  Storage: CMOS  Access: RW  : REAL = 3.000000e+05
+
+[AT_KL00]JNT_VEL_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+03
+
+[AT_KL00]JPOS2  Storage: CMOS  Access: RW  : JOINTPOS9 =   Group: 2
+  J1 =  -131.000 mm  
+
+
+[AT_KL00]JPOS3  Storage: CMOS  Access: RW  : JOINTPOS9 = Uninitialized
+
+[AT_KL00]JPOS4  Storage: CMOS  Access: RW  : JOINTPOS9 = Uninitialized
+
+[AT_KL00]JPOS5  Storage: CMOS  Access: RW  : JOINTPOS9 = Uninitialized
+
+[AT_KL00]JPOS6  Storage: CMOS  Access: RW  : JOINTPOS9 = Uninitialized
+
+[AT_KL00]JPOS7  Storage: CMOS  Access: RW  : JOINTPOS9 = Uninitialized
+
+[AT_KL00]JPOS8  Storage: CMOS  Access: RW  : JOINTPOS9 = Uninitialized
+
+[AT_KL00]KL06_SUCC  Storage: CMOS  Access: RW  : BOOLEAN = TRUE
+
+[AT_KL00]KL07_SUCC  Storage: CMOS  Access: RW  : BOOLEAN = TRUE
+
+[AT_KL00]LDRATIO_STRT  Storage: CMOS  Access: RW  : REAL = 3.000000e+00
+
+[AT_KL00]LDRT_MEM  Storage: CMOS  Access: RW  : REAL = 2.000000e+00
+
+[AT_KL00]LIMTIME_MEM  Storage: CMOS  Access: RW  : INTEGER = 2000
+
+[AT_KL00]LN_DATA  Storage: DRAM  Access: RW  : ARRAY[20] OF BYTE
+  [1] = 255
+  [2] = 255
+  [3] = 255
+  [4] = 255
+  [5] = 255
+  [6] = 255
+  [7] = 255
+  [8] = 255
+  [9] = 255
+  [10] = 255
+  [11] = 255
+  [12] = 255
+  [13] = 255
+  [14] = 255
+  [15] = 255
+  [16] = 255
+  [17] = 255
+  [18] = 255
+  [19] = 255
+  [20] = 255
+
+[AT_KL00]LOGWRT_WTTM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]MAX_AMP_CUR  Storage: CMOS  Access: RW  : REAL = 8.000000e+01
+
+[AT_KL00]MGN4MSDT_MEM  Storage: CMOS  Access: RW  : REAL = 1.300000e+00
+
+[AT_KL00]MINACC_DET  Storage: CMOS  Access: RW  : ARRAY[8] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+
+[AT_KL00]MINACC_MEM  Storage: CMOS  Access: RW  : INTEGER = 75
+
+[AT_KL00]MIN_PSH_MEM  Storage: CMOS  Access: RW  : REAL = 0.000000e+00
+
+[AT_KL00]MNACCSHM_MEM  Storage: CMOS  Access: RW  : INTEGER = 256
+
+[AT_KL00]MNACCUCA_MEM  Storage: CMOS  Access: RW  : INTEGER = 256
+
+[AT_KL00]MNACCUMA_MEM  Storage: CMOS  Access: RW  : INTEGER = 256
+
+[AT_KL00]MNCATUMA_MEM  Storage: CMOS  Access: RW  : INTEGER = 256
+
+[AT_KL00]MOTN_TYP_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]MOTSPD_MEM  Storage: CMOS  Access: RW  : INTEGER = 3000
+
+[AT_KL00]MOTYP_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]MOVE_ER_MEM  Storage: CMOS  Access: RW  : INTEGER = 1703936
+
+[AT_KL00]MTN_PNM  Storage: CMOS  Access: RW  : STRING[36] = 'AT_TPXX'
+
+[AT_KL00]MTN_PNM_MEM  Storage: CMOS  Access: RW  : STRING[36] = 'AT_TPXX'
+
+[AT_KL00]MULT_SG_EQ  Storage: CMOS  Access: RW  : BOOLEAN = Uninitialized
+
+[AT_KL00]NEW_PRM_NMS  Storage: CMOS  Access: RW  : BOOLEAN = TRUE
+
+[AT_KL00]NUM_FRC_PRMS  Storage: CMOS  Access: RW  : INTEGER = 2
+
+[AT_KL00]NUM_GUNS_DET  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]OPEN_ID  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]OVR_CHK_DLY  Storage: CMOS  Access: RW  : INTEGER = 30
+
+[AT_KL00]PGAIN0_ENB  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]PGAIN0_VAL  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]PLNR_UPDTD  Storage: CMOS  Access: RW  : BOOLEAN = TRUE
+
+[AT_KL00]POSN_IDX  Storage: CMOS  Access: RW  : ARRAY[5] OF INTEGER
+  [1] = 1
+  [2] = 2
+  [3] = 3
+  [4] = 4
+  [5] = 5
+
+[AT_KL00]POSN_VAL  Storage: CMOS  Access: RW  : ARRAY[5] OF REAL
+  [1] = 0.000000e+00
+  [2] = -1.310000e+02
+  [3] = 0.000000e+00
+  [4] = 2.000000e+01
+  [5] = -3.000000e+01
+
+[AT_KL00]PPDSTAT_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]PPD_APS1_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_APS2_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_APS3_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_APS4_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_ASC1_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_ASC2_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_ASC3_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_ASC4_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_ATM1_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]PPD_ATM2_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]PPD_ATM3_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]PPD_ATM4_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]PPD_BPS1_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_BPS2_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_BPS3_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_BPS4_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_BSC1_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_BSC2_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_BSC3_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_BSC4_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_BTM1_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]PPD_BTM2_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]PPD_BTM3_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]PPD_BTM4_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]PPD_DCMP_MEM  Storage: CMOS  Access: RW  : BOOLEAN = TRUE
+
+[AT_KL00]PPD_ENB_MEM  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]PPD_FPRS_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_MCMP_MEM  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]PPD_NSTP_MEM  Storage: CMOS  Access: RW  : INTEGER = 1
+
+[AT_KL00]PPD_WPS1_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_WPS2_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_WPS3_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_WPS4_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_WSC1_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_WSC2_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_WSC3_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_WSC4_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PPD_WTM1_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]PPD_WTM2_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]PPD_WTM3_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]PPD_WTM4_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]PRESS_LIM  Storage: CMOS  Access: RW  : REAL = 6.350292e+02
+
+[AT_KL00]PRG_DONE  Storage: CMOS  Access: RW  : BOOLEAN = TRUE
+
+[AT_KL00]PRG_DONE_REG  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]PRMBKUP_STAT  Storage: CMOS  Access: RW  : INTEGER = 2
+
+[AT_KL00]PRM_A0_MEM  Storage: CMOS  Access: RW  : REAL = 0.000000e+00
+
+[AT_KL00]PRM_A1_MEM  Storage: CMOS  Access: RW  : REAL = 0.000000e+00
+
+[AT_KL00]PRM_A2_MEM  Storage: CMOS  Access: RW  : REAL = 0.000000e+00
+
+[AT_KL00]PRM_B0_MEM  Storage: CMOS  Access: RW  : REAL = 0.000000e+00
+
+[AT_KL00]PRM_B1_MEM  Storage: CMOS  Access: RW  : REAL = 0.000000e+00
+
+[AT_KL00]PRM_RLD_ENB  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]PRS_ACC_MEM  Storage: CMOS  Access: RW  : INTEGER = 100
+
+[AT_KL00]PRS_CHK_DN  Storage: CMOS  Access: RW  : BOOLEAN = TRUE
+
+[AT_KL00]PRS_STAT  Storage: CMOS  Access: RW  : INTEGER = 7
+
+[AT_KL00]PRS_TERM_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]PSH_DPTH_MEM  Storage: CMOS  Access: RW  : REAL = 3.000000e+00
+
+[AT_KL00]PSPD_RT_MEM  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]PUSH_DEPTH  Storage: CMOS  Access: RW  : REAL = 1.000000e+01
+
+[AT_KL00]RBT_GRP  Storage: CMOS  Access: RW  : INTEGER = 1
+
+[AT_KL00]REG200F_MEM  Storage: CMOS  Access: RW  : BOOLEAN = Uninitialized
+
+[AT_KL00]REG200I_MEM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]REG200R_MEM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[AT_KL00]REL_VAL  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[AT_KL00]RESTORE_FLG  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]RETRY_CLSTH  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]RMPENB_MEM  Storage: CMOS  Access: RW  : BOOLEAN = TRUE
+
+[AT_KL00]RMPINIT_MEM  Storage: CMOS  Access: RW  : INTEGER = 80
+
+[AT_KL00]RMPSCAL1_MEM  Storage: CMOS  Access: RW  : INTEGER = 100
+
+[AT_KL00]RMPSCAL2_MEM  Storage: CMOS  Access: RW  : INTEGER = 100
+
+[AT_KL00]RMPSCAL3_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]RMPTIME1_MEM  Storage: CMOS  Access: RW  : INTEGER = 20
+
+[AT_KL00]RMPTIME2_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]RMPTIME3_MEM  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[AT_KL00]SAV_TMP_RSLT  Storage: CMOS  Access: RW  : BOOLEAN = TRUE
+
+[AT_KL00]SBR_191_MEM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]SBR_194_MEM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]SFOP_ACC_MEM  Storage: CMOS  Access: RW  : INTEGER = 100
+
+[AT_KL00]SFOP_TA_MEM  Storage: CMOS  Access: RW  : REAL = 2.400000e+01
+
+[AT_KL00]SFOP_TB_MEM  Storage: CMOS  Access: RW  : REAL = 2.400000e+01
+
+[AT_KL00]SFOP_TRM_MEM  Storage: CMOS  Access: RW  : INTEGER = 100
+
+[AT_KL00]SFTCH_TA_MEM  Storage: CMOS  Access: RW  : REAL = 2.500000e+01
+
+[AT_KL00]SFTCH_TB_MEM  Storage: CMOS  Access: RW  : REAL = 2.500000e+01
+
+[AT_KL00]SGGUN_BASE  Storage: CMOS  Access: RW  : STRING[10] = '$SGGUN1.'
+
+[AT_KL00]SHTMOMGN_MEM  Storage: CMOS  Access: RW  : REAL = 4.000000e-01
+
+[AT_KL00]SOFT_TCH_MEM  Storage: CMOS  Access: RW  : BOOLEAN = TRUE
+
+[AT_KL00]SPD_MEM  Storage: CMOS  Access: RW  : INTEGER = 100
+
+[AT_KL00]SPD_PCT_REG  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]SPD_PERCNT  Storage: CMOS  Access: RW  : REAL = 1.000000e+02
+
+[AT_KL00]SPEED_MEM  Storage: CMOS  Access: RW  : INTEGER = 100
+
+[AT_KL00]STATUS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]STOP_ER_MEM  Storage: CMOS  Access: RW  : INTEGER = 52429
+
+[AT_KL00]STOP_TOL_MEM  Storage: CMOS  Access: RW  : INTEGER = 9830
+
+[AT_KL00]STRK_ENBL  Storage: CMOS  Access: RW  : BOOLEAN = TRUE
+
+[AT_KL00]STR_VAL  Storage: DRAM  Access: RW  : STRING[1] = Uninitialized
+
+[AT_KL00]SVPRM_MEM  Storage: CMOS  Access: RW  : ARRAY[300] OF SHORT
+  [1] = 9
+  [2] = 640
+  [3] = 0
+  [4] = 3072
+  [5] = 0
+  [6] = 0
+  [7] = 16384
+  [8] = 0
+  [9] = 0
+  [10] = 0
+  [11] = 8
+  [12] = 0
+  [13] = 1154
+  [14] = -4388
+  [15] = -2648
+  [16] = 0
+  [17] = 15
+  [18] = -284
+  [19] = -8236
+  [20] = 0
+  [21] = 5243
+  [22] = 0
+  [23] = 0
+  [24] = 0
+  [25] = 799
+  [26] = 0
+  [27] = 3900
+  [28] = 32593
+  [29] = 2179
+  [30] = 1857
+  [31] = 515
+  [32] = 0
+  [33] = 0
+  [34] = 0
+  [35] = 0
+  [36] = 1820
+  [37] = 216
+  [38] = 0
+  [39] = 0
+  [40] = 0
+  [41] = 0
+  [42] = 0
+  [43] = 0
+  [44] = 0
+  [45] = 1677
+  [46] = 447
+  [47] = 7426
+  [48] = 0
+  [49] = 0
+  [50] = 0
+  [51] = 4096
+  [52] = 0
+  [53] = 0
+  [54] = 0
+  [55] = 0
+  [56] = 0
+  [57] = 0
+  [58] = 0
+  [59] = 0
+  [60] = 0
+  [61] = 0
+  [62] = 0
+  [63] = 0
+  [64] = 0
+  [65] = 0
+  [66] = 0
+  [67] = 0
+  [68] = 0
+  [69] = 0
+  [70] = 0
+  [71] = 0
+  [72] = 0
+  [73] = 0
+  [74] = 0
+  [75] = 0
+  [76] = 0
+  [77] = 0
+  [78] = 0
+  [79] = 0
+  [80] = 0
+  [81] = 0
+  [82] = 0
+  [83] = 0
+  [84] = 0
+  [85] = 0
+  [86] = 0
+  [87] = 0
+  [88] = 0
+  [89] = 0
+  [90] = 0
+  [91] = 0
+  [92] = 0
+  [93] = 0
+  [94] = 0
+  [95] = 0
+  [96] = 0
+  [97] = 0
+  [98] = 0
+  [99] = 0
+  [100] = 0
+  [101] = 0
+  [102] = 0
+  [103] = 0
+  [104] = 0
+  [105] = 0
+  [106] = 0
+  [107] = 0
+  [108] = 0
+  [109] = 0
+  [110] = 0
+  [111] = 0
+  [112] = 282
+  [113] = 0
+  [114] = 0
+  [115] = 0
+  [116] = 0
+  [117] = 0
+  [118] = 0
+  [119] = 0
+  [120] = 0
+  [121] = 0
+  [122] = 0
+  [123] = 0
+  [124] = 0
+  [125] = 0
+  [126] = 0
+  [127] = 0
+  [128] = 0
+  [129] = 0
+  [130] = 0
+  [131] = 545
+  [132] = 0
+  [133] = 0
+  [134] = 0
+  [135] = 0
+  [136] = 50
+  [137] = Uninitialized
+  [138] = 0
+  [139] = 0
+  [140] = 0
+  [141] = 0
+  [142] = 22
+  [143] = 1849
+  [144] = 319
+  [145] = 4618
+  [146] = 1680
+  [147] = 0
+  [148] = 0
+  [149] = 0
+  [150] = 0
+  [151] = 0
+  [152] = 1589
+  [153] = 1300
+  [154] = 0
+  [155] = 0
+  [156] = 0
+  [157] = 0
+  [158] = 0
+  [159] = 0
+  [160] = 0
+  [161] = 0
+  [162] = 0
+  [163] = 0
+  [164] = 0
+  [165] = 0
+  [166] = 0
+  [167] = 0
+  [168] = 0
+  [169] = 0
+  [170] = 0
+  [171] = 0
+  [172] = 0
+  [173] = 0
+  [174] = 0
+  [175] = 0
+  [176] = 0
+  [177] = 0
+  [178] = 0
+  [179] = 0
+  [180] = 0
+  [181] = 0
+  [182] = 0
+  [183] = 0
+  [184] = 0
+  [185] = 0
+  [186] = 0
+  [187] = 0
+  [188] = 0
+  [189] = 0
+  [190] = 1
+  [191] = 0
+  [192] = 0
+  [193] = 0
+  [194] = 0
+  [195] = 0
+  [196] = 0
+  [197] = 0
+  [198] = 0
+  [199] = 0
+  [200] = 0
+  [201] = 0
+  [202] = 1950
+  [203] = 0
+  [204] = 0
+  [205] = 0
+  [206] = 0
+  [207] = 0
+  [208] = 0
+  [209] = 0
+  [210] = 0
+  [211] = 0
+  [212] = 0
+  [213] = 0
+  [214] = 0
+  [215] = 0
+  [216] = 0
+  [217] = 0
+  [218] = 0
+  [219] = 0
+  [220] = 0
+  [221] = 0
+  [222] = 0
+  [223] = 0
+  [224] = 0
+  [225] = 0
+  [226] = 0
+  [227] = 0
+  [228] = 0
+  [229] = 0
+  [230] = 0
+  [231] = 0
+  [232] = 0
+  [233] = 0
+  [234] = 0
+  [235] = 0
+  [236] = 0
+  [237] = 0
+  [238] = 0
+  [239] = 0
+  [240] = 0
+  [241] = 0
+  [242] = 0
+  [243] = 0
+  [244] = 0
+  [245] = 0
+  [246] = 0
+  [247] = 0
+  [248] = 0
+  [249] = 0
+  [250] = 0
+  [251] = 0
+  [252] = 0
+  [253] = 0
+  [254] = 0
+  [255] = 0
+  [256] = 0
+  [257] = 0
+  [258] = 0
+  [259] = 0
+  [260] = 0
+  [261] = 0
+  [262] = 0
+  [263] = 0
+  [264] = 0
+  [265] = 0
+  [266] = 0
+  [267] = 0
+  [268] = 0
+  [269] = 0
+  [270] = 0
+  [271] = 0
+  [272] = 0
+  [273] = 0
+  [274] = 0
+  [275] = 0
+  [276] = 0
+  [277] = 0
+  [278] = 0
+  [279] = 0
+  [280] = 0
+  [281] = 0
+  [282] = 0
+  [283] = 0
+  [284] = 0
+  [285] = 0
+  [286] = 0
+  [287] = 0
+  [288] = 0
+  [289] = 0
+  [290] = 0
+  [291] = 0
+  [292] = 0
+  [293] = 0
+  [294] = 0
+  [295] = 0
+  [296] = 0
+  [297] = 0
+  [298] = 0
+  [299] = 0
+  [300] = 0
+
+[AT_KL00]SYNC_ACC_MEM  Storage: CMOS  Access: RW  : INTEGER = 100
+
+[AT_KL00]SYNC_TA_MEM  Storage: CMOS  Access: RW  : REAL = 2.400000e+01
+
+[AT_KL00]SYNC_TB_MEM  Storage: CMOS  Access: RW  : REAL = 2.400000e+01
+
+[AT_KL00]SYNC_TRM_MEM  Storage: CMOS  Access: RW  : INTEGER = 100
+
+[AT_KL00]TERM_TYP_MEM  Storage: CMOS  Access: RW  : INTEGER = 1
+
+[AT_KL00]THICKNSS_MEM  Storage: CMOS  Access: RW  : REAL = 0.000000e+00
+
+[AT_KL00]TIDCMP_MEM  Storage: CMOS  Access: RW  : ARRAY[10,2] OF REAL
+    [1,1] = Uninitialized
+    [1,2] = Uninitialized
+    [2,1] = Uninitialized
+    [2,2] = Uninitialized
+    [3,1] = Uninitialized
+    [3,2] = Uninitialized
+    [4,1] = Uninitialized
+    [4,2] = Uninitialized
+    [5,1] = Uninitialized
+    [5,2] = Uninitialized
+    [6,1] = Uninitialized
+    [6,2] = Uninitialized
+    [7,1] = Uninitialized
+    [7,2] = Uninitialized
+    [8,1] = Uninitialized
+    [8,2] = Uninitialized
+    [9,1] = Uninitialized
+    [9,2] = Uninitialized
+    [10,1] = Uninitialized
+    [10,2] = Uninitialized
+
+[AT_KL00]TIGAIN_MEM  Storage: CMOS  Access: RW  : ARRAY[10,5] OF INTEGER
+    [1,1] = Uninitialized
+    [1,2] = Uninitialized
+    [1,3] = Uninitialized
+    [1,4] = Uninitialized
+    [1,5] = Uninitialized
+    [2,1] = Uninitialized
+    [2,2] = Uninitialized
+    [2,3] = Uninitialized
+    [2,4] = Uninitialized
+    [2,5] = Uninitialized
+    [3,1] = Uninitialized
+    [3,2] = Uninitialized
+    [3,3] = Uninitialized
+    [3,4] = Uninitialized
+    [3,5] = Uninitialized
+    [4,1] = Uninitialized
+    [4,2] = Uninitialized
+    [4,3] = Uninitialized
+    [4,4] = Uninitialized
+    [4,5] = Uninitialized
+    [5,1] = Uninitialized
+    [5,2] = Uninitialized
+    [5,3] = Uninitialized
+    [5,4] = Uninitialized
+    [5,5] = Uninitialized
+    [6,1] = Uninitialized
+    [6,2] = Uninitialized
+    [6,3] = Uninitialized
+    [6,4] = Uninitialized
+    [6,5] = Uninitialized
+    [7,1] = Uninitialized
+    [7,2] = Uninitialized
+    [7,3] = Uninitialized
+    [7,4] = Uninitialized
+    [7,5] = Uninitialized
+    [8,1] = Uninitialized
+    [8,2] = Uninitialized
+    [8,3] = Uninitialized
+    [8,4] = Uninitialized
+    [8,5] = Uninitialized
+    [9,1] = Uninitialized
+    [9,2] = Uninitialized
+    [9,3] = Uninitialized
+    [9,4] = Uninitialized
+    [9,5] = Uninitialized
+    [10,1] = Uninitialized
+    [10,2] = Uninitialized
+    [10,3] = Uninitialized
+    [10,4] = Uninitialized
+    [10,5] = Uninitialized
+
+[AT_KL00]TISPD_MEM  Storage: CMOS  Access: RW  : ARRAY[10,5] OF REAL
+    [1,1] = Uninitialized
+    [1,2] = Uninitialized
+    [1,3] = Uninitialized
+    [1,4] = Uninitialized
+    [1,5] = Uninitialized
+    [2,1] = Uninitialized
+    [2,2] = Uninitialized
+    [2,3] = Uninitialized
+    [2,4] = Uninitialized
+    [2,5] = Uninitialized
+    [3,1] = Uninitialized
+    [3,2] = Uninitialized
+    [3,3] = Uninitialized
+    [3,4] = Uninitialized
+    [3,5] = Uninitialized
+    [4,1] = Uninitialized
+    [4,2] = Uninitialized
+    [4,3] = Uninitialized
+    [4,4] = Uninitialized
+    [4,5] = Uninitialized
+    [5,1] = Uninitialized
+    [5,2] = Uninitialized
+    [5,3] = Uninitialized
+    [5,4] = Uninitialized
+    [5,5] = Uninitialized
+    [6,1] = Uninitialized
+    [6,2] = Uninitialized
+    [6,3] = Uninitialized
+    [6,4] = Uninitialized
+    [6,5] = Uninitialized
+    [7,1] = Uninitialized
+    [7,2] = Uninitialized
+    [7,3] = Uninitialized
+    [7,4] = Uninitialized
+    [7,5] = Uninitialized
+    [8,1] = Uninitialized
+    [8,2] = Uninitialized
+    [8,3] = Uninitialized
+    [8,4] = Uninitialized
+    [8,5] = Uninitialized
+    [9,1] = Uninitialized
+    [9,2] = Uninitialized
+    [9,3] = Uninitialized
+    [9,4] = Uninitialized
+    [9,5] = Uninitialized
+    [10,1] = Uninitialized
+    [10,2] = Uninitialized
+    [10,3] = Uninitialized
+    [10,4] = Uninitialized
+    [10,5] = Uninitialized
+
+[AT_KL00]TITRQ_MEM  Storage: CMOS  Access: RW  : ARRAY[10] OF REAL
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+
+[AT_KL00]TP_MTNCT_REG  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AT_KL00]TRMTYP_MEM  Storage: CMOS  Access: RW  : INTEGER = 100
+
+[AT_KL00]TUNCMP_MEM  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]TUN_LOG_ENB  Storage: CMOS  Access: RW  : BOOLEAN = Uninitialized
+
+[AT_KL00]TUN_SUCC  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]USMAXACC_MEM  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]US_TBC_MEM  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]US_TBJ_MEM  Storage: CMOS  Access: RW  : BOOLEAN = FALSE
+
+[AT_KL00]VERNUM  Storage: CMOS  Access: RW  : INTEGER = 930126
+
+[AT_KL00]WELDPRS_MEM  Storage: CMOS  Access: RW  : REAL = 0.000000e+00
+

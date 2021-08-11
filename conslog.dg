@@ -1,0 +1,340 @@
+[SYINISUB] Saving user device UD1:
+[txproc]'H': TW
+[syinit] : calling iosetup
+[FTP] FTP Interface V5.10
+[SKMG] Socket Messaging Interface V5.22 @0x1103abe8
+[CIP] CIP I/O Server 0x10697250
+[vcam] wake up
+[syin]status after mktsk = 0
+[FTP] FTP debug addr = 132f7460
+[vcam] oschggrp(111, 4, 0) 0x00000000
+[FTP] Ethernet event flag received.
+[EIPXML] Loading FRS:\EIPCFG.XML...
+[vcamvstk_get_sysvars] vmgtsysv('$VSTK_TRIG') 0x00100006
+Loading... shipl.ld0 (address:0x94200000 size:0x2000)
+[vcamdrvr_init_cxp] CXP status(0) : 00000000
+[TXPROC] version of iPendant V9.3126
+[TXPROC] core version of iPendant V9.30P/15
+[TXPROC]'G' received
+[TXPROC]'G' NETF_VER:1.2.0.0
+[TXPROC]'G' OS_VER:01.52/7.0
+[PXTLNT] rosip not initialized
+Loading... ps2o.ld0 (address:0x95000000 size:0x100000)
+open FRS:\LADDER1.PMC is failed
+[llint.c] load_ladder is failed 0
+[vcamdrvr_init_cxp] CXP status(1) : 00000000
+[llinit] PMC1:load init ladder!
+[EIPXML] Loading FRS:\EIPCFG.XML...
+[CIP] CIP I/O Consumer V8.20P/03 @0x102800e0
+[CIP] CIP I/O Producer V8.20P/03 @0x102a3f18
+[CIP] CIP Scanner V6.3109 @0x102a7a24
+[CIPP] FAST UDP ENABLED
+[EIPS] online_values ac13486f ffffff00 0
+[EIPCTRL] NPIM 0x0 (0)
+CMND_SET_GRPNUM_TO_SLV1
+[ionslc] Gp0/1, E, Cate:C2/3F, PCB:01/01
+IOBLDMLS: RSTT failed
+[ripini] Initializing
+[ripini] Found 0 0xac13486f 172.19.72.111
+[ripini] Subnet Mask 255.255.255.0
+[ripini] Sending init packet 1, 388, 0xfa7c284
+[rosip] Initialization not successful
+pmgr-sector set 100
+[SWGSCFG] *IO_SLAVE_IMAGE $1329B9A8, vpr_p $1329B9A8
+[CHUTL]chaddmon: Send failed: 0000010C
+[CHUTL]chaddmon: Send failed: 0000010C
+[CHUTL]chaddmon: Send failed: 0000010C
+[CHUTL]chaddmon: Send failed: 0000010C
+[CHUTL]chaddmon: Send failed: 0000010C
+[CHUTL]chaddmon: Send failed: 0000010C
+[CHUTL]chaddmon: Send failed: 0000010C
+[CHUTL]chaddmon: Send failed: 0000010C
+[CHUTL]chaddmon: Send failed: 0000010C
+[vcamdrvr_init_cxp] CXP status(2) : 00000000
+[syinisub] Memory manager started
+[vmfndvar] [*SYSTEM*]$AUTOMODE_OV  truncated to $AUTOMODE_OV
+[vmfndvar] [*SYSTEM*]$AP_AUTOMODE_DO truncated to $AP_AUTOMODE
+[syinit] mosetvpr status <0>
+[ERLOG] continue stat = 0x0
+[rcmplg] RCMCFG_BASE $11fdd3f0, rcmcfg_p $137fe0b0
+[rcmutl] Remote Connect Manager V1.2@0x10a5d9c4
+[RMCN] Loading FR:\RCMCFG.XML
+[syinisub] VMGR called to register program with MEMO
+[rcmlib_parseurl] Added forward slash
+[rcmlib_parseurl] Error not in format http://
+[CHUTL]chaddmon: Send failed: 0000010C
+[vmshadow_cleanup] Redirected from task 72 to TID_VMSC
+[VMotion_addpath] Aliasing svgun to dummy
+[sytimque]: trigger loaded 0
+[VMotion_addpath] Aliasing svgun_system to dummy
+[CHND] Low Priority Condition Handler started.
+[TPGL_InstID] allocated instance 0 1 0 255 
+[CHND] init done. starting scanning
+syopinsp-Jog in Auto used: 1
+[TPGL_InstID] allocated instance 1 2 0 255 
+sswrkset ****rspaceg_p is 845b0d24
+[TPGL_InstID] allocated instance 2 3 0 255 
+[sswrkset] cp installed and enabled = 1
+[tpglscene]entry 4D process logger[sswrkset] rtcp installed and compatibility = 1
+[SYINIT] OCTK started 380001
+slapinit: skipping due to pfr
+slapinit: multi-ap enabled
+slscf0-seal active:0
+[SLSCF0] EQ1 ISD_USED_A[1] = 0
+[slscf0] EQ1 IPD_USED_A[1] = 0
+vnm:DOSTIME, ptr:0, status:100006
+
+"cold1.com for V9.30P/15 (FD V9.3043)"
+"menu.com for V9.30P/15 (FD V9.3043)"
+"menucus.com complete"
+"menu.com complete"
+[SPRUNCMDF] status = 10B; "RUNTSK SID_HTTP" : COLD1.COM
+[spruncmdf] +++ no abort
+[ASBN] started
+"cold1cus.com complete"
+"cold1.com complete"
+[vdat] wake up
+[vexe] wake up
+[vlog] oschggrp(115, 4, 0) $00000000
+[vtrn] wake up
+[vxmn] wake up
+[vzdt] oschggrp(341, 4, 0) $00000000
+[vdat] oschggrp(112, 4, 0) 0x00000000
+[vexe] oschggrp(113, 4, 0) 0x00000000
+[vtrn] oschggrp(136, 4, 0) 0x00000000
+[SYINISUB] restored user device UD1:
+[vxmn] VXMNPKT_T 132, PKT_SIZ7 272
+[vdat] $vis_homing vmsetlim error $100006
+[SYINISUB] Saving user device UD1:
+[vxmn] oschggrp(114, 4, 0) 0x00000000
+[vdat] $vp2n_cfg vmsetlim error $100006
+[DEBUG] Entering moinit
+[vdat] vision pool size = 0
+[phserv] Waiting for Enet at 17129
+[phserv] Done Waiting at 17129
+[phserv] PHSERV start send timer @ 0x10de0978
+[phserv] PHSERV Fast UDP set
+[phsndtsk] waiting on RIPE intialization
+[phserv] Exit process highway sender task 4300ba
+[EXIT] Task 116 exiting with code 0
+[vcamdrvr_init_cxp] CXP status(3) : 00000000
+[icazload] init status: 0 
+[sfmdest] null_flg_p:12e28b2c
+[TCBEFINI] $SPLCFG address is 0 
+[TCBEFINI] spl_enabled = 0 
+[TCBEFINI] $TCPP_DBG mount stat = 0, addr = 1377C058 
+[PMPT] Not Required
+[SRIF] Not Need
+[pmgr]shakehand px01, px_starting=32766
+[pmgr]shakehand px02, px_starting=32764
+[pmgr]shakehand px03, px_starting=32760
+[pmgr]shakehand px04, px_starting=32752
+[pmgr]shakehand px05, px_starting=32736
+[pmgr]shakehand px06, px_starting=32704
+[pmgr]shakehand px07, px_starting=32640
+[pmgr]shakehand px08, px_starting=32512
+[pmgr]shakehand px09, px_starting=32256
+[pmgr]shakehand px010, px_starting=31744
+[mdgencrebuf] osnewmem success for main buf. size = 352000, sid = 21 
+[pmgr]shakehand px011, px_starting=30720
+[TCAFTINI] getdbg_fp = 108FC2BC, recdbg_fp = 108FBCA8 
+[pmgr]shakehand px012, px_starting=28672
+[pmgr]shakehand px013, px_starting=24576
+[pmgr]shakehand px014, px_starting=16384
+ tctasksp is calledi_0.
+[miinit][1] posted init PKT <12E03B78> to task<72> (0)
+[pmgr]shakehand px015, px_starting=0
+ tctasksp is called.
+[miinit] Mount $SPL_MOR_GRP[1] fail. stat = 100006 
+[miinit][2] posted init PKT <12E03B78> to task<72> (0)
+vmgtsysv 1103a620 845b0780
+ [mpinit] initialize mb_fp
+[miinit] Mount $SPL_MOR_GRP[2] fail. stat = 100006 
+vmgtsysv 1103a640 845b0ce8
+[mpinit] after mpdyinit
+ vmgtsysv 1103a650 845b07c0
+[mpinit] Mount $SPL_MOR_GRP[1] fail. stat = 100006 
+ tctasksp, inializations done.
+[mpinit] ossndpkt <0>
+[mpinit] done mpinit
+[mpinit] initialize mb_fp
+[mpinit] after mpdyinit
+[mpinit] Mount $SPL_MOR_GRP[2] fail. stat = 100006 
+[mpinit] ossndpkt <0>
+[mpinit] done mpinit
+[mfinit] start
+[mfinit] normal main svcard mode
+[mfinit] brd=1: aux axis board not found
+[mfinit] brd=2: aux axis board not found
+[mfsffopini] finish wake up SFCALC  stat = 0
+[tbjtkini] finish wake up stat = 0
+[ottask] eoat_p ffc9160
+[nectkini] finish wake up  stat = 0
+[syin]status after mktsk = 0
+[moinit] done
+[mfinidsp] --- enable FSSB ATR init ---
+[mfinidsp] --- start ITP ---
+[miinit] done 
+[miinit] done 
+[mfinidsp] waiting for SSTB...
+[mfinidsp] all SSTB become 1
+[mfredampid] [d:1 da:1 g:1 ga:1] amp_svm:A06B-6400-H101        amp_psm:                     (ps:0) amp_svmsrl:V21137566   amp_psmsrl:            amp_svmver:9H0603.0 amp_psmver:9G0607.0
+[mfredampid] [d:1 da:2 g:1 ga:2] amp_svm:A06B-6400-H101        amp_psm:                     (ps:0) amp_svmsrl:V21137566   amp_psmsrl:            amp_svmver:9H0603.0 amp_psmver:9G0607.0
+[mfredampid] [d:1 da:3 g:1 ga:3] amp_svm:A06B-6400-H101        amp_psm:                     (ps:0) amp_svmsrl:V21137566   amp_psmsrl:            amp_svmver:9H0603.0 amp_psmver:9G0607.0
+[mfredampid] [d:1 da:4 g:1 ga:4] amp_svm:A06B-6240-H209        amp_psm:                     (ps:0) amp_svmsrl:V21200770   amp_psmsrl:            amp_svmver:9H0022.0 amp_psmver:9G0607.0
+[mfredampid] [d:1 da:5 g:1 ga:5] amp_svm:A06B-6240-H209        amp_psm:                     (ps:0) amp_svmsrl:V21200770   amp_psmsrl:            amp_svmver:9H0022.0 amp_psmver:9G0607.0
+[mfredampid] [d:1 da:6 g:1 ga:6] amp_svm:A06B-6240-H209        amp_psm:                     (ps:0) amp_svmsrl:V21200783   amp_psmsrl:            amp_svmver:9H0022.0 amp_psmver:9G0607.0
+[mfredampid] [d:2 da:2 g:2 ga:1] amp_svm:A06B-6240-H209        amp_psm:                     (ps:0) amp_svmsrl:V21200783   amp_psmsrl:            amp_svmver:9H0022.0 amp_psmver:9G0607.0
+[SYINISUB] Checking $repower.$flag
+[syinisub] TICK_OFFSET 11fdd374 to 10d
+[quiccrcv] TICK_OFFSET 117dc374 to 10d
+[vmshadow_cleanup] Redirected from task 72 to TID_VMSC
+STRT_NSLC 0
+[CIPCONCB] Fast UDP in use (0)
+[syinisub] TPID = 0x36 !!!!!!!!!!!!!!!!!!!!!!!!!
+[syinit] waiting for EVF_ENB_PWF...
+[syinit] osconflg(EVF_ENB_PWF) $16a
+[syinit] oswaiflg(EVF_ENB_PWF) $0
+[syinit] syrset(), status = $0
+ladder is started PMC_EXEC_PWRUP_C 0 
+[syinisub] Starting C shell 0x0
+[syinisub]starting shell $0
+[Shxsp] Ref positions in use
+[Shxsp] Style table initt
+[Shxsp] Initialize extension
+"cold2.com for V9.30P/15 (FD V9.3043)"
+[vcamdrvr_init_cxp] CXP status(4) : 00000000
+[vcamdrvr_init_cxp] power off
+[vcamdrvr_initialize] time : 13564.720703ms
+"cold2cus.com complete"
+"cold2.com complete"
+[syinisub] Ready to run ATSHELL
+Ready to run SHELL
+[syinisub] Start Karel shell 0x0
+[SYINISUB] restored user device UD1:
+[syinit] Setting VMGR for in-line calls
+[syinit] end
+[set_load_device] stat good device = UD1:, BMON 
+[set_load_device]setting $LOAD_DEVICE to UD1:
+[symonutl] Getting data (0, 1)
+[vmshadow_cleanup] Redirected from task 72 to TID_VMSC
+SYINISUB TOTAL TIME 14402
+[SYINISUB] restored user device UD1:
+[TPSPART] Found KAREL ATMSKCHG 200
+[TPSPART] Found KAREL PLCFMAIN 203
+[TPSPART] Found KAREL CLSKMAIN 207
+[TPSPART] Found KAREL EOATMENU 216
+[TPSPART] Found KAREL SWTOOLBX 920
+[TPSPART] Found KAREL ATPRGADJ 930
+[TPSPART] Found KAREL ATWAITRL 931
+[TPSPART] Found KAREL ATPRSCRN 932
+[TPSPART] Found KAREL ATDSBFLT 933
+[TPSPART] Found KAREL ATERRJOB 934
+[TPSPART] Found KAREL ATPASWRD 935
+[TPSPART] Found KAREL ATINSTAL 936
+[TPSPART] Found KAREL MHGRIPSU 938
+[TPSPART] Found KAREL MHGRIPIO 939
+[TPSPART] Found KAREL SWPRSCRN 941
+[TPSPART] Found KAREL SWCELLSU 943
+[TPSPART] Found KAREL SWADVFUN 945
+[TPSPART] Found KAREL SWEQUSET 946
+[TPSPART] Found KAREL SWSOFTPA 952
+[TPSPART] Found KAREL SWEQGUN 953
+[TPSPART] Found KAREL SWEQIO 954
+[TPSPART] Found KAREL ATCELLIO 955
+[TPSPART] Found KAREL SGAUTTUN 957
+[TPSPART] Found KAREL ACTPSS 958
+[TPSPART] Found KAREL SWWELDIO 960
+[TPSPART] Found KAREL SWMANWLD 961
+[TPSPART] Found KAREL SWCFSCRN 962
+[TPSPART] Found KAREL SLSOFTPA 971
+[TPKSINIT] dname -K972- not found devstat = 0 cfg $11b25664
+[TPKSINIT] dname -K973- not found devstat = 0 cfg $11b255a8
+[TPSPART] Found KAREL SGTDMEN 979
+[TPSPART] Found KAREL MHMENUSU 987
+[TPSPART] Found KAREL MHPRODST 988
+[TPSPART] Found KAREL ATSOFTPA 992
+[TPSPART] Found KAREL MHGRSETP 993
+Result size = 596
+[icdpmain] backup init status: 0 
+[sfsappat] SPOT packet size = 228
+[sfsappat] SPOT node size = 7476
+[PAT]number of applications active = 1
+[vmfndvar] [*SYSTEM*]$SYSTEM_TIMER truncated to $SYSTEM_TIME
+[tcspdini] tcsp_vpr_p 0xf8333cc
+[tpcputl] Options loaded: lite 0 Option 0
+[tpmulti] timed wait for 1 of 15
+[syinmpc] received new password config
+[tpmains] Waiting at 42070ms
+[tpmains] ready at 04-AUG-21 11:53:30 
+[tpmains] Ready at 42154ms Total Startup Time ~ 49 seconds
+[IASV] Setting up DSP communication 
+[tpmains] ready at 04-AUG-21 11:53:30 
+UD1 Removed
+[ZIP] INIT
+[DSFL]findfir elim for B:\FR\GUN3\*.*
+[DSFL]findfir elim for B:\FR\GUN3\*.*
+[vmisavef] appending segment to MDS5:\SYSVARS.SV
+[mdspc] MDS5:\VIMGDIAG.ZIP file generation error 0x75017a
+[pmon] start new FILE update, 100
+[DSFL]findfir elim for B:\FR\GUN1\*.*
+[vmisavef] appending segment to MDS4:\SYSVARS.SV
+[mdspc] MDS1:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS8:\SYSVARS.SV
+[mdspc] MDS5:\VIMGDIAG.ZIP file generation error 0x75017a
+[TPGL] Opening PIP:GLCOM2.XML (2 255 0) 
+[tpgl3d_dcs] cntxt3d_p->inst_id = 1
+[TPGL_InstID] allocated instance 3 12 0 255 
+[vmisavef] appending segment to MDS4:\SYSVARS.SV
+[mdspc] MDS1:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS8:\SYSVARS.SV
+[mdspc] MDS5:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS2:\SYSVARS.SV
+[mdspc] MDS9:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS6:\SYSVARS.SV
+[mdspc] MDS3:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS0:\SYSVARS.SV
+[mdspc] MDS7:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS4:\SYSVARS.SV
+[mdspc] MDS1:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS7:\SYSVARS.SV
+[mdspc] MDS0:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS1:\SYSVARS.SV
+[mdspc] MDS4:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS6:\SYSVARS.SV
+[mdspc] MDS3:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS0:\SYSVARS.SV
+[mdspc] MDS3:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS9:\SYSVARS.SV
+[mdspc] MDS6:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS3:\SYSVARS.SV
+[mdspc] MDS0:\VIMGDIAG.ZIP file generation error 0x75017a
+[TPGL] Opening PIP:GLCOM2.XML (2 255 0) 
+[tpdcs3d_cpc_refresh] pstat changed was 1, is 0
+[tpdcs3d_cpc_refresh] pstat changed was 0, is 1
+[tpdcs3d_cpc_refresh] pstat changed was 1, is 0
+[vmimage_bakfile] FRB:swpatdat.PRV at 08-AUG-21 10:13:12  (322)
+[vmisavef] appending segment to MDS9:\SYSVARS.SV
+[mdspc] MDS6:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS3:\SYSVARS.SV
+[mdspc] MDS0:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS7:\SYSVARS.SV
+[mdspc] MDS4:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS1:\SYSVARS.SV
+[mdspc] MDS8:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS0:\SYSVARS.SV
+[mdspc] MDS3:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS9:\SYSVARS.SV
+[mdspc] MDS6:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS3:\SYSVARS.SV
+[mdspc] MDS0:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS1:\SYSVARS.SV
+[mdspc] MDS8:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS0:\SYSVARS.SV
+[mdspc] MDS3:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS9:\SYSVARS.SV
+[mdspc] MDS6:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS3:\SYSVARS.SV
+[mdspc] MDS0:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS2:\SYSVARS.SV
+[mdspc] MDS5:\VIMGDIAG.ZIP file generation error 0x75017a

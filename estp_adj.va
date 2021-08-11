@@ -1,0 +1,44 @@
+[ESTP_ADJ]TRQ_LIM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]TRQ_LIM_VAL  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]ESTP_TIM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]STATUS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]SW_AXIS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]HW_AXIS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]DATA_TYPE  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]DUMMY_REAL  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[ESTP_ADJ]DUMMY_STR  Storage: DRAM  Access: RW  : STRING[40] = Uninitialized
+
+[ESTP_ADJ]GNUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]KINEM_ENB  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]NUM_GRP  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]NUM_AXES  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]TMP_TRQ  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]TMP_TIM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]AMP_NUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]R30IB_ESTP  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]REQ_PWR_CYC  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[ESTP_ADJ]CUR_202  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]NEW_202  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]CUR_311  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[ESTP_ADJ]NEW_311  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+

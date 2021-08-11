@@ -1,0 +1,116 @@
+[MENU512]MENU_NAME  Storage: CMOS  Access: RW  : STRING[16] = 'Auto_CC'
+
+[MENU512]MENU_TYPE  Storage: CMOS  Access: RW  : INTEGER = 5
+
+[MENU512]MENU_NO  Storage: CMOS  Access: RW  : INTEGER = 12
+
+[MENU512]MENU_TEXT  Storage: CMOS  Access: RW  : ARRAY[10] OF STRING[40]
+  [1] = ''
+  [2] = 'Enter The Cell And'
+  [3] = 'Replace Caps Manually...'
+  [4] = '-----------------------'
+  [5] = ''
+  [6] = 'Have The Caps Been'
+  [7] = 'Changed?'
+  [8] = ''
+  [9] = 'Answer'
+  [10] = ''
+
+[MENU512]MENU_VAR  Storage: CMOS  Access: RW  : ARRAY[10] OF STRING[30]
+  [1] = ''
+  [2] = ''
+  [3] = ''
+  [4] = ''
+  [5] = ''
+  [6] = ''
+  [7] = ''
+  [8] = ''
+  [9] = ''
+  [10] = ''
+
+[MENU512]MENU_TITLE  Storage: CMOS  Access: RW  : STRING[40] = 'Auto Cap Change Failed'
+
+[MENU512]MENU_VAR_TYP  Storage: CMOS  Access: RW  : ARRAY[10] OF INTEGER
+  [1] = 1
+  [2] = 1
+  [3] = 1
+  [4] = 1
+  [5] = 1
+  [6] = 1
+  [7] = 1
+  [8] = 1
+  [9] = 2
+  [10] = 1
+
+[MENU512]MENU_PROG  Storage: CMOS  Access: RW  : ARRAY[10] OF STRING[8]
+  [1] = ''
+  [2] = ''
+  [3] = ''
+  [4] = ''
+  [5] = ''
+  [6] = ''
+  [7] = ''
+  [8] = ''
+  [9] = ''
+  [10] = ''
+
+[MENU512]MENU_SYSVAR  Storage: CMOS  Access: RW  : ARRAY[10] OF STRING[40]
+  [1] = ''
+  [2] = ''
+  [3] = ''
+  [4] = ''
+  [5] = ''
+  [6] = ''
+  [7] = ''
+  [8] = ''
+  [9] = ''
+  [10] = ''
+
+[MENU512]MENU_REG_NO  Storage: CMOS  Access: RW  : ARRAY[10] OF INTEGER
+  [1] = 0
+  [2] = 0
+  [3] = 0
+  [4] = 0
+  [5] = 0
+  [6] = 0
+  [7] = 0
+  [8] = 0
+  [9] = 80
+  [10] = 0
+
+[MENU512]MENU_DISPLAY  Storage: CMOS  Access: RW  : ARRAY[10] OF INTEGER
+  [1] = 1
+  [2] = 1
+  [3] = 1
+  [4] = 1
+  [5] = 1
+  [6] = 1
+  [7] = 1
+  [8] = 1
+  [9] = 5
+  [10] = 1
+
+[MENU512]MENU_VAR_MIN  Storage: CMOS  Access: RW  : ARRAY[10] OF REAL
+  [1] = 0.000000e+00
+  [2] = 0.000000e+00
+  [3] = 0.000000e+00
+  [4] = 0.000000e+00
+  [5] = 0.000000e+00
+  [6] = 0.000000e+00
+  [7] = 0.000000e+00
+  [8] = 0.000000e+00
+  [9] = 0.000000e+00
+  [10] = 0.000000e+00
+
+[MENU512]MENU_VAR_MAX  Storage: CMOS  Access: RW  : ARRAY[10] OF REAL
+  [1] = 0.000000e+00
+  [2] = 0.000000e+00
+  [3] = 0.000000e+00
+  [4] = 0.000000e+00
+  [5] = 0.000000e+00
+  [6] = 0.000000e+00
+  [7] = 0.000000e+00
+  [8] = 0.000000e+00
+  [9] = 0.000000e+00
+  [10] = 0.000000e+00
+

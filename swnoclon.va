@@ -1,0 +1,138 @@
+[SWNOCLON]EQNO  Storage: CMOS  Access: RW  : INTEGER = 1
+
+[SWNOCLON]PRESS_SCH  Storage: CMOS  Access: RW  : ARRAY[5,2] OF INTEGER
+    [1,1] = 58
+    [1,2] = 1
+    [2,1] = Uninitialized
+    [2,2] = Uninitialized
+    [3,1] = Uninitialized
+    [3,2] = Uninitialized
+    [4,1] = Uninitialized
+    [4,2] = Uninitialized
+    [5,1] = Uninitialized
+    [5,2] = Uninitialized
+
+[SWNOCLON]EPRS_B4  Storage: CMOS  Access: RW  : ARRAY[5,2] OF INTEGER
+    [1,1] = 0
+    [1,2] = 0
+    [2,1] = Uninitialized
+    [2,2] = Uninitialized
+    [3,1] = Uninitialized
+    [3,2] = Uninitialized
+    [4,1] = Uninitialized
+    [4,2] = Uninitialized
+    [5,1] = Uninitialized
+    [5,2] = Uninitialized
+
+[SWNOCLON]EPRS_AF  Storage: CMOS  Access: RW  : ARRAY[5,2] OF INTEGER
+    [1,1] = 0
+    [1,2] = 0
+    [2,1] = Uninitialized
+    [2,2] = Uninitialized
+    [3,1] = Uninitialized
+    [3,2] = Uninitialized
+    [4,1] = Uninitialized
+    [4,2] = Uninitialized
+    [5,1] = Uninitialized
+    [5,2] = Uninitialized
+
+[SWNOCLON]WLD_SCH  Storage: CMOS  Access: RW  : ARRAY[5,2] OF INTEGER
+    [1,1] = 254
+    [1,2] = 1
+    [2,1] = Uninitialized
+    [2,2] = Uninitialized
+    [3,1] = Uninitialized
+    [3,2] = Uninitialized
+    [4,1] = Uninitialized
+    [4,2] = Uninitialized
+    [5,1] = Uninitialized
+    [5,2] = Uninitialized
+
+[SWNOCLON]BU_SCH  Storage: CMOS  Access: RW  : ARRAY[5,2] OF INTEGER
+    [1,1] = 1
+    [1,2] = 1
+    [2,1] = Uninitialized
+    [2,2] = Uninitialized
+    [3,1] = Uninitialized
+    [3,2] = Uninitialized
+    [4,1] = Uninitialized
+    [4,2] = Uninitialized
+    [5,1] = Uninitialized
+    [5,2] = Uninitialized
+
+[SWNOCLON]APDST  Storage: CMOS  Access: RW  : ARRAY[5,2] OF INTEGER
+    [1,1] = 9
+    [1,2] = 1
+    [2,1] = Uninitialized
+    [2,2] = Uninitialized
+    [3,1] = Uninitialized
+    [3,2] = Uninitialized
+    [4,1] = Uninitialized
+    [4,2] = Uninitialized
+    [5,1] = Uninitialized
+    [5,2] = Uninitialized
+
+[SWNOCLON]RTDST  Storage: CMOS  Access: RW  : ARRAY[5,2] OF INTEGER
+    [1,1] = 9
+    [1,2] = 1
+    [2,1] = Uninitialized
+    [2,2] = Uninitialized
+    [3,1] = Uninitialized
+    [3,2] = Uninitialized
+    [4,1] = Uninitialized
+    [4,2] = Uninitialized
+    [5,1] = Uninitialized
+    [5,2] = Uninitialized
+
+[SWNOCLON]LAST_PSCH  Storage: CMOS  Access: RW  : ARRAY[2] OF INTEGER
+  [1] = 91
+  [2] = 0
+
+[SWNOCLON]LAST_BU_SCH  Storage: CMOS  Access: RW  : ARRAY[2] OF INTEGER
+  [1] = 65535
+  [2] = 0
+
+[SWNOCLON]LAST_WSCH  Storage: CMOS  Access: RW  : ARRAY[2] OF INTEGER
+  [1] = 254
+  [2] = 0
+
+[SWNOCLON]LAST_APDST  Storage: CMOS  Access: RW  : ARRAY[2] OF INTEGER
+  [1] = 78
+  [2] = 0
+
+[SWNOCLON]LAST_RTDST  Storage: CMOS  Access: RW  : ARRAY[2] OF INTEGER
+  [1] = 78
+  [2] = 0
+
+[SWNOCLON]LAST_WID  Storage: CMOS  Access: RW  : ARRAY[2] OF INTEGER
+  [1] = 1
+  [2] = 0
+
+[SWNOCLON]WLD_ID  Storage: CMOS  Access: RW  : ARRAY[5,2] OF INTEGER
+    [1,1] = 1
+    [1,2] = 1
+    [2,1] = Uninitialized
+    [2,2] = Uninitialized
+    [3,1] = Uninitialized
+    [3,2] = Uninitialized
+    [4,1] = Uninitialized
+    [4,2] = Uninitialized
+    [5,1] = Uninitialized
+    [5,2] = Uninitialized
+
+[SWNOCLON]THICK  Storage: CMOS  Access: RW  : ARRAY[5,2] OF REAL
+    [1,1] = 2.500000e+00
+    [1,2] = 0.000000e+00
+    [2,1] = Uninitialized
+    [2,2] = Uninitialized
+    [3,1] = Uninitialized
+    [3,2] = Uninitialized
+    [4,1] = Uninitialized
+    [4,2] = Uninitialized
+    [5,1] = Uninitialized
+    [5,2] = Uninitialized
+
+[SWNOCLON]LAST_THICK  Storage: CMOS  Access: RW  : ARRAY[2] OF REAL
+  [1] = 5.000000e+00
+  [2] = 0.000000e+00
+

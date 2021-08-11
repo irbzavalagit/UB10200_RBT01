@@ -1,0 +1,124 @@
+/PROG  CC_CLOSEREM	  Macro
+/ATTR
+OWNER		= HUDONG;
+COMMENT		= "CloseRemoverV1.2";
+PROG_SIZE	= 2268;
+CREATE		= DATE 21-07-21  TIME 22:36:00;
+MODIFIED	= DATE 21-07-21  TIME 22:36:00;
+FILE_NAME	= CC_CLOSE;
+VERSION		= 12;
+LINE_COUNT	= 100;
+MEMORY_SIZE	= 2788;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+/MN
+   1:  !******************************** ;
+   2:  ! RIVIAN AUTOMOTIVE ;
+   3:  !******************************** ;
+   4:  ! Close Cap Change Remover ;
+   5:  ! AR[1] = Number Of Tries ;
+   6:  ! AR[2] = 1 Lower Cap ;
+   7:  !           Negative Compensation ;
+   8:  ! AR[2] = 2 Upper Cap ;
+   9:  !           Positive Compensation ;
+  10:  !******************************** ;
+  11:  ! Version 1.2 ;
+  12:  !******************************** ;
+  13:   ;
+  14:  ! Setup Retry Counter ;
+  15:  R[23:CC Remover Count]=0    ;
+  16:   ;
+  17:  ! Initialize Registers ;
+  18:  PR[210:CC Offset]=LPOS    ;
+  19:  PR[210:CC Offset]=PR[210:CC Offset]-PR[210:CC Offset]    ;
+  20:  PR[211:CC Remove Cap]=LPOS    ;
+  21:   ;
+  22:  LBL[1:BEGIN] ;
+  23:  ! Retry Counter Count ;
+  24:  R[23:CC Remover Count]=R[23:CC Remover Count]+1    ;
+  25:   ;
+  26:  ! Close Cap Remover ;
+  27:  DO[820:TC1 Valve OP/CL]=ON ;
+  28:   ;
+  29:  ! Set Timeout Duration ;
+  30:  $WAITTMOUT=1000 ;
+  31:   ;
+  32:  ! Check Cap Remover Not Opened ;
+  33:  WAIT DI[821:TC1 Cylinder Ret]=OFF TIMEOUT,LBL[980] ;
+  34:   ;
+  35:  IF (AR[2]=1) THEN ;
+  36:  PR[GP1:210,3:CC Offset]=PR[GP1:210,3:CC Offset]-1    ;
+  37:  ENDIF ;
+  38:  IF (AR[2]=2) THEN ;
+  39:  PR[GP1:210,3:CC Offset]=PR[GP1:210,3:CC Offset]+1    ;
+  40:  ENDIF ;
+  41:   ;
+  42:L PR[211:CC Remove Cap] 250mm/sec FINE Offset,PR[210:CC Offset]    ;
+  43:   ;
+  44:   ;
+  45:  ! Check Cap Remover Closed ;
+  46:  WAIT DI[820:TC1 Cylinder Adv]=ON TIMEOUT,LBL[981] ;
+  47:  WAIT    .30(sec) ;
+  48:   ;
+  49:  IF (AR[1]=R[23:CC Remover Count]),JMP LBL[99] ;
+  50:   ;
+  51:  ! Open Cap Remover ;
+  52:  DO[820:TC1 Valve OP/CL]=OFF ;
+  53:   ;
+  54:  ! Set Timeout Duration ;
+  55:  $WAITTMOUT=1000 ;
+  56:   ;
+  57:  ! Check Cap Remover Not Closed ;
+  58:  WAIT DI[820:TC1 Cylinder Adv]=OFF TIMEOUT,LBL[982] ;
+  59:   ;
+  60:  ! Check Cap Remover Opened ;
+  61:  WAIT DI[821:TC1 Cylinder Ret]=ON TIMEOUT,LBL[983] ;
+  62:   ;
+  63:  JMP LBL[1] ;
+  64:   ;
+  65:  LBL[99:End] ;
+  66:   ;
+  67:  END ;
+  68:   ;
+  69:   ;
+  70:  !******************************** ;
+  71:  ! Fault Section ;
+  72:  !******************************** ;
+  73:  LBL[980:REMOVER OPENED] ;
+  74:  ! Cap remover still opened ;
+  75:  GO[6:Error Codes]=63 ;
+  76:  UALM[63] ;
+  77:  GO[6:Error Codes]=0 ;
+  78:  JMP LBL[1] ;
+  79:   ;
+  80:  LBL[981:RMVR NOT CLOSED] ;
+  81:  ! Cap Remover not closed ;
+  82:  GO[6:Error Codes]=64 ;
+  83:  UALM[64] ;
+  84:  GO[6:Error Codes]=0 ;
+  85:  JMP LBL[1] ;
+  86:   ;
+  87:  LBL[982:REMOVER CLOSED] ;
+  88:  ! Cap remover still closed ;
+  89:  GO[6:Error Codes]=65 ;
+  90:  UALM[65] ;
+  91:  GO[6:Error Codes]=0 ;
+  92:  JMP LBL[1] ;
+  93:   ;
+  94:  LBL[983:RMVR NOT OPENED] ;
+  95:  ! Cap Remover not opened ;
+  96:  GO[6:Error Codes]=62 ;
+  97:  UALM[62] ;
+  98:  GO[6:Error Codes]=0 ;
+  99:  JMP LBL[1] ;
+ 100:   ;
+/POS
+/END

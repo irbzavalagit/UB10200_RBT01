@@ -1,0 +1,466 @@
+[TWKINIT]CALL_TFXTCH  Storage: SHADOW  Access: RW  : ARRAY[5] OF BOOLEAN
+  [1] = FALSE
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+
+[TWKINIT]CALL_TZRCLB  Storage: SHADOW  Access: RW  : ARRAY[5] OF BOOLEAN
+  [1] = FALSE
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+
+[TWKINIT]DGIDX  Storage: SHADOW  Access: RW  : ARRAY[20] OF INTEGER
+  [1] = 1
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+
+[TWKINIT]EQ_NUM  Storage: SHADOW  Access: RW  : ARRAY[20] OF INTEGER
+  [1] = 1
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+
+[TWKINIT]FRNA_SPOT  Storage: SHADOW  Access: RW  : BOOLEAN = TRUE
+
+[TWKINIT]FXTCH_ERRCT  Storage: SHADOW  Access: RW  : INTEGER = Uninitialized
+
+[TWKINIT]GCLS_ERR_ENB  Storage: SHADOW  Access: RW  : BOOLEAN = FALSE
+
+[TWKINIT]GCLS_ERR_TOL  Storage: SHADOW  Access: RW  : REAL = 2.000000e+00
+
+[TWKINIT]GCLS_PLSCT  Storage: SHADOW  Access: RW  : ARRAY[5] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+
+[TWKINIT]GCLS_POSDIF  Storage: SHADOW  Access: RW  : ARRAY[5] OF REAL
+  [1] = 0.000000e+00
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+
+[TWKINIT]GCLS_STAT  Storage: SHADOW  Access: RW  : ARRAY[5] OF INTEGER
+  [1] = 0
+  [2] = 0
+  [3] = 0
+  [4] = 0
+  [5] = 0
+
+[TWKINIT]GEAR_RATIO  Storage: SHADOW  Access: RW  : ARRAY[20] OF REAL
+  [1] = 5.000000e+00
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+
+[TWKINIT]GEAR_SCALE  Storage: DRAM  Access: RW  : REAL = 1.000000e+00
+
+[TWKINIT]GPJ  Storage: SHADOW  Access: RW  : ARRAY[20] OF INTEGER
+  [1] = 1
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+
+[TWKINIT]GP_NUM  Storage: SHADOW  Access: RW  : ARRAY[20] OF INTEGER
+  [1] = 2
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+
+[TWKINIT]GUN_NUMBER  Storage: SHADOW  Access: RW  : ARRAY[30] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = 1
+  [4] = 1
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+  [21] = Uninitialized
+  [22] = Uninitialized
+  [23] = Uninitialized
+  [24] = Uninitialized
+  [25] = Uninitialized
+  [26] = Uninitialized
+  [27] = Uninitialized
+  [28] = Uninitialized
+  [29] = Uninitialized
+  [30] = Uninitialized
+
+[TWKINIT]IN_TWFXTCH  Storage: SHADOW  Access: RW  : ARRAY[20] OF BOOLEAN
+  [1] = TRUE
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+
+[TWKINIT]LAST_WD_GUN  Storage: SHADOW  Access: RW  : ARRAY[20] OF REAL
+  [1] = 4.306889e-01
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+
+[TWKINIT]LAST_WD_RBT  Storage: SHADOW  Access: RW  : ARRAY[20] OF REAL
+  [1] = 5.996609e-01
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+
+[TWKINIT]LST_WDG_MEM  Storage: SHADOW  Access: RW  : ARRAY[20] OF REAL
+  [1] = 0.000000e+00
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+
+[TWKINIT]LST_WDR_MEM  Storage: SHADOW  Access: RW  : ARRAY[20] OF REAL
+  [1] = 0.000000e+00
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+
+[TWKINIT]MSTR_PHASE  Storage: SHADOW  Access: RW  : ARRAY[20] OF INTEGER
+  [1] = 0
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+
+[TWKINIT]PRESS_MOTN  Storage: SHADOW  Access: RW  : ARRAY[20] OF BOOLEAN
+  [1] = FALSE
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+
+[TWKINIT]RBTWR_SIMVAL  Storage: SHADOW  Access: RW  : REAL = 0.000000e+00
+
+[TWKINIT]SET_FLAG  Storage: SHADOW  Access: RW  : ARRAY[20] OF INTEGER
+  [1] = 1
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+
+[TWKINIT]THOLD_ERRCT  Storage: SHADOW  Access: RW  : INTEGER = Uninitialized
+
+[TWKINIT]TIPCLOSDIR  Storage: SHADOW  Access: RW  : ARRAY[20] OF BOOLEAN
+  [1] = TRUE
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+
+[TWKINIT]TOGL_POS_TYP  Storage: SHADOW  Access: RW  : BOOLEAN = TRUE
+
+[TWKINIT]TPPRG_FXTCH  Storage: SHADOW  Access: RW  : ARRAY[5] OF STRING[36]
+  [1] = 'TWFXTCH1'
+  [2] = 'TWFXTCH2'
+  [3] = 'TWFXTCH3'
+  [4] = 'TWFXTCH4'
+  [5] = 'TWFXTCH5'
+
+[TWKINIT]TPPRG_ZRCLB  Storage: SHADOW  Access: RW  : ARRAY[5] OF STRING[36]
+  [1] = 'TWZRCLB1'
+  [2] = 'TWZRCLB2'
+  [3] = 'TWZRCLB3'
+  [4] = 'TWZRCLB4'
+  [5] = 'TWZRCLB5'
+
+[TWKINIT]TRQ_SIGN  Storage: SHADOW  Access: RW  : ARRAY[20] OF INTEGER
+  [1] = -1
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+
+[TWKINIT]TTLWR_SIMVAL  Storage: SHADOW  Access: RW  : REAL = 0.000000e+00
+
+[TWKINIT]TWD_COMP  Storage: SHADOW  Access: RW  : ARRAY[20] OF BOOLEAN
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+  [11] = Uninitialized
+  [12] = Uninitialized
+  [13] = Uninitialized
+  [14] = Uninitialized
+  [15] = Uninitialized
+  [16] = Uninitialized
+  [17] = Uninitialized
+  [18] = Uninitialized
+  [19] = Uninitialized
+  [20] = Uninitialized
+
+[TWKINIT]TW_CNCL_ENB  Storage: SHADOW  Access: RW  : BOOLEAN = TRUE
+
+[TWKINIT]TW_CNCL_RQST  Storage: SHADOW  Access: RW  : ARRAY[5] OF INTEGER
+  [1] = 0
+  [2] = 0
+  [3] = 0
+  [4] = 0
+  [5] = 0
+
+[TWKINIT]VRC_OPT_MSK  Storage: SHADOW  Access: RW  : INTEGER = 1
+
+[TWKINIT]WRITE_OK  Storage: SHADOW  Access: RW  : INTEGER = 0
+
+[TWKINIT]ZRCLB_ERRCT  Storage: SHADOW  Access: RW  : INTEGER = Uninitialized
+

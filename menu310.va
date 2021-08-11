@@ -1,0 +1,32 @@
+[MENU310]MENU_TITLE  Storage: CMOS  Access: RW  : STRING[40] = 'Sel Pick'
+
+[MENU310]MENU_VAR  Storage: CMOS  Access: RW  : ARRAY[10] OF STRING[30]
+  [1] = ''
+  [2] = ''
+  [3] = ''
+  [4] = ''
+  [5] = ''
+  [6] = ''
+  [7] = ''
+  [8] = ''
+  [9] = ''
+  [10] = ''
+
+[MENU310]MENU_TEXT  Storage: CMOS  Access: RW  : ARRAY[10] OF STRING[40]
+  [1] = 'SXXPICK1 STAxxxx'
+  [2] = 'SXXPICK2 STAxxxx'
+  [3] = ''
+  [4] = ''
+  [5] = ''
+  [6] = ''
+  [7] = ''
+  [8] = ''
+  [9] = 'Select An Option'
+  [10] = ''
+
+[MENU310]MENU_NO  Storage: CMOS  Access: RW  : INTEGER = 10
+
+[MENU310]MENU_TYPE  Storage: CMOS  Access: RW  : INTEGER = 3
+
+[MENU310]MENU_NAME  Storage: CMOS  Access: RW  : STRING[16] = 'Sel Pick'
+

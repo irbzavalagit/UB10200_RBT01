@@ -1,0 +1,30 @@
+[SWTRCSET]NUM_CHNLS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SWTRCSET]NUM_ITEMS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SWTRCSET]NUM_EQ  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SWTRCSET]VAR_NAME  Storage: DRAM  Access: RW  : STRING[61] = Uninitialized
+
+[SWTRCSET]DESC  Storage: DRAM  Access: RW  : STRING[33] = Uninitialized
+
+[SWTRCSET]UNITS  Storage: DRAM  Access: RW  : STRING[17] = Uninitialized
+
+[SWTRCSET]EQ_PREFIX  Storage: DRAM  Access: RW  : STRING[3] = Uninitialized
+
+[SWTRCSET]STATUS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SWTRCSET]ENTRY  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SWTRCSET]CNT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SWTRCSET]CNT2  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SWTRCSET]ITEM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SWTRCSET]CHNL  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SWTRCSET]CH_PER_EQ  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SWTRCSET]SET_ITEMS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+

@@ -1,0 +1,100 @@
+[TPSPART] Found KAREL SWSOFTPA 952
+[TPSPART] Found KAREL SWEQGUN 953
+[TPSPART] Found KAREL SWEQIO 954
+[TPSPART] Found KAREL ATCELLIO 955
+[TPSPART] Found KAREL SGAUTTUN 957
+[TPSPART] Found KAREL ACTPSS 958
+[TPSPART] Found KAREL SWWELDIO 960
+[TPSPART] Found KAREL SWMANWLD 961
+[TPSPART] Found KAREL SWCFSCRN 962
+[TPSPART] Found KAREL SLSOFTPA 971
+[TPKSINIT] dname -K972- not found devstat = 0 cfg $11b25664
+[TPKSINIT] dname -K973- not found devstat = 0 cfg $11b255a8
+[TPSPART] Found KAREL SGTDMEN 979
+[TPSPART] Found KAREL MHMENUSU 987
+[TPSPART] Found KAREL MHPRODST 988
+[TPSPART] Found KAREL ATSOFTPA 992
+[TPSPART] Found KAREL MHGRSETP 993
+Result size = 596
+[icdpmain] backup init status: 0 
+[sfsappat] SPOT packet size = 228
+[sfsappat] SPOT node size = 7476
+[PAT]number of applications active = 1
+[vmfndvar] [*SYSTEM*]$SYSTEM_TIMER truncated to $SYSTEM_TIME
+[tcspdini] tcsp_vpr_p 0xf8333cc
+[tpcputl] Options loaded: lite 0 Option 0
+[tpmulti] timed wait for 1 of 15
+[syinmpc] received new password config
+[tpmains] Waiting at 42070ms
+[tpmains] ready at 04-AUG-21 11:53:30 
+[tpmains] Ready at 42154ms Total Startup Time ~ 49 seconds
+[IASV] Setting up DSP communication 
+[tpmains] ready at 04-AUG-21 11:53:30 
+UD1 Removed
+[ZIP] INIT
+[DSFL]findfir elim for B:\FR\GUN3\*.*
+[DSFL]findfir elim for B:\FR\GUN3\*.*
+[vmisavef] appending segment to MDS5:\SYSVARS.SV
+[mdspc] MDS5:\VIMGDIAG.ZIP file generation error 0x75017a
+[pmon] start new FILE update, 100
+[DSFL]findfir elim for B:\FR\GUN1\*.*
+[vmisavef] appending segment to MDS4:\SYSVARS.SV
+[mdspc] MDS1:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS8:\SYSVARS.SV
+[mdspc] MDS5:\VIMGDIAG.ZIP file generation error 0x75017a
+[TPGL] Opening PIP:GLCOM2.XML (2 255 0) 
+[tpgl3d_dcs] cntxt3d_p->inst_id = 1
+[TPGL_InstID] allocated instance 3 12 0 255 
+[vmisavef] appending segment to MDS4:\SYSVARS.SV
+[mdspc] MDS1:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS8:\SYSVARS.SV
+[mdspc] MDS5:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS2:\SYSVARS.SV
+[mdspc] MDS9:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS6:\SYSVARS.SV
+[mdspc] MDS3:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS0:\SYSVARS.SV
+[mdspc] MDS7:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS4:\SYSVARS.SV
+[mdspc] MDS1:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS7:\SYSVARS.SV
+[mdspc] MDS0:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS1:\SYSVARS.SV
+[mdspc] MDS4:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS6:\SYSVARS.SV
+[mdspc] MDS3:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS0:\SYSVARS.SV
+[mdspc] MDS3:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS9:\SYSVARS.SV
+[mdspc] MDS6:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS3:\SYSVARS.SV
+[mdspc] MDS0:\VIMGDIAG.ZIP file generation error 0x75017a
+[TPGL] Opening PIP:GLCOM2.XML (2 255 0) 
+[tpdcs3d_cpc_refresh] pstat changed was 1, is 0
+[tpdcs3d_cpc_refresh] pstat changed was 0, is 1
+[tpdcs3d_cpc_refresh] pstat changed was 1, is 0
+[vmimage_bakfile] FRB:swpatdat.PRV at 08-AUG-21 10:13:12  (322)
+[vmisavef] appending segment to MDS9:\SYSVARS.SV
+[mdspc] MDS6:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS3:\SYSVARS.SV
+[mdspc] MDS0:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS7:\SYSVARS.SV
+[mdspc] MDS4:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS1:\SYSVARS.SV
+[mdspc] MDS8:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS0:\SYSVARS.SV
+[mdspc] MDS3:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS9:\SYSVARS.SV
+[mdspc] MDS6:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS3:\SYSVARS.SV
+[mdspc] MDS0:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS1:\SYSVARS.SV
+[mdspc] MDS8:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS0:\SYSVARS.SV
+[mdspc] MDS3:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS9:\SYSVARS.SV
+[mdspc] MDS6:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS3:\SYSVARS.SV
+[mdspc] MDS0:\VIMGDIAG.ZIP file generation error 0x75017a
+[vmisavef] appending segment to MDS2:\SYSVARS.SV
+[mdspc] MDS5:\VIMGDIAG.ZIP file generation error 0x75017a

@@ -1,0 +1,118 @@
+                       TP Accounting
+
+F Number: F270477
+VERSION : SpotTool+            
+$VERSION: V9.30126      2/12/2021
+DATE:     11-AUG-21 11:02 
+
+Menu                         Elapsed Time         #Sel       #Keys
+                     (YY-MM-DD HH:MM:SS)
+Spot Config                 01 03:43:56           12         242
+File                        02 12:46:10          113        6628
+Id:  381, 5                       07:10           27           2
+Home                           17:56:00           29          49
+Clock                          05:45:36           18         225
+Variables                   01 03:36:50           26        2731
+Hints                       02 21:12:18           14         410
+Host Comm                   01 16:37:58           54        1313
+Version ID               01-12 18:30:08           15         434
+DCS                         05 09:14:54          101        6804
+Alarm Log                         21:24           15         187
+Registers                      04:31:04           37         532
+Log Book                          03:20            3         350
+USER                        06 13:20:20          150         839
+SELECT                      07 04:11:20          421        8939
+Position Display            02 16:24:40           33        1631
+EDIT                        10 10:39:26          374       24349
+Frames                      03 02:50:40           28        3246
+Id:  1201, 1                      14:06            8          71
+Home                           04:05:10            3         270
+System Log                        08:20            3          35
+Appl Log                             10            2          30
+Gun Master                        07:18           21         177
+Id:  1163, 2                         10            1          13
+Config                      02 01:21:36            8         817
+Gun Setup                         13:50            6         311
+Motion                         05:28:08            8         325
+Manual Weld                          00           21           0
+                               02:50:58           22         337
+4D Display                     05:09:58           16        1367
+EtherNet/IP                    12:26:56           31         776
+Position Reg                   01:25:32           24        4374
+Cell Intface                      01:52            6          23
+Digital                        21:34:26           41        1982
+Servo Gun                      04:00:44           16        1661
+Spot Weld                      01:34:24           20         431
+Pressure                       02:04:06           13        1379
+Distance                          01:42            8         110
+KAREL Vars                           44            4          87
+KAREL Posns                          06            2          24
+Prog Select                          46            1          33
+Cell                                 04            1           0
+Macros                            02:58            4          31
+PayLoadCheck                         22            2          24
+Id:  1606, 1                         14            1           7
+Group                          01:13:30           10         197
+WS#1                                 42            5          14
+WTC#1                             10:10           12         117
+Panel Wizard                         08            2           7
+OT Release                        02:06            2           6
+Handling Config                      12            1           0
+S/W Install                          06            1           1
+Program Setup                     01:34            1           0
+Id:  381, 3                          36            2           2
+BG Logic                             16            2           3
+WTC#1 FLT                      19:39:02            8         216
+Process Monitor                      22            1           1
+Axis Limits                          40            2          17
+Limit Set                         02:40            2           8
+TP Hardkeys                          06            1           0
+Macro                                14            1           5
+Auto Bwd Exit                        12            1           5
+Auto Backup                       10:48           11         371
+Motion Profiler                      14            3          28
+Program                              04            1          14
+Power Consumption                    08            1          15
+Robot Condition                      10            1          35
+Stop Signal                          06            1          22
+Axis                              01:20            5          64
+Port Init                         07:28            4          45
+Id:  381, 2                       03:58            3          20
+Home                                 16            1           2
+Passwords                         01:38            6          45
+Production                           16            2           6
+Flag                              03:18            1          11
+Comm Log                             34            1          17
+Spot Equip                           04            1           1
+Servo Gun                            58            3          95
+Gun Change                        02:44            2         394
+Setup                             03:36            3          31
+Spot Equip                           44            6          35
+Master/Cal                        01:10            4          98
+Weld Intface                         20            2          16
+Manual Thickness                     12            1          24
+String Reg                           02            1           4
+Prod. Status                         02            1           7
+Process Report                       02            1          12
+DisableFault                         02            1          10
+General                              28            1           2
+File Memory                          04            1           0
+EDIT                                 06            1           3
+UOP                            01:33:16            2          38
+Tool Offset                       15:06            3         847
+
+Full Menus:              03-03 08:29:56 
+Quick Menus:                         00 
+
+MENU Popup:                                      644
+[ TYPE ] Pullup:                                 123
+
+Functions at COLD start
+ABORT (ALL)                                       93
+Disable FWD/BWD                                    2
+PRINT SCREEN                                       3
+UNSIM ALL I/O                                      1
+CYCLE POWER                                       35
+
+Functions at CTRL start
+START (COLD)                                       8

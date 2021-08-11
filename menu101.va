@@ -1,0 +1,18 @@
+[MENU101]MENU_NAME  Storage: CMOS  Access: RW  : STRING[16] = 'NotAtPerch'
+
+[MENU101]MENU_NO  Storage: CMOS  Access: RW  : INTEGER = 1
+
+[MENU101]MENU_TEXT  Storage: CMOS  Access: RW  : ARRAY[10] OF STRING[40]
+  [1] = ''
+  [2] = '  Robot is not at PERCH'
+  [3] = '  position.'
+  [4] = ''
+  [5] = ''
+  [6] = ''
+  [7] = ''
+  [8] = ''
+  [9] = ''
+  [10] = ''
+
+[MENU101]MENU_TYPE  Storage: CMOS  Access: RW  : INTEGER = 1
+

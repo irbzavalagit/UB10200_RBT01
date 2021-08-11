@@ -1,0 +1,438 @@
+F Number: F270477
+VERSION : SpotTool+            
+$VERSION: V9.30126      2/12/2021
+DATE:     11-AUG-21 11:00 
+
+MACRO DEFINIIION::
+
+[  1]NAME       :CLR OF TRANSFER
+     PROG NAME  :
+     Assign type:--
+     Assign ID  :0
+[  5]NAME       :MOVE TO HOME
+     PROG NAME  :MOV_HOME
+     Assign type:MF
+     Assign ID  :1
+[  6]NAME       :MOVE TO REPAIR
+     PROG NAME  :
+     Assign type:--
+     Assign ID  :0
+[  7]NAME       :AT POUNCE
+     PROG NAME  :ATPOUNCE
+     Assign type:--
+     Assign ID  :0
+[  8]NAME       :OPEN CLAMP EARLY
+     PROG NAME  :
+     Assign type:--
+     Assign ID  :0
+[  9]NAME       :REPOSITION CLAMP
+     PROG NAME  :
+     Assign type:--
+     Assign ID  :0
+[ 10]NAME       :MOVE TO PURGE
+     PROG NAME  :
+     Assign type:--
+     Assign ID  :0
+[ 11]NAME       :DISPENSE COMPLET
+     PROG NAME  :
+     Assign type:--
+     Assign ID  :0
+[ 18]NAME       :DEFAULT ACC
+     PROG NAME  :
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[ 20]NAME       :HOME I/O
+     PROG NAME  :HOME_IO
+     Assign type:MF
+     Assign ID  :2
+     SYSTEM MACRO
+[ 21]NAME       :ECHO OPTION
+     PROG NAME  :ECHOOPTN
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[ 22]NAME       :ECHO STYLE
+     PROG NAME  :ECHOSTYL
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[ 23]NAME       :SET PATH
+     PROG NAME  :SET_PATH
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[ 24]NAME       :WAIT NEXT PATH
+     PROG NAME  :WAITPATH
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[ 28]NAME       :Turn Table Move To Pos
+     PROG NAME  :
+     Assign type:DI
+     Assign ID  :144
+[ 29]NAME       :ENTER FIXT-ZONE
+     PROG NAME  :ENTRFIXT
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[ 30]NAME       :EXIT FIXT-ZONE
+     PROG NAME  :EXITFIXT
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[ 31]NAME       :ENTER I-ZONE
+     PROG NAME  :ENTRZONE
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[ 32]NAME       :EXIT I-ZONE
+     PROG NAME  :EXITZONE
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[ 35]NAME       :CLOSE VALVE 1
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 36]NAME       :CLOSE VALVE 2
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 37]NAME       :CLOSE VALVE 3
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 38]NAME       :CLOSE VALVE 4
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 39]NAME       :CLOSE VALVE 5
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 40]NAME       :CLOSE VALVE 6
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 41]NAME       :CLOSE VALVE 7
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 42]NAME       :CLOSE VALVE 8
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 43]NAME       :CLOSE VALVE 9
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 44]NAME       :CLOSE VALVE 10
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 47]NAME       :OPEN VALVE 1
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 48]NAME       :OPEN VALVE 2
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 49]NAME       :OPEN VALVE 3
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 50]NAME       :OPEN VALVE 4
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 51]NAME       :OPEN VALVE 5
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 52]NAME       :OPEN VALVE 6
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 53]NAME       :OPEN VALVE 7
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 54]NAME       :OPEN VALVE 8
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 55]NAME       :OPEN VALVE 9
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 56]NAME       :OPEN VALVE 10
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 59]NAME       :VACUUM CAN1 ON
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 60]NAME       :VACUUM CAN2 ON
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 61]NAME       :VACUUM CAN3 ON
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 62]NAME       :VACUUM CAN4 ON
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 63]NAME       :VACUUM CAN5 ON
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 64]NAME       :VACUUM CAN6 ON
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 65]NAME       :VACUUM CAN7 ON
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 66]NAME       :VACUUM CAN8 ON
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 67]NAME       :VACUUM CAN9 ON
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 68]NAME       :VACUUM CAN10 ON
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 71]NAME       :VACUUM CAN1 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 72]NAME       :VACUUM CAN2 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 73]NAME       :VACUUM CAN3 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 74]NAME       :VACUUM CAN4 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 75]NAME       :VACUUM CAN5 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 76]NAME       :VACUUM CAN6 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 77]NAME       :VACUUM CAN7 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 78]NAME       :VACUUM CAN8 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 79]NAME       :VACUUM CAN9 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 80]NAME       :VACUUM CAN10 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 83]NAME       :BLOWOFF1 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 84]NAME       :BLOWOFF2 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 85]NAME       :BLOWOFF3 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 86]NAME       :BLOWOFF4 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 87]NAME       :BLOWOFF5 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 88]NAME       :BLOWOFF6 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 89]NAME       :BLOWOFF7 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 90]NAME       :BLOWOFF8 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 91]NAME       :BLOWOFF9 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[ 92]NAME       :BLOWOFF10 OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :0
+[101]NAME       :Rec Path Start
+     PROG NAME  :AERECSTA
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[102]NAME       :Rec Path Pause
+     PROG NAME  :AERECPAU
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[103]NAME       :Rec Path Resume
+     PROG NAME  :AERECRES
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[104]NAME       :Rec Path End
+     PROG NAME  :AERECEND
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[105]NAME       :Do Bwd Exit
+     PROG NAME  :DOBWDEXIT
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[109]NAME       :Send Event
+     PROG NAME  :SENDEVNT
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[110]NAME       :Send Data
+     PROG NAME  :SENDDATA
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[111]NAME       :Send SysVar
+     PROG NAME  :SENDSYSV
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[112]NAME       :Get Data
+     PROG NAME  :GETDATA
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[113]NAME       :Request Menu
+     PROG NAME  :REQMENU
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[114]NAME       :Prompt Box YN
+     PROG NAME  :PROMPTYN
+     Assign type:--
+     Assign ID  :0
+[115]NAME       :Prompt Box Msg
+     PROG NAME  :PROMPTOK
+     Assign type:--
+     Assign ID  :0
+[116]NAME       :List Menu
+     PROG NAME  :LISTMENU
+     Assign type:--
+     Assign ID  :0
+[117]NAME       :Status Menu
+     PROG NAME  :STATPAGE
+     Assign type:--
+     Assign ID  :0
+[118]NAME       :Op. Entry Menu
+     PROG NAME  :OPERMENU
+     Assign type:--
+     Assign ID  :0
+[119]NAME       :Clear User Page
+     PROG NAME  :USERCLR
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[120]NAME       :Force User Page
+     PROG NAME  :USERPAGE
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[130]NAME       :Grip Part
+     PROG NAME  :GRIPPART
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[131]NAME       :Release Part
+     PROG NAME  :DROPPART
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[132]NAME       :Part Present
+     PROG NAME  :CHKPART
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[133]NAME       :Check No Part
+     PROG NAME  :CHKNOPRT
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[134]NAME       :Prepare to Pick
+     PROG NAME  :OKTOPICK
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[135]NAME       :Clear to Proceed
+     PROG NAME  :
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[136]NAME       :Turn ON Vacuum
+     PROG NAME  :VACUUMON
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[137]NAME       :Turn OFF Vacuum
+     PROG NAME  :VACUUMOF
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[138]NAME       :Turn OFF Blowoff
+     PROG NAME  :BLOWOFF
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[139]NAME       :Set CurrentValve
+     PROG NAME  :
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[140]NAME       :Set MH Tool
+     PROG NAME  :
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[149]NAME       :BYPASS ROBOT OFF
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :149
+     SYSTEM MACRO
+[150]NAME       :ROBOT AUTO BYPASS
+     PROG NAME  :
+     Assign type:MF
+     Assign ID  :150
+     SYSTEM MACRO

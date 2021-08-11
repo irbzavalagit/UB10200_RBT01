@@ -1,0 +1,50 @@
+[RLSVEXGEN6]ENTRY  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[RLSVEXGEN6]STR_G  Storage: DRAM  Access: RW  : STRING[2] = Uninitialized
+
+[RLSVEXGEN6]STR_ID  Storage: DRAM  Access: RW  : STRING[2] = Uninitialized
+
+[RLSVEXGEN6]SYSV_NAME  Storage: DRAM  Access: RW  : STRING[36] = Uninitialized
+
+[RLSVEXGEN6]VER_ID  Storage: DRAM  Access: RW  : STRING[20] = Uninitialized
+
+[RLSVEXGEN6]NEW_VER  Storage: DRAM  Access: RW  : STRING[20] = Uninitialized
+
+[RLSVEXGEN6]TAG_XML  Storage: DRAM  Access: RW  : STRING[200] = Uninitialized
+
+[RLSVEXGEN6]NEW_ATT  Storage: DRAM  Access: RW  : ARRAY[2] OF STRING[150]
+  [1] = Uninitialized
+  [2] = Uninitialized
+
+[RLSVEXGEN6]HEADER  Storage: DRAM  Access: RW  : ARRAY[2] OF STRING[20]
+  [1] = Uninitialized
+  [2] = Uninitialized
+
+[RLSVEXGEN6]RB_GRP  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[RLSVEXGEN6]STR_RB  Storage: DRAM  Access: RW  : STRING[2] = Uninitialized
+
+[RLSVEXGEN6]STR_AXS  Storage: DRAM  Access: RW  : STRING[2] = Uninitialized
+
+[RLSVEXGEN6]FNAME_RB  Storage: DRAM  Access: RW  : STRING[20] = Uninitialized
+
+[RLSVEXGEN6]FNAME_RL  Storage: DRAM  Access: RW  : STRING[20] = Uninitialized
+
+[RLSVEXGEN6]NEWFNAME_RB  Storage: DRAM  Access: RW  : STRING[20] = Uninitialized
+
+[RLSVEXGEN6]RBT_FIL  Storage: DRAM  Access: RW  : STRING[20] = Uninitialized
+
+[RLSVEXGEN6]TST_STR  Storage: DRAM  Access: RW  : STRING[20] = Uninitialized
+
+[RLSVEXGEN6]GENVI_RISER  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[RLSVEXGEN6]RAIL_ID  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[RLSVEXGEN6]GENVI_DIR  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[RLSVEXGEN6]ALPHA  Storage: DRAM  Access: RW  : STRING[20] = Uninitialized
+
+[RLSVEXGEN6]THETA  Storage: DRAM  Access: RW  : STRING[20] = Uninitialized
+
+[RLSVEXGEN6]VAL  Storage: DRAM  Access: RW  : STRING[20] = Uninitialized
+

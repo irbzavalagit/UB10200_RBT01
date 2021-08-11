@@ -1,0 +1,40 @@
+[SFIGET]ADAPT_GRAV  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SFIGET]AXS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SFIGET]DATA_TYPE  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SFIGET]DUMMY_REAL  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[SFIGET]DUMMY_STR  Storage: DRAM  Access: RW  : STRING[3] = Uninitialized
+
+[SFIGET]ENTRY  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SFIGET]GENOVR  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SFIGET]GNUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SFIGET]GSNUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SFIGET]MOTN_FUNC1  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SFIGET]NUM_AXES  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SFIGET]NUM_GROUP  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SFIGET]SCDNUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SFIGET]SFIVAL_ENB  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SFIGET]STATUS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SFIGET]STATUS2  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SFIGET]STR_AXS  Storage: DRAM  Access: RW  : STRING[2] = Uninitialized
+
+[SFIGET]STR_G  Storage: DRAM  Access: RW  : STRING[2] = Uninitialized
+
+[SFIGET]STR_GS  Storage: DRAM  Access: RW  : STRING[3] = Uninitialized
+
+[SFIGET]SYSV_NAME  Storage: DRAM  Access: RW  : STRING[30] = Uninitialized
+

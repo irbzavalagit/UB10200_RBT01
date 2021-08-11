@@ -1,0 +1,24 @@
+[MASKROUTFIX]ENTRY  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[MASKROUTFIX]ENT_VAL  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[MASKROUTFIX]ERROR_TRACK  Storage: DRAM  Access: RW  : STRING[2] = Uninitialized
+
+[MASKROUTFIX]EXIT_LOOP  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[MASKROUTFIX]GW_STR  Storage: DRAM  Access: RW  : STRING[50] = Uninitialized
+
+[MASKROUTFIX]IND  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[MASKROUTFIX]INDP  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[MASKROUTFIX]IP_STR  Storage: DRAM  Access: RW  : STRING[50] = Uninitialized
+
+[MASKROUTFIX]RNAME  Storage: DRAM  Access: RW  : STRING[33] = Uninitialized
+
+[MASKROUTFIX]SN_STR  Storage: DRAM  Access: RW  : STRING[50] = Uninitialized
+
+[MASKROUTFIX]STATUS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[MASKROUTFIX]TEMP_STR  Storage: DRAM  Access: RW  : STRING[50] = Uninitialized
+

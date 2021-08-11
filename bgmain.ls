@@ -1,0 +1,136 @@
+/PROG  BGMAIN	  Macro
+/ATTR
+OWNER		= RIVIAN;
+COMMENT		= "Main BG V2.1";
+PROG_SIZE	= 3598;
+CREATE		= DATE 21-07-09  TIME 07:31:22;
+MODIFIED	= DATE 21-07-09  TIME 07:31:22;
+FILE_NAME	= BGMAIN;
+VERSION		= 21;
+LINE_COUNT	= 111;
+MEMORY_SIZE	= 4266;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= *,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+/MN
+   1:  !******************************** ;
+   2:  ! RIVIAN AUTOMOTIVE ;
+   3:  ! Background Logic Main ;
+   4:  ! 1 - App Monitor ;
+   5:  ! 2 - Speed Control ;
+   6:  ! Version 2.1 ;
+   7:  !******************************** ;
+   8:   ;
+   9:  !Turn on BG running bit ;
+  10:  F[1:BG Main Running]=(ON) ;
+  11:   ;
+  12:  R[123:NumberofApps]=0    ;
+  13:  IF (R[111:App1Selected]>0),R[123:NumberofApps]=(R[123:NumberofApps]+1) ;
+  14:  IF (R[112:App2Selected]>0),R[123:NumberofApps]=(R[123:NumberofApps]+1) ;
+  15:  IF (R[113:App3Selected]>0),R[123:NumberofApps]=(R[123:NumberofApps]+1) ;
+  16:  IF (R[114:App4Selected]>0),R[123:NumberofApps]=(R[123:NumberofApps]+1) ;
+  17:  IF (R[115:App5Selected]>0),R[123:NumberofApps]=(R[123:NumberofApps]+1) ;
+  18:  IF (R[116:App6Selected]>0),R[123:NumberofApps]=(R[123:NumberofApps]+1) ;
+  19:   ;
+  20:  !Define # of BG Programs ;
+  21:  R[124:NumberofBGProgra]=R[123:NumberofApps]+1    ;
+  22:   ;
+  23:  !In Process Bit ;
+  24:  IF (R[124:NumberofBGProgra]<1),F[60:App1_In_Process]=(OFF) ;
+  25:  IF (R[124:NumberofBGProgra]<2),F[61:App2_In_Process]=(OFF) ;
+  26:  IF (R[124:NumberofBGProgra]<3),F[62:App3_In_Process]=(OFF) ;
+  27:  IF (R[124:NumberofBGProgra]<4),F[63:App4_In_Process]=(OFF) ;
+  28:  IF (R[124:NumberofBGProgra]<5),F[64:App5_In_Process]=(OFF) ;
+  29:  IF (R[124:NumberofBGProgra]<6),F[65:App6_In_Process]=(OFF) ;
+  30:  IF (F[60:App1_In_Process]=ON OR F[61:App2_In_Process]=ON OR F[62:App3_In_Process]=ON OR F[63:App4_In_Process]=ON OR F[64:App5_In_Process]=ON OR F[65:App6_In_Process]=ON),DO[53:AppInProcess]=(ON) ;
+  31:  IF (F[60:App1_In_Process]=OFF AND F[61:App2_In_Process]=OFF AND F[62:App3_In_Process]=OFF AND F[63:App4_In_Process]=OFF AND F[64:App5_In_Process]=OFF AND F[65:App6_In_Process]=OFF),DO[53:AppInProcess]=(
+    :  OFF) ;
+  32:   ;
+  33:  !App1 = BG Program 2 ;
+  34:  !App2 = BG Program 3 ;
+  35:  !App3 = BG Program 4 ;
+  36:  !App4 = BG Program 5 ;
+  37:   ;
+  38:  !Turn I/O based on flags ;
+  39:  IF (R[124:NumberofBGProgra]=1 OR R[124:NumberofBGProgra]=2 OR R[124:NumberofBGProgra]=3 OR R[124:NumberofBGProgra]=4 OR R[124:NumberofBGProgra]=5),JMP LBL[1] ;
+  40:  !Not Valid BG number ;
+  41:  GO[7:User Fault]=11 ;
+  42:  UALM[11] ;
+  43:  LBL[1:Valid Number] ;
+  44:  IF (R[124:NumberofBGProgra]<2 OR $MIX_BG[2].$STATUS=2),JMP LBL[2] ;
+  45:  GO[7:User Fault]=12 ;
+  46:  UALM[12] ;
+  47:  LBL[2:BG 2 Running] ;
+  48:  IF (R[124:NumberofBGProgra]<3 OR $MIX_BG[3].$STATUS=2),JMP LBL[3] ;
+  49:  GO[7:User Fault]=13 ;
+  50:  UALM[13] ;
+  51:  LBL[3:BG 3 Running] ;
+  52:  IF (R[124:NumberofBGProgra]<4 OR $MIX_BG[4].$STATUS=2),JMP LBL[4] ;
+  53:  GO[7:User Fault]=14 ;
+  54:  UALM[14] ;
+  55:  LBL[4:BG 4 Running] ;
+  56:  IF (R[124:NumberofBGProgra]<5 OR $MIX_BG[5].$STATUS=2),JMP LBL[5] ;
+  57:  GO[7:User Fault]=15 ;
+  58:  UALM[15] ;
+  59:  LBL[5:BG 5 Running] ;
+  60:  !RESET ALARMS IF OK ;
+  61:  IF ($MIX_BG[2].$STATUS<>2),JMP LBL[12] ;
+  62:  IF (R[124:NumberofBGProgra]<>2),JMP LBL[12] ;
+  63:  GO[7:User Fault]=0 ;
+  64:  LBL[12] ;
+  65:  IF ($MIX_BG[2].$STATUS<>2 OR $MIX_BG[3].$STATUS<>2),JMP LBL[13] ;
+  66:  IF (R[124:NumberofBGProgra]<>3),JMP LBL[13] ;
+  67:  GO[7:User Fault]=0 ;
+  68:  LBL[13] ;
+  69:  IF ($MIX_BG[2].$STATUS<>2 OR $MIX_BG[3].$STATUS<>2 OR $MIX_BG[4].$STATUS<>2),JMP LBL[14] ;
+  70:  IF (R[124:NumberofBGProgra]<>4),JMP LBL[14] ;
+  71:  GO[7:User Fault]=0 ;
+  72:  LBL[14] ;
+  73:  IF ($MIX_BG[2].$STATUS<>2 OR $MIX_BG[3].$STATUS<>2 OR $MIX_BG[4].$STATUS<>2 OR $MIX_BG[5].$STATUS<>2),JMP LBL[15] ;
+  74:  IF (R[124:NumberofBGProgra]<>5),JMP LBL[15] ;
+  75:  GO[7:User Fault]=0 ;
+  76:  LBL[15] ;
+  77:  !Set Flags Based on Status ;
+  78:  IF ($MIX_BG[2].$STATUS=2),F[2:BG2 Running]=(ON) ;
+  79:  IF ($MIX_BG[2].$STATUS=1),F[2:BG2 Running]=(OFF) ;
+  80:  IF ($MIX_BG[3].$STATUS=2),F[3:BG3 Running]=(ON) ;
+  81:  IF ($MIX_BG[3].$STATUS=1),F[3:BG3 Running]=(OFF) ;
+  82:  IF ($MIX_BG[4].$STATUS=2),F[4:BG4 Running]=(ON) ;
+  83:  IF ($MIX_BG[4].$STATUS=1),F[4:BG4 Running]=(OFF) ;
+  84:  IF ($MIX_BG[5].$STATUS=2),F[5:BG5 Running]=(ON) ;
+  85:  IF ($MIX_BG[5].$STATUS=1),F[5:BG5 Running]=(OFF) ;
+  86:  !Turn on IO Based on Flag ;
+  87:  DO[20:BgPrg1Running]=(F[1:BG Main Running]) ;
+  88:  DO[21:BgPrg2Running]=(F[2:BG2 Running]) ;
+  89:  DO[22:BgPrg3Running]=(F[3:BG3 Running]) ;
+  90:  DO[23:BgPrg4Running]=(F[4:BG4 Running]) ;
+  91:  DO[24:BgPrg5Running]=(F[5:BG5 Running]) ;
+  92:   ;
+  93:  !******************************** ;
+  94:  ! Speed Control BG Program ;
+  95:  ! GI[2]: New Speed ;
+  96:  ! GO[2]: Robot Speed Out ;
+  97:  ! DI[46]: To trigger speed change ;
+  98:  ! This program allows PLC to set ;
+  99:  ! robot speed ;
+ 100:  !******************************** ;
+ 101:   ;
+ 102:  !Let PLC know current speed ;
+ 103:  GO[2:Robot Speed]=($MCR.$GENOVERRIDE) ;
+ 104:   ;
+ 105:  !Set New Speed ;
+ 106:  IF (DI[46:NewSpeedRequest]=ON AND UO[8:TP enabled]=OFF) THEN ;
+ 107:  R[126:SpeedMemory]=$MCR.$GENOVERRIDE ;
+ 108:  R[125:SpeedRequest]=GI[2:NewSpeed]    ;
+ 109:  $MCR.$GENOVERRIDE=R[125:SpeedRequest] ;
+ 110:  ENDIF ;
+ 111:   ;
+/POS
+/END

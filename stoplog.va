@@ -1,0 +1,6 @@
+[STOPLOG]ENTRY  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[STOPLOG]SGLOG_STAT  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[STOPLOG]STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+

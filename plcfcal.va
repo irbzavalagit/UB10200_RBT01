@@ -1,0 +1,41 @@
+[PLCFCAL]KK  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[PLCFCAL]AXS_LIM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[PLCFCAL]OVR_TRV  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[PLCFCAL]ENTRY  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[PLCFCAL]STAT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[PLCFCAL]TEMP_T  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[PLCFCAL]LAST_T  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[PLCFCAL]DELTA_T  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[PLCFCAL]Q_CURRENT5  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[PLCFCAL]Q_CURRENT6  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[PLCFCAL]LAST_J5  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[PLCFCAL]LAST_J6  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[PLCFCAL]VEL_J5  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[PLCFCAL]VEL_J6  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[PLCFCAL]JPOS00  Storage: DRAM  Access: RW  : JOINTPOS9 = Uninitialized
+
+[PLCFCAL]JPOS00R  Storage: DRAM  Access: RW  : ARRAY[9] OF REAL
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+

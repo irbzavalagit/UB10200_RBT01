@@ -1,0 +1,624 @@
+[*POSREG*]$POSREG  Storage: SHADOW  Access: RW  : ARRAY[2,255] OF Position Reg
+    [1,1] =   '@Home'   Group: 1
+  J1 =   -70.000 deg   J2 =   -25.000 deg   J3 =     0.000 deg 
+  J4 =     0.000 deg   J5 =   -90.000 deg   J6 =   -20.000 deg 
+
+    [1,2] =   '@Pounce'   Group: 1
+  J1 =   -55.000 deg   J2 =   -25.000 deg   J3 =     0.000 deg 
+  J4 =     0.000 deg   J5 =   -90.000 deg   J6 =   -20.000 deg 
+
+    [1,3] =   'Reserved' Uninitialized
+    [1,4] =   'Reserved' Uninitialized
+    [1,5] =   'Reserved' Uninitialized
+    [1,6] =   '' Uninitialized
+    [1,7] =   '' Uninitialized
+    [1,8] =   '' Uninitialized
+    [1,9] =   '' Uninitialized
+    [1,10] =   '' Uninitialized
+    [1,11] =   '' Uninitialized
+    [1,12] =   '' Uninitialized
+    [1,13] =   '' Uninitialized
+    [1,14] =   '' Uninitialized
+    [1,15] =   '' Uninitialized
+    [1,16] =   '' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  -606.500   Y: -1058.200   Z:  -782.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,17] =   '' Uninitialized
+    [1,18] =   '' Uninitialized
+    [1,19] =   '' Uninitialized
+    [1,20] =   'Wear Upd SG Work'   Group: 1
+  J1 =  -151.599 deg   J2 =    32.077 deg   J3 =   -42.059 deg 
+  J4 =      .000 deg   J5 =   -47.940 deg   J6 =    70.532 deg 
+
+    [1,21] =   'Wear Upd SG Work' Uninitialized
+    [1,22] =   '' Uninitialized
+    [1,23] =   '' Uninitialized
+    [1,24] =   '' Uninitialized
+    [1,25] =   'MAX GUN OPENING' Uninitialized
+    [1,26] =   '' Uninitialized
+    [1,27] =   '' Uninitialized
+    [1,28] =   '' Uninitialized
+    [1,29] =   '' Uninitialized
+    [1,30] =   '' Uninitialized
+    [1,31] =   '' Uninitialized
+    [1,32] =   '' Uninitialized
+    [1,33] =   '' Uninitialized
+    [1,34] =   '' Uninitialized
+    [1,35] =   '' Uninitialized
+    [1,36] =   '' Uninitialized
+    [1,37] =   '' Uninitialized
+    [1,38] =   '' Uninitialized
+    [1,39] =   '' Uninitialized
+    [1,40] =   '' Uninitialized
+    [1,41] =   '' Uninitialized
+    [1,42] =   '' Uninitialized
+    [1,43] =   '' Uninitialized
+    [1,44] =   '' Uninitialized
+    [1,45] =   '' Uninitialized
+    [1,46] =   '' Uninitialized
+    [1,47] =   '' Uninitialized
+    [1,48] =   '' Uninitialized
+    [1,49] =   '' Uninitialized
+    [1,50] =   '' Uninitialized
+    [1,51] =   '' Uninitialized
+    [1,52] =   '' Uninitialized
+    [1,53] =   '' Uninitialized
+    [1,54] =   '' Uninitialized
+    [1,55] =   '' Uninitialized
+    [1,56] =   '' Uninitialized
+    [1,57] =   '' Uninitialized
+    [1,58] =   '' Uninitialized
+    [1,59] =   '' Uninitialized
+    [1,60] =   '' Uninitialized
+    [1,61] =   '' Uninitialized
+    [1,62] =   '' Uninitialized
+    [1,63] =   '' Uninitialized
+    [1,64] =   '' Uninitialized
+    [1,65] =   '' Uninitialized
+    [1,66] =   '' Uninitialized
+    [1,67] =   '' Uninitialized
+    [1,68] =   '' Uninitialized
+    [1,69] =   '' Uninitialized
+    [1,70] =   '' Uninitialized
+    [1,71] =   '' Uninitialized
+    [1,72] =   '' Uninitialized
+    [1,73] =   '' Uninitialized
+    [1,74] =   '' Uninitialized
+    [1,75] =   '' Uninitialized
+    [1,76] =   '' Uninitialized
+    [1,77] =   '' Uninitialized
+    [1,78] =   '' Uninitialized
+    [1,79] =   '' Uninitialized
+    [1,80] =   'Z-10mm' Uninitialized
+    [1,81] =   'Z-20mm' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:   -20.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,82] =   'Z-30mm' Uninitialized
+    [1,83] =   'Z-40mm' Uninitialized
+    [1,84] =   'Z-50mm' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:   -50.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,85] =   'Z-100mm' Uninitialized
+    [1,86] =   'Z-150mm' Uninitialized
+    [1,87] =   'Z-200mm' Uninitialized
+    [1,88] =   'Z-250mm' Uninitialized
+    [1,89] =   'Z-300mm' Uninitialized
+    [1,90] =   'Z+10mm' Uninitialized
+    [1,91] =   'Z+20mm' Uninitialized
+    [1,92] =   'Z+30mm' Uninitialized
+    [1,93] =   'Z+40mm' Uninitialized
+    [1,94] =   'Z+50mm' Uninitialized
+    [1,95] =   'Z+100mm' Uninitialized
+    [1,96] =   'Z+150mm' Uninitialized
+    [1,97] =   'Z+200mm' Uninitialized
+    [1,98] =   'Z+250mm' Uninitialized
+    [1,99] =   'Z+300mm' Uninitialized
+    [1,100] =   'FFR_Offset' Uninitialized
+    [1,101] =   'FFR_POS' Uninitialized
+    [1,102] =   '' Uninitialized
+    [1,103] =   '' Uninitialized
+    [1,104] =   '' Uninitialized
+    [1,105] =   '' Uninitialized
+    [1,106] =   '' Uninitialized
+    [1,107] =   '' Uninitialized
+    [1,108] =   '' Uninitialized
+    [1,109] =   '' Uninitialized
+    [1,110] =   'R2_@Home' Uninitialized
+    [1,111] =   'R2_@Pounce' Uninitialized
+    [1,112] =   'R2_MaintPsn' Uninitialized
+    [1,113] =   'R2_MasterPSN' Uninitialized
+    [1,114] =   'R2_ALTMastering' Uninitialized
+    [1,115] =   '' Uninitialized
+    [1,116] =   '' Uninitialized
+    [1,117] =   '' Uninitialized
+    [1,118] =   '' Uninitialized
+    [1,119] =   '' Uninitialized
+    [1,120] =   '' Uninitialized
+    [1,121] =   '' Uninitialized
+    [1,122] =   '' Uninitialized
+    [1,123] =   '' Uninitialized
+    [1,124] =   '' Uninitialized
+    [1,125] =   '' Uninitialized
+    [1,126] =   '' Uninitialized
+    [1,127] =   '' Uninitialized
+    [1,128] =   '' Uninitialized
+    [1,129] =   '' Uninitialized
+    [1,130] =   '' Uninitialized
+    [1,131] =   '' Uninitialized
+    [1,132] =   '' Uninitialized
+    [1,133] =   '' Uninitialized
+    [1,134] =   '' Uninitialized
+    [1,135] =   '' Uninitialized
+    [1,136] =   '' Uninitialized
+    [1,137] =   '' Uninitialized
+    [1,138] =   '' Uninitialized
+    [1,139] =   '' Uninitialized
+    [1,140] =   '' Uninitialized
+    [1,141] =   '' Uninitialized
+    [1,142] =   '' Uninitialized
+    [1,143] =   '' Uninitialized
+    [1,144] =   '' Uninitialized
+    [1,145] =   '' Uninitialized
+    [1,146] =   '' Uninitialized
+    [1,147] =   '' Uninitialized
+    [1,148] =   '' Uninitialized
+    [1,149] =   '' Uninitialized
+    [1,150] =   '' Uninitialized
+    [1,151] =   '' Uninitialized
+    [1,152] =   '' Uninitialized
+    [1,153] =   '' Uninitialized
+    [1,154] =   '' Uninitialized
+    [1,155] =   '' Uninitialized
+    [1,156] =   '' Uninitialized
+    [1,157] =   '' Uninitialized
+    [1,158] =   '' Uninitialized
+    [1,159] =   '' Uninitialized
+    [1,160] =   '' Uninitialized
+    [1,161] =   '' Uninitialized
+    [1,162] =   '' Uninitialized
+    [1,163] =   '' Uninitialized
+    [1,164] =   '' Uninitialized
+    [1,165] =   '' Uninitialized
+    [1,166] =   '' Uninitialized
+    [1,167] =   '' Uninitialized
+    [1,168] =   '' Uninitialized
+    [1,169] =   '' Uninitialized
+    [1,170] =   'CC_PounceG1'   Group: 1
+  J1 =  -148.424 deg   J2 =    32.778 deg   J3 =   -40.722 deg 
+  J4 =      .001 deg   J5 =   -49.277 deg   J6 =    55.423 deg 
+
+    [1,171] =   'CC_ChkFixCapG1'   Group: 1
+  J1 =  -145.950 deg   J2 =    31.054 deg   J3 =   -41.605 deg 
+  J4 =      .001 deg   J5 =   -48.394 deg   J6 =    52.982 deg 
+
+    [1,172] =   'CC_ChkMovCapG1'   Group: 1
+  J1 =  -145.949 deg   J2 =    34.437 deg   J3 =   -45.419 deg 
+  J4 =      .002 deg   J5 =   -44.579 deg   J6 =    52.980 deg 
+
+    [1,173] =   'CC_ManualPsnG1'   Group: 1
+  J1 =  -149.000 deg   J2 =    35.000 deg   J3 =   -39.000 deg 
+  J4 =     0.000 deg   J5 =   -51.000 deg   J6 =    28.000 deg 
+
+    [1,174] =   'TD_PounceG1' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  -107.557   Y:    -3.035   Z:   -37.317
+  W:      .000   P:      .000   R:     4.466
+    [1,175] =   'TD_PosG1' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   -11.745   Y:     -.306   Z:     4.785
+  W:      .000   P:      .001   R:     -.000
+    [1,176] =   'TW_AppCalG1'   Group: 1
+  J1 =  -154.000 deg   J2 =    30.000 deg   J3 =   -42.000 deg 
+  J4 =     0.000 deg   J5 =   -48.000 deg   J6 =    68.000 deg 
+
+    [1,177] =   'TW_CalPsnG1'   Group: 1
+  J1 =  -154.189 deg   J2 =    28.760 deg   J3 =   -42.027 deg 
+  J4 =     0.000 deg   J5 =   -47.973 deg   J6 =    61.189 deg 
+
+    [1,178] =   'TW_CalPlatePsnG1'   Group: 1
+  J1 =  -153.202 deg   J2 =    25.665 deg   J3 =   -43.451 deg 
+  J4 =     0.000 deg   J5 =   -46.549 deg   J6 =    60.202 deg 
+
+    [1,179] =   '' Uninitialized
+    [1,180] =   'CC_PounceG2' Uninitialized
+    [1,181] =   'CC_ChkFixCapG2' Uninitialized
+    [1,182] =   'CC_ChkMovCapG2' Uninitialized
+    [1,183] =   'CC_ManualPsnG2' Uninitialized
+    [1,184] =   'TD_PounceG2' Uninitialized
+    [1,185] =   'TD_PosG2' Uninitialized
+    [1,186] =   'TW_AppCalG2' Uninitialized
+    [1,187] =   'TW_CalPsnG2' Uninitialized
+    [1,188] =   'TW_CalPlatePsnG2' Uninitialized
+    [1,189] =   '' Uninitialized
+    [1,190] =   'CC_PounceG3' Uninitialized
+    [1,191] =   'CC_ChkFixCapG3' Uninitialized
+    [1,192] =   'CC_ChkMovCapG3' Uninitialized
+    [1,193] =   'CC_ManualPsnG3' Uninitialized
+    [1,194] =   'TD_PounceG3' Uninitialized
+    [1,195] =   'TD_PosG3' Uninitialized
+    [1,196] =   'TW_AppCalG3' Uninitialized
+    [1,197] =   'TW_CalPsnG3' Uninitialized
+    [1,198] =   'TW_CalPlatePsnG3' Uninitialized
+    [1,199] =   '' Uninitialized
+    [1,200] =   'CC_PounceG4' Uninitialized
+    [1,201] =   'CC_ChkFixCapG4' Uninitialized
+    [1,202] =   'CC_ChkMovCapG4' Uninitialized
+    [1,203] =   'CC_ManualPsnG4' Uninitialized
+    [1,204] =   'TD_PounceG4' Uninitialized
+    [1,205] =   'TD_PosG4' Uninitialized
+    [1,206] =   'TW_AppCalG4' Uninitialized
+    [1,207] =   'TW_CalPsnG4' Uninitialized
+    [1,208] =   'TW_CalPlatePsnG4' Uninitialized
+    [1,209] =   '' Uninitialized
+    [1,210] =   'CC Offset' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     3.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,211] =   'CC Remove Cap' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   -11.567   Y:     2.004   Z:  -109.400
+  W:      .000   P:      .002   R:    -2.967
+    [1,212] =   '' Uninitialized
+    [1,213] =   'POS1' Uninitialized
+    [1,214] =   'POS2' Uninitialized
+    [1,215] =   'POS3' Uninitialized
+    [1,216] =   'POS4' Uninitialized
+    [1,217] =   'POS5' Uninitialized
+    [1,218] =   'POS6' Uninitialized
+    [1,219] =   'POS7' Uninitialized
+    [1,220] =   'POS8' Uninitialized
+    [1,221] =   'Tool1ChngPsn' Uninitialized
+    [1,222] =   'Tool2ChngPsn' Uninitialized
+    [1,223] =   'Tool3ChngPsn' Uninitialized
+    [1,224] =   'Tool4ChngPsn' Uninitialized
+    [1,225] =   'Tool5ChngPsn' Uninitialized
+    [1,226] =   'Tool6ChngPsn' Uninitialized
+    [1,227] =   'Tool7ChngPsn' Uninitialized
+    [1,228] =   '' Uninitialized
+    [1,229] =   '' Uninitialized
+    [1,230] =   'MaintPsn'   Group: 1
+  J1 =   -52.000 deg   J2 =    18.000 deg   J3 =   -64.000 deg 
+  J4 =    13.000 deg   J5 =   -36.000 deg   J6 =   -62.000 deg 
+
+    [1,231] =   'TipDress' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   -11.745   Y:     -.306   Z:     4.785
+  W:      .000   P:      .001   R:     -.000
+    [1,232] =   '' Uninitialized
+    [1,233] =   'CC_PounceMov' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X: -1232.969   Y:   -41.130   Z:   724.482
+  W:   179.998   P:      .000   R:   -92.968
+    [1,234] =   'Purge1' Uninitialized
+    [1,235] =   'Reserved' Uninitialized
+    [1,236] =   'Reserved' Uninitialized
+    [1,237] =   'Camera1Inspectio' Uninitialized
+    [1,238] =   'Reserved' Uninitialized
+    [1,239] =   'Reserved' Uninitialized
+    [1,240] =   '' Uninitialized
+    [1,241] =   '' Uninitialized
+    [1,242] =   '' Uninitialized
+    [1,243] =   '' Uninitialized
+    [1,244] =   'Purge2' Uninitialized
+    [1,245] =   'Reserved' Uninitialized
+    [1,246] =   'Reserved' Uninitialized
+    [1,247] =   'Camera2Inspectio' Uninitialized
+    [1,248] =   '' Uninitialized
+    [1,249] =   '' Uninitialized
+    [1,250] =   '' Uninitialized
+    [1,251] =   '' Uninitialized
+    [1,252] =   'Lpos' Uninitialized
+    [1,253] =   'Jpos' Uninitialized
+    [1,254] =   'MasterPSN' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1322.445   Y:   924.767   Z:   194.152
+  W:    18.349   P:     8.021   R:    91.743
+    [1,255] =   'ALTMastering'   Group: 1
+  J1 =  -170.000 deg   J2 =   -50.000 deg   J3 =    25.000 deg 
+  J4 =     0.000 deg   J5 =     0.000 deg   J6 =     0.000 deg 
+
+    [2,1] =   ''   Group: 2
+  J1 =  -130.224 mm  
+
+    [2,2] =   ''   Group: 2
+  J1 =  -100.000 mm  
+
+    [2,3] =   '' Uninitialized
+    [2,4] =   '' Uninitialized
+    [2,5] =   '' Uninitialized
+    [2,6] =   '' Uninitialized
+    [2,7] =   '' Uninitialized
+    [2,8] =   '' Uninitialized
+    [2,9] =   '' Uninitialized
+    [2,10] =   '' Uninitialized
+    [2,11] =   '' Uninitialized
+    [2,12] =   '' Uninitialized
+    [2,13] =   '' Uninitialized
+    [2,14] =   '' Uninitialized
+    [2,15] =   '' Uninitialized
+    [2,16] =   '' Uninitialized
+    [2,17] =   '' Uninitialized
+    [2,18] =   '' Uninitialized
+    [2,19] =   '' Uninitialized
+    [2,20] =   ''   Group: 2
+  J1 =  -100.000 mm  
+
+    [2,21] =   ''   Group: 2
+  J1 =   -28.257 mm  
+
+    [2,22] =   '' Uninitialized
+    [2,23] =   '' Uninitialized
+    [2,24] =   '' Uninitialized
+    [2,25] =   ''   Group: 2
+  J1 =  -131.000 mm  
+
+    [2,26] =   '' Uninitialized
+    [2,27] =   '' Uninitialized
+    [2,28] =   '' Uninitialized
+    [2,29] =   '' Uninitialized
+    [2,30] =   '' Uninitialized
+    [2,31] =   '' Uninitialized
+    [2,32] =   '' Uninitialized
+    [2,33] =   '' Uninitialized
+    [2,34] =   '' Uninitialized
+    [2,35] =   '' Uninitialized
+    [2,36] =   '' Uninitialized
+    [2,37] =   '' Uninitialized
+    [2,38] =   '' Uninitialized
+    [2,39] =   '' Uninitialized
+    [2,40] =   '' Uninitialized
+    [2,41] =   '' Uninitialized
+    [2,42] =   '' Uninitialized
+    [2,43] =   '' Uninitialized
+    [2,44] =   '' Uninitialized
+    [2,45] =   '' Uninitialized
+    [2,46] =   '' Uninitialized
+    [2,47] =   '' Uninitialized
+    [2,48] =   '' Uninitialized
+    [2,49] =   '' Uninitialized
+    [2,50] =   '' Uninitialized
+    [2,51] =   '' Uninitialized
+    [2,52] =   '' Uninitialized
+    [2,53] =   '' Uninitialized
+    [2,54] =   '' Uninitialized
+    [2,55] =   '' Uninitialized
+    [2,56] =   '' Uninitialized
+    [2,57] =   '' Uninitialized
+    [2,58] =   '' Uninitialized
+    [2,59] =   '' Uninitialized
+    [2,60] =   '' Uninitialized
+    [2,61] =   '' Uninitialized
+    [2,62] =   '' Uninitialized
+    [2,63] =   '' Uninitialized
+    [2,64] =   '' Uninitialized
+    [2,65] =   '' Uninitialized
+    [2,66] =   '' Uninitialized
+    [2,67] =   '' Uninitialized
+    [2,68] =   '' Uninitialized
+    [2,69] =   '' Uninitialized
+    [2,70] =   '' Uninitialized
+    [2,71] =   '' Uninitialized
+    [2,72] =   '' Uninitialized
+    [2,73] =   '' Uninitialized
+    [2,74] =   '' Uninitialized
+    [2,75] =   '' Uninitialized
+    [2,76] =   '' Uninitialized
+    [2,77] =   '' Uninitialized
+    [2,78] =   '' Uninitialized
+    [2,79] =   '' Uninitialized
+    [2,80] =   '' Uninitialized
+    [2,81] =   ''   Group: 2
+  J1 =  -100.000 mm  
+
+    [2,82] =   '' Uninitialized
+    [2,83] =   '' Uninitialized
+    [2,84] =   ''   Group: 2
+  J1 =  -100.000 mm  
+
+    [2,85] =   '' Uninitialized
+    [2,86] =   '' Uninitialized
+    [2,87] =   '' Uninitialized
+    [2,88] =   '' Uninitialized
+    [2,89] =   '' Uninitialized
+    [2,90] =   '' Uninitialized
+    [2,91] =   '' Uninitialized
+    [2,92] =   '' Uninitialized
+    [2,93] =   '' Uninitialized
+    [2,94] =   '' Uninitialized
+    [2,95] =   '' Uninitialized
+    [2,96] =   '' Uninitialized
+    [2,97] =   '' Uninitialized
+    [2,98] =   '' Uninitialized
+    [2,99] =   '' Uninitialized
+    [2,100] =   '' Uninitialized
+    [2,101] =   '' Uninitialized
+    [2,102] =   '' Uninitialized
+    [2,103] =   '' Uninitialized
+    [2,104] =   '' Uninitialized
+    [2,105] =   '' Uninitialized
+    [2,106] =   '' Uninitialized
+    [2,107] =   '' Uninitialized
+    [2,108] =   '' Uninitialized
+    [2,109] =   '' Uninitialized
+    [2,110] =   '' Uninitialized
+    [2,111] =   '' Uninitialized
+    [2,112] =   '' Uninitialized
+    [2,113] =   '' Uninitialized
+    [2,114] =   '' Uninitialized
+    [2,115] =   '' Uninitialized
+    [2,116] =   '' Uninitialized
+    [2,117] =   '' Uninitialized
+    [2,118] =   '' Uninitialized
+    [2,119] =   '' Uninitialized
+    [2,120] =   '' Uninitialized
+    [2,121] =   '' Uninitialized
+    [2,122] =   '' Uninitialized
+    [2,123] =   '' Uninitialized
+    [2,124] =   '' Uninitialized
+    [2,125] =   '' Uninitialized
+    [2,126] =   '' Uninitialized
+    [2,127] =   '' Uninitialized
+    [2,128] =   '' Uninitialized
+    [2,129] =   '' Uninitialized
+    [2,130] =   '' Uninitialized
+    [2,131] =   '' Uninitialized
+    [2,132] =   '' Uninitialized
+    [2,133] =   '' Uninitialized
+    [2,134] =   '' Uninitialized
+    [2,135] =   '' Uninitialized
+    [2,136] =   '' Uninitialized
+    [2,137] =   '' Uninitialized
+    [2,138] =   '' Uninitialized
+    [2,139] =   '' Uninitialized
+    [2,140] =   '' Uninitialized
+    [2,141] =   '' Uninitialized
+    [2,142] =   '' Uninitialized
+    [2,143] =   '' Uninitialized
+    [2,144] =   '' Uninitialized
+    [2,145] =   '' Uninitialized
+    [2,146] =   '' Uninitialized
+    [2,147] =   '' Uninitialized
+    [2,148] =   '' Uninitialized
+    [2,149] =   '' Uninitialized
+    [2,150] =   '' Uninitialized
+    [2,151] =   '' Uninitialized
+    [2,152] =   '' Uninitialized
+    [2,153] =   '' Uninitialized
+    [2,154] =   '' Uninitialized
+    [2,155] =   '' Uninitialized
+    [2,156] =   '' Uninitialized
+    [2,157] =   '' Uninitialized
+    [2,158] =   '' Uninitialized
+    [2,159] =   '' Uninitialized
+    [2,160] =   '' Uninitialized
+    [2,161] =   '' Uninitialized
+    [2,162] =   '' Uninitialized
+    [2,163] =   '' Uninitialized
+    [2,164] =   '' Uninitialized
+    [2,165] =   '' Uninitialized
+    [2,166] =   '' Uninitialized
+    [2,167] =   '' Uninitialized
+    [2,168] =   '' Uninitialized
+    [2,169] =   '' Uninitialized
+    [2,170] =   ''   Group: 2
+  J1 =  -100.000 mm  
+
+    [2,171] =   ''   Group: 2
+  J1 =  -100.000 mm  
+
+    [2,172] =   ''   Group: 2
+  J1 =  -100.000 mm  
+
+    [2,173] =   ''   Group: 2
+  J1 =  -100.000 mm  
+
+    [2,174] =   ''   Group: 2
+  J1 =  -100.000 mm  
+
+    [2,175] =   ''   Group: 2
+  J1 =  -100.000 mm  
+
+    [2,176] =   ''   Group: 2
+  J1 =     0.000 mm  
+
+    [2,177] =   ''   Group: 2
+  J1 =   -50.000 mm  
+
+    [2,178] =   ''   Group: 2
+  J1 =   -50.000 mm  
+
+    [2,179] =   '' Uninitialized
+    [2,180] =   '' Uninitialized
+    [2,181] =   '' Uninitialized
+    [2,182] =   '' Uninitialized
+    [2,183] =   '' Uninitialized
+    [2,184] =   '' Uninitialized
+    [2,185] =   '' Uninitialized
+    [2,186] =   '' Uninitialized
+    [2,187] =   '' Uninitialized
+    [2,188] =   '' Uninitialized
+    [2,189] =   '' Uninitialized
+    [2,190] =   '' Uninitialized
+    [2,191] =   '' Uninitialized
+    [2,192] =   '' Uninitialized
+    [2,193] =   '' Uninitialized
+    [2,194] =   '' Uninitialized
+    [2,195] =   '' Uninitialized
+    [2,196] =   '' Uninitialized
+    [2,197] =   '' Uninitialized
+    [2,198] =   '' Uninitialized
+    [2,199] =   '' Uninitialized
+    [2,200] =   '' Uninitialized
+    [2,201] =   '' Uninitialized
+    [2,202] =   '' Uninitialized
+    [2,203] =   '' Uninitialized
+    [2,204] =   '' Uninitialized
+    [2,205] =   '' Uninitialized
+    [2,206] =   '' Uninitialized
+    [2,207] =   '' Uninitialized
+    [2,208] =   '' Uninitialized
+    [2,209] =   '' Uninitialized
+    [2,210] =   ''   Group: 2
+  J1 =     0.000 mm  
+
+    [2,211] =   ''   Group: 2
+  J1 =   -86.428 mm  
+
+    [2,212] =   '' Uninitialized
+    [2,213] =   '' Uninitialized
+    [2,214] =   '' Uninitialized
+    [2,215] =   '' Uninitialized
+    [2,216] =   '' Uninitialized
+    [2,217] =   '' Uninitialized
+    [2,218] =   '' Uninitialized
+    [2,219] =   '' Uninitialized
+    [2,220] =   '' Uninitialized
+    [2,221] =   '' Uninitialized
+    [2,222] =   '' Uninitialized
+    [2,223] =   '' Uninitialized
+    [2,224] =   '' Uninitialized
+    [2,225] =   '' Uninitialized
+    [2,226] =   '' Uninitialized
+    [2,227] =   '' Uninitialized
+    [2,228] =   '' Uninitialized
+    [2,229] =   '' Uninitialized
+    [2,230] =   ''   Group: 2
+  J1 =     0.000 mm  
+
+    [2,231] =   ''   Group: 2
+  J1 =  -100.000 mm  
+
+    [2,232] =   '' Uninitialized
+    [2,233] =   ''   Group: 2
+  J1 =   -20.000 mm  
+
+    [2,234] =   '' Uninitialized
+    [2,235] =   '' Uninitialized
+    [2,236] =   '' Uninitialized
+    [2,237] =   '' Uninitialized
+    [2,238] =   '' Uninitialized
+    [2,239] =   '' Uninitialized
+    [2,240] =   '' Uninitialized
+    [2,241] =   '' Uninitialized
+    [2,242] =   '' Uninitialized
+    [2,243] =   '' Uninitialized
+    [2,244] =   '' Uninitialized
+    [2,245] =   '' Uninitialized
+    [2,246] =   '' Uninitialized
+    [2,247] =   '' Uninitialized
+    [2,248] =   '' Uninitialized
+    [2,249] =   '' Uninitialized
+    [2,250] =   '' Uninitialized
+    [2,251] =   '' Uninitialized
+    [2,252] =   '' Uninitialized
+    [2,253] =   '' Uninitialized
+    [2,254] =   '' Uninitialized
+    [2,255] =   ''   Group: 2
+  J1 =     0.000 mm  
+
+
+[*POSREG*]$MAXPREGNUM  Storage: CMOS  Access: RW  : INTEGER = 255
+

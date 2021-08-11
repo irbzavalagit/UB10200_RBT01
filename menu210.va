@@ -1,0 +1,18 @@
+[MENU210]MENU_TEXT  Storage: CMOS  Access: RW  : ARRAY[10] OF STRING[40]
+  [1] = ''
+  [2] = 'Have The Caps Been Changed?'
+  [3] = ''
+  [4] = ''
+  [5] = ''
+  [6] = ''
+  [7] = ''
+  [8] = ''
+  [9] = ''
+  [10] = ''
+
+[MENU210]MENU_NO  Storage: CMOS  Access: RW  : INTEGER = 10
+
+[MENU210]MENU_TYPE  Storage: CMOS  Access: RW  : INTEGER = 2
+
+[MENU210]MENU_NAME  Storage: CMOS  Access: RW  : STRING[16] = 'CC_Manual'
+

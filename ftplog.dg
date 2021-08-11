@@ -1,0 +1,62 @@
+F Number: F270477
+VERSION : SpotTool+            
+$VERSION: V9.30126      2/12/2021
+DATE:     11-AUG-21 11:00 
+Columns: Date, (U)pload/(D)ownload, File, Status, IPaddress
+
+AUG 11 2021 11:00:08 U DCS_CONS_VAL 226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:08 U DF_LOGI1.DF  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:08 U DF_LOGI2.DF  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:08 U DF_LOGI3.DF  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:08 U DF_LOGI4.DF  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:08 U DF_LOGI5.DF  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:08 U DF_LOGI6.DF  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:08 U DF_MOTN0.DF  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:08 U DF_SJ1SE.DF  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:10 U DF_SJ1SS.DF  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:10 U DIOCFGSV.IO  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:10 U DIOCFGSV.VA  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:10 U DOBWDEXIT.VA 226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:12 U DOBWDEXIT.VR 226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:12 U DOBWDEXITG1. 226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:12 U DOBWDEXITG1. 226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:12 U DOBWDEXITG2. 226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:12 U DOBWDEXITG2. 226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:12 U DROPPART.LS  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:12 U DROPPART.TP  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:12 U DSP_WEBP.LS  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:14 U DSP_WEBP.TP  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:14 U ECHOOPTN.LS  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:14 U ECHOOPTN.TP  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:14 U ECHOSTYL.LS  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:14 U ECHOSTYL.TP  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:14 U EIPCFG.XML   226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:16 U EIPLOG.DG    226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:16 U EMAIL.DG     226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:16 U ENTRFIXT.LS  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:16 U ENTRFIXT.TP  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:16 U ENTRZONE.LS  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:16 U ENTRZONE.TP  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:16 U EQUIP1.TXT   226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:16 U ERRACT.LS    226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:16 U ERRALL.LS    226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:18 U ERRAPP.LS    226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:18 U ERRCOMM.LS   226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:18 U ERRCURR.LS   226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:18 U ERREXT.LS    226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:18 U ERRHIST.LS   226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:18 U ERRMOT.LS    226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:18 U ERRPWD.LS    226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:18 U ERRSYS.LS    226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:20 U ESTP_ADJ.VA  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:20 U ESTP_ADJ.VR  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:20 U ETHERNET.DG  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:22 U EXITFIXT.LS  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:22 U EXITFIXT.TP  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:22 U EXITZONE.LS  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:22 U EXITZONE.TP  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:22 U EXT1.DT      226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:24 U FLEXEVENT.DG 226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:24 U FLEXUIF.XML  226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:24 U FRAME.DG     226 ASCII Transfer complete.  172.31.8.154                                                 
+AUG 11 2021 11:00:26 U FRAMEVAR.VR  226 ASCII Transfer complete.  172.31.8.154                                                 
